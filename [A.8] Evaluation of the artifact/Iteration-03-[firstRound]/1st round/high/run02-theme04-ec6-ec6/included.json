@@ -1,0 +1,156 @@
+[
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-78349272816",
+    "Primary study DOI": "10.1007/978-3-642-16129-2_8",
+    "Title": "Precise Detection of Conflicting Change Operations Using Process Model Terms",
+    "Abstract": "Version management of process models requires that changes can be resolved by applying change operations. Conflict detection is an important part of version management and the minimization of the number of detected conflicts also reduces the overhead when resolving changes. As not every syntactic conflict leads to a conflict when taking into account model semantics, a computation of conflicts solely on the syntax leads to an unnecessary high number of conflicts. In this paper, we introduce the notion of syntactic and semantic conflicts for change operations of process models. We provide a method how to efficiently compute conflicts, using a term formalization of process models. Using this approach, we can significantly reduce the number of overall conflicts and thereby reduce the amount of work for the user when resolving conflicts. © 2010 Springer-Verlag.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2010-11-22",
+    "Publication type": "Conference Paper",
+    "Authors": "Gerth, Christian;Küster, Jochen M.;Luckey, Markus;Engels, Gregor",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85123042774",
+    "Primary study DOI": "10.1145/3336294.3336308",
+    "Title": "Foundations of Collaborative, Real-Time Feature Modeling",
+    "Abstract": "© 2019 Copyright held by the owner/author(s).Feature models are core artifacts in software-product-line engineering to manage, maintain, and configure variability. Feature modeling can be a cross-cutting concern that integrates technical and business aspects of a software system. Consequently, for large systems, a team of developers and other stakeholders may be involved in the modeling process. In such scenarios, it can be useful to utilize collaborative, real-time feature modeling, analogous to collaborative text editing in Google Docs or Overleaf. However, current techniques and tools only support a single developer to work on a model at a time. Collaborative and simultaneous editing of the same model is often achieved by using version control systems, which can cause merge conflicts and do not allow immediate verification of a model, hampering real-time collaboration outside of face-to-face meetings. In this paper, we describe the formal foundations of collaborative, real-time feature modeling, focusing on concurrency control by synchronizing multiple actions of collaborators in a distributed network. We further report on preliminary results, including an initial prototype. Our contribution provides the basis for extending feature-modeling tools to enable advanced collaborative feature modeling and integrate it with related tasks.",
+    "Keywords": "Collaboration | Consistency maintenance | Feature modeling | Groupware | Software product line",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2019-09-09",
+    "Publication type": "Conference Paper",
+    "Authors": "Kuiter, Elias;Krieter, Sebastian;Krüger, Jacob;Leich, Thomas;Saake, Gunter",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-79959442390",
+    "Primary study DOI": "10.1145/1370152.1370157",
+    "Title": "Consistence preserving model merge in collaborative development processes",
+    "Abstract": "Specification by models plays a decisive role, during the development process of complex systems. The division and concurrency of labor in teams is a further characteristic of such development. Therefore an efficient configuration and variant management of resulting documents is essential. In practice, a lot of established configuration management systems like CVS and Subversion are available which provide a text based merge. Unfortunately these systems are inappropriate for the management of models because they ignore the syntactic and semantic structure which is specified by the associated metamodels. Especially during the merge of model versions the mentioned systems fails at the generation of a meta-model consistent model. In this paper a proposal is presented which is enabled to merge model versions in a model based, collaborative development process. Furthermore meta-model independent methods for consistent-receiving model merging are explained. Copyright © 2008 ACM.",
+    "Keywords": "Collaborative development | Inconsistency management | Model driven engineering | Model merge | Model versioning | Software configuration management",
+    "Publication venue": "Proceedings - International Conference on Software Engineering",
+    "Publication date": "2008-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Bartelt, Christian",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85084516255",
+    "Primary study DOI": "10.1002/spe.2835",
+    "Title": "Configurable three‐way model merging",
+    "Abstract": "© 2020 John Wiley & Sons, Ltd.Software development is a collaborative activity that requires teams of software engineers to cooperate and work in parallel on versions of models. However, model management techniques such as model differencing, merging, and versioning have turned out to be difficult challenges, due to the complexity of operations and graph-like nature of models. Therefore, a well-developed support for model merging process, as well as conflict management, is highly desired. This paper presents a novel process for model merging, called the Epsilon-based Three-way Merging Process (E3MP) process. Model merging is a significant problem where there are different versions of a system model amongst modeler teams. E3MP includes three components implemented into the Epsilon framework. First, modelers can define domain-specific rules that customize the merging process. Second, E3MP enables an automated method for syntactic and semantic conflict detection amongst different versions of the system model. Third, E3MP puts forward a pattern-based approach for conflict resolution. We applied two generic benchmarks to assess conflict detection and resolution capabilities of our approach and carried out an initial scalability evaluation for the model merge with large models and large change sets. The results of our experiments revealed that the proposed process allows generating consistent and semantically correct merged models.",
+    "Keywords": "configurable model merging | epsilon framework | model versioning | model-driven software engineering | three-way model merging",
+    "Publication venue": "Software - Practice and Experience",
+    "Publication date": "2020-08-01",
+    "Publication type": "Article",
+    "Authors": "Sharbaf, Mohammadreza;Zamani, Bahman",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-34248636521",
+    "Primary study DOI": "10.1016/j.aei.2006.05.006",
+    "Title": "Conflicts classification and solving for collaborative feature modeling",
+    "Abstract": "Based on the analysis of feature modeling activities in a collaborative environment, a definition and a classification of concurrency conflicts have been presented. A feature adjustment method is proposed to solve the conflicts, an enhanced naming mechanism for the collaborative feature modeling to preserve the design intentions, and a process for the non-locked multi-client collaborative design. The algorithms have been implemented in a prototype system integrating C++, Java3D and VRML, and CORBA technologies. Flexibility and efficiency in collaborative feature modeling environment have been achieved in our system. © 2006 Elsevier Ltd. All rights reserved.",
+    "Keywords": "Concurrency conflicts | CORBA/IDL | Feature-based modeling | Naming mechanism",
+    "Publication venue": "Advanced Engineering Informatics",
+    "Publication date": "2007-04-01",
+    "Publication type": "Article",
+    "Authors": "Tang, Min;Chou, Shang Ching;Dong, Jin Xiang",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-77953160740",
+    "Primary study DOI": "10.1016/j.jss.2010.02.018",
+    "Title": "Structuring the modeling space and supporting evolution in software product line engineering",
+    "Abstract": "The scale and complexity of product lines means that it is practically infeasible to develop a single model of the entire system, regardless of the languages or notations used. The dynamic nature of real-world systems means that product line models need to evolve continuously to meet new customer requirements and to reflect changes of product line artifacts. To address these challenges, product line engineers need to apply different strategies for structuring the modeling space to ease the creation and maintenance of models. This paper presents an approach that aims at reducing the maintenance effort by organizing product lines as a set of interrelated model fragments defining the variability of particular parts of the system. We provide support to semi-automatically merge fragments into complete product line models. We also provide support to automatically detect inconsistencies between product line artifacts and the models representing these artifacts after changes. Furthermore, our approach supports the co-evolution of models and their respective meta-models. We discuss strategies for structuring the modeling space and show the usefulness of our approach using real-world examples from our ongoing industry collaboration. © 2010 Elsevier Inc. All rights reserved.",
+    "Keywords": "Model evolution | Product line engineering | Variability modeling",
+    "Publication venue": "Journal of Systems and Software",
+    "Publication date": "2010-07-01",
+    "Publication type": "Article",
+    "Authors": "Dhungana, Deepak;Grünbacher, Paul;Rabiser, Rick;Neumayer, Thomas",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-81255150894",
+    "Primary study DOI": "10.1109/ICGSE.2011.18",
+    "Title": "Distributed Collaborative Model Editing Framework for Domain Specific Modeling Tools",
+    "Abstract": "Domain Specific Modeling (DSM) tools have matured and became powerful over the past few years and are now used more frequently to model complex systems. Consequently, the demand for model management and collaboration among DSM tools becomes more important. In collaborative modeling, domain specific models are mostly edited and elaborated concurrently by different semi-autonomous users. Hence, there is a need for reconciliating these parallely evolved models so as to seamlessly work together. CSCW community proposes tools or techniques to ensure collaboration among general purpose modeling languages, but they do not give functionalities to support reconciliation and merging for asynchronous modification. In addition, management of communications among members of collaborative group could also help to facilitate collaboration in the group. In this paper, we propose a communication framework to manage exchanges of concurrently edited DSM models among users. Besides, we present a reconciliation framework to merge concurrently evolved DSM models. © 2011 IEEE.",
+    "Keywords": "collaboration | coordination | DSM | global software development",
+    "Publication venue": "Proceedings - 2011 6th IEEE International Conference on Global Software Engineering, ICGSE 2011",
+    "Publication date": "2011-11-21",
+    "Publication type": "Conference Paper",
+    "Authors": "Koshima, Amanuel;Englebert, Vincent;Thiran, Philippe",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  }
+]

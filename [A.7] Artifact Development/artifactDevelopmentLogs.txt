@@ -1,0 +1,98 @@
+============================================================
+                 BM4LLM-SLR - ITERATION LOGS
+============================================================
+
+--------------- Iteration 01 ---------------
+
+1. Some inclusion and exclusion criteria had to be removed 
+   because they did not make sense for this stage.
+   Example: "If there are identical or newer studies from the same author."
+
+2. It may be necessary to add human validation at Step 01 
+   when using High Confidence Mode, since the LLM includes many items.
+
+3. Adjustment of inclusion criteria:
+   "Is it a primary study?" becomes an exclusion criterion.
+
+4. It is no longer necessary for the user to make their own 
+   appointment of criteria. Only inclusion and exclusion are required.
+
+5. Inclusion criteria must be written in negative form.
+   Example:
+   "The study is not a primary study."
+
+6. If the model agrees with a negative inclusion criterion,
+   the study must be accepted.
+
+============================================================
+--------------- Iteration 02 ---------------
+
+1. It is not appropriate to ask whether a venue is peer-reviewed.
+   Without context, the LLM cannot find this information unless it has
+   access to a research feature.
+
+2. The prompt is extremely sensitive and important.
+   The method allows iterative prompt refinement before starting 
+   the selection process (pilot test).
+
+3. The SESLR-eval instruction set seems calibrated for
+   human-only SLR. The criteria are suitable when evaluating
+   full text plus title, abstract, and keywords.
+   Evaluating only title, abstract, and keywords makes it difficult
+   to apply some criteria.
+
+4. Acronyms used in criteria without definitions are confusing 
+   and prevent the language model from understanding them.
+
+5. A data clean-up was necessary due to copyright 
+   issues in the SESLR-EVAL dataset.
+
+6. Noise in data (e.g., in abstracts) makes the LLM think
+   the text is not written in English.
+   An explicit instruction to ignore this must be added.
+
+7. Data should be pre-processed to exclude studies
+   based on time frame, language, and venue using JabRef.
+
+8. Criteria that cannot be evaluated using only title and abstract
+   should not be used.
+
+============================================================
+--------------- Iteration 03 ---------------
+
+Objective: Perform 1 Low Confidence evaluation and 1 High Confidence 
+evaluation of Studies 1 to 6 and compare metrics.
+
+9. Study 2 required the use of "match one" because of 
+   the evaluation criteria.
+
+10. Poorly defined evaluation criteria cause significant rework 
+    and must be carefully defined from the start.
+
+11. Human limitations (fatigue and lack of expertise)
+    are not overcome by the method.
+
+12. In High Confidence - Theme 02 - the following studies had 
+    their labels changed in the dataset:
+      - Comparative analysis of WebForms MVC and MVP architecture
+      - Spatial correlation-based motion-vector prediction for 
+        video-coding efficiency improvement
+      - Research on MVP design pattern modeling based on MDA
+
+    The models predicted exclusion while the reference dataset 
+    indicated inclusion. Upon review, the reference dataset 
+    had included these studies based on an incorrect acronym.
+    This shows the method can detect issues even humans miss.
+
+13. Chain-of-thought reasoning was not tested; only simple prompts were used.
+
+14. Some models (e.g., Gemini) appear more "radical" when used 
+    in the first step, producing more false negatives and 
+    incorrect exclusions.
+
+15. The prompt is sensitive to inclusion criteria and 
+    output format. Other details seem less relevant.
+
+============================================================
+END OF ITERATION LOGS
+============================================================

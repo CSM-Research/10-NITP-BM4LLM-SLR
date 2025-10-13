@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "75.00%",
+    "recall": "88.24%",
+    "TP": 15,
+    "TN": 0,
+    "FP": 3,
+    "FN": 2
+  },
+  "data": [
+    {
+      "Title": "Comparative analysis of WebForms MVC and MVP architecture",
+      "Abstract": "Introduced WebForms, MVC and MVP architecture works under the NET platform,,the characteristics of the three structures were analyzed and compared, especially described WebForms's ViewState, the performance and client ID pollution problems and give solutions; combing their respective advantages, noted suitable scenarios of three kinds framework, aiming to supply reference for developing Web system. ©2010 IEEE.",
+      "Keywords": "ASP.NET | MVC | MVP | Software architecture | Web system",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Fast merge mode decision for diamond search in High Efficiency Video Coding",
+      "Abstract": "This paper proposes a merge mode decision algorithm while maintaining the accuracy of a diamond search (DS) in motion estimation and compensation. In High Efficiency Video Coding (HEVC), the merge mode is used to reduce the bit rate in order to carry motion information. The rate-distortion (RD) cost of the merge mode is compared with the RD cost of the inter-prediction mode in the course of the motion estimation which can be terminated early when the merge cost is smaller than the estimated cost of the inter-prediction mode. To this end, this paper proposes a fast merge mode prediction algorithm when the DS is used for motion estimation. The main purpose of this work is to estimate the RD cost of the merge mode in advance by utilizing the distortion information of the RD cost of the motion vector prediction (MVP) so as to early terminate the motion search operation. Experimental results show that the proposed fast merge mode estimation achieves a comparable RD performance but reduces the amount of computation by 16.6% on the average when compared to the fast motion estimation with the diamond search implemented in the HM 8.0 reference software. © 2013 IEEE.",
+      "Keywords": "HEVC | mode decision | motion estimation | video coding | visual communications",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "UWICL: A multi-layered parallel image computing library for single-chip multiprocessor-based time-critical systems",
+      "Abstract": "Many software libraries have been created to support the commonly used primitive operations needed in image processing, image analysis and image understanding. Generally, these libraries are based on the single-layered Application Program Interface (API). While a single-layered API provides the useful abstraction level to interact with the library and hides unnecessary implementation details from the user, it does not produce an efficient program when a new algorithm is implemented by assembling the selected existing library routines. The composed program suffers from the inefficient data movement and additional loop control overhead. Furthermore, when a system employs a highly integrated processor such as a single-chip multiprocessor, the single-layered API prevents the user from fully utilizing the resources available in the system. In this article, we describe the University of Washington Image Computing Library (UWICL), the multi-layered high-performance parallel image computing library for Texas Instruments TMS320C80 Multimedia Video Processor (MVP)-based time-critical systems. Our goal in designing the UWICL is to provide the TMS320C80 user community with efficient and flexible image computing library routines. The UWICL provides three levels of APIs to the programmers under the multi-layered organization, the MVP-level API, the DSP-level API, and APIs for data flow and processing cores. By optimizing the processing core functions, we have achieved high performance in the individual function level, and by allowing the sub-primitive library routine composition, we can achieve efficient image processing application development, avoiding most problems encountered in using the single-layered library routines. The performance of the multi-layered organization vs. the single-layered one is analysed and compared using the Canny's edge detection algorithm as an example. The balanced composition based on the multi-layered organization outperforms the single-layered composition by 14 to 41% depending on the system's memory bandwidth available. As an adjunct to the UWICL, we have also developed an integrated MVP performance monitor (MPM). The MPM can identify the performance bottleneck of the TMS320C80 applications and can be used in optimization by enabling the user to select the most efficient library composition level in building the application with the UWICL. In order to provide the overall performance evaluation model of the MVP, the simple MVP functional model has also been defined in the MPM. For the image thresholding operation, the difference between the measured execution time and the analysis prediction is less than 2%. The design and implementation of the MPM, and the applicability and usefulness of the MPM and MVP performance model are described in this article. © 1996 Academic Press Limited.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Minimum viable products for internet of things applications: Common pitfalls and practices",
+      "Abstract": "Internet of Things applications are not only the new opportunity for digital businesses but also a major driving force for the modification and creation of software systems in all industries and businesses. Compared to other types of software-intensive products, the development of Internet of Things applications lacks a systematic approach and guidelines. This paper aims at understanding the common practices and challenges among start-up companies who are developing Internet of Things products. A qualitative research is conducted with data from twelve semi-structured interviews. A thematic analysis reveals common types of Minimum Viable Products, prototyping techniques and production concerns among early stage hardware start-ups. We found that hardware start-ups go through an incremental prototyping process toward production. The progress associates with the transition from speed-focus to quality-focus. Hardware start-ups heavily rely on third-party vendors in term of development speed and final product quality. We identified 24 challenges related to management, requirement, design, implementation and testing. Internet of Things entrepreneurs should be aware of relevant pitfalls and managing both internal and external risks.",
+      "Keywords": "Case study | Hardware start-ups | Internet of Things applications | Minimum Viable Products | Prototyping",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A block level adaptive MV resolution for video coding",
+      "Abstract": "The latest video coding standard, HEVC, uses quarter pixel motion vector (MV) resolution for motion compensation. The adaptation of MV resolution supported by PMVR (progressive MV resolution) brings further improvement of the performance, by progressively adjusting the resolution according to the distance between the MV and the MV predictor (MVP). In this work, we propose to improve PMVR by adapting MV resolution at the prediction unit (PU) level relying on its size and its average absolute gradient. We additionally perform a smarter motion estimation around multiple MV predictors to fully take advantage of the proposed scheme. Compared to HEVC reference software (HM-16.6), the proposed method provides 1.2%, 3.2% and 1.2% average BD rate savings respectively for random access (RA), low-delay P (LP) and low-delay (LD) configurations.",
+      "Keywords": "HEVC | Motion compensation | Motion vector resolution | PMVR",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "How do startups develop internet-of-things systems - A multiple exploratory case study",
+      "Abstract": "Internet-of-Things applications are not only the new opportunity for digital businesses but also a major driving force for the modification and creation of software systems in all industries and businesses. Compared to other types of software-intensive products, the development of Internet-of-Things applications lacks a systematic approach and guidelines. This paper aims at understanding the methodological commonalities among startups who are developing Internet-of-Things products. Using the SEMAT Essence framework, we captured common team compositions, common types of Minimum Viable Products and common way of working in early stage Internet-of-Things startups. We found that startups include various engineering and business competence, but do not cover all of what is needed. The development of Internet-of-Things applications adopts certain speed-favor approaches, i.e. rapid prototyping, iterative development and outsourcing. The finding implies some recommendations for both researchers and practitioners in the area of Internet-of-Things development.",
+      "Keywords": "Case study | Hardware-related development | Internet-of-Things | Minimum Viable Products | SEMAT Essence",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "10th International Conference on Software Business, ICSOB 2019",
+      "Abstract": "The proceedings contain 38 papers. The special focus in this conference is on Software Business. The topics include: Educational innovations and gamification for fostering training and testing in software implementation projects; improving a startup learning framework through an expert panel; a board game to teach team composition in software startups; Does self-efficacy matter? on the correlation of self-efficacy and creativity in IT education; hard competencies satisfaction levels for software engineers: A unified framework; how software startup teams reflect: Approaches, triggers and challenges; amidst uncertainty – or not? decision-making in early-stage software startups; there’s no business like software business: Trends in software intensive business research; customer churn prediction in B2B contexts; online multiplayer games for crowdsourcing the development of digital assets: The case of ingress; Organizational innovativeness relies on business and IT alignment; MVP development process for software startups; technical debt trade-Off - Experiences from software startups becoming grownups; a dynamic software startup competency model; objectives and challenges in finnish software companies 2018 - Interview of 99 finnish software development firms; The impact of IT bootcamp on student learning - Experience from ICT enabled experiential-based course; implementing artificial intelligence ethics: A tutorial; A SECO meta-model: A common vocabulary of the SECO research domain; towards an understanding of iIoT ecosystem evolution - mindsphere case study; identifying architecture attributes in the context of software ecosystems based on a mapping study; activities and challenges in the planning phase of a software ecosystem; API management challenges in ecosystems; preface.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Startup trust model: The role of trust in successful software startup",
+      "Abstract": "the increasing desire by many for a better world and easier living conditions have contributed to various efforts to the frontiers of innovation in information technology (IT). The ensuing phenomena is the launch of many software startups to give meaning to such innovations in IT. Interestingly, the rate at which many of such startups fail is usually higher than expected. A collaborative effort by actors in IT innovation ecosystem has been posited to lead to a successful startup. However, there is the need for a trust model to ensure that the collaborative effort become meaningful. Through the lens of Morgan and Hunt's commitment trust theory, this study examines the antecedents of trust among actors in successful software startup. The paper proposes 'Startup Trust Model' and contributes to understanding of formation and maintenance of trust in software startups and makes a case for the study of trust in software startup.",
+      "Keywords": "Actors | Antecedent | Ecosystem | Minimum Viable Product | MVP | Software Startup | Startup | Trust",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Review of ios architectural pattern for testability, modifiability, and performance quality",
+      "Abstract": "In the mobile development especially in iOS, a correct selection of architecture patterns is crucial. Many architectural patterns used by developers such as Model View Controller (MVC), Model View Presenter (MVP), Model View ViewModel (MVVM), and View Interactor Presenter Entity Router (VIPER) have promised stability of the product. Nowadays, most developers tend to use MVC architectural pattern as this pattern is easy to use and separate the logic between model, view and controller. However, this architecture has common problems which are hard to test and manage the code because all the codes for business application are placed in controller components. Therefore, this paper reviewed some of the existing architectural patterns qualities specifically in testability, modifiability and performance quality in order to investigate the mentioned problems. By using Contact mobile apps as a case study, the results show the MVVM architecture is good for testability, modifiability (cohesion level procedural), and performance (memory consumption). In addition, VIPER is the best in modifiability (coupling level data and coupling level message) and performance of CPU.",
+      "Keywords": "Architecture pattern | Design pattern | Quality attributes | Software architecture | Software professionals",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A dynamic modeling of stock prices and optimal decision making using MVP theory",
+      "Abstract": "In this paper, first a precise mathematical model is obtained for four competing or cooperating companies' stock prices and then the optimal buy/sell signals are ascertained for five different agents which are trading in a virtual market and are trying to maximize their wealth over 1 trading year period. The model is so that gives a good prediction of the next 30th day stock prices. The companies used in this modeling are all chosen from Boston Stock Market. Genetic Programming (GP) is used to produce the predictive mathematical model. The interaction among companies and the effect imposed by each of five agents on future stock prices are also considered in our modeling. Namely, we have chosen eight companies in order that there is some kind of interrelation among them. Comparison of the GP models with Artificial Neural Networks (ANN) and Neuro-Fuzzy Networks (trained by the LoLiMoT algorithm) shows the superior potential of GP in prediction. Using these models; five players, each with a specific strategy and all with one common goal (wealth maximization), start to trade in a virtual market. We have also relaxed the short-sales constraint in our work. Each of the agents has a different objective function and all are going to maximize themselves. We have used Particle Swarm Optimization (PSO) as an evolutionary optimization method for wealth maximization. © 2009 Springer Netherlands.",
+      "Keywords": "Genetic Programming | Mean-variance portfolio selection | Particle Swarm Optimization (PSO) | Price prediction | Stock market model",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Dobb's architecture & design world",
+      "Abstract": "Dr. Dobb's Architecture & Design World will be conducting a four days of real-world training for software architects, developers, and modeling/design professionals at the Hyatt Regency McCormick Place in Chicago on July 21,2008. The program tracks will be focusing on service-oriented architecture/web services, solutions/technical architectures, roll-up-your-sleeves, agile development and methods, traditional development and methods, and modeling and design. The new SOA track offers SOA in Practice, that is a two-part tutorial by Nicolai Jossutis and Designing Service-Oriented Applications, by Mike Rosen. Agile development track features courses taught by Rober Martin, Chris Armstrong, Neal Ford, and James Hobart. Another featured speaker is Udi Dahan, a Microsoft Solutions Architect MVP and .NET expert who will teach classes such as Intentions & Interfaces: Making Patterns Concrete and Avoid a Failed SOA: Business & Autonomous Components to the Rescue.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Automated diagnosis in testing and failure analysis",
+      "Abstract": "To meet market demands for the rapid introduction of new semiconductor products, automated means of diagnosing defective silicon are fast becoming mandatory. The authors describe the development and deployment of an automated diagnosis methodology within Texas Instruments.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "The pseudo-Boolean optimization approach to form the N-version software structure",
+      "Abstract": "The problem of developing an optimal structure of N-version software system presents a kind of very complex optimization problem. This causes the use of deterministic optimization methods inappropriate for solving the stated problem. In this view, exploiting heuristic strategies looks more rational. In the field of pseudo-Boolean optimization theory, the so called method of varied probabilities (MVP) has been developed to solve problems with a large dimensionality. Some additional modifications of MVP have been made to solve the problem of N-version systems design. Those algorithms take into account the discovered specific features of the objective function. The practical experiments have shown the advantage of using these algorithm modifications because of reducing a search space.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Results of experimental electromagnetic studies of the Crimean region",
+      "Abstract": "Spatial-temporal pattern of distribution of geomagnetic variations and electric field on the Earth's surface was obtained as a result of modern experimental observations conducted in 2007-2013 along 9 profiles (48 points) by the methods of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP). These profiles cross various geological structures of the Crimean region. It is possible to estimate the value of electrical conductivity and vertical and horizontal geo-electric structure. The processing of these data is done using modern software system PRC-MTMV (author Varentsov Iv. M.) that provides the common noise-protected evaluation of the impedance, tipper and horizontal magneto-variation response according to synchronous MT/MV records. The main result of qualitative interpretation of geo-electric research is the detection of high conductivity regions in the Earth's crust and upper mantle of the Crimea, that are characterized by the variations of conductivity, depth and configuration. They characterize the various geological structures differently. The sub-vertical conductive zones often coincide with the fault structures, most of these objects are confined to the suture zones between tectonic elements such as the East European platform and the Scythian plate, the Scythian plate and the Crimean mountain, North and South Kerch zone. This fact may reflect high permeability of the suture zones for deep fluids in the process of their formation. Although the qualitative interpretation of the experimental data of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP) provides inconsistent understanding of the depth distribution of the Crimean region electrical conductivity, the combination of these methods allows constructing the model of resistivity distribution within a three-dimensional environment much more accurately and adequately to the observed experimental data.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Design and performance of a multichannel vestibular prosthesis that restores semicircular canal sensation in rhesus monkey",
+      "Abstract": "In normal individuals, the vestibular labyrinths sense head movement and mediate reflexes that maintain stable gaze and posture. Bilateral loss of vestibular sensation causes chronic disequilibrium, oscillopsia, and postural instability. We describe a new multichannel vestibular prosthesis (MVP) intended to restore modulation of vestibular nerve activity with head rotation. The device comprises motion sensors to measure rotation and gravitoinertial acceleration, a microcontroller to calculate pulse timing, and stimulator units that deliver constant-current pulses to microelectrodes implanted in the labyrinth. This new MVP incorporates many improvements over previous prototypes, including a 50% decrease in implant size, a 50% decrease in power consumption, a new microelectrode array design meant to simplify implantation and reliably achieve selective nerve-electrode coupling, multiple current sources conferring ability to simultaneously stimulate on multiple electrodes, and circuitry for in vivo measurement of electrode impedances. We demonstrate the performance of this device through in vitro bench-top characterization and in vivo physiological experiments with a rhesus macaque monkey. © 2011 IEEE.",
+      "Keywords": "Neural engineering | semicircular canal implant | sensory neural prosthesis",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Efficient implementation of image warping on a multimedia processor",
+      "Abstract": "The spatial transformation of images, commonly known as image warping, is fundamental to many applications, e.g. remote sensing, medical imaging, computer vision, and computer graphics. Computational demands in image warping are high, requiring a geometric transformation, address and coefficient generation, and some form of interpolation. However, unlike most image processing algorithms, the data flow for image warping can be highly irregular, which makes any efficient implementation challenging. This paper describes an efficient algorithm which addresses these challenges by making use of the capabilities of a single-chip multiprocessing microprocessor, the Texas Instruments TMS320C80 MVP (multimedia video processor). The M VP s advanced digital signal processors (ADSPs) off er tremendous computational power through instruction-level parallelism and several key features designed for image processing. The MVP's intelligent input/output interface via the transfer controller (TC) permits efficient irregular memory axesses. Affine and perspective warps have been implemented for 8-bit, 16-bit and RGB color data using bilinear interpolation. The affine warp can generate 512 × 512 warped output images faster than real-time video rates require. For 8-bit images, the performance is 14.1 ms. Although the amount of computation necessary is the same for 16-bit images, the execution time increases to 15.2 ms since twice as many bytes need to be transferred. For RGB color images, it takes 28.0 ms. The perspective warp requires 46.3 ms for 8-bit and 16-bit images, and 60.4 ms for RGB color images. This unprecedented performance for software-based image warping exceeds many hardwired approaches reported in the literature. © 1998 Academic Press.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Ventifacts distribution in Qatar",
+      "Abstract": "This study attempts to investigate the distribution of ventifacts in Qatar. It is believed that ventifacts are confined to the areas within about 5 km of the Miocene or Mio‐Pliocene Hofuf formations and the spreads of continental gravels derived from them. Three hypotheses were formulated: (1) Ventifacts in Qatar are confined to areas within about 5 km of the Hofuf formations and the spreads of continental gravels derived from them. The distribution of ventifacts within these areas varies according to the nature of the ground surface; (2) The most active ventifaction areas are where the continental gravels merge with the Eocene limestone because of the increase in saltation particle speed in these areas where bedrock or bare limestone is exposed; (3) The unit area ratio of ventifact to non‐ventifact pebbles varies inversely with the total amount of pebbles. To test these hypotheses, nine land class categories were identified in the three major Hofuf formations. Line transects were carried out from randomly selected stations near the middle of the Hofuf formations. Along each transect systematic sampling was carried out at 200 m intervals. The data were processed using a WANG MVP 2200 computer with software developed for the project. It was found that ventifacts tend to concentrate on the outer edges of the continental gravels in areas of limestone outcrop and limestone pavement. Higher areas have big gravel counts and a low ratio of ventifacts while the low‐lying plains have small gravel counts and a higher ratio of ventifacts. In certain areas ‘ventifact fields’ were found where the density of ventifacts was as high as 30 per m2. Many of the ventifacts in these fields were buried beneath the surface suggesting that the ventifaction predates the present site conditions. Other high ventifact density areas were discovered where the ventifacts have collected in shallow depressions or hollows on the limestone plateaux. Water action has washed these ventifacts, a high proportion of which are dreikanters, into the hollows, where they have been partially buried in fine alluvial silts. These ‘ventifact graveyards’ are generally only a few metres wide but contain large numbers of fine specimens. Copyright © 1985 John Wiley & Sons, Ltd",
+      "Keywords": "Continental gravels | Dreikanters | Hofuf formation | Qatar | Ventifact graveyards | Ventifacts",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Three patterns for user involvement in startups",
+      "Abstract": "Creating products in software startups consists of a great deal of uncertainty combined with little resources. Rapid validation of created solutions with the potential customers is essential to startups. However, often startups lack people with skills needed for the validation. We present three patterns that help in involving users to gain meaningful feedback and learning. First, the feedback has to be gotten from the right people and the right questions have to be asked. Furthermore, if the feedback is collected with a prototype, often called a Minimum Viable Product, users should be able to give feedback of the actual idea, not to any roughness caused by the immaturity and the prototypishness of the product.",
+      "Keywords": "Lean | Startups | User experience",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Development of multiple tracking system for smart VIP car placement and monitoring",
+      "Abstract": "nowadays, vehicles have become a very significant role in transport which remain a major problem in most cities around the world, especially in developing regions resulting in massive delays, turn traffic congestion, increased fuel wastage and monetary losses. There are many alternative systems, but one possible solution to this problem is parking system has become the sparking factors of the mentioned problems above. In this paper, we present various techniques as far as the smart parking system is mainly debated which are already implemented. When we are deepening into this parking issue, many contributors contributed a lot in monitoring smart parking system (SPS) and management of SPS with an asset of various gadgets and technologies including Bluetooth, Cameras, Image Processing, wireless sensors, ZigBeee accompanied by software explanations based on mobile application. Following this analysis will enhance researcher's thought on SPS which will result in a real solution of the technique.",
+      "Keywords": "App | IP Camera | MVP | Retrofit | Tracking",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "RSL-DL: Representing domain knowledge for the purpose of code generation",
+      "Abstract": "In the paper a new extension to the existing RSL (Requirements Specification Language) language has been proposed, called RSL-DL (Requirements Specification Language-Domain Logic). Based on the declarative paradigm of programming its aim is to enable defining ontologies at the requirements level and as a consequence also describing the domain logic part of requirements specification. Being fully complement with RSL it supplements ReDSeeDS (Requirements-Driven SoftwareDevelopment System) technology with a possibility to generate by far missing code of the Model layer of standard MVP architectural pattern. The main idea of the solution has been described, together with the definition of the key language elements, in terms of syntax, notation and semantics as well. Additionally the role of the RSL-DL within the whole ReDSeeDS technology framework has been precisely defined and comparison with other languages has also been included.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    }
+  ]
+}

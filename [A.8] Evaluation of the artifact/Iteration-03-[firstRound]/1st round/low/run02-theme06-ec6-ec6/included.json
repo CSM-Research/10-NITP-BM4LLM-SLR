@@ -1,0 +1,27 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2021.106783",
+    "Primary study Scopus EID": "2-s2.0-84908635627",
+    "Primary study DOI": "10.1109/TSE.2014.2331057",
+    "Title": "A Cooperative Parallel Search-Based Software Engineering Approach for Code-Smells Detection",
+    "Abstract": "We propose in this paper to consider code-smells detection as a distributed optimization problem. The idea is that different methods are combined in parallel during the optimization process to find a consensus regarding the detection of code-smells. To this end, we used Parallel Evolutionary algorithms (P-EA) where many evolutionary algorithms with different adaptations (fitness functions, solution representations, and change operators) are executed, in a parallel cooperative manner, to solve a common goal which is the detection of code-smells. An empirical evaluation to compare the implementation of our cooperative P-EA approach with random search, two single population-based approaches and two code-smells detection techniques that are not based on meta-heuristics search. The statistical analysis of the obtained results provides evidence to support the claim that cooperative P-EA is more efficient and effective than state of the art detection approaches based on a benchmark of nine large open source systems where more than 85 percent of precision and recall scores are obtained on a variety of eight different types of code-smells.",
+    "Keywords": "code-smells | distributed evolutionary algorithms | Search-based software engineering | software quality",
+    "Publication venue": "IEEE Transactions on Software Engineering",
+    "Publication date": "2014-09-01",
+    "Publication type": "Article",
+    "Authors": "Kessentini, Wael;Kessentini, Marouane;Sahraoui, Houari;Bechikh, Slim;Ouni, Ali",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 6,
+      "IC4": 6,
+      "IC5": 7,
+      "EC1": 2,
+      "EC2": 3,
+      "EC3": 2
+    },
+    "userDecision": "Include"
+  }
+]

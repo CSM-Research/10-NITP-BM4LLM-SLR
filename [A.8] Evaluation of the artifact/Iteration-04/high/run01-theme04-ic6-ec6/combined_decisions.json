@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "90.00%",
+    "recall": "100.00%",
+    "TP": 9,
+    "TN": 9,
+    "FP": 2,
+    "FN": 0
+  },
+  "data": [
+    {
+      "Title": "Consistency maintenance of compound operations in real-time collaborative environments",
+      "Abstract": "© 2015 Elsevier LtdIn real-time collaborative environments, address space transformation strategy can be used to achieve consistency maintenance of shared documents. However, as for the execution of compound operations, they are firstly decomposed into primitive operations, the relationships between the referencing objects and referenced objects are lost during the decomposition process. Besides, the Undo operations in this environment are targeted at compound operations, but not decomposed basic ones. However, the traditional algorithms take primitive operation as the manipulation unit, thus leading to semantic inconsistencies of compound Undo operations. This paper appends two history buffers to maintain the relationships between the original operations and the decomposed ones and introduces “Retrace-Undo-VT-Redo-Retrace” strategy to realize the consistency maintenance of compound operations. Also, this paper introduces the version-decomposition strategy, describes the main algorithms of the compound Undo operations and analyses the validity of the strategy. Case analysis is given to show the effectiveness of the strategy.",
+      "Keywords": "Address space transformation | Compound operation | Consistency maintenance | Real-time collaboration | Undo/Redo",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "An Accessible Formal Specification of the UML and OCL Meta-Model in Isabelle/HOL",
+      "Abstract": "UML is the de-facto standard for system modeling. Due to its visual syntax and expressiveness, it is widely accepted and used in the industry. However, it is a semi-formal means of system specification and thus prone to inconsistencies. We believe that UML models need to be thoroughly verified because verification of UML models helps to find errors in the early system design. Object Constraint Language (OCL) somewhat alleviates this problem but is not always enough. Past attempts at formally specifying UML for verification include those based on simplistic Z specifications and the much more complex ones based on shallow embedding of UML and OCL in Higher Order Logic (HOL). All these approaches are either too simplistic or too complex for the software industry's purposes. In this paper, we formalize UML's class diagram and OCL constraints in the highly successful automated/interactive theorem prover Isabelle using one of its built-in logics, HOL. The aim is to create a formalization, which is accessible to the average software engineer while still being powerful enough to be able to prove consistency and other useful properties. The formalization based on UML2.0 and OCL2.0, addresses all concepts related to class diagrams such as type definitions, attributes, operations, aggregation and association along with the syntax and semantics of OCL expressions in the context of UML class diagrams. © 2007 IEEE.",
+      "Keywords": "Algorithms | Automated theorem prover | Formal methods | System design | Tools & applications",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Merging of EMF models - Formal foundations",
+      "Abstract": "Inadequate version control for models significantly impedes the application of model-driven software development. In particular, sophisticated support for merging model versions is urgently needed. In this paper, we present a formal approach to both two- and three-way merging of models in the EMF framework. The approach may be applied to instances of arbitrary Ecore models. We specify context-free as well as context-sensitive rules for model merging which both detect and resolve merge conflicts. Based on these rules, a merge algorithm is developed which produces a consistent model from consistent input models. The merge algorithm does neither assume unique object identifiers, nor does it require change logs. In contrast, it relies on matchings among the input models which identify common elements (state-based approach). The requirements imposed on these matchings are reduced to a minimum, e.g., there are no restrictions on the relative positions of matched elements. Altogether, the merge algorithm is widely applicable, preserves consistency, and offers advanced features, such as merging of ordered collections in the presence of arbitrary moves and handling of context-sensitive conflicts which are hard to detect and to resolve. © 2012 Springer-Verlag.",
+      "Keywords": "EMF models | Three-way merging | Version control",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "View merging in the presence of incompleteness and inconsistency",
+      "Abstract": "View merging, also called view integration, is a key problem in conceptual modeling. Large models are often constructed and accessed by manipulating individual views, but it is important to be able to consolidate a set of views to gain a unified perspective, to understand interactions between views, or to perform various types of analysis. View merging is complicated by incompleteness and inconsistency: Stakeholders often have varying degrees of confidence about their statements. Their views capture different but overlapping aspects of a problem, and may have discrepancies over the terminology being used, the concepts being modeled, or how these concepts should be structured. Once views are merged, it is important to be able to trace the elements of the merged view back to their sources and to the merge assumptions related to them. In this paper, we present a framework for merging incomplete and inconsistent graph-based views. We introduce a formalism, called annotated graphs, with a built-in annotation scheme for modeling incompleteness and inconsistency. We show how structure-preserving maps can be employed to express the relationships between disparate views modeled as annotated graphs, and provide a general algorithm for merging views with arbitrary interconnections. We provide a systematic way to generate and represent the traceability information required for tracing the merged view elements back to their sources, and to the merge assumptions giving rise to the elements. © Springer-Verlag London Limited 2006.",
+      "Keywords": "Inconsistency management | Model management | View merging | View-based development",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Detecting structural refactoring conflicts using critical pair analysis",
+      "Abstract": "Refactorings are program transformations that improve the software structure while preserving the external behaviour. In spite of this very useful property, refactorings can still give rise to structural conflicts when parallel evolutions to the same software are made by different developers. This paper explores this problem of structural evolution conflicts in a formal way by using graph transformation and critical pair analysis. Based on experiments carried out in the graph transformation tool AGG, we show how this formalism can be exploited to detect and resolve refactoring conflicts. © 2005 Elsevier B.V.",
+      "Keywords": "Critical pair analysis | Evolution conflicts | Graph transformation | Parallel changes | Refactoring | Restructuring",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Supporting inconsistency resolution through predictive change impact analysis",
+      "Abstract": "Today, model-driven software processes rely on consistency management approaches to deal with the multitude of inconsistencies that occur in large systems. To resolve a detected inconsistency, the software designer applies one resolution out of a set of resolution options to each inconsistency. To do so, the designer needs to understand the extent of changes posed by each resolution. In this paper we propose change impact analysis to support the designer in this task. We present a simple algorithm for predicting the impact of inconsistency resolutions by checking the instantiation of different meta-model relationships. Based on one small case study, we demonstrate that our algorithm provides a reasonable estimate for the number of changes that actually will be applied. We demonstrate the usage of impact analysis for inconsistency resolution and make a first step towards a decision support tool to help a software designer resolve inconsistencies. Copyright © 2009 ACM.",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Handling Concurrent Changes in Collaborative Process Model Development: A Change-Pattern Based Approach",
+      "Abstract": "Business process modeling has gained increasing interest with the advent of business process management systems in organizational contexts. As business processes are subject to frequent change also respective models are complex and under continuous development with multiple modelers being involved. This paper presents an approach to integrate concurrent changes of multiple modelers equivalently into a resulting process model. Through change patterns we capture the semantics of changes and use them for recognizing instances hereof from subsequent model revisions. These change patterns were identified by analyzing a set of recurring changes during model creation, modification, and refactoring. Together with the concept of conflict types change patterns are used as a conceptual means to implement a semi-automated merging mechanism within a collaborative wiki-based modeling environment. This approach is expected to facilitate smooth (incremental and iterative) development of models in highly dynamic modeling environments and is a human-oriented way to conflict resolution in (concurrent) process model development. © 2013 IEEE.",
+      "Keywords": "Business process design | Business process modeling | Collaborative modeling | Information systems design",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Mediator: A component-based modeling language for concurrent and distributed systems",
+      "Abstract": "© 2020 Elsevier B.V.In this paper we propose a new language Mediator to formalize component-based concurrent and distributed system models. Mediator supports a two-step hierarchical modeling approach: Automata, which provide an interface of ports, are the basic behavior units; Systems declare components or connectors through automata, and glue them together. With the help of Mediator, components and systems can be modeled separately and precisely. The distributed Mediator and its semantics can be used to capture the inherent real-time and asynchronous behavior in distributed systems. Properties of Mediator models can be specified through CTL* formulae that support various families of properties such as safety and liveness, which can be verified using the nuXmv model checker. A leader election example is presented to show that this language is capable for modeling practical scenarios.",
+      "Keywords": "Component-based development | Coordination | Distributed systems | Mediator | Modeling language",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Detecting Inconsistencies in Multi-View Models with Variability",
+      "Abstract": "Multi-View Modeling (MVM) is a common modeling practice that advocates the use of multiple, different and yet related models to represent the needs of diverse stakeholders. Of crucial importance in MVM is consistency checking - the description and verification of semantic relationships amongst the views. Variability is the capacity of software artifacts to vary, and its effective management is a core tenet of the research in Software Product Lines (SPL). MVM has proven useful for developing one-of-a-kind systems; however, to reap the potential benefits of MVM in SPL it is vital to provide consistency checking mechanisms that cope with variability. In this paper we describe how to address this need by applying Safe Composition - the guarantee that all programs of a product line are type safe. We evaluate our approach with a case study. © 2010 Springer-Verlag.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Detecting inconsistencies between software architecture views",
+      "Abstract": "Software architecture is widely presented in multiple architectural views in order to address different concerns of stakeholders and to minimize complexities of presenting architecture in one model. Using multiple architecture views raised the problem of inconsistencies as views are interrelated and overlap with one another. This paper proposes a framework to help checking inconsistencies between architectural views. We firstly define the types of inconsistencies that might occur between multiple architectural views and then we propose a framework for checking inconsistencies between them. At the end a case study is provided to evaluate the framework. ©2009 IEEE.",
+      "Keywords": "Architectural views | Consistency checking | Software architecture | Viewpoints",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Detection and resolution of conflicting change operations in version management of process models",
+      "Abstract": "Version management of process models requires that different versions of process models are integrated by applying change operations. Conflict detection between individually applied change operations and conflict resolution support are integral parts of version management. For conflict detection it is utterly important to compute a precise set of conflicts, since the minimization of the number of detected conflicts also reduces the overhead for merging different process model versions. As not every syntactic conflict leads to a conflict when taking into account model semantics, a computation of conflicts solely on the syntax leads to an unnecessary high number of conflicts. Moreover, even the set of precisely computed conflicts can be extensive and their resolution means a significant workload for a user. As a consequence, adequate support is required that guides a user through the resolution process and suggests possible resolution strategies for individual conflicts. In this paper, we introduce the notion of syntactic and semantic conflicts for change operations of process models. We provide a method how to efficiently compute conflicts precisely, using a term formalization of process models and consider the subsequent resolution of the detected conflicts based on different strategies. Using this approach, we can significantly reduce the number of overall conflicts and reduce the amount of work for the user when resolving conflicts. © 2011 Springer-Verlag.",
+      "Keywords": "Business process model | Conflict detection | Conflict resolution | Version management",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Design Space of Heterogeneous Synchronization",
+      "Abstract": "This tutorial explores the design space of heterogeneous synchronization, which is concerned with establishing consistency among artifacts that conform to different schemas or are expressed in different languages. Our main application scenario is synchronization of software artifacts, such as code, models, and configuration files. We classify heterogeneous synchronizers according to the cardinality of the relation that they enforce between artifacts, their directionality, their incrementality, and whether they support reconciliation of concurrent updates. We then provide a framework of artifact operators that describes different ways of building heterogeneous synchronizers, such as synchronizers based on artifact or update translation. The design decisions within the framework are described using feature models. We present 16 concrete instances of the framework, discuss tradeoffs among them, and identify sample implementations for some of them. We also explore additional design decisions such as representation of updates, establishing correspondence among model elements, and strategies for selecting a single synchronization result from a set of alternatives. Finally, we discuss related fields including data synchronization, inconsistency management in software engineering, model management, and model transformation. © 2008 Springer Berlin Heidelberg.",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Collaborative model merging",
+      "Abstract": "Models are important artifacts in the software development life-cycle and are often the result of a collaborative activity of multiple developers. When multiple developers modify the same model, conflicts can occur and need to be resolved by merging. Existing approaches for model merging require developers to solve all conflicts before committing. The later a developer commits the higher the probability for even more conflicts. This forces the developers to solve every conflict as soon as possible and without consulting the other developer. However, we claim that developers often need to discuss their choice of conflict resolution with another developer in case of a complex conflict, since a conflict also expresses differences in opinion about the model. In this paper we propose to allow developers to postpone a decision of a modeling conflict. We present an approach to make conflicts part of the model and represent them as first-level entities based on issue modeling from the field of Rationale Management. This facilitates the possibility for collaborative conflict resolution and merging. Furthermore, it allows for a complete batch merge instead of interactive merging, where all conflicts are added to the model and then resolved later. To substantiate our claim that developers favor to discuss complex conflicts we conducted a case study. © 2010 ACM.",
+      "Keywords": "Collaboration | Issue | Merging | Model | Operation-based | Rationale management",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "By-example adaptation of the generic model versioning system AMOR: how to include language-specific features for improving the check-in process",
+      "Abstract": "We present configuration mechanisms based on by-example approaches for the adaptable model versioning system AMOR improving the complete versioning workflow. The Operation Recorder allows the specification of composite operations. Those operation definitions are used by the Conflict Manager supporting the specification of potential merge conflicts and suitable resolution strategies.",
+      "Keywords": "By-example configuration | Model versioning",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "SiPL -- A Delta-Based Modeling Framework for Software Product Line Engineering",
+      "Abstract": "© 2015 IEEE.Model-based development has become a widely-used approach to implement software, e.g. for embedded systems. Models replace source code as primary executable artifacts in these cases. Software product line technologies for these domains must be able to generate models as instances of an SPL. This need is addressed among others by an implementation technology for SPLs known as delta modeling. Current approaches to delta modeling require deltas to be written manually using delta languages, and they offer only very limited support for creating and testing a network of deltas. This paper presents a new approach to delta modeling and a supporting tool suite: the abstract notion of a delta is refined to be a consistency-preserving edit script which is generated by comparing two models. The rich structure of edit scripts allows us to detect conflicts and further relations between deltas statically and to implement restructurings in delta sets such as the merging of two deltas. We illustrate the tooling using a case study.",
+      "Keywords": "Delta modeling | Model differencing | Model-based development | Software product line engineering",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Detection of Semantically Equivalent Fragments for Business Process Model Change Management",
+      "Abstract": "Modern business process modeling environments support distributed development by means of model version control, i. e. comparison and merging of two different model versions. This is a challenging task since most modeling languages support an almost arbitrary creation of process models. Thus, in multi-developer environments, process models or parts of them are often syntactically very different but semantically equivalent. Hence, the comparison of business process models must be performed on a semantic level rather then on a syntactic level. For the domain of business process modeling, this problem is yet unsolved. This paper describes an approach that allows the semantic comparison of different business process models using a normal form. For that purpose, the process models are fully automatically translated into process model terms and normalized using a term rewriting system. The resulting normal forms can be efficiently compared and easily be used for reconciliation. Our approach enables the semantic comparison of business process models ignoring syntactic redundancies. © 2010 IEEE.",
+      "Keywords": "Business process models | Change management | Conflicts | Consistency",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Towards the Use of Model-Driven Technologies in an Integral Software Development Process",
+      "Abstract": "© 2019 IEEE.This work presents a model-driven engineering approach to the software development process for space applications following the standards ECSS-E-ST-40C and ECSS-Q-ST-80C. This approach is based on the use of models for the definition of the different constituent elements of the process, i.e. specification, requirements and validation procedures. The proposed approach provides development teams with a set of features that deliver an integrated solution to the software development process. These features include the use of model checking techniques to avoid inconsistencies between the different items and the ability to obtain input data from different sources, like telemetry and telecommand databases. Furthermore it enables the definition of transformations to generate different products such as component code, formatted output files, or configuration files for a ground support equipment software that allows the automatic execution of the defined functional tests. This approach has been validated through a case study in which a subset of the functionality of the software of the Instrument Control Unit of the Energy Particle Detector instrument on-board Solar Orbiter has been modelled.",
+      "Keywords": "Mission Operation | Model Driven Engineering | On Board Software | Software Verification and Validation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "MetaEdit+ A Fully Configurable Multi-User and Multi-Tool CASE and CAME Environment",
+      "Abstract": "© Springer-Verlag Berlin Heidelberg 1996.Computer Aided Software Engineering (CASE) environments have spread at a lower pace than expected. One reason for this is the immaturity of existing environments in supporting development in-the-large and by-many and their inability to address the varying needs of the software developers. In this paper we report on the development of a next generation CASE environment called MetaEdit+. The environment seeks to overcome all the above deficiencies, but in particular pays attention to catering for the varying needs of the software developers. MetaEdit+ is a multi-method, multi-tool platform for both CASE and Computer Aided Method Engineering (CAME). As a CASE tool it establishes a versatile and powerful multi-tool environment which enables flexible creation, maintenance, manipulation, retrieval and representation of design information among multiple developers. As a CAME environment it offers an easy-to-use yet powerful environment for method specification, integration, management and re-use. The paper explains the motivation for developing MetaEdit+, its design goals and philosophy and discusses the functionality of the CAME tools.",
+      "Keywords": "CAME | CASE | Conceptual modeling | Metamodeling | Method | Object oriented modeling | Repository | Software engineering environments | Tool integration | Tool interoperability",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "An approach to distributed building modeling on the basis of versions and changes",
+      "Abstract": "Actors involved in the computer-supported design process work together towards a common goal - the design of a building. Current collaboration approaches often focus on versioned and distributed building models, which describe virtual building states on the basis of the object-oriented method. State changes (for example moving a wall or modifying its material) remain unconsidered and lead to inconsistency problems when exchanging, comparing and merging versioned building models. This paper presents a new modeling approach that combines existing state-oriented descriptions of a virtual building with additional change-oriented information by means of design steps denoted as modeling operations. A new language is defined for the formal description of modeling operations. These operations establish a standardized processing interface for existing building models, can represent design intents, enhance current models with change semantics and add to the consistency of these models. Moreover, this paper presents new concepts for intra-domain collaboration and model management that overcome current limitations when exchanging, comparing and merging versioned building models. The pilot implementation and some project scenarios in industry verify that current design processes can benefit in principle from combined state-oriented and change-oriented building information. © 2010 Elsevier Ltd. All rights reserved.",
+      "Keywords": "Building information modeling | Change management | Collaboration | Diff and merge | Object-oriented modeling | Versioning",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A Consistency-Preserving Editing Model for Dynamic Filtered Engineering of Model-Driven Product Lines",
+      "Abstract": "© Springer International Publishing AG, part of Springer Nature 2018.The high cognitive complexity of model-driven software product line engineering is due to the fact that developers have to manually create, edit, and maintain multi-variant artifacts. As a solution, the adaptation of filtered editing has been proposed recently. Filtered editing can be applied in a static or in a dynamic way; in the latter case, new co-evolution problems occur when considering the evolving relationships between the historical, the variant, and the product dimension. This paper investigates, formally defines, and demonstrates by examples nine consistency constraints connected to dynamic filtered editing. Furthermore, we suggest a consistency-preserving editing model comprising four operations that synchronize a transparent multi-version repository with a single-version workspace view being presented to the user: check-out, modify, commit, and a novel operation, migrate, which prepares the workspace for the subsequent edit session. Several advantages of dynamic over static filtered or unfiltered editing are confirmed both on a theoretical and on an experimental basis.",
+      "Keywords": "Co-evolution | Filtered editing | Model-driven software engineering | Software product line engineering | Uniform versioning | Variation control",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    }
+  ]
+}

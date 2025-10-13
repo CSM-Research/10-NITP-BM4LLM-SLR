@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "100.00%",
+    "recall": "100.00%",
+    "TP": 11,
+    "TN": 9,
+    "FP": 0,
+    "FN": 0
+  },
+  "data": [
+    {
+      "Title": "View-based near real-time collaborative modeling for information systems engineering",
+      "Abstract": "© Springer International Publishing Switzerland 2016.Conceptual modeling is a creative, social process that is driven by the views of involved stakeholders. However, few systems offer view-based conceptual modeling on the Web using lock-free synchronous collaborative editing mechanisms. Based on a (meta-)modeling framework that supports near real-time collaborative modeling and metamodeling in the Web browser, this paper proposes an exploratory approach for collaboratively defining views and viewpoints on conceptual models. Viewpoints are defined on the metamodeling layer and instantiated as views within a model editor instance. The approach was successfully used for various conceptual modeling languages and it is based on user requirements for model-based creation and generation of nextgeneration community applications. An end-user evaluation showed the usefulness, usability and limitations of view-based collaborative modeling. We expect that Web-based collaborative modeling powered by view extensions will pave the way for a new generation of collaboratively and socially engineered information systems.",
+      "Keywords": "Collaborative conceptual modeling | Viewpoints | Views",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Precise Detection of Conflicting Change Operations Using Process Model Terms",
+      "Abstract": "Version management of process models requires that changes can be resolved by applying change operations. Conflict detection is an important part of version management and the minimization of the number of detected conflicts also reduces the overhead when resolving changes. As not every syntactic conflict leads to a conflict when taking into account model semantics, a computation of conflicts solely on the syntax leads to an unnecessary high number of conflicts. In this paper, we introduce the notion of syntactic and semantic conflicts for change operations of process models. We provide a method how to efficiently compute conflicts, using a term formalization of process models. Using this approach, we can significantly reduce the number of overall conflicts and thereby reduce the amount of work for the user when resolving conflicts. © 2010 Springer-Verlag.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Evaluating the efficiency of using a search-based automated model merge technique",
+      "Abstract": "© 2018 IEEE.Model-driven engineering relies on effective collaboration between different teams which introduces complex model management challenges. DSE Merge aims to efficiently merge model versions created by various collaborators using search-based exploration of solution candidates that represent conflict-free merged models guided by domain-specific knowledge. In this paper, we report how we systematically evaluated the efficiency of the DSE Merge technique from the user point of view using a reactive experimental Software engineering approach. The empirical tests included the involvement of the intended end users (i.e. engineers), namely undergraduate students, which were expected to confirm the impact of design decisions. In particular, we asked users to merge the different versions of the same model using DSE Merge when compared to using Diff Merge. The experiment showed that to use DSE Merge participant required lower cognitive effort, and expressed their preference and satisfaction with it.",
+      "Keywords": "Domain-Specific Languages | Software Language Engineering | Usability Evaluation",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Towards fixing inconsistencies in models with variability",
+      "Abstract": "Recent years have witnessed a convergence between research in SPL and Model-Driven Engineering (MDE) that leverages the complementary capabilities that both paradigms can offer. A crucial factor for the success of MDE is the availability of effective support for detecting and fixing inconsistencies among model elements. The importance of such support is attested by the extensive literature devoted to the topic. However, when coupled with variability, the research focus has been devoted to inconsistency detection, while leaving the important issue of fixing the inconsistency largely unaddressed. In this research-in-progress paper, we explore one of the issues that variability raises for inconsistency fixing. Namely, in which features to locate the fixes. We compute what is the minimal number of fixes and use it as a baseline to compare fixes obtained with a heuristic based on feature model analysis and random approaches. Our work highlights the pros and cons of both approaches and suggests how they could be addressed. Copyright 2012 ACM.",
+      "Keywords": "Consistency checking | Feature oriented software development | Safe composition | Variability",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Concurrent model synchronization with conflict resolution based on triple graph grammars",
+      "Abstract": "Triple graph grammars (TGGs) have been used successfully to analyse correctness of bidirectional model transformations. Recently, also a corresponding formal approach to model synchronization has been presented, where updates on a given domain (either source or target) can be correctly (forward or backward) propagated to the other model. However, a corresponding formal approach of concurrent model synchronization, where a source and a target modification have to be synchronized simultaneously, has not yet been presented and analysed. This paper closes this gap taking into account that the given and propagated source or target model modifications are in conflict with each other. Our conflict resolution strategy is semi-automatic, where a formal resolution strategy - known from previous work - can be combined with a user-specific strategy. As first result, we show correctness of concurrent model synchronization, that is, each result of our nondeterministic concurrent update leads to a consistent correspondence between source and target models, where consistency is defined by the TGG. As second result, we show compatibility of concurrent with basic model synchronization: concurrent model synchronization can realize both forward and backward propagation. The results are illustrated by a running example on updating organizational models. © 2012 Springer-Verlag Berlin Heidelberg.",
+      "Keywords": "bidirectional model transformation | conflict resolution | correctness | model synchronization | model versioning | triple graph grammars",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A model-driven development method for collaborative modeling tools",
+      "Abstract": "Collaborative modeling tools are useful for many tasks within design or learning processes. However, they are difficult to build and are usually domain-specific. In response to this situation, we propose a model-driven method for the development of domain-independent collaborative modeling tools. This method consists of a methodological framework, a conceptual framework and a technological framework. The methodological framework defines the phases to be carried out when applying the method, whilst the conceptual framework is made up of the meta-models used in the method and the transformation processes established between them. Finally, the technological framework consists of the integration of some plug-ins from the Eclipse Modeling Project with some add-ons which provide collaborative functionality. Some case studies that exemplify this development method for specific domains are explained in detail, together with comparisons with similar approaches. Thus, an initial evaluation of this approach is provided and some advantages over those other approaches are identified. A further evaluation process in the form of an empirical study of use has also been carried out. Hence, the method proves to be useful for any user who does not have advanced knowledge of groupware programming and who needs to use a collaborative modeling tool in his/her work. Moreover, each framework implies a contribution that can be used in different contexts. © 2011 Elsevier Ltd. All rights reserved.",
+      "Keywords": "Collaborative modeling | Computer-supported collaborative work | Groupware | Model-driven development | Network modeling environments",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Static consistency checking for distributed specifications",
+      "Abstract": "© 2001 IEEE.Software engineers building a complex system make use of a number of informal and semi-formal notations. We describe a framework, xlinkit, for managing the consistency of development artifacts expressed in such notations. xlinkit supports distributed software engineering by providing a distribution-transparent language for expressing constraints between specifications. It specifies a semantics for those constraints that permits the generation of hyperlinks between inconsistent elements. We give a formal semantics for link generation, and show how we expressed the rules of the UML Foundation/Core modules in our language. We outline how we implemented xlinkit as a light-weight web service using open standard technology and present the results of an evaluation against several sizeable UML models provided by industrial partners.",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Detection of conflicts and inconsistencies between architecture solutions",
+      "Abstract": "© 2019 ACM.This paper presents a semi-automated approach for detecting conflicts and inconsistencies between architecture solutions. Inconsistencies occur when two or more architecture solutions rely on each other but cannot be satisfied, and conflicts when there are contradictions within one single decision specification, such as contradictory variable range and value. The proposed approach comprises a set of checks followed by transformations of architecture solutions specified according to a domain-specific-language, also created in the context of this work, into state machines. The semi-automated approach is implemented as a plugin for the MagicDraw modeling tool, and was evaluated in a project from the automotive domain.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Pyro: Generating Domain-Specific Collaborative Online Modeling Environments",
+      "Abstract": "© The Author(s) 2019.We present Pyro, a framework for enabling domain-specific modeling via the internet. Provided with an adequate metamodel specification, Pyro turns your browser into a collaborative, domain-specific, graphical development environment with features reminiscent of desktop IDEs for textual programming languages. The required metamodeling is supported in a high-level, simplicity-driven fashion, and the entire ready-to-run browser-based domain-specific development environment is generated fully automatically. We will illustrate the steps of this development along the realization of a graphical IDE for the Architecture Analysis and Design Language (AADL).",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Enforcing fine-grained access control for secure collaborative modelling using bidirectional transformations",
+      "Abstract": "© 2017, The Author(s).Large-scale model-driven system engineering projects are carried out collaboratively. Engineering artefacts stored in model repositories are developed in either offline (checkout–modify–commit) or online (GoogleDoc-style) scenarios. Complex systems frequently integrate models and components developed by different teams, vendors and suppliers. Thus, confidentiality and integrity of design artefacts need to be protected in accordance with access control policies. We propose a secure collaborative modelling approach where fine-grained access control for models is strictly enforced by bidirectional model transformations. Collaborators obtain filtered local copies of the model containing only those model elements which they are allowed to read; write access control policies are checked on the server upon submitting model changes. We present a formal collaboration schema which provenly guarantees certain correctness constraints, and its adaption to online scenarios with on-the-fly change propagation and the integration into existing version control systems to support offline scenarios. The approach is illustrated, and its scalability is evaluated using a case study of the MONDO EU project.",
+      "Keywords": "Access control | Bidirectional model transformation | Collaborative modelling | Offline collaboration | Online collaboration | Secured views",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A group Undo/Redo method in 3D collaborative modeling systems with performance evaluation",
+      "Abstract": "Undo/Redo is an indispensable function in 3D collaborative modeling systems where a single mistake conducted by one user is propagated to all participants. Both intention preservation and consistency maintenance should be satisfied when applying group Undo/Redo. Besides, fast local responsiveness and timely group awareness are accepted performance metrics in interactive systems. In this paper, we contribute a novel group Undo/Redo mechanism for 3D collaborative modeling systems to support the \"any time, any where\" Undo/Redo. Response time will be shortened noticeably with a Model State Stream kept on each collaborative site. In the case of concurrent Undo/Redo, an Undo State Vector is proposed to ensure the Undo/Redo intention preservation and model consistency maintenance. Furthermore, the paper studies the performance of the algorithm including the worst, best and average cases with theoretical analyses. Our experiments show that responsive time is actually depending on a number of factors such as size of the history buffer, execution time for a single modeling operation. © 2013 Elsevier Ltd. All rights reserved.",
+      "Keywords": "3D collaborative modeling | Concurrency control | Performance evaluation | Undo/Redo",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Systematic review of matching techniques used in model-driven methodologies",
+      "Abstract": "© 2019, The Author(s).In model-driven methodologies, model matching is the process of finding a matching pair for every model element between two or more software models. Model matching is an important task as it is often used while differencing and merging models, which are key processes in version control systems. There are a number of different approaches to model matching, with most of them focusing on different goals, i.e., the accuracy of the matching process, or the generality of the algorithm. Moreover, there exist algorithms that use the textual representations of the models during the matching process. We present a systematic literature review that was carried out to obtain the state-of-the-art of model matching techniques. The search process was conducted based on a well-defined methodology. We have identified a total of 3274 non-duplicate studies, out of which 119 have been included as primary studies for this survey. We present the state-of-the-art of model matching, highlighting the differences between different matching techniques, mainly focusing on text-based and graph-based algorithms. Finally, the main open questions, challenges, and possible future directions in the field of model matching are discussed, also including topics like benchmarking, performance and scalability, and conflict handling.",
+      "Keywords": "Model comparison | Model differencing | Model matching | Systematic literature review | Text-based modeling | Version control",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "From Predefined Consistency to User-Centered Emergent Consistency in Real-Time Collaborative Editing Systems",
+      "Abstract": "In this paper, we introduce a basic conceptual model of real-time collaborative editing systems which differentiates the coordination aspect of actions (which do not exist in single-user systems) from the application-dependent semantic aspect of actions (i.e., those actions that happen in single-user systems). Based on this model, a new taxonomy is provided to analyze the existing consistency-maintenance mechanisms and highlight potential new mechanisms. Furthermore, a new user-centered consistency model is proposed, which focuses on dynamic consistency that is negotiable among end users rather than static consistency that is automatically determined by the system. In the mean time, some challenging research issues in real-time collaborative editing systems are outlined. © 2006 IEEE.",
+      "Keywords": "Collaborative work | Conflict resolution | Consistency maintenance | Multiuser negotiation",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A UML profile for modeling the conflicts in model merging",
+      "Abstract": "© 2017 IEEE.To the challenge entailed by the complexity and size of software systems, developers have to cooperate and work in parallel on software models. Models are changed separately, and they should be merged periodically to obtain an integrated single model. This leads to conflict in merging models. Therefore, several approaches have been proposed to detect such conflicts. For some conflict detection approaches, it is required to describe conflict constraints which are an open issue. In contribution to the solution of this problem, we present a UML profile for modeling conflict conditions which can be used for automatic generation of required constraints. This profile helps to build a conflict model by exploiting example of models which participate in the model merging process. Hence, software engineers are able to define conflicts via a concrete graphical syntax in a familiar UML editor. To evaluate the proposed profile, a case study consisting of two conflicts is performed that shows the usefulness of this profile.",
+      "Keywords": "model merging | model-driven software engineering | modeling the conflicts | UML profile",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A recommender for conflict resolution support in optimistic model versioning",
+      "Abstract": "The usage of optimistic version control systems comes along with cumbersome and time-consuming conflict resolution in the case that the modifications of two developers are contradicting. For code as well as for any other artifact the resolution support moves hardly beyond the choices \"keep mine\", \"keep theirs\", \"take all changes\", or \"abandon all changes\". To ease the conflict resolution in the context of model versioning, we propose a recommender system which suggests automatically executable resolution patterns to the developer responsible for the conflict resolution. The lookup algorithm is based on a similarity-aware graph matching approach incorporating information from the metamodel of the used modeling language. This allows not only the retrieval of recommendations exactly matching the given conflict situation, but also the identification of similar conflict situations whose resolution patterns are adaptable to the current conflict. © 2010 ACM.",
+      "Keywords": "Design | Languages",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "EMFStore: a model repository for EMF models",
+      "Abstract": "Models need to be put under version control to facilitate collaboration and to control change. EMFStore is a Software Configuration Management system tailored to the specific requirements for versioning models. It employs operation-based change tracking, conflict detection and merging. © 2010 ACM.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Automatically Detecting and Tracking Inconsistencies in Software Design Models",
+      "Abstract": "Software models typically contain many inconsistencies and consistency checkers help engineers find them. Even if engineers are willing to tolerate inconsistencies, they are better off knowing about their existence to avoid follow-on errors and unnecessary rework. However, current approaches do not detect or track inconsistencies fast enough. This paper presents an automated approach for detecting and tracking inconsistencies in real time (while the model changes). Engineers only need to define consistency rules - in any language - and our approach automatically identifies how model changes affect these consistency rules. It does this by observing the behavior of consistency rules to understand how they affect the model. The approach is quick, correct, scalable, fully automated, and easy to use as it does not require any special skills from the engineers using it. We evaluated the approach on 34 models with model sizes of up to 162,237 model elements and 24 types of consistency rules. Our empirical evaluation shows that our approach requires only 1.4 ms to reevaluate the consistency of the model after a change (on average); its performance is not noticeably affected by the model size and common consistency rules but only by the number of consistency rules, at the expense of a quite acceptable, linearly increasing memory consumption. © 2006 IEEE.",
+      "Keywords": "design | Design tools and techniques",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Management of Inconsistencies in Domain-Spanning Models – An Interactive Visualization Approach",
+      "Abstract": "© Springer International Publishing AG 2017.The complexity of automated production systems increases steadily – especially due to the rising customer demand to manufacture individualized goods. To stay competitive, companies in this domain need to adapt their engineering to deliver machines and plants with higher quality in shorter time. Hence, to reduce design errors and identify problems already in early engineering stages, it is essential to ensure that the disparate engineering models – e.g., from mechanical, electrical and software engineering – are free from inconsistencies. This paper presents a concept for inter-model inconsistency management. In particular, the proposed concept provides an interactive visualization approach that captures the dependencies between the different engineering models explicitly and visualizes them to the involved stakeholders. By that, the location of and cause for inconsistencies can be identified more easily; dependencies between the different engineering disciplines can be visualized in a comprehensive manner.",
+      "Keywords": "Automated production systems | Inconsistency management | Model-based systems engineering | Semantic web technologies",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Determining the Cause of a Design Model Inconsistency",
+      "Abstract": "When a software engineer finds an inconsistency in a model, then the first question is why? What caused it? Obviously, there must be an error. But where could it be? Or is the design rule erroneous and if yes then which part? The cause of an inconsistency identifies the part of the model or design rule where the error must be. We believe that the visualization of an inconsistency ought to visualize the cause. Understanding the cause is of vital importance before a repair can even be formulated. Indeed, any automation (e.g., code generation, refactoring) has to be considered with caution if it involves model elements that cause inconsistencies. This paper analyzes the basic structure of inconsistent design rules as well as their behavior during validation and presents an algorithm for computing its cause. The approach is fully automated, tool supported, and was evaluated on 14,111 inconsistencies across 29 design models. We found that our approach computes correct causes for inconsistencies, these causes are nearly always a subset of the model elements investigated by the design rules' validation (a naive cause computation approximation), and the computation is very fast (99.8 percent of the causes are computable in < 100 ms). © 1976-2012 IEEE.",
+      "Keywords": "Design tools and techniques | Programming environments/construction tools | Validation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "What causes merge conflicts?",
+      "Abstract": "© 2020 ACM.During the software development process, several developers commonly change artifacts in parallel. A merge process can combine parallel changes. In the case of changes that cannot be automatically combined, the developer responsible for the merge must reconcile decisions and resolve conflicts. Some studies are concerned with investigating ways to deal with merge conflicts and measuring the effort that this activity may require. However, the investigation of factors that may reduce the occurrence of conflicts needs more and deeper attention. This paper aims at identifying and analyzing attributes of past merges with and without conflicts to understand what may induce physical conflicts. We analyzed 182,273 merge scenarios from 80 projects written in eight different programming languages to find characteristics that increase the chances of a merge to have a conflict. We found that attributes such as the number of committers, the number of commits, and the number of changed files seem to have the biggest influence in the occurrence of merge conflicts. Moreover, attributes in the branch that is being integrated seem to be more influential than the same attributes in the other branch. Additionally, we discovered positive correlations between the occurrence of conflicts and both the duration of the branch and the intersection of developers.",
+      "Keywords": "Attributes | Merge | Merge Conflicts | Repository Mining",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    }
+  ]
+}

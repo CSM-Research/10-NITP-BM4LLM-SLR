@@ -1,0 +1,95 @@
+======= Lean Literature Review Protocol ========
+
+--------------------------
+- Search String (SCOPUS):
+--------------------------
+
+TITLE-ABS-KEY ("large language model" OR "LLM" OR "ChatGPT" OR "GPT") AND TITLE-ABS-KEY ("systematic Literature Review" OR "Systematic Review" OR "SLR" OR "Secondary Studies") AND TITLE-ABS-KEY("screening" OR "selection" OR "inclusion criteria" OR "article filtering"))
+
+--------------------------
+- Golden Set:
+--------------------------
+
+@article{Syriani2024,
+  title = {Screening articles for systematic reviews with ChatGPT},
+  volume = {80},
+  ISSN = {2590-1184},
+  url = {http://dx.doi.org/10.1016/j.cola.2024.101287},
+  DOI = {10.1016/j.cola.2024.101287},
+  journal = {Journal of Computer Languages},
+  publisher = {Elsevier BV},
+  author = {Syriani,  Eugene and David,  Istvan and Kumar,  Gauransh},
+  year = {2024},
+  month = aug,
+  pages = {101287}
+}
+
+@inproceedings{Felizardo2024,
+  series = {ESEM ’24},
+  title = {ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity},
+  _url = {http://dx.doi.org/10.1145/3674805.3686666},
+  _DOI = {10.1145/3674805.3686666},
+  booktitle = {18th International Symposium on Empirical Software Engineering and Measurement},
+  publisher = {ACM},
+  author = {Felizardo,  Katia Romero and Lima,  Márcia Sampaio and Deizepe,  Anderson and Conte,  Tayana Uch\^oa and Steinmacher,  Igor},
+  year = {2024},
+  address = {Barcelona, Spain},
+  pages = {25–36},
+}
+
+
+@inproceedings{Huotala2024,
+  series = {EASE 2024},
+  title = {The Promise and Challenges of Using LLMs to Accelerate the Screening Process of Systematic Reviews},
+  _url = {http://dx.doi.org/10.1145/3661167.3661172},
+  _DOI = {10.1145/3661167.3661172},
+  booktitle = {28th International Conference on Evaluation and Assessment in Software Engineering},
+  publisher = {ACM},
+  author = {Huotala,  Aleksi and Kuutila,  Miikka and Ralph,  Paul and M\"{a}ntyl\"{a},  Mika},
+  year = {2024},
+  pages = {262–271},
+  address = {Salerno, Italy}
+}
+
+
+@inproceedings{herbst2023,
+  title={Accelerating literature screening for systematic literature reviews with Large Language Models-development, application, and first evaluation of a solution},
+  author={Herbst, Paul and Baars, Henning},
+  booktitle={LWDA},
+  publisher = {CEUR-WS},
+  pages={41--51},
+  year={2023},
+  address = {Marburg, Germany}
+}
+
+--------------------------
+- Date of search:
+--------------------------
+
+25 of july of 2025
+
+--------------------------
+- Selection Criteria:
+--------------------------
+
+INCLUSION CRITERIA:
+
+(IC1) Article is in the Computer Science/Software Engineering Area; 
+(IC2) Article discusses the use of LLMs in studies selected in an SLR. 
+
+
+EXCLUSION CRITERIA 
+
+(EC1) results originated from the domain of medicine, 
+(EC2) not about the application of LLMs for SLRs, 
+(EC3) duplicate, 
+(EC4) not written in English, 
+(EC5) not a primary study or not peer-reviewed material. The selection process applying these criteria resulted in 13 relevant studies
+
+
+--------------------------
+- Extraction form
+--------------------------
+
+Q1 - Which are the biases caused by usage of LLMs for SLRs?; 
+Q2 - Which factors (external factors, contextual constraints, or environmental considerations) impact the usage of LLMs in systematic reviews? 

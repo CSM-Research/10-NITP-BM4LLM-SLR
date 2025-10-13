@@ -1,0 +1,401 @@
+[
+  {
+    "ID": "",
+    "Title": "LASE: An Example-Based Program Transformation Tool for Locating and Applying Systematic Edits",
+    "Publication date": "2013",
+    "Venue type ": "",
+    "Publication venue": "IEEE Press",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84886423493",
+    "doi": "10.1109/ICSE.2013.6606707",
+    "Publication type": "cp",
+    "Abstract": "Adding features and fixing bugs in software often require systematic edits which are similar, but not identical, changes to many code locations. Finding all edit locations and editing them correctly is tedious and error-prone. In this paper, we demonstrate an Eclipse plug-in called Lase that (1) creates context-aware edit scripts from two or more examples, and uses these scripts to (2) automatically identify edit locations and (3) transform the code. In Lase, users can view syntactic edit operations and corresponding context for each input example. They can also choose a different subset of the examples to adjust the abstraction level of inferred edits. When Lase locates target methods matching the inferred edit context and suggests customized edits, users can review and correct LASE's edit suggestion. These features can reduce developers' burden in repetitively applying similar edits to different methods. The tool's video demonstration is available at https://www.youtube.com/ watch?v=npDqMVP2e9Q. © 2013 IEEE.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A Multiple Processor Approach to Data Compression",
+    "Publication date": "1998",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85001907698",
+    "doi": "10.1145/330560.331007",
+    "Publication type": "cp",
+    "Abstract": "© 1998 ACM.Fast data compression is necessary for efficient use of computer storage and transmission line bandwidth. The importance of utilizing multiple processor computers to speedup the performance of this task grows as the availability of these machines increases. The approach taken in this paper is to distribute the task of data compression among multiple processors in a pipeline architecture. The implementation of this technique was found to be effective at providing increased compression speeds as the number of processors increased. The ability to use different numbers of processors, in this algorithm, for compression than for decompression provides a basis for wider use and acceptance of this algorithm. The parallel algorithm was implemented on Intel iPSC/860 hypercube machine. A wide variety of data sets found in literature were tested with this technique. Experimental results for speedup and compression ratio are presented. The results provide valuable insight into the effects of software architecture selection, complexity on the compression ratio and speed.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "MPI-CorrBench: Towards an MPI Correctness Benchmark Suite",
+    "Publication date": "2021",
+    "Venue type ": "Conference",
+    "Publication venue": "Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85109577910",
+    "doi": "10.1145/3431379.3460652",
+    "Publication type": "cp",
+    "Abstract": "© 2020 Owner/Author.The Message Passing Interface (MPI) is the de-facto standard for distributed memory computing in high-performance computing (HPC). To aid developers write correct MPI programs, different tools have been proposed, e.g., Intel Trace Analyzer and Collector (ITAC), MUST, Parcoach and MPI-Checker. Unfortunately, the effectiveness of these tools is hard to compare, as they have not been evaluated on a common set of applications. More importantly, well-known and widespread benchmarks, which tend to be well-tested and error free, were used for their evaluation. To enable a structured comparison and improve the coverage and reliability of available MPI correctness tools, we propose MPI-CorrBench as a common test harness. MPI-CorrBench enables a structured comparison of the different tools available w.r.t. various types of errors. In our evaluation, we use MPI-CorrBench to provide a well-defined set of error-cases to MUST, ITAC, Parcoach and MPI-Checker. In particular, we find that ITAC and MUST complement each other in many cases. In general, MUST works better for detecting type errors while ITAC is better in detecting errors in non-blocking operations. Although the most-used functions of MPI are well supported, MPI-CorrBench shows that for one sided communication, the error detection capability of all evaluated tools needs improvement. Moreover, our experiments reveal a MPI standard violation in the MPICH test suite as well as several cases of discouraged use of MPI functionality.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "RESource: A Framework for Online Matching of Assembly with Open Source Code",
+    "Publication date": "2013",
+    "Venue type ": "Chapter",
+    "Publication venue": "Foundations and Practice of Security",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84875949047",
+    "doi": "10.1007/978-3-642-37119-6_14",
+    "Publication type": "cp",
+    "Abstract": "Software reverse engineering is a fastidious task demanding a strong expertise in assembly coding. Various existing tools may help analyze the functionality of a binary file without executing it and an interesting step would naturally be the search for the original source files. Our tool called RESource considers the extraction of some features in the assembly code so that queries can be triggered to a source repository in a reliable way: either (1) the result is a set of references to the original project files provided they are hosted on the repository or (2) at least some functionalities of the binary file are unleashed. Such an approach is very promising given its proved performances in real assembly code applications. © 2013 Springer-Verlag.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Effective API Recommendation without Historical Software Repositories",
+    "Publication date": "2018",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85056502192",
+    "doi": "10.1145/3238147.3238216",
+    "Publication type": "cp",
+    "Abstract": "© 2018 Association for Computing Machinery.It is time-consuming and labor-intensive to learn and locate the correct API for programming tasks. Thus, it is beneficial to perform API recommendation automatically. The graph-based statistical model has been shown to recommend top-10 API candidates effectively. It falls short, however, in accurately recommending an actual top-1 API. To address this weakness, we propose RecRank, an approach and tool that applies a novel ranking-based discriminative approach leveraging API usage path features to improve top-1 API recommendation. Empirical evaluation on a large corpus of (1385+8) open source projects shows that RecRank significantly improves top-1 API recommendation accuracy and mean reciprocal rank when compared to state-of-the-art API recommendation approaches.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A Survey of Physical Layer Techniques for Secure Wireless Communications in Industry",
+    "Publication date": "2022",
+    "Venue type ": "IEEE Journals",
+    "Publication venue": "IEEE Communications Surveys & Tutorials",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85124184241",
+    "doi": "10.1109/COMST.2022.3148857",
+    "Publication type": "ar",
+    "Abstract": "© 1998-2012 IEEE.The industrial environment poses strict requirements to the infrastructure of good and service production and delivery. Communications are not an exception. Wired systems currently dominate in factory premises for their robustness in complex and noisy propagation conditions. They also present ruggedness in front of malicious attackers aiming to bring the communication system down or take over the system under control. Unfortunately, wired systems have severe maintenance, scalability, and operational flexibility limitations. Wireless systems constitute a solution, but they show performance weaknesses in reliability and security. This paper analyzes the security challenges of radio-frequency wireless systems in industrial use cases and aligns different categorization efforts from various sources, focusing on the lower layers of the OSI model (PHY/MAC). The analysis includes a detailed taxonomy of attacks and PHY/MAC countermeasure techniques required to make security compatible with the system requirements of industrial applications. Among the different industrial applications, the focus of this work is directed towards Factory Automation. Finally, based on the wide range of existing attacks and techniques, we propose a methodology for dissecting attack scenarios and designing tailored protection techniques and architectures. A wide diversity of attack situations are described, and the corresponding countermeasures are discussed. Finally, we propose a methodology for dissecting attack scenarios and designing tailored protection techniques and architectures.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Automatic Assessment of Student Homework and Personalized Recommendation",
+    "Publication date": "2020",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2020 IEEE 20th International Conference on Advanced Learning Technologies (ICALT)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85091145114",
+    "doi": "10.1109/ICALT49669.2020.00051",
+    "Publication type": "cp",
+    "Abstract": "© 2020 IEEE.AI technologies are applied to automatically assess students' homework texts and to provide intelligent recommendations based on both students' current learning knowledge and whole domain knowledge. Several traditional machine learning methods are evaluated and compared in order to find a suitable method for customizing personalized assessment results.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Comparison of orthogonal matching pursuit implementations",
+    "Publication date": "2012",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84869778651",
+    "doi": "",
+    "Publication type": "cp",
+    "Abstract": "We study the numerical and computational performance of three implementations of orthogonal matching pursuit: one using the QR matrix decomposition, one using the Cholesky matrix decomposition, and one using the matrix inversion lemma. We find that none of these implementations suffer from numerical error accumulation in the inner products or the solution. Furthermore, we empirically compare the computational times of each algorithm over the phase plane. © 2012 EURASIP.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Components of service value in business-to-business Cloud Computing",
+    "Publication date": "2015",
+    "Venue type ": "Article",
+    "Publication venue": "Journal of Cloud Computing",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85006207067",
+    "doi": "10.1186/s13677-015-0040-x",
+    "Publication type": "ar",
+    "Abstract": "© 2015, Padilla et al.Cloud computing services are used in many businesses. However, little is known about the components of service value in B2B cloud computing services from a customer perspective. In the B2C service literature, service value has four components: customer perceptions of the quality, equity, benefits, and sacrifices for the delivered service. The purpose of this research is to determine whether the components from an established B2C model applies to B2B cloud computing services. We followed a qualitative approach and interviewed twenty-one managers responsible for handling cloud computing services and for the decision to repurchase services. The interviews were then analysed to determine whether the existing model covers cloud computing services completely. We found broad support for the established service value components in a B2B cloud computing context. Importantly, we found evidence for a fifth component we called “cloud service governance”. A deeper understanding of service value perceptions among business users of cloud computing services means vendors can measure this for their customers. This is important because perceptions of service value directly influences customer satisfaction, impacting the buyer’s intention to repurchase the service. Similarly, this study will help buyers of B2B cloud computing services to assess the value extracted from their cloud computing service relationships. It will also help cloud providers and new competitors focus their efforts (e.g., into increasing technical reliability) to improve their customers’ perceptions of value obtained from their cloud computing services. This research advances the literature by extending the established B2C service value model to the context of B2B cloud computing, and providing the first evidence of an extra component in B2B services more generally.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "JDiff: A Differencing Technique and Tool for Object-Oriented Programs",
+    "Publication date": "2007",
+    "Venue type ": "Journal",
+    "Publication venue": "Automated Software Engg.",
+    "Publisher": "Kluwer Academic Publishers",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-34247400790",
+    "doi": "10.1007/s10515-006-0002-0",
+    "Publication type": "cp",
+    "Abstract": "During software evolution, information about changes between different versions of a program is useful for a number of software engineering tasks. For example, configuration-management systems can use change information to assess possible conflicts among updates from different users. For another example, in regression testing, knowledge about which parts of a program are unchanged can help in identifying test cases that need not be rerun. For many of these tasks, a purely syntactic differencing may not provide enough information for the task to be performed effectively. This problem is especially relevant in the case of object-oriented software, for which a syntactic change can have subtle and unforeseen effects. In this paper, we present a technique for comparing object-oriented programs that identifies both differences and correspondences between two versions of a program. The technique is based on a representation that handles object-oriented features and, thus, can capture the behavior of object-oriented programs. We also present JDiff, a tool that implements the technique for Java programs. Finally, we present the results of four empirical studies, performed on many versions of two medium-sized subjects, that show the efficiency and effectiveness of the technique when used on real programs. © Springer Science+Business Media, LLC 2007.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "EC1": 2,
+      "EC2": 3,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Generative programming for programmable logic controllers",
+    "Publication date": "2005",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2005 IEEE Conference on Emerging Technologies and Factory Automation",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-33847313268",
+    "doi": "",
+    "Publication type": "cp",
+    "Abstract": "Many attempts have been made to implement supervisors derived by synthesis procedures peculiar to the Supervisory Control Theory (SCT), most adopting the event-based supervisory control paradigm. However, when considering code generation schemata for programmable logic controllers (PLCs), hardware resources are limited and event tracking is hard to realize satisfactorily. Moreover, previous work has highlighted differences between the abstract model adopted by SCT and realistic process control situations. Inappropriate solutions to these issues may result in code generation schemata that produce unreliable PLC code. A generative programming approach for PLCs based on a dual paradigm, the state-based supervisory control paradigm, is investigated in this paper. Such cm approach exhibits interesting properties. For instance, the maximum depth of the PLC stack as well as PLC cycle, timing evaluations become possible. Furthermore, well-known code optimization techniques can be used to obtain more efficient code. © 2005 IEEE.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Identifying Shared Software Components to Support Malware Forensics",
+    "Publication date": "2014",
+    "Venue type ": "Chapter",
+    "Publication venue": "Detection of Intrusions and Malware, and Vulnerability Assessment",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84904132175",
+    "doi": "10.1007/978-3-319-08509-8_2",
+    "Publication type": "cp",
+    "Abstract": "Recent reports from the anti-malware industry indicate similarity between malware code resulting from code reuse can aid in developing a profile of the attackers. We describe a method for identifying shared components in a large corpus of malware, where a component is a collection of code, such as a set of procedures, that implement a unit of functionality. We develop a general architecture for identifying shared components in a corpus using a two-stage clustering technique. While our method is parametrized on any features extracted from a binary, our implementation uses features abstracting the semantics of blocks of instructions. Our system has been found to identify shared components with extremely high accuracy in a rigorous, controlled experiment conducted independently by MITLL. Our technique provides an automated method to find between malware code functional relationships that may be used to establish evolutionary relationships and aid in forensics. © 2014 Springer International Publishing.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 3,
+      "EC1": 6,
+      "EC2": 5,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Slicing Based Code Recommendation for Type Based Instance Retrieval",
+    "Publication date": "2019",
+    "Venue type ": "Chapter",
+    "Publication venue": "Reuse in the Big Data Era",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85068250005",
+    "doi": "10.1007/978-3-030-22888-0_11",
+    "Publication type": "cp",
+    "Abstract": "© 2019, Springer Nature Switzerland AG.It is common for developers to retrieve an instance of a certain type from another instance of other types. However, it is quite often that developers do not exactly know how to retrieve the instance although they know exactly what they need (the instance to re retrieved, also known as the target instance) and where it could be retrieved (i.e., the source instance). Such kind of instance retrieval is popular and thus their implementations, in different forms, are often publicly available on the Internet. Consequently, a number of approaches have been proposed to retrieve such implementations (code snippets) and release developers from reinventing such snippets. However, the performance of such approaches deserves further improvement. To this end, in this paper, we propose a slicing based approach to recommending code snippets that could retrieve the target instance from the source instance. The approach works as follows. First, from a large code base, it retrieves methods that contain the source instance and the target instance. Second, for each of these methods, it locates the target instances, and extracts related code snippets that generate the target instances by backward code slicing. Third, from the extracted code snippets, it removes those that do not contain the source instance. Fourth, it merges code snippets whose corresponding target instances are at parallel execution paths. Fifth, it removes duplicate code snippets. Finally, it ranks the resulting code snippets, and presents the top ones. We implement the approach as an Eclipse plugin called TIRSnippet. We also evaluate it with real type based instance retrieval queries. Evaluation results suggest that compared to the state-of-the-art approaches, the proposed approach improves the precision and recall by 8.8%, and 25%, respectively.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 4,
+      "EC1": 5,
+      "EC2": 6,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A Free-Choice Social Learning Network for Computational Thinking",
+    "Publication date": "2018",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2018 IEEE 18th International Conference on Advanced Learning Technologies (ICALT)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85052519420",
+    "doi": "10.1109/ICALT.2018.00023",
+    "Publication type": "cp",
+    "Abstract": "© 2018 IEEE.The need to attract learners and improve retention in computational thinking classes has never been greater than presently. Alarmingly, research suggests that the relative popularity of computer science in K-12 and colleges is not increasing while other STEM subjects are witnessing substantial rise in enrollment. Moreover, more than one third of those who choose computer science, drop out or fail the first programming class dashing hopes of building a computationally savvy workforce for the emerging global economy. In this paper, we introduce a novel social networking system, called OpenSchool, for learners and educators alike, which is able to double as a contemporary social networking system along the lines of Facebook for instance, and serve the special needs of free-choice STEM learners, computer science learners in particular. We discuss its salient features, highlight its advantages, collaborating capabilities, and learning support for STEM, especially computational thinking, learners.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Pensieve: Feedback on Coding Process for Novices",
+    "Publication date": "2019",
+    "Venue type ": "Conference",
+    "Publication venue": "Proceedings of the 50th ACM Technical Symposium on Computer Science Education",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85064391950",
+    "doi": "10.1145/3287324.3287483",
+    "Publication type": "cp",
+    "Abstract": "© 2019 Association for Computing Machinery.In large undergraduate computer science classrooms, student learning on assignments is often gauged only by the work on their final solution, not by their programming process. As a consequence, teachers are unable to give detailed feedback on how students implement programming methodology, and novice students often lack a metacognitive understanding of how they learn. We introduce Pensieve as a drag-and-drop, open-source tool that organizes snapshots of student code as they progress through an assignment. The tool is designed to encourage sit-down conversations between student and teacher about the programming process. The easy visualization of code evolution over time facilitates the discussion of intermediate work and progress towards learning goals, both of which would otherwise be unapparent from a single final submission. This paper discusses the pedagogical foundations and technical details of Pensieve and describes results from a particular 207-student classroom deployment, suggesting that the tool has meaningful impacts on education for both the student and the teacher.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "An Image Forensic Technique for Detection of Copy-Move Forgery in Digital Image",
+    "Publication date": "2016",
+    "Venue type ": "Chapter",
+    "Publication venue": "Security in Computing and Communications",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84989911268",
+    "doi": "10.1007/978-981-10-2738-3_28",
+    "Publication type": "cp",
+    "Abstract": "© Springer Nature Singapore Pte Ltd. 2016.Image morphing is a common practice nowadays. To validate a digital image is considered as a perplexing task in the field of image forensic. With numerous kind of tampering been carried out on a digital image, the paper focuses on a detection of common forgery referred to as copy-move forgery or cloning, which is nearly untraceable. The paper contemplates on the color content of the forged image and employs three different methods of feature extraction to aid the detection of forgery. The experimental results show that the feature extraction methods employed detects the forged region accurately and are also effective to rotation and scaling. A performance analysis in detection of forgery for the three methods in terms precision and recall is also presented in the paper, along with a comparison with other state-of-the-art detection methods.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Language Design and Implementation for the Domain of Coding Conventions",
+    "Publication date": "2016",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85006823089",
+    "doi": "10.1145/2997364.2997386",
+    "Publication type": "cp",
+    "Abstract": "Coding conventions are lexical, syntactic or semantic restrictions enforced on top of a software language for the sake of consistency within the source base. Specifying coding conventions is currently an open problem in software language engineering, addressed in practice by resorting to natural language descriptions which complicate conformance verification. In this paper we present an endeavour to solve this problem for the case of CSS -A ubiquitous software language used for specifying appearance of hypertextual content separately from the content itself. The paper contains the results of domain analysis, a short report on an empirically obtained catalogue of 143 unique CSS coding conventions, the domain-specific ontology for the domain of detecting violations, the design of CssCoco, a language for expressing coding conventions of CSS, as well as a description of the tool we developed to detect violations of conventions specified in this DSL.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Rebooting Research on Detecting Repackaged Android Apps: Literature Review and Benchmark",
+    "Publication date": "2021",
+    "Venue type ": "IEEE Journals",
+    "Publication venue": "IEEE Transactions on Software Engineering",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85104754198",
+    "doi": "10.1109/TSE.2019.2901679",
+    "Publication type": "ar",
+    "Abstract": "© 1976-2012 IEEE.Repackaging is a serious threat to the Android ecosystem as it deprives app developers of their benefits, contributes to spreading malware on users' devices, and increases the workload of market maintainers. In the space of six years, the research around this specific issue has produced 57 approaches which do not readily scale to millions of apps or are only evaluated on private datasets without, in general, tool support available to the community. Through a systematic literature review of the subject, we argue that the research is slowing down, where many state-of-the-art approaches have reported high-performance rates on closed datasets, which are unfortunately difficult to replicate and to compare against. In this work, we propose to reboot the research in repackaged app detection by providing a literature review that summarises the challenges and current solutions for detecting repackaged apps and by providing a large dataset that supports replications of existing solutions and implications of new research directions. We hope that these contributions will re-activate the direction of detecting repackaged apps and spark innovative approaches going beyond the current state-of-the-art.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6,
+      "EC3": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "High-impact Refactoring Based on Architecture Violations",
+    "Publication date": "2007",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "11th European Conference on Software Maintenance and Reengineering (CSMR'07)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-34547674831",
+    "doi": "10.1109/CSMR.2007.25",
+    "Publication type": "cp",
+    "Abstract": "Software refactoring has been identified as a key technique for the maintenance and evolution of object-oriented system. Most interesting are high-impact refactorings, that is, refactorings that have a strong impact on the quality of the system's architecture. \"Bad smells\" and code metrics have been suggested as means for identifying refactormg needs, According to our experience these techniques are useful, yet in order to spot opportunities for high-impact refactorings, they should be complemented with the analysis of architectural violations. The subject of this report is a mid-sized Java enterprise application from the telecommunications domain whose functionality had to be radically extended. We show how we combined several tools and techniques to identify opportunities for high-impact refactorings, and discuss the resulting architecture, the refactoring process, tool support as well as related experiences. © 2007 IEEE.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6,
+      "EC3": 1
+    }
+  }
+]

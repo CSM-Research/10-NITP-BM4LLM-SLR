@@ -1,0 +1,178 @@
+[
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84899937636",
+    "Primary study DOI": "10.1007/s10270-012-0279-3",
+    "Title": "Merging of EMF models - Formal foundations",
+    "Abstract": "Inadequate version control for models significantly impedes the application of model-driven software development. In particular, sophisticated support for merging model versions is urgently needed. In this paper, we present a formal approach to both two- and three-way merging of models in the EMF framework. The approach may be applied to instances of arbitrary Ecore models. We specify context-free as well as context-sensitive rules for model merging which both detect and resolve merge conflicts. Based on these rules, a merge algorithm is developed which produces a consistent model from consistent input models. The merge algorithm does neither assume unique object identifiers, nor does it require change logs. In contrast, it relies on matchings among the input models which identify common elements (state-based approach). The requirements imposed on these matchings are reduced to a minimum, e.g., there are no restrictions on the relative positions of matched elements. Altogether, the merge algorithm is widely applicable, preserves consistency, and offers advanced features, such as merging of ordered collections in the presence of arbitrary moves and handling of context-sensitive conflicts which are hard to detect and to resolve. © 2012 Springer-Verlag.",
+    "Keywords": "EMF models | Three-way merging | Version control",
+    "Publication venue": "Software and Systems Modeling",
+    "Publication date": "2014-05-01",
+    "Publication type": "Article",
+    "Authors": "Westfechtel, Bernhard",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-33745063916",
+    "Primary study DOI": "10.1007/s00766-006-0032-y",
+    "Title": "View merging in the presence of incompleteness and inconsistency",
+    "Abstract": "View merging, also called view integration, is a key problem in conceptual modeling. Large models are often constructed and accessed by manipulating individual views, but it is important to be able to consolidate a set of views to gain a unified perspective, to understand interactions between views, or to perform various types of analysis. View merging is complicated by incompleteness and inconsistency: Stakeholders often have varying degrees of confidence about their statements. Their views capture different but overlapping aspects of a problem, and may have discrepancies over the terminology being used, the concepts being modeled, or how these concepts should be structured. Once views are merged, it is important to be able to trace the elements of the merged view back to their sources and to the merge assumptions related to them. In this paper, we present a framework for merging incomplete and inconsistent graph-based views. We introduce a formalism, called annotated graphs, with a built-in annotation scheme for modeling incompleteness and inconsistency. We show how structure-preserving maps can be employed to express the relationships between disparate views modeled as annotated graphs, and provide a general algorithm for merging views with arbitrary interconnections. We provide a systematic way to generate and represent the traceability information required for tracing the merged view elements back to their sources, and to the merge assumptions giving rise to the elements. © Springer-Verlag London Limited 2006.",
+    "Keywords": "Inconsistency management | Model management | View merging | View-based development",
+    "Publication venue": "Requirements Engineering",
+    "Publication date": "2006-06-01",
+    "Publication type": "Article",
+    "Authors": "Sabetzadeh, Mehrdad;Easterbrook, Steve",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84893465740",
+    "Primary study DOI": "10.1109/EDOCW.2013.34",
+    "Title": "Handling Concurrent Changes in Collaborative Process Model Development: A Change-Pattern Based Approach",
+    "Abstract": "Business process modeling has gained increasing interest with the advent of business process management systems in organizational contexts. As business processes are subject to frequent change also respective models are complex and under continuous development with multiple modelers being involved. This paper presents an approach to integrate concurrent changes of multiple modelers equivalently into a resulting process model. Through change patterns we capture the semantics of changes and use them for recognizing instances hereof from subsequent model revisions. These change patterns were identified by analyzing a set of recurring changes during model creation, modification, and refactoring. Together with the concept of conflict types change patterns are used as a conceptual means to implement a semi-automated merging mechanism within a collaborative wiki-based modeling environment. This approach is expected to facilitate smooth (incremental and iterative) development of models in highly dynamic modeling environments and is a human-oriented way to conflict resolution in (concurrent) process model development. © 2013 IEEE.",
+    "Keywords": "Business process design | Business process modeling | Collaborative modeling | Information systems design",
+    "Publication venue": "Proceedings - IEEE International Enterprise Distributed Object Computing Workshop, EDOC",
+    "Publication date": "2013-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Erol, Selim;Neumann, Gustaf",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84879781364",
+    "Primary study DOI": "10.1007/s10270-011-0226-8",
+    "Title": "Detection and resolution of conflicting change operations in version management of process models",
+    "Abstract": "Version management of process models requires that different versions of process models are integrated by applying change operations. Conflict detection between individually applied change operations and conflict resolution support are integral parts of version management. For conflict detection it is utterly important to compute a precise set of conflicts, since the minimization of the number of detected conflicts also reduces the overhead for merging different process model versions. As not every syntactic conflict leads to a conflict when taking into account model semantics, a computation of conflicts solely on the syntax leads to an unnecessary high number of conflicts. Moreover, even the set of precisely computed conflicts can be extensive and their resolution means a significant workload for a user. As a consequence, adequate support is required that guides a user through the resolution process and suggests possible resolution strategies for individual conflicts. In this paper, we introduce the notion of syntactic and semantic conflicts for change operations of process models. We provide a method how to efficiently compute conflicts precisely, using a term formalization of process models and consider the subsequent resolution of the detected conflicts based on different strategies. Using this approach, we can significantly reduce the number of overall conflicts and reduce the amount of work for the user when resolving conflicts. © 2011 Springer-Verlag.",
+    "Keywords": "Business process model | Conflict detection | Conflict resolution | Version management",
+    "Publication venue": "Software and Systems Modeling",
+    "Publication date": "2013-07-01",
+    "Publication type": "Article",
+    "Authors": "Gerth, Christian;Küster, Jochen M.;Luckey, Markus;Engels, Gregor",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-78650102029",
+    "Primary study DOI": "10.1145/1869542.1869547",
+    "Title": "Collaborative model merging",
+    "Abstract": "Models are important artifacts in the software development life-cycle and are often the result of a collaborative activity of multiple developers. When multiple developers modify the same model, conflicts can occur and need to be resolved by merging. Existing approaches for model merging require developers to solve all conflicts before committing. The later a developer commits the higher the probability for even more conflicts. This forces the developers to solve every conflict as soon as possible and without consulting the other developer. However, we claim that developers often need to discuss their choice of conflict resolution with another developer in case of a complex conflict, since a conflict also expresses differences in opinion about the model. In this paper we propose to allow developers to postpone a decision of a modeling conflict. We present an approach to make conflicts part of the model and represent them as first-level entities based on issue modeling from the field of Rationale Management. This facilitates the possibility for collaborative conflict resolution and merging. Furthermore, it allows for a complete batch merge instead of interactive merging, where all conflicts are added to the model and then resolved later. To substantiate our claim that developers favor to discuss complex conflicts we conducted a case study. © 2010 ACM.",
+    "Keywords": "Collaboration | Issue | Merging | Model | Operation-based | Rationale management",
+    "Publication venue": "Proceedings of the ACM International Conference Companion on Object Oriented Programming Systems Languages and Applications Companion, SPLASH '10",
+    "Publication date": "2010-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Koegel, Maximilian;Naughton, Helmut;Helming, Jonas;Herrmannsdoerfer, Markus",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-72249109894",
+    "Primary study DOI": "10.1145/1639950.1639991",
+    "Title": "By-example adaptation of the generic model versioning system AMOR: how to include language-specific features for improving the check-in process",
+    "Abstract": "We present configuration mechanisms based on by-example approaches for the adaptable model versioning system AMOR improving the complete versioning workflow. The Operation Recorder allows the specification of composite operations. Those operation definitions are used by the Conflict Manager supporting the specification of potential merge conflicts and suitable resolution strategies.",
+    "Keywords": "By-example configuration | Model versioning",
+    "Publication venue": "Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA",
+    "Publication date": "2009-12-24",
+    "Publication type": "Conference Paper",
+    "Authors": "Brosch, Petra;Seidl, Martina;Wieland, Konrad;Wimmer, Manuel;Langer, Philip",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84963819343",
+    "Primary study DOI": "10.1109/ASE.2015.106",
+    "Title": "SiPL -- A Delta-Based Modeling Framework for Software Product Line Engineering",
+    "Abstract": "© 2015 IEEE.Model-based development has become a widely-used approach to implement software, e.g. for embedded systems. Models replace source code as primary executable artifacts in these cases. Software product line technologies for these domains must be able to generate models as instances of an SPL. This need is addressed among others by an implementation technology for SPLs known as delta modeling. Current approaches to delta modeling require deltas to be written manually using delta languages, and they offer only very limited support for creating and testing a network of deltas. This paper presents a new approach to delta modeling and a supporting tool suite: the abstract notion of a delta is refined to be a consistency-preserving edit script which is generated by comparing two models. The rich structure of edit scripts allows us to detect conflicts and further relations between deltas statically and to implement restructurings in delta sets such as the merging of two deltas. We illustrate the tooling using a case study.",
+    "Keywords": "Delta modeling | Model differencing | Model-based development | Software product line engineering",
+    "Publication venue": "Proceedings - 2015 30th IEEE/ACM International Conference on Automated Software Engineering, ASE 2015",
+    "Publication date": "2016-01-04",
+    "Publication type": "Conference Paper",
+    "Authors": "Pietsch, Christopher;Kehrer, Timo;Kelter, Udo;Reuling, Dennis;Ohrndorf, Manuel",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-77957911027",
+    "Primary study DOI": "10.1109/SCC.2010.38",
+    "Title": "Detection of Semantically Equivalent Fragments for Business Process Model Change Management",
+    "Abstract": "Modern business process modeling environments support distributed development by means of model version control, i. e. comparison and merging of two different model versions. This is a challenging task since most modeling languages support an almost arbitrary creation of process models. Thus, in multi-developer environments, process models or parts of them are often syntactically very different but semantically equivalent. Hence, the comparison of business process models must be performed on a semantic level rather then on a syntactic level. For the domain of business process modeling, this problem is yet unsolved. This paper describes an approach that allows the semantic comparison of different business process models using a normal form. For that purpose, the process models are fully automatically translated into process model terms and normalized using a term rewriting system. The resulting normal forms can be efficiently compared and easily be used for reconciliation. Our approach enables the semantic comparison of business process models ignoring syntactic redundancies. © 2010 IEEE.",
+    "Keywords": "Business process models | Change management | Conflicts | Consistency",
+    "Publication venue": "Proceedings - 2010 IEEE 7th International Conference on Services Computing, SCC 2010",
+    "Publication date": "2010-10-20",
+    "Publication type": "Conference Paper",
+    "Authors": "Gerth, Christian;Luckey, Markus;Küster, Jochen M.;Engels, Gregor",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  }
+]

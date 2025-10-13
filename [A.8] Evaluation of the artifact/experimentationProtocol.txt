@@ -1,0 +1,146 @@
+============================================================
+              BM4LLM-SLR - EXPERIMENTAL PROTOCOL
+============================================================
+
+GOAL:
+To evaluate the BM4LLM-SLR model using a curated benchmark dataset
+and a reproducible procedure that balances LLM automation and 
+human intervention in the study selection stage of SLRs.
+
+============================================================
+1. BENCHMARK DATA SELECTION
+============================================================
+
+ - Benchmark dataset: SESLR-Eval
+ - Reason: Provides a curated list of peer-reviewed SLRs
+   mined from replication packages of high-quality reviews
+   in Software Engineering.
+ - Secondary studies selected: 6 (from SESLR-Eval)
+   References:
+     Stradowski 2023
+     Alonso 2023
+     Somers 2023
+     Lewowski 2022
+     Zakeri Nasrabadi 2023
+     Sharbaf 2022
+ - Ground Truth:
+   Decisions taken by the original SLR authors
+   after human scrutiny of primary studies.
+
+============================================================
+2. LLM RESOURCES AND EXPERIMENTAL SETUP
+============================================================
+
+ - Selected free-access LLMs:
+     * GPT-4
+     * Gemini 2.5 Flash
+     * DeepSeek
+     * Claude 4 Sonnet
+ - Rationale:
+   Enables replication of the experiment while 
+   minimizing economic barriers to using LLMs.
+
+============================================================
+3. STUDY SAMPLING AND AUTOMATION TOOL
+============================================================
+
+ - Subsets of 20 primary studies were randomly selected
+   for evaluation within each secondary study.
+ - Total of 6 secondary studies evaluated.
+ - Purpose:
+   Reduce bias from single-SLR evaluation.
+
+ - A tool was developed to automate:
+     * Random selection
+     * Prompt insertion into LLMs
+     * Response collection
+     * Classification storage
+   (Repository: https://github.com/CSM-Research/10-BM4LLM-SLR)
+
+ - Decision threshold:
+     * Acceptable scores = 6 (agree) or 7 (strongly agree)
+     * Scale: 1–7 Likert
+     * Classification used for inclusion or exclusion.
+
+============================================================
+4. PILOT TESTING AND SCREENING MODES
+============================================================
+
+ - Pilot testing was performed to refine:
+     * Selection criteria
+     * Output statements
+     * LLM configurations
+     * Noise removal from data
+
+ - Number of studies submitted: 480
+
+ - Automated decision threshold:
+     * Score >= 6 to include or exclude a study
+
+ - Screening modes:
+     A. Low-Confidence Mode:
+        - 240 studies
+        - Decisions made solely by multiple LLMs
+        - Aggregated via artificial consensus
+
+     B. High-Confidence Mode:
+        - 240 studies
+        - Decisions made by two LLMs + one human researcher
+        - Final decision authority: human
+
+ - Assumptions:
+     * Human intervention always yields the correct decision
+     * Evaluation focuses only on LLM automatic decisions
+       (not human error or social factors).
+
+============================================================
+5. RESULT SYNTHESIS AND METRICS
+============================================================
+
+ - Tool comparison:
+   LLM results vs. original human decisions from the 
+   secondary studies.
+
+ - Performance metrics:
+     * True Positives (TP)
+     * False Positives (FP)
+     * True Negatives (TN)
+     * False Negatives (FN)
+
+ - Objective:
+   Minimize FN (false negatives) to reduce coverage bias.
+
+ - Accuracy formula:
+     Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+ - Recall (Sensitivity) formula:
+     Recall = TP / (TP + FN)
+
+ - Interpretation:
+     * Accuracy: overall correct classifications
+     * Recall: model's ability to correctly include
+       all relevant studies.
+
+============================================================
+6. ITERATIVE IMPROVEMENT
+============================================================
+
+ - Total iterations: 3
+ - Iteration 1:
+     * Refinement of inclusion and exclusion criteria
+     * Prompt structure adjustments
+
+ - Iteration 2:
+     * Introduction of pilot testing phase
+     * Dataset review to reduce misinterpretation by LLMs
+
+ - Iteration 3:
+     * Minor fine-tuning
+     * Data collection for evaluation
+
+ - Results and detailed analysis documented in:
+   Section "Evaluation Results"
+
+============================================================
+END OF PROTOCOL
+============================================================

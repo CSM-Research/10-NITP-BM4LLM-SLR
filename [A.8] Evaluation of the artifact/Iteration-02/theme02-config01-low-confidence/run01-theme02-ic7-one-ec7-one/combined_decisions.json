@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "65.00%",
+    "recall": "70.59%",
+    "TP": 12,
+    "TN": 1,
+    "FP": 2,
+    "FN": 5
+  },
+  "data": [
+    {
+      "Title": "An \"agile\" approach to develop a crowdsourcing platform: The case of Cre@tive.biz",
+      "Abstract": "Globalization has a significant impact over economic and social development, thus it also influences the speed of developing new products, starting from the product idea to the Minimum Viable Product (MVP). The software industry is one of the industries which have to face tough and specific challenges within this highly dynamic context, playing a major role in defining the world's data for businesses, with a direct impact on the competitiveness of various industries. According to Lynn Holmlund's survey [1] of IT decision makers across a range of industries, 59 percent of respondents reported that improving the quality of decision making is the primary goal driving investments in data technologies. In a world underpinned by ever-more powerful, affordable, and public digital technology platforms, software is fast becoming the key source of economic value and competitive advantage in business. As a result, software applications are redefining nearly every industry, and Agile methodologies are redefining the software development process. Understanding the demand for developing software applications on time and responding to the users' needs and expectations are the first steps in using the Agile framework in product development and are even more important within the context of research projects, such as CRE@TIVE.BIZ, an ongoing project within the framework of the Romanian National Plan for Research, Development and Innovation 2014 - 2020 (PNCDI III). The goal of the project is to develop an open collaboration and innovation platform, CRE@TIVE.BIZ, which will be an experimental model dedicated to create a community where all relevant stakeholders can meet, interact, gain access and share information, knowledge and resources. The paper presents the platform development scenario, using a new and \"agile\" approach, namely Scrum, for product development based on continuous learning and optimization of development process, team involvement, prioritize the features - especially from the users' perspective - and stakeholder's involvement in describing the product, testing and acceptance. This new approach improves the delivery time and maximizes the results by using client's involvement in each step of the process, describing more clearly the platform functionalities and shortening the decision-making process. The tangible result will be the road map for CRE@TIVE.BIZ platform development, specifying tasks, roles, milestones and outcomes.",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Software Engineering Education: Converging with the Startup Industry",
+      "Abstract": "Startups are agents of change that bring in innovations and find solutions to problems at various scales. An all-rounded engineering team is a key driver for the ability to execute the entrepreneurial ambition, from building a minimum viable product to later stages of product vision. Software engineering education provides students with the knowledge to transition to mature companies with defined structure in place successfully. However, the fluidity, risk, time-sensitivity, and uncertainty of startups demand a dynamic and agile set of skills to rapidly identify, conceptualize and deliver features as per market needs. This requires the adoption of latest development trends in software processes, engineering and DevOps practices with automation to iterate fast with low governance and the ability to take on multiple roles. This paper presents a study of the dynamics and engineering at startups and compares it with the current curriculum of software engineering.",
+      "Keywords": "Innovation and Education | Software Engineering Degree Programs | Software Engineering Education | Startup Engineering | Startups",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "What influences the speed of prototyping? An empirical investigation of twenty software startups",
+      "Abstract": "It is essential for startups to quickly experiment business ideas by building tangible prototypes and collecting user feedback on them. As prototyping is an inevitable part of learning for early stage software startups, how fast startups can learn depends on how fast they can prototype. Despite of the importance, there is a lack of research about prototyping in software startups. In this study, we aimed at understanding what are factors influencing different types of prototyping activities. We conducted a multiple case study on twenty European software startups. The results are two folds; firstly we propose a prototype-centric learning model in early stage software startups. Secondly, we identify factors occur as barriers but also facilitators for prototyping in early stage software startups. The factors are grouped into (1) artifacts, (2) team competence, (3) collaboration, (4) customer and (5) process dimensions. To speed up a startup’s progress at the early stage, it is important to incorporate the learning objective into a well-defined collaborative approach of prototyping.",
+      "Keywords": "MVP | Prototype | Prototyping-learning loop | Software startups | Speed | Validated learning",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Using artificial intelligence planning to automate science image data analysis",
+      "Abstract": "In recent times, improvements in imaging technology have made available an incredible array of information in image format. While powerful and sophisticated image processing software tools are available to prepare and analyze the data, these tools are complex and cumbersome, requiring significant expertise to properly operate. Thus, in order to extract (e.g., mine or analyze) useful information from the data, a user (in our case a scientist) often must possess both significant science and image processing expertise. This article describes the use of artificial intelligence (AI) planning techniques to represent scientific, image processing and software tool knowledge to automate knowledge discovery and data mining (e.g., science data analysis) of large image databases. In particular, we describe two fielded systems. The Multimission VICAR Planner (MVP) which has been deployed for since 1995 and is currently supporting science product generation for the Galileo mission. MVP has reduced time to fill certain classes of requests from 4 h to 15 min. The Automated SAR Image Processing system (ASIP) was deployed at the Department of Geology at Arizona State University in 1997 to support aeolian science analysis of synthetic aperture radar images. ASIP reduces the number of manual inputs in science product generation by ten-fold. © 1999 Published by Elsevier Science B.V.",
+      "Keywords": "Planning | Reconfiguration of software modules | Science data analysis",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Automated diagnosis in testing and failure analysis",
+      "Abstract": "To meet market demands for the rapid introduction of new semiconductor products, automated means of diagnosing defective silicon are fast becoming mandatory. The authors describe the development and deployment of an automated diagnosis methodology within Texas Instruments.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Continuous Innovation Through Experimentation",
+      "Abstract": "This paper describes an approach used to implement innovation management within an organization. The foundation of this effort centers on continuous innovation beginning with experimentation. Experimentation can be an effective means to generate and foster innovation in organizations where it is not a core competency or widely accepted. Establishing and driving innovation in organizations steeped in the traditional can be very difficult and you will face challenges in many areas, including, culture, structure, process, and resources. This paper will outline how leading with experimentation can help establish and grow an innovation culture within your organization.",
+      "Keywords": "Culture | Design Thinking | Experimentation | Innovation | Minimum Viable Product | Processes | Proof of Concept | Prototyping | Resources | Strategy | Structure | Variation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Ex vivo analysis of human coronary bifurcation anatomy: Defining the main vessel-to-side-branch transition zone",
+      "Abstract": "Aims: Defining vessel diameters and angles that comprise coronary side-branch intersections could assist in tailoring treatments to match anatomy, improve haemodynamic flow, and minimise mechanical trauma. We sought to characterise intersections of main vessels and side-branches by measuring actual diameters, angles, and shapes at the ostia in human coronary arteries. Methods and results: Polymer casts were created using coronary trees from 23 adult cadaver hearts. Seventy-five arterial intersections between main vessels and side-branches were captured using the combination of a microscope (Smartscope MVP100) and computer program (Gage-X metrology software) specifically calibrated for video-based inspection and measurement (34-fold magnification). The intersection between main vessels and side-branches was a multifaceted, curvilinear transition rather than a bisecting angle. The shape of the ostia was typically elliptical rather than circular. Mean diameters were 2.88 mm in proximal main vessels, 2.34 mm in ostia, and 2.00 mm in side-branches (first-level branches). Obtuse proximal (150 degrees) and distal (111 degrees) angles with accentuated side-branch taper create a \"barn door\" effect with wider curvature at the bottom. Conclusions: Matching treatments to these various forms of asymmetry at the main vessel-to-side-branch intersection may minimise injury and optimise scaffolding, and haemodynamic flow. © Europa Edition. All rights reserved.",
+      "Keywords": "Angles | Coronary bifurcation | Human coronaries | Ostium | Vessel diameters",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A Dependency-Free Real-Time UHD Architecture for the Initial Stage of HEVC Motion Estimation",
+      "Abstract": "Novel coding tools and algorithms were proposed in the High Efficiency Video Coding Standard (HEVC), and are still being proposed over the HM reference software in order to achieve a better compression efficiency, decrease encoding time, make its stages suitable for hardware implementation, and other independent improvements. Particularly, for the initial stage of the motion estimation (ME) process, the Advanced Motion Vector Prediction (AMVP) and the Dynamic Search Range (DSR) algorithms were introduced in the field targeting the determination of the motion vector predictor (MVP), also used as the search center, and search range (SR), which are parameters needed in the subsequent steps of motion estimation (ME). However, the significant complexity of these new tools enhances the need to develop hardware (HW) accelerators. Furthermore, in the field of HW architectures for video compression, techniques that solve dependency problems (which are detrimental to performance)-in this case, between sub-stages of ME-were proposed by some authors. Thereupon, an integrated and synchronized dependency-free HW architecture for the initial stage of the ME process-regarding MV prediction and SR calculation-is proposed in this paper. Synthesis results on a middle ground FPGA (Kintex-7 xc7k70tfbv676-1) show that the integrated architecture can achieve a throughput up to 8K at 72 frames-per-second (4:2:2 subsampling) while using a maximum of 7.04% of the FPGA resources (on slice LUT's).",
+      "Keywords": "FPGA Design | HEVC | Motion Estimation | Motion Vector Prediction | Search Range",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Mvp osm: A tool to identify areas of high quality contributor activity in openstreetmap",
+      "Abstract": "OpenStreetMap's success continues to grow and contributions are not limited to the collection of spatial data using GPS (Global Positioning System) equipment. A very wide range of software tools developed by, and available to, the OSM community means that at present, anyone can also make a contribution through, for example, tracing aerial imagery, directly importing data, or by adding spatial information retrieved from smartphones. Consequently 'the map'has become increasingly rich, but the quality of the data is very often questioned and comes under scrutiny from the GIS and LBS (Location-Based Services) communities. By examining the world map generated from OpenStreetMap, it is relatively easy to identify areas which are more or less well supported in community mapping activities; a very high level of spatial detail in certain areas can indicate the quality of OSM data. MVP OSM is a software tool designed to highlight areas in OpensStreetMap where users (contributors) are dedicated to providing high levels of spatial detail. This usually correlates with the use of a GPS and on-the-ground mapping, or, at the very least, a deep local knowledge of the area and an inherent desire to see it represented in the highest level of detail on OpenStreetMap. The input to MVP OSM is an OSM XML file, which is converted by Python into a file for spatialite (the GIS extension for sqlite). Within spatialite the data is processed to create clusters and using these spatial clusters, the tool can then derive the activity of single or multiple users in that area. Vector layers and heatmaps are generated as output that can be overlaidd onto OSM maps. A high level of detail can be considered a good indicator of the quality of OSM data within a given area. The MVP OSM tool hides the details of OSM XML processing, which many researchers find difficult, and processes the data to produce very useful visualizations of contributor activity in any given OSM area.",
+      "Keywords": "Crowdsourcing | Data quality | GIS | OpenStreetMap | Volunteered geographic information",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Conducting anomalies localization with local and regional real induction vectors",
+      "Abstract": "Real induction vectors are a powerful tool for determining the location in plan and in the depth of single conducting objects, including the determination of the basic parameters of anomalous objects. However, the picture in the vectors behavior becomes not so unambiguous, if several such objects are marked on the exploration area. The authors have created a software tool that makes it possible to divide the field of induction vectors into local and regional parts. The work of the program has been verified on numerous model data, as well as on data of practical MT and MVP surveys of various scales. Thus, the interpreter has another effective tool for extracting information from the obtained during the field survey MVP data.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Geometry of the proximal isovelocity surface area in mitral regurgitation by 3-dimensional color Doppler echocardiography: Difference between functional mitral regurgitation and prolapse regurgitation",
+      "Abstract": "Background: The geometry of the proximal isovelocity surface area (PISA) of functional mitral regurgitation (MR), which is conventionally assumed to be a hemisphere, remains to be clarified. We investigated the 3-dimensional (3D) geometry of PISA of functional MR as opposed to that of MR due to mitral valve prolapse (MVP) by real-time 3D echocardiography with color Doppler capability. Methods: Twenty-seven patients with functional MR and 27 patients with MVP were examined. The horizontal PISA length in the commissure-commissure plane and each PISA radius in 3 anteroposterior planes (medial, central, and lateral) were measured by real-time 3D echocardiography with 3D software. The effective regurgitant orifice (ERO) area was calculated with the maximum PISA radius and compared to that by 2D quantitative Doppler method. Results: En-face 3D color Doppler images showed an elongated and slightly curved PISA geometry along the leaflet coaptation in functional MR, whereas the geometry was rounder in MVP. The PISA horizontal length in functional MR was longer than that in MVP (2.3 ± 0.4 vs 1.2 ± 0.2 cm, P < .001). The PISA method with the maximum radius underestimated the ERO area by 2D quantitative Doppler method (by 24%) in functional MR, but not in MVP. Conclusions: The geometry of PISA in functional MR was elongated, distinctly different from the more focal pathology of MVP, leading to underestimation of the ERO area by PISA method. © 2008 Mosby, Inc. All rights reserved.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Patterns for development of windows form applications and web applications",
+      "Abstract": "Design pattern is a mechanism to show experience in object-oriented design, as well as an appropriate solution which has been provided by experts for particular problems and which can be used over and over throughout the design. Using design patterns helps improve software quality and reusability. There are different patterns for development of data source (database, file, array, etc.) systems but most of them have features that are not appropriate for code generation. We seek in this research new patterns for development of data source systems that can accelerate the development of such systems and reduce costs and are appropriate for code generation as well. This article deals with challenges related to prototype, singleton and MV* (MVC, MVP, MVVM) patterns. As a solution, we will propose two patterns called MVC+ and MVC++ as well as a tool called LCG for code generation. We compare the proposed patterns with similar patterns in terms of efficiency. MVC+ and MVC++ are appropriate for model-driven architecture, code generation and the development of windows form applications and web applications.",
+      "Keywords": "Code generation | Design pattern | Model-driven architecture | MV* | MVC+ | MVC++",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Process-based software risk assessment",
+      "Abstract": "Analyzing software process models to predict the behavior of software processes helps in planning and enacting software projects. Since software process models can capture the key information that is necessary to assess proeessrelated risks, this paper discusses how approaches for software process analysis may be applied to software risk assessment. A characterization scheme for process analysis approaches is stated based on a set of necessary risk assessment requirements. Existing analysis approaches are evaluated with respect to the characterization scheme. Proceeding from this evaluation, an approach to software process analysis is proposed that is specifically tailored to software risk assessment. This analysis approach takes advantage of a wide range of information by integrating empirically validated models. It is also shown how this approach fits into the context of the MVP (multi-view processes) project at the University of Kaiserslautem.",
+      "Keywords": "MVP project | Processbased risk assessment | Risk analysis | Software process analysis | Survey of software process analysis approaches",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "4th International Conference on Lean Enterprise Software and Systems, LESS 2013",
+      "Abstract": "The proceedings contain 14 papers. The special focus in this conference is on Lean Enterprise Software and Systems. The topics include: Fuzzy cognitive maps as decision support tools for investigating critical agile adoption factors; agile project – an oxymoron? Proposing an unproject leadership model for complex space; exploring the tensions between software project portfolio management and agile methods: A research in progress paper; lean software development – what exactly are we talking about?; lean software development measures and indicators - A systematic mapping study; bringing total quality in to software teams: A frame for higher performance; improving development visibility and flow in large operational organizations; a brief history of budgeting: Reflections on beyond budgeting, its link to performance management and its appropriateness for software development; case study in responsive web design: Pragmatic agile and hero team approach - Time and cost savings with quality improvement; success factors in new service development - Digia flowd analysis; creating minimum viable products in industry-academia collaborations; preface.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "The mathematical statement for the solving of the problem of N-version software system design",
+      "Abstract": "The N-version programming, as a methodology of the fault-tolerant software systems design, allows successful solving of the mentioned tasks. The use of N-version programming approach turns out to be effective, since the system is constructed out of several parallel executed versions of some software module. Those versions are written to meet the same specification but by different programmers. The problem of developing an optimal structure of N-version software system presents a kind of very complex optimization problem. This causes the use of deterministic optimization methods inappropriate for solving the stated problem. In this view, exploiting heuristic strategies looks more rational. In the field of pseudo-Boolean optimization theory, the so called method of varied probabilities (MVP) has been developed to solve problems with a large dimensionality.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "DVFLEX: A flexible MPEG real time video CODEC",
+      "Abstract": "The MPEG-2 video coding standard offers great latitude in implementation and covers a wide variety of applications. The DVFLEX video encoder allows taking advantage of this flexibility by making the whole coding loop, including the bitstream generation, software programmable. The DVFLEX architecture is basically an array of linearly-connected processing modules. These modules are based on the MVP (TMS320C80) and include dedicated I/O ports for video, bitstream and inter-processor communications. All these I/O ports allow the processing to be performed in parallel with I/Os. The processing workload is distributed among these modules on an image region per processor basis. As for the on-chip MVP processors, tasks assignment is much more constrained because of the bitstream handling problems. Although suboptimal, the solution we describe is simple and gives satisfactory results. However, the on-chip to off-chip memory I/Os have to be carefully handled so as to keep the processors busy.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Analysis of core physics experiments on irradiated BWR MOX fuel in the REBUS program",
+      "Abstract": "Critical experiments were performed in the REBUS program on a core loaded with a test bundle including 16 irradiated BWR-type MOX rods of average burnup of 61 GWd/t. The experimental data were analyzed using diffusion, transport, and continuous-energy Monte Carlo calculation codes coupled with nuclear data libraries based on JENDL-3.2 or JENDL-3.3. Biases in effective multiplication factors of the critical cores were -1.0%Δk for the diffusion calculations (JENDL-3.2), -0.3%Δk for the transport calculations (JENDL-3.3), and 0.2%Δk for the Monte Carlo calculations (JENDL-3.2). The measured core fission rate and co-activation rate distributions were generally well reproduced using the three types of calculations. The burnup reactivity determined using the measured water level reactivity coefficients was -2.41±0.08%Δk/ kk', which also agreed with the results of the three type of calculations within the measurement and calculation errors. The most probable isotopic inventories in the irradiated MOX rods was tentatively obtained by using the ratios of the calculation to chemical assay data on a pellet sample, and the burnup reactivity was reanalyzed to split the calculation error into those due to the inventory and reactivity calculations. This approach showed that the inventory calculation error compensated the reactivity calculation error. © 2012 Atomic Energy Society of Japan. All rights reserved.",
+      "Keywords": "Burnup calculation | BWR | CITATION | Core calculation | Core physics experiment | Irradiated MOX rod | MVP | REBUS | SRAC | THREEDANT",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A model-driven method for fast building consistent web services from OpenAPI-compatible models",
+      "Abstract": "Lots of software companies rely on web technologies to test market hypotheses in order to develop viable businesses. They often need to quickly build web services that are at the core of their Minimum Viable Products (MVPs). MVPs must be reliable whereas they are based on specifications and hypotheses that are likely to change. Web services need to be well documented, to make it easy to develop applications that consume them. Model Driven Engineering approaches have been proposed and used to develop and evolve web services on one hand, and document them on the other hand. However, these approaches lack the ability to be suitable for both (i) rapid prototyping, (ii) model verification, (iii) compatibility with common programming languages and (iv) alignment between documentation and implementation. Here we propose a meta-model to express web services, the related tool to verify models consistency and an integration of this approach into the OpenAPI Specification. We adopt a shallow verification process to allow rapid prototyping by developers who are not formal methods experts, while still offering design-time guarantees that improve product quality and development efficiency. Web services are defined using parametric components which enable to express and formally verify web service patterns and to safely reuse them in other contexts. We built a tool to check consistency of extended OpenAPI 3.0 models and associated components implementations in order to generate corresponding web services. This allows us to give flexibility and verification support to developers, even in the context of an incremental development, as illustrated by a case study.",
+      "Keywords": "Code generation | Formal verification | Model-driven engineering | OpenAPI 3.0 | Web applications | Web services",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Collaborative practices for software requirements gathering in software startups",
+      "Abstract": "Capturing requirements during the software development process has always been a challenge. Usually, there is a customer with a defined problem or a problem to be explored. However, when we talk about software startups, the requirements gathering process changes. The entrepreneurs need to systematically work with hypotheses and experimentations, and test them as quickly as possible, trying to understand whether these assumptions can become requirements for a system or not. In this context, entrepreneurship training programs, specially for technical students, help these entrepreneurs to understand this new way of gathering systems requirements. This paper describes how some of these practices were performed in a program for new entrepreneurs that took place in a science and technology park. Our preliminary results indicate that several collaborative practices can foster the understanding of the software requirement process for software startups.",
+      "Keywords": "Collaboration | MVP | Software Requirements | Software Startups",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Software Product Quality in DevOps Contexts: A Systematic Literature Review",
+      "Abstract": "DevOps is a change in the organizational culture that aims to reduce the gap between development and operation teams, accelerating the software release process. However, little is known about the impact of this approach on software product quality. This study aims to analyze the influence of the application of DevOps on software product quality; therefore, a systematic literature review was conducted. Thirty-one articles related to DevOps and its influence on product quality were identified. The studies indicate a strong influence of some product quality characteristics, specifically: Reliability and Maintainability. Additionally, practices associated with DevOps, such as the minimum viable product, deployment automation, test automation, cloud computing and team cooperation, show a relationship with the improvement in software product quality, however, its adoption also brings new challenges to preserve security.",
+      "Keywords": "DevOps | ISO/IEC 25000 | Product quality | Systematic literature review",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    }
+  ]
+}

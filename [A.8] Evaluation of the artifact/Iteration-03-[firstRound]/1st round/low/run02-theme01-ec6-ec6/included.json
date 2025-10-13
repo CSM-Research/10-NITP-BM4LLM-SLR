@@ -1,0 +1,191 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85118655140",
+    "Primary study DOI": "10.32604/cmc.2022.022085",
+    "Title": "Software defect prediction harnessing on multi 1-dimensional convolutional neural network structure",
+    "Abstract": "Developing successful software with no defects is one of the main goals of software projects. In order to provide a software project with the anticipated software quality, the prediction of software defects plays a vital role. Machine learning, and particularly deep learning, have been advocated for predicting software defects, however both suffer frominadequate accuracy, overfitting, and complicated structure. In this paper, we aim to address such issues in predicting software defects. We propose a novel structure of 1- Dimensional Convolutional Neural Network (1D-CNN), a deep learning architecture to extract useful knowledge, identifying andmodelling the knowledge in the data sequence, reduce overfitting, and finally, predict whether the units of code are defects prone. We design large-scale empirical studies to reveal the proposed model's effectiveness by comparing four established traditional machine learning baseline models and four state-of-the-art baselines in software defect prediction based on the NASA datasets. The experimental results demonstrate that in terms of f-measure, an optimal and modest 1DCNN with a dropout layer outperforms baseline and state-of-the-art models by 66.79% and 23.88%, respectively, in ways that minimize overfitting and improving prediction performance for software defects. According to the results, 1D-CNN seems to be successful in predicting software defects and may be applied and adopted for a practical problem in software engineering. This, in turn, could lead to saving software development resources and producing more reliable software. © 2022 Tech Science Press. All rights reserved.",
+    "Keywords": "Convolutional neural network | Deep learning | Defects | Machine learning | Software defect prediction",
+    "Publication venue": "Computers, Materials and Continua",
+    "Publication date": "2022-01-01",
+    "Publication type": "Article",
+    "Authors": "Zain, Zuhaira Muhammad;Sakri, Sapiah;Ismail, Nurul Halimatul Asmak;Parizi, Reza M.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84881141305",
+    "Primary study DOI": "10.1109/LADC.2013.25",
+    "Title": "The time dimension in predicting failures: A case study",
+    "Abstract": "Online Failure Prediction is a cutting-edge technique for improving the dependability of software systems. It makes extensive use of machine learning techniques applied to variables monitored from the system at regular intervals of time (e.g. mutexes/s, paged bytes/s, etc.). The goal of this work is to assess the impact of considering the time dimension in failure prediction, through the use of sliding windows. The state-of-the-art SVM (Support Vector Machine) classifier is used to support the study, predicting failure events occurring in a Windows XP machine. An extensive comparative analysis is carried out, in particular using a software fault injection technique to speed up the failure data generation process. © 2013 IEEE.",
+    "Keywords": "dependability | fault injection | online failure prediction | sliding window",
+    "Publication venue": "Proceedings - 6th Latin-American Symposium on Dependable Computing, LADC 2013",
+    "Publication date": "2013-08-12",
+    "Publication type": "Conference Paper",
+    "Authors": "Irrera, Ivano;Pereira, Carlos;Vieira, Marco",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85070530233",
+    "Primary study DOI": "10.1080/17445760.2019.1650039",
+    "Title": "Cross-project defect prediction using data sampling for class imbalance learning: an empirical study",
+    "Abstract": "The presence of defect data related to different projects leads to cross-project defect prediction an open issue in the field of research in software engineering. In cross-project defect prediction, the source and the target projects are different. The prediction model is trained by using the data sources of the different projects and then it is tested on the target data source. The data source from the varying projects leads to a highly imbalanced source dataset. The performance of the predictive model degrades due to this imbalance nature of the dataset. This is termed as the class imbalance problem in machine learning. This paper conducts an empirical analysis in a bi-fold manner. It evaluates whether data sampling techniques can handle the class imbalance problem and improve the performance of the predictive model for cross-project defect prediction (CPDP). Secondly, it also evaluates whether the results of CPDP after data sampling are comparable to within project defect prediction (WPDP). Ensemble learning classifiers are used as the predictive model over 12 publically available object-oriented project datasets. The experimental results infer that SMOTE oversampling can be applied to overcome the problem of class imbalance on CPDP. It also gives comparable results to WPDP with statistical significance. © 2019 Informa UK Limited, trading as Taylor & Francis Group.",
+    "Keywords": "class imbalance learning | Cross project defect prediction (CPDP) | data sampling | ensemble learning | synthetic minority oversampling technique (SMOTE) | within project defect prediction (WPDP)",
+    "Publication venue": "International Journal of Parallel, Emergent and Distributed Systems",
+    "Publication date": "2021-01-01",
+    "Publication type": "Article",
+    "Authors": "Goel, Lipika;Sharma, Mayank;Khatri, Sunil Kumar;Damodaran, D.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85049055831",
+    "Primary study DOI": "10.1109/ICRITO.2014.7014673",
+    "Title": "Software defect prediction using neural networks",
+    "Abstract": "Defect severity assessment is the most crucial step in large industries and organizations where the complexity of the software is increasing at an exponential rate. Assigning the correct severity level to the defects encountered in large and complex software, would help the software practitioners to allocate their resources and plan for subsequent defect fixing activities. In order to accomplish this, we have developed a model based on text mining techniques that will be used to assign the severity level to each defect report based on the classification of existing reports done using the machine learning method namely, Radial Basis Function of neural network. The proposed model is validated using an open source NASA dataset available in the PITS database. Receiver Operating Characteristics (ROC) analysis is done to interpret the results obtained from model prediction by using the value of Area Under the Curve (AUC), sensitivity and a suitable threshold criterion known as the cut-off point. It is evident from the results that the model has performed very well in predicting high severity defects than in predicting the defects of the other severity levels. This observation is irrespective of the number of words taken into consideration as independent variables. © 2014 IEEE.",
+    "Keywords": "ANFIS | Anomaly detection | Apache spark | Big data | Hadoop",
+    "Publication venue": "Communications in Computer and Information Science",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Santosh, Thakur;Ramesh, Dharavath",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 6,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-73949120113",
+    "Primary study DOI": "10.1109/ISCIS.2009.5291882",
+    "Title": "An outlier detection algorithm based on object-oriented metrics thresholds",
+    "Abstract": "Detection of outliers in software measurement datasets is a critical issue that affects the performance of software fault prediction models built based on these datasets. Two necessary components of fault prediction models, software metrics and fault data, are collected from the software projects developed with object-oriented programming paradigm. We proposed an outlier detection algorithm based on these kinds of metrics thresholds. We used Random Forests machine learning classifier on two software measurement datasets collected from jEdit open-source text editor project and experiments revealed that our outlier detection approach improves the performance of fault predictors based on Random Forests classifier. © 2009 IEEE.",
+    "Keywords": "Metrics thresholds | Object-oriented metrics | Outlier detection | Software fault prediction",
+    "Publication venue": "2009 24th International Symposium on Computer and Information Sciences, ISCIS 2009",
+    "Publication date": "2009-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Alan, Oral;Catal, Cagatay",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 6,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85078658276",
+    "Primary study DOI": "10.1002/spe.2784",
+    "Title": "Software fault prediction using particle swarm algorithm with genetic algorithm and support vector machine classifier",
+    "Abstract": "Software fault prediction is a process of developing modules that are used by developers in order to help them to detect faulty classes or faulty modules in early phases of the development life cycle and to determine the modules that need more refactoring in the maintenance phase. Software reliability means the probability of failure has occurred during a period of time, so when we describe a system as not reliable, it means that it contains many errors, and these errors can be accepted in some systems, but it may lead to crucial problems in critical systems like aircraft, space shuttle, and medical systems. Therefore, locating faulty software modules is an essential step because it helps defining the modules that need more refactoring or more testing. In this article, an approach is developed by integrating genetics algorithm (GA) with support vector machine (SVM) classifier and particle swarm algorithm for software fault prediction as a stand though for better software fault prediction technique. The developed approach is applied into 24 datasets (12-NASA MDP and 12-Java open-source projects), where NASA MDP is considered as a large-scale dataset and Java open-source projects are considered as a small-scale dataset. Results indicate that integrating GA with SVM and particle swarm algorithm improves the performance of the software fault prediction process when it is applied into large-scale and small-scale datasets and overcome the limitations in the previous studies. © 2020 John Wiley & Sons, Ltd.",
+    "Keywords": "fault prediction | genetic algorithm | machine learning | particle swarm algorithm",
+    "Publication venue": "Software - Practice and Experience",
+    "Publication date": "2020-04-01",
+    "Publication type": "Article",
+    "Authors": "Alsghaier, Hiba;Akour, Mohammed",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85093090749",
+    "Primary study DOI": "10.1109/ICRITO48877.2020.9198037",
+    "Title": "Software Defect Categorization based on Maintenance Effort and Change Impact using Multinomial Naïve Bayes Algorithm",
+    "Abstract": "Cost-to-fix software defects increase exponentially as the software moves forward in its life cycle. The fixing of defects found during the maintenance phase is very costly. Software Defect Categorization (SDC) models categorize the software defects into different levels (high, moderate and low) based on various attributes. Such models can aid the software maintenance team to prioritize the defects and plan the resources effectively in fixing them. This study develops SDC models based on three software bug attributes-i) maintenance effort needed to fix a defect ii) change impact on the software for fixing a defect and iii) the combined approach of both- maintenance effort and change impact. In this study, we extracted the important features from the defect reports using text mining and the classification models are developed for each of the attributes using Multinomial Naïve Bayes (NBM) algorithm. The capability of the models is calculated using Area Under the ROC (Receiver Operating Characteristic) curve (AOC). The results of the study show that i) SDC models based on maintenance effort and change impact are capable to categorize the software defects ii) the performance of the SDC models based on the combined approach is better than SDC models based on maintenance effort and change impact. © 2020 IEEE.",
+    "Keywords": "Change Impact | Machine Learning | Maintenance Effort | Multinomial Naïve Bayes | Software Defect Categorization | Software Maintenance",
+    "Publication venue": "ICRITO 2020 - IEEE 8th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions)",
+    "Publication date": "2020-06-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Malhotra, Ruchika;Cherukuri, Madhukar",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84966642611",
+    "Primary study DOI": "10.1109/DCIT.2015.21",
+    "Title": "Software Defect Prediction Based on Conditional Random Field in Imbalance Distribution",
+    "Abstract": "To contribute software testing, and save testing costs, a wide range of machine learning approachs have been studied to predict defects in software modules. Unfortunately, the imbalanced nature of this type of data increases the learning difficulty of such a task. In this paper, we present UCRF, a method based on undersampling technique and conditional random field (CRF) for software defect prediction in imbalance distribution. In our proposed method, firstly, we leverage meanshift clustering method to reduce the samples of majority clab for balancing the train data set. Secondly, we propose to apply CRF model in the above balanced train data set because the CRF model can handle complex features without any change in training procedure. Interestingly, we find that the UCRF method achieves much better final results than the other approach as shown in the software defect data clabification task. © 2015 IEEE.",
+    "Keywords": "conditional random field | imbalance distribution | Meanshift clustering method | Software defect prediction",
+    "Publication venue": "Proceedings - 2015 2nd International Symposium on Dependable Computing and Internet of Things, DCIT 2015",
+    "Publication date": "2016-03-15",
+    "Publication type": "Conference Paper",
+    "Authors": "Yang, Chunhui;Gao, Yan;Xiang, Jianwen;Liang, Lixin",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85050978697",
+    "Primary study DOI": "10.1002/spe.2941",
+    "Title": "Software fault prediction using Whale algorithm with genetics algorithm",
+    "Abstract": "Software fault prediction became an essential research area in the last few years, there are many prediction and optimization techniques that have been developed for fault prediction. In this paper, an approach is developed by integrating genetics algorithm with support vector machine (SVM) classifier and Whale optimization algorithm for software fault prediction. The developed approach is applied to 24 datasets (12-NASA MDP and 12-Java open-source projects), where NASA MDP is considered as a large-scale dataset, and Java open source projects are considered as a small-scale dataset. Results indicate that integrating Genetics algorithm with SVM and Whale algorithm improves the performance of the software fault prediction process when it is applied to large-scale and small-scale datasets and overcome the limitations that appeared in the previous studies. © 2020 John Wiley & Sons, Ltd.",
+    "Keywords": "Machine Learning | Software Engineering and Testing | Software Quality",
+    "Publication venue": "Proceedings - 2018 IEEE 11th International Conference on Software Testing, Verification and Validation Workshops, ICSTW 2018",
+    "Publication date": "2018-07-16",
+    "Publication type": "Conference Paper",
+    "Authors": "Masuda, Satoshi;Ono, Kohichi;Yasue, Toshiaki;Hosokawa, Nobuhiro",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  }
+]

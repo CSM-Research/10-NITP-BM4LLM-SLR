@@ -1,0 +1,111 @@
+============================================================
+                   BM4LLM-SLR DOCUMENTATION
+============================================================
+
+BIAS MITIGATION MODEL FOR LLM USAGE IN STUDY SELECTION
+OF SYSTEMATIC LITERATURE REVIEW (SLR) PROCESS
+------------------------------------------------------------
+
+1. OVERVIEW
+------------------------------------------------------------
+BM4LLM-SLR is a method designed to balance LLM assistance 
+and human decision-making during the study selection stage 
+of SLRs. It enables:
+
+ - Fine-tuning the level of automation
+ - Enforcing transparent and standardized prompt usage
+ - Guaranteeing auditable, reproducible, and criteria-based steps
+
+The system includes:
+ - A Sandbox Mode for pilot testing
+ - Two operational modes:
+       * HARD MODE  (human-only voting)
+       * LIGHT MODE (hybrid LLM-human voting)
+
+============================================================
+2. CORE LAYERS & COMPONENTS
+============================================================
+
+------------------------------------------------------------
+2.1 CONFIGURABLE LLM PRE-SCREENING
+------------------------------------------------------------
+ - Prompt templates are customizable.
+ - Output must follow a structured template for processing.
+ - Prompts must include explicit reasoning per criterion.
+ - All prompts, configurations, and model versions are stored
+   and versioned for traceability.
+
+------------------------------------------------------------
+2.2 HUMAN-IN-THE-LOOP REVIEW
+------------------------------------------------------------
+ - A logic engine parses LLM responses and cross-checks 
+   them with inclusion/exclusion criteria.
+ - Confidence level determines human involvement:
+
+     LOW CONFIDENCE MODE:
+       * Minimal human review
+       * Mostly LLM-driven
+
+     HIGH CONFIDENCE MODE:
+       * All decisions reviewed or confirmed by at least
+         one human reviewer
+
+ - Confidence levels influence LLM parameter tuning 
+   (temperature, top-k, etc.) to adjust leniency or rigor.
+
+------------------------------------------------------------
+2.3 OPTIONAL: SANDBOX & PILOT MODE
+------------------------------------------------------------
+Researchers can use a sandboxed environment to:
+
+ - Compare human-only, LLM-only, and hybrid decisions
+ - Evaluate precision, recall, and F1-score
+ - Produce confusion matrices per criterion
+ - Track Kappa agreement between human raters and LLMs
+
+============================================================
+3. MODES OF OPERATION
+============================================================
+
+------------------------------------------------------------
+3.1 HARD MODE
+------------------------------------------------------------
+ - Only human votes are counted
+ - Requires at least 2 reviewers plus consensus or adjudicator
+ - Ideal for final selection or high-stakes reviews
+ - Agreement metrics:
+       * Vote counting
+       * Cohen's / Fleiss' Kappa
+
+------------------------------------------------------------
+3.2 LIGHT MODE
+------------------------------------------------------------
+ - LLM votes are allowed alongside human reviewers
+ - Multiple LLM outputs can be aggregated 
+   (e.g., majority vote, intersection)
+ - Useful for first-pass filtering or large-scale scans
+ - Human involvement adjustable by confidence level
+
+============================================================
+4. AUDIT & DOCUMENTATION MODULE
+============================================================
+
+Every step is automatically documented in a standardized log:
+
+ - Model used
+ - Prompt text
+ - Timestamp
+ - LLM response
+ - Criteria matched or failed (with justification)
+ - Escalation path (LLM -> Rule Filter -> Human)
+ - Confidence score and rationale
+ - Final decision and decision maker (human or model)
+
+Export formats supported:
+ - JSON
+ - CSV
+ - Human-readable report for SLR protocol appendices
+
+============================================================
+END OF DOCUMENT
+============================================================

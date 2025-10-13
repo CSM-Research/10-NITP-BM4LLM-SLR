@@ -1,0 +1,222 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85107796983",
+    "Primary study DOI": "10.3390/app11115183",
+    "Title": "Software project management using machine learning technique-a review",
+    "Abstract": "Project management planning and assessment are of great significance in project performance activities. Without a realistic and logical plan, it isn’t easy to handle project management efficiently. This paper presents a wide-ranging comprehensive review of papers on the application of Machine Learning in software project management. Besides, this paper presents an extensive literature analysis of (1) machine learning, (2) software project management, and (3) techniques from three main libraries, Web Science, Science Directs, and IEEE Explore. One-hundred and eleven papers are divided into four categories in these three repositories. The first category contains research and survey papers on software project management. The second category includes papers that are based on machine-learning methods and strategies utilized on projects; the third category encompasses studies on the phases and tests that are the parameters used in machine-learning management and the final classes of the results from the study, contribution of studies in the production, and the promotion of machine-learning project prediction. Our contribution also offers a more comprehensive perspective and a context that would be important for potential work in project risk management. In conclusion, we have shown that project risk assessment by machine learning is more successful in minimizing the loss of the project, thereby increasing the likelihood of the project success, providing an alternative way to efficiently reduce the project failure probabilities, and increasing the output ratio for growth, and it also facilitates analysis on software fault prediction based on accuracy. © 2021 by the author. Licensee MDPI, Basel, Switzerland.",
+    "Keywords": "Machine learning technique | Project risk assessment | Software estimation | Software project estimation | Software project management",
+    "Publication venue": "Applied Sciences (Switzerland)",
+    "Publication date": "2021-06-01",
+    "Publication type": "Article",
+    "Authors": "Mahdi, Mohammed Najah;Zabil, Mohd Hazli Mohamed;Ahmad, Abdul Rahim;Ismail, Roslan;Yusoff, Yunus;Cheng, Lim Kok;Mohd Azmi, Muhammad Sufyian Bin;Natiq, Hayder;Naidu, Hushalini Happala",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 3,
+      "IC3": 2,
+      "EC1": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84949644119",
+    "Primary study DOI": "10.1109/TAI.2000.889847",
+    "Title": "JADE - AI support for debugging java programs",
+    "Abstract": "Model-based diagnosis is a successjid AI technique for locating and identifying faults in technical syslems. Extending previous research on model-based diagnosis support for fault search in technical designs, we are building a model-based debugger for Java programs to provide intelligent support for the programmer trying to locate the source of an error. By using one or more models derived from the source code of the program without additional specifications except the Java semantics, the debugger guides the user towards potential sources for incorrect program behaviors, i.e., bugs. © 2000 IEEE.",
+    "Keywords": "Artificial intelligence | Artificial neural networks | Constraint optimization | Data mining | Knowledge engineering | Logic | Machine learning | Multimedia databases | Multimedia systems | Software tools",
+    "Publication venue": "Proceedings - International Conference on Tools with Artificial Intelligence, ICTAI",
+    "Publication date": "2000-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Mateis, Cristinel;Stumptner, Markus;Wieland, Dominik;Wotawa, Franz",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 3,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85072017345",
+    "Primary study DOI": "10.1109/DSN-S.2019.00021",
+    "Title": "On the Estimation of Complex Circuits Functional Failure Rate by Machine Learning Techniques",
+    "Abstract": "De-Rating or Vulnerability Factors are a major feature of failure analysis efforts mandated by today's Functional Safety requirements. Determining the Functional De-Rating of sequential logic cells typically requires computationally intensive fault-injection simulation campaigns. In this paper a new approach is proposed which uses Machine Learning to estimate the Functional De-Rating of individual flip-flops and thus, optimising and enhancing fault injection efforts. Therefore, first, a set of per-instance features is described and extracted through an analysis approach combining static elements (cell properties, circuit structure, synthesis attributes) and dynamic elements (signal activity). Second, reference data is obtained through first-principles fault simulation approaches. Finally, one part of the reference dataset is used to train the Machine Learning algorithm and the remaining is used to validate and benchmark the accuracy of the trained tool. The intended goal is to obtain a trained model able to provide accurate per-instance Functional De-Rating data for the full list of circuit instances, an objective that is difficult to reach using classical methods. The presented methodology is accompanied by a practical example to determine the performance of various Machine Learning models for different training sizes. © 2019 IEEE.",
+    "Keywords": "Fault Injection | Gate-Level Netlist | k-Nearest Neighbors | Linear Least Squares | Machine Learning | Single Event Effects | Support Vector Regression | Transient Faults",
+    "Publication venue": "Proceedings - 49th Annual IEEE/IFIP International Conference on Dependable Systems and Networks - Supplemental Volume, DSN-S 2019",
+    "Publication date": "2019-06-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Lange, Thomas;Balakrishnan, Aneesh;Glorieux, Maximilien;Alexandrescu, Dan;Sterpone, Luca",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 3,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84984844840",
+    "Primary study DOI": "10.1007/s00521-018-3912-4",
+    "Title": "Efficient parallel implementation of reservoir computing systems",
+    "Abstract": "Reservoir computing (RC) is a powerful machine learning methodology well suited for time-series processing. The hardware implementation of RC systems (HRC) may extend the utility of this neural approach to solve real-life problems for which software solutions are not satisfactory. Nevertheless, the implementation of massive parallel-connected reservoir networks is costly in terms of circuit area and power, mainly due to the requirement of implementing synapse multipliers that increase gate count to prohibitive values. Most HRC systems present in the literature solve this area problem by sequencializing the processes, thus loosing the expected fault-tolerance and low latency of fully parallel-connected HRCs. Therefore, the development of new methodologies to implement fully parallel HRC systems is of high interest to many computational intelligence applications requiring quick responses. In this article, we propose a compact hardware implementation for Echo-State Networks (an specific type of reservoir) that reduces the area cost by simplifying the synapses and using linear piece-wise activation functions for neurons. The proposed design is synthesized in a Field-Programmable Gate Array and evaluated for different time-series prediction tasks. Without compromising the overall accuracy, the proposed approach achieves a significant saving in terms of power and hardware when compared with recently published implementations. This technique pave the way for the low-power implementation of fully parallel reservoir networks containing thousands of neurons in a single integrated circuit. © 2018, Springer-Verlag London Ltd., part of Springer Nature.",
+    "Keywords": "Artificial neural networks; Echo sate networks; Field-programmable gate array; Hardware neural network; Recurrent neural networks; Reservoir computing; Time-series prediction",
+    "Publication venue": "Neural Computing and Applications",
+    "Publication date": "2020",
+    "Publication type": "",
+    "Authors": "Alomar M.L., Skibinsky-Gitlin E.S., Frasser C.F., Canals V., Isern E., Roca M., Rosselló J.L.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 1,
+      "IC3": 2,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85050978697",
+    "Primary study DOI": "10.1109/ICSTW.2018.00061",
+    "Title": "A survey of software quality for machine learning applications",
+    "Abstract": "Machine learning (ML) is now widespread. Traditional software engineering can be applied to the development ML applications. However, we have to consider specific problems with ML applications in therms of their quality. In this paper, we present a survey of software quality for ML applications to consider the quality of ML applications as an emerging discussion. From this survey, we raised problems with ML applications and discovered software engineering approaches and software testing research areas to solve these problems. We classified survey targets into Academic Conferences, Magazines, and Communities. We targeted 16 academic conferences on artificial intelligence and software engineering, including 78 papers. We targeted 5 Magazines, including 22 papers. The results indicated key areas, such as deep learning, fault localization, and prediction, to be researched with software engineering and testing. © 2018 IEEE.",
+    "Keywords": "Machine Learning | Software Engineering and Testing | Software Quality",
+    "Publication venue": "Proceedings - 2018 IEEE 11th International Conference on Software Testing, Verification and Validation Workshops, ICSTW 2018",
+    "Publication date": "2018-07-16",
+    "Publication type": "Conference Paper",
+    "Authors": "Masuda, Satoshi;Ono, Kohichi;Yasue, Toshiaki;Hosokawa, Nobuhiro",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 3,
+      "IC3": 2,
+      "EC1": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84959288209",
+    "Primary study DOI": "10.1109/ISMS.2015.20",
+    "Title": "Bug Detection Using Particle Swarm Optimization with Search Space Reduction",
+    "Abstract": "A bug detection tool is an important tool in software engineering development. Many research papers have proposed techniques for detecting software bug, but there are certain semantic bugs that are not easy to detect. In our views, a bug can occur from incorrect logics that when a program is executed with a particular input, the program will behave in unexpected ways. In this paper, we propose a method and tool for software bugs detection by finding such input that causes an unexpected output guided by the fitness function. The method uses a Hierarchical Similarity Measurement Model (HSM) to help create the fitness function to examine a program behavior. Its tool uses Particle Swarm Optimization (PSO) with Search Space Reduction (SSR) to manipulate input by contracting and eliminating unfavorable areas of input search space. The programs under experiment were selected from four different domains such as financial, decision support system, algorithms and machine learning. The experimental result shows a significant percentage of success rate up to 93% in bug detection, compared to an estimated success rate of 28% without SSR. © 2015 IEEE.",
+    "Keywords": "Bug Detection | Fitness Function | Hierarchical Similarity Measurement Model (HSM) | Optimization | Particle Swarm Optimization (PSO)",
+    "Publication venue": "Proceedings - International Conference on Intelligent Systems, Modelling and Simulation, ISMS",
+    "Publication date": "2015-10-28",
+    "Publication type": "Conference Paper",
+    "Authors": "Reungsinkonkarn, Arun;Apirukvorapinit, Paskorn",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 4,
+      "IC3": 5,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85049103501",
+    "Primary study DOI": "10.1016/j.procs.2018.05.115",
+    "Title": "Taxonomy of machine learning algorithms in software fault prediction using object oriented metrics",
+    "Abstract": "Prediction of Fault proneness of a software component is the compelling field of investigations in software testing arena. Software coupling plays a vital role in assessing the software quality through fault prediction and complexity measures. Various fault prediction models, have used the object oriented metrics for the predicting and localizing the faults. Many of these metrics have direct influence on the quality of software. More over prior knowledge of the fault proneness of a component may significantly reduce the testing effort and time. The measures of object oriented features like inheritance, polymorphism and encapsulation etc may be used to estimate fault proneness. Many researchers have investigated the usage of object oriented metrics in the software fault prediction. In this study we present taxonomy of usage these metrics in the fault prediction. We also present the analysis of machine learning techniques in fault prediction. © 2018 The Authors. Published by Elsevier Ltd.",
+    "Keywords": "machine learning | Object Oriented Coupling | Object Oriented Testing | Software fault prediction | software faults prediction",
+    "Publication venue": "Procedia Computer Science",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Singh, Ajmer;Bhatia, Rajesh;Sighrova, Anita",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 4,
+      "IC2": 5,
+      "IC3": 3,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85057754334",
+    "Primary study DOI": "10.1109/FiCloud.2018.00017",
+    "Title": "ReMot Reputation and Resource-Based Model to Estimate the Reliability of the Host Machines in Volunteer Cloud Environment",
+    "Abstract": "Due to the need of green computing and low cost, emerging paradigms such as edge and fog computing, and volunteer cloud have recently been introduced. In general, the volunteer cloud model targets globally distributed volunteer, highly heterogeneous, and non-dedicated machines. The inherent high degree of resource heterogeneity leads to varying levels of hardware and software failures and configuration faults on the unreliable and volatile volunteer hosts. As a result, the performance of deployed tasks is detrimentally impacted and is a key challenge, particularly in the case of scheduling algorithms. Most of the reputation models that have been used for reliability evaluation only evaluate the reliability of host machines by simply using the ratio of successfully completed tasks to total tasks requested. These models do not consider the resource utilization and the daily or weekly patterns of job behaviors or characteristics (e.g. priority of a job). Thus, the performance of tasks that run on these resources suffers and may take a substantial time to complete. Therefore, there is a need to proactively consider the reliability of host machines for effective and efficient management of resources in highly heterogeneous and distributed cloud environments. To address these challenges, this paper proposes a reputation and resource-based reliability model called ReMot. ReMot is an intelligent machine learning based model that utilizes historical data of the tasks and host machines to extract their resource usage patterns, in addition to other metrics such as task failure rate and resource utilization to predict the reliability of host machines. To validate ReMots approach, the researchers have utilized a large usage trace of real world applications made available by Google Inc. The results indicate that ReMot obtained more accurate reliability estimation than existing models and dynamically adapts to workload variations. © 2018 IEEE.",
+    "Keywords": "Cloud Computing | Reliability | ReMot | Reputation | Volunteer Cloud",
+    "Publication venue": "Proceedings - 2018 IEEE 6th International Conference on Future Internet of Things and Cloud, FiCloud 2018",
+    "Publication date": "2018-09-07",
+    "Publication type": "Conference Paper",
+    "Authors": "Alsenani, Yousef;Crosby, Garth V.;Velasco, Tomas;Alahmadi, Abdulrahman",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 3,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-78650138468",
+    "Primary study DOI": "10.1109/ICSM.2010.5609736",
+    "Title": "Fine-grained incremental learning and multi-feature tossing graphs to improve bug triaging",
+    "Abstract": "Software bugs are inevitable and bug fixing is a difficult, expensive, and lengthy process. One of the primary reasons why bug fixing takes so long is the difficulty of accurately assigning a bug to the most competent developer for that bug kind or bug class. Assigning a bug to a potential developer, also known as bug triaging, is a labor-intensive, time-consuming and faultprone process if done manually. Moreover, bugs frequently get reassigned to multiple developers before they are resolved, a process known as bug tossing. Researchers have proposed automated techniques to facilitate bug triaging and reduce bug tossing using machine learning-based prediction and tossing graphs. While these techniques achieve good prediction accuracy for triaging and reduce tossing paths, they are vulnerable to several issues: outdated training sets, inactive developers, and imprecise, singleattribute tossing graphs. In this paper we improve triaging accuracy and reduce tossing path lengths by employing several techniques such as refined classification using additional attributes and intra-fold updates during training, a precise ranking function for recommending potential tossees in tossing graphs, and multi-feature tossing graphs. We validate our approach on two large software projects, Mozilla and Eclipse, covering 856,259 bug reports and 21 cumulative years of development. We demonstrate that our techniques can achieve up to 83.62% prediction accuracy in bug triaging. Moreover, we reduce tossing path lengths to 1.5-2 tosses for most bugs, which represents a reduction of up to 86.31% compared to original tossing paths. Our improvements have the potential to significantly reduce the bug fixing effort, especially in the context of sizable projects with large numbers of testers and developers. © 2010 IEEE.",
+    "Keywords": "",
+    "Publication venue": "IEEE International Conference on Software Maintenance, ICSM",
+    "Publication date": "2010-12-20",
+    "Publication type": "Conference Paper",
+    "Authors": "Bhattacharya, Pamela;Neamtiu, Iulian",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 5,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85079735275",
+    "Primary study DOI": "10.1504/IJICS.2020.105155",
+    "Title": "Fault prediction for distributed computing hadoop clusters using real-Time higher order differential inputs to svm: Zedacross",
+    "Abstract": "Hadoop distributed computing clusters are used worldwide for high-performance computations. Often various hardware and software faults occur, leading to both data and computation time losses. This paper proposes the usage of a fault prediction software called Zedacross which uses machine learning principles combined with cluster monitoring tools. Firstly, the paper suggests a model that uses the resource usage statistics of a normally functioning Hadoop cluster to create a machine learning model that can then be used to predict and detect faults in real time. Secondly, the paper explains the novel idea of using higher order differentials as inputs to SVM for highly accurate fault predictions. Predictions of system faults by observing system resource usage statistics in real-Time with minimum delay will play a vital role in deciding the need for job rescheduling tasks or even dynamic up-scaling of the cluster. To demonstrate the effectiveness of the design a Java utility was built to perform cluster fault monitoring. The results obtained after running the system on various test cases demonstrate that the proposed method is accurate and effective. © 2020 Inderscience Enterprises Ltd.",
+    "Keywords": "Fault prediction | Ganglia | Hadoop | Higher order differential | Svm",
+    "Publication venue": "International Journal of Information and Computer Security",
+    "Publication date": "2020-01-01",
+    "Publication type": "Article",
+    "Authors": "Pinto, Joey;Jain, Pooja;Kumar, Tapan",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 5,
+      "IC3": 6,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85072798067",
+    "Primary study DOI": "10.1145/3328905.3332514",
+    "Title": "Reproducible and reliable distributed classification of text streams",
+    "Abstract": "Large-scale classification of text streams is an essential problem that is hard to solve. Batch processing systems are scalable and proved their effectiveness for machine learning but do not provide low latency. On the other hand, state-of-the-art distributed stream processing systems are able to achieve low latency but do not support the same level of fault tolerance and determinism. In this work, we discuss how the distributed streaming computational model and fault tolerance mechanisms can affect the correctness of text classification data flow. We also propose solutions that can mitigate the revealed pitfalls. © 2019 Authors.",
+    "Keywords": "Data streams | Exactly once | Reproducibility | Text classification",
+    "Publication venue": "DEBS 2019 - Proceedings of the 13th ACM International Conference on Distributed and Event-Based Systems",
+    "Publication date": "2019-06-24",
+    "Publication type": "Conference Paper",
+    "Authors": "Trofimov, Artem;Shavkunov, Mikhail;Reznick, Sergey;Sokolov, Nikita;Yutman, Mikhail;Kuralenok, Igor E.;Novikov, Boris",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 2,
+      "IC3": 3,
+      "EC1": 1
+    }
+  }
+]

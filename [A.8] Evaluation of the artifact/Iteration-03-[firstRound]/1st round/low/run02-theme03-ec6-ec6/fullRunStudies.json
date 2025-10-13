@@ -1,0 +1,382 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85116347514",
+    "Primary study DOI": "10.3390/s21196638",
+    "Title": "Digital twin of an optical measurement system",
+    "Abstract": " 2021 by the authors. Licensee MDPI, Basel, Switzerland.Digital twins of measurement systems are used to estimate their measurement uncertainty. In the past, virtual coordinate measuring machines have been extensively researched. Research on digital twins of optical systems is still lacking due to the high number of error contributors. A method to describe a digital twin of an optical measurement system is presented in this article. The discussed optical system is a laser line scanner mounted on a coordinate measuring machine. Each component of the measurement system is mathematically described. The coordinate measuring machine focuses on the hardware errors and the laser line scanner determines the measurement error based on the scan depth, in‐plane angle and out‐of‐plane angle. The digital twin assumes stable measurement conditions and uniform surface characteristics. Based on the Monte Carlo principle, virtual measurements can be used to determine the measurement uncertainty. This is demonstrated by validating the digital twin on a set of calibrated ring gauges. Two validation tests are performed: the first verifies the virtual uncertainty estimation by comparison with experimental data. The second validates the measured diameter of different ring gauges by comparing the estimated confidence interval with the calibrated diameter.",
+    "Keywords": "Coordinate measuring machine | Digital twin | Laser line scanner",
+    "Publication venue": "Sensors",
+    "Publication date": "2021-10-01",
+    "Publication type": "Article",
+    "Authors": "Vlaeyen, Michiel;Haitjema, Han;Dewulf, Wim",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85092434025",
+    "Primary study DOI": "10.1016/j.procir.2020.03.031",
+    "Title": "Using finite element analysis to develop a digital twin of a manufacturing bending operation",
+    "Abstract": " 2020 The Authors.In smart manufacturing, a digital twin is the virtual counterpart of a physical manufacturing system and can be considered as having three elements: machine, product and process. To demonstrate this concept, a physical manufacturing testbed was developed which bends metal into V-brackets alongside a digital twin counterpart consisting of the three elements. The process digital twin uses finite element modelling to predict product stress during the bending operation, and the residual stress and bend angle post-bending. The bend angles predicted by the process digital-twin were within 0.5° and 3° of the physical product for two different test scenarios.",
+    "Keywords": "Digital twin | Finite element modelling | Smart manufacturing",
+    "Publication venue": "Procedia CIRP",
+    "Publication date": "2020-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Hinchy, E. P.;Carcagno, C.;O'Dowd, N. P.;McCarthy, C. T.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-79955949878",
+    "Primary study DOI": "10.1109/EWDTS.2010.5742116",
+    "Title": "Two-criterial DSSS synchronization method efficiency research",
+    "Abstract": "By the way of simulations using computer, the statistical characteristics of locking in synchronism time, has been determined for the synchronization system, concluding two twin subsystems of spread spectrum signals detection. The criterion of the meaning moment time detection from the domain of uncertainty is m-multiple repentance iteratively and k of n. VHDL-model of the synchronization system presented in the registry transfer level and implemented in the FPGA ALTERA CYCLONE II EP2C70F672C6 using CAD QUARTUS.  2010 IEEE.",
+    "Keywords": "",
+    "Publication venue": "Proceedings of IEEE East-West Design and Test Symposium, EWDTS'10",
+    "Publication date": "2010-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Kharchenko, H. V.;Tkalich, I. O.;Vdovychenko, Y. I.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85050997428",
+    "Primary study DOI": "10.1109/CCGRID.2018.00005",
+    "Title": "Enabling trade-offs between accuracy and computational cost: Adaptive algorithms to reduce time to clinical insight",
+    "Abstract": " 2018 IEEE.The efficacy of drug treatments depends on how tightly small molecules bind to their target proteins. Quantifying the strength of these interactions (the so called 'binding affinity') is a grand challenge of computational chemistry, surmounting which could revolutionize drug design and provide the platform for patient specific medicine. Recently, evidence from blind challenge predictions and retrospective validation studies has suggested that molecular dynamics (MD) can now achieve useful predictive accuracy (1 kcal/mol) This accuracy is sufficient to greatly accelerate hit to lead and lead optimization. To translate these advances in predictive accuracy so as to impact clinical and/or industrial decision making requires that binding free energy results must be turned around on reduced timescales without loss of accuracy. This demands advances in algorithms, scalable software systems, and intelligent and efficient utilization of supercomputing resources. This work is motivated by the real world problem of providing insight from drug candidate data on a time scale that is as short as possible. Specifically, we reproduce results from a collaborative project between UCL and GlaxoSmithKline to study a congeneric series of drug candidates binding to the BRD4 protein-inhibitors of which have shown promising preclinical efficacy in pathologies ranging from cancer to inflammation. We demonstrate the use of a framework called HTBAC, designed to support the aforementioned requirements of accurate and rapid drug binding affinity calculations. HTBAC facilitates the execution of the numbers of simulations while supporting the adaptive execution of algorithms. Furthermore, HTBAC enables the selection of simulation parameters during runtime which can, in principle, optimize the use of computational resources whilst producing results within a target uncertainty.",
+    "Keywords": "",
+    "Publication venue": "Proceedings - 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, CCGRID 2018",
+    "Publication date": "2018-07-13",
+    "Publication type": "Conference Paper",
+    "Authors": "Dakka, Jumana;Farkas-Pall, Kristof;Balasubramanian, Vivek;Turilli, Matteo;Wan, Shunzhou;Wright, David W.;Zasada, Stefan;Coveney, Peter V.;Jha, Shantenu",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85071752913",
+    "Primary study DOI": "10.3390/s19173781",
+    "Title": "An industrial digitalization platform for condition monitoring and predictive maintenance of pumping equipment",
+    "Abstract": " 2019 by the authors. Licensee MDPI, Basel, Switzerland.This paper is concerned with the implementation and field-testing of an edge device for real-time condition monitoring and fault detection for large-scale rotating equipment in the UK water industry. The edge device implements a local digital twin, processing information from low-cost transducers mounted on the equipment in real-time. Condition monitoring is achieved with sliding-mode observers employed as soft sensors to estimate critical internal pump parameters to help detect equipment weasr before damage occurs. The paper describes the implementation of the edge system on a prototype microcontroller-based embedded platform, which supports the Modbus protocol; IP/GSM communication gateways provide remote connectivity to the network core, allowing further detailed analytics for predictive maintenance to take place. The paper first describes validation testing of the edge device using Hardware-In-The-Loop techniques, followed by trials on large-scale pumping equipment in the field. The paper concludes that the proposed system potentially delivers a flexible and low-cost industrial digitalization platform for condition monitoring and predictive maintenance applications in the water industry.",
+    "Keywords": "Condition monitoring | Edge computing | Field testing | Industrial digitalization | Industry 4.0 | IoT | Predictive maintenance | Sliding mode observers | Soft sensors",
+    "Publication venue": "Sensors (Switzerland)",
+    "Publication date": "2019-09-01",
+    "Publication type": "Article",
+    "Authors": "Short, Michael;Twiddle, John",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85113916122",
+    "Primary study DOI": "10.1109/ESTS49166.2021.9512347",
+    "Title": "Reduced Order Model of a Four Zone Medium Voltage DC Electric Ship",
+    "Abstract": " 2021 IEEE.The models of multi-zone electric ship is important to the development of ship operational capability and performance. However, there is not one best model type that can fit all the needs of the engineering process. High-fidelity models are needed to act as a digital twin to the system hardware for testing and validation purposes. However, a highly detailed digital model of a MVDC does not enable insight and development of analytical control and optimization algorithms. This paper presents a reduced order model (ROM) of a notional four-zone medium voltage ship. This ROM can be written in a closed-form analytical expression that is appropriate for analysis and high-level supervisory control synthesis.",
+    "Keywords": "Control | Electric Ship | Optimization | Reduced order Models",
+    "Publication venue": "2021 IEEE Electric Ship Technologies Symposium, ESTS 2021",
+    "Publication date": "2021-08-03",
+    "Publication type": "Conference Paper",
+    "Authors": "Weaver, Wayne W.;Robinett, Rush D.;Wilson, David G.;Glover, Steven",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85072808145",
+    "Primary study DOI": "10.1145/3340764.3340780",
+    "Title": "Remote guidance for machine maintenance supported by physical LEDs and virtual reality",
+    "Abstract": " 2019 Copyright held by the owner/author(s). Publication rights licensed to ACM.Machines that are used in industry often require dedicated technicians to fix them in case of defects. This involves travel expenses and certain amount of time, both of which may be significantly reduced by installing small extensions on a machine as we describe in this paper. The goal is that an authorized local worker, guided by a remote expert, can fix the problem on the real machine himself. Our approach is to equip a machine with multiple inexpensive LEDs (light-emitting diodes) and a simple micro controller, which is connected to the internet, to remotely light up certain LEDs, that are close to machine parts of interest. The blinking of an LED can be induced on a virtual 3D model (digital twin) of the machine by a remote expert using a virtual reality application to draw the local worker’s attention to certain areas. We conducted an initial user study on this concept with 36 participants and found significantly shorter completion times and less errors for our approach compared to only voice guidance with no visual LED feedback.",
+    "Keywords": "Collaboration | Industry 4.0 | LED | Light emitting diodes | Remote machine maintenance | Virtual reality",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2019-09-08",
+    "Publication type": "Conference Paper",
+    "Authors": "Ladwig, Philipp;Dewitz, Bastian;Preu, Hendrik;Säger, Mitja",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85117542708",
+    "Primary study DOI": "10.1145/3407023.3409228",
+    "Title": "Data visualization in internet of things: Tools methodologies and challenges",
+    "Abstract": " 2020 ACM.As the Internet of Things (IoT) grows rapidly, huge amounts of wireless sensor networks emerged monitoring a wide range of infrastructure, in various domains such as healthcare, energy, transportation, smart city, building automation, agriculture, and industry producing continuously streamlines of data. Big Data technologies play a significant role within IoT processes, as visual analytics tools, generating valuable knowledge in real-time in order to support critical decision making. This paper provides a comprehensive survey of visualization methods, tools, and techniques for the IoT. We position data visualization inside the visual analytics process by reviewing the visual analytics pipeline. We provide a study of various chart types available for data visualization and analyze rules for employing each one of them, taking into account the special conditions of the particular use case. We further examine some of the most promising visualization tools. Since each IoT domain is isolated in terms of Big Data approaches, we investigate visualization issues in each domain. Additionally, we review visualization methods oriented to anomaly detection. Finally, we provide an overview of the major challenges in IoT visualizations.",
+    "Keywords": "Anomaly detection | Big data | Data visualization | Internet of things (IoT)",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2020-08-25",
+    "Publication type": "Conference Paper",
+    "Authors": "Protopsaltis, Antonis;Sarigiannidis, Panagiotis;Margounakis, Dimitrios;Lytos, Anastasios",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85100749412",
+    "Primary study DOI": "10.1145/3419634",
+    "Title": "A Survey on IoT Big Data: Current Status 13 V's Challenges and Future Directions",
+    "Abstract": " 2020 ACM.Driven by the core technologies, i.e., sensor-based autonomous data acquisition and the cloud-based big data analysis, IoT automates the actuation of data-driven intelligent actions on the connected objects. This automation enables numerous useful real-life use-cases, such as smart transport, smart living, smart cities, and so on. However, recent industry surveys reflect that data-related challenges are responsible for slower growth of IoT in recent years. For this reason, this article presents a systematic and comprehensive survey on IoT Big Data (IoTBD) with the aim to identify the uncharted challenges for IoTBD. This article analyzes the state-of-the-art academic works in IoT and big data management across various domains and proposes a taxonomy for IoTBD management. Then, the survey explores the IoT portfolio of major cloud vendors and provides a classification of vendor services for the integration of IoT and IoTBD on their cloud platforms. After that, the survey identifies the IoTBD challenges in terms of 13 V's challenges and envisions IoTBD as \"Big Data 2.0.\"Then the survey provides comprehensive analysis of recent works that address IoTBD challenges by highlighting their strengths and weaknesses to assess the recent trends and future research directions. Finally, the survey concludes with discussion on open research issues for IoTBD.",
+    "Keywords": "big data 2.0 | cloud computing in IoT | cloud IoT services | IoT big data | IoT big data survey | V's challenges for IoT big data",
+    "Publication venue": "ACM Computing Surveys",
+    "Publication date": "2021-11-30",
+    "Publication type": "Review",
+    "Authors": "Bansal, Maggi;Chana, Inderveer;Clarke, Siobhán",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85121149463",
+    "Primary study DOI": "10.1145/3478680",
+    "Title": "Service Computing for Industry 4.0: State of the Art Challenges and Research Opportunities",
+    "Abstract": " 2021 Copyright held by the owner/author(s). Publication rights licensed to ACM.Recent advances in the large-scale adoption of information and communication technologies in manufacturing processes, known as Industry 4.0 or Smart Manufacturing, provide us a window into how the manufacturing sector will evolve in the coming decades. As a result of these initiatives, manufacturing firms have started to integrate a series of emerging technologies into their processes that will change the way products are designed, manufactured, and consumed. This article provides a comprehensive review of how service-oriented computing is being employed to develop the required software infrastructure for Industry 4.0 and identifies the major challenges and research opportunities that ensue. Particular attention is paid to the microservices architecture, which is increasingly recognized as offering a promising approach for developing innovative industrial applications. This literature review is based on the current state of the art on service computing for Industry 4.0 as described in a large corpus of recently published research papers, which helped us to identify and explore a series of challenges and opportunities for the development of this emerging technology frontier, with the goal of facilitating its widespread adoption.",
+    "Keywords": "digital twins | industrial IoT | industry 4.0 | microservices | Service-oriented architecture",
+    "Publication venue": "ACM Computing Surveys",
+    "Publication date": "2022-12-31",
+    "Publication type": "Review",
+    "Authors": "Siqueira, Frank;Davis, Joseph G.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85116228974",
+    "Primary study DOI": "10.1145/3460112.3471973",
+    "Title": "EReuse poster: The circular economy of digital devices",
+    "Abstract": " 2021 ACM.eReuse is an initiative and action-research project that since 2015 has iterated over research and activism to understand, develop, apply to communities, evaluate and scale-up the circular economy of digital devices. The work, in partnership with diverse organisations, has contributed to the transition towards a circular economy of digital devices that contributes effectively to sustainable development.",
+    "Keywords": "Circular economy | climate change | dataset | digital devices | distributed ledger technology. | environmental impact | platform cooperativism | public policy | social impact | software tools | sustainability",
+    "Publication venue": "Proceedings of 2021 4th ACM SIGCAS Conference on Computing and Sustainable Societies, COMPASS 2021",
+    "Publication date": "2021-06-28",
+    "Publication type": "Conference Paper",
+    "Authors": "Navarro, Leandro;Roura, Mireia;Franquesa, David;Meseguer, Roc",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85118970796",
+    "Primary study DOI": "10.1109/ACCESS.2021.3117727",
+    "Title": "Symbiotic System of Systems Design for Safe and Resilient Autonomous Robotics in Offshore Wind Farms",
+    "Abstract": " 2013 IEEE.To reduce Operation and Maintenance (OM) expenditure on offshore wind farms, wherein 80% of the cost relates to deploying personnel, the offshore wind sector looks to advances in Robotics and Artificial Intelligence (RAI) for solutions. Barriers to residential Beyond Visual Line of Sight (BVLOS) autonomy as a service, include operational challenges in run-time safety compliance, reliability and resilience, due to the complexities of dealing with known and unknown risk in dynamic environments. In this paper we incorporate a Symbiotic System Of Systems Approach (SSOSA) that uses a Symbiotic Digital Architecture (SDA) to provide a cyber physical orchestration of enabling technologies. Implementing a SSOSA enables Cooperation, Collaboration and Corroboration (C3), as to address run-time verification of safety, reliability and resilience during autonomous missions. Our SDA provides a means to synchronize distributed digital models of the robot, environment and infrastructure. Through the coordinated bidirectional communication network of the SDA, the remote human operator has improved visibility and understanding of the mission profile. We evaluate our SSOSA in an asset inspection mission within a confined operating environment. Demonstrating the ability of our SSOSA to overcome safety, reliability and resilience challenges. The SDA supports lifecycle learning and co-evolution with knowledge sharing across the interconnected systems. Our results evaluate both sudden and gradual faults, as well as unknown events, that may jeopardize an autonomous mission. Using distributed and coordinated decision making, the SSOSA enhances the analysis of the mission status, which includes diagnostics of critical sub-systems within the resident robot. This evaluation demonstrates that the SSOSA provides enhanced run-time operational resilience and safety compliance to BVLOS autonomous missions. The SSOSA has the potential to be a highly transferable methodology to other mission scenarios and technologies, providing a pathway to implementing scalable autonomy as a service.",
+    "Keywords": "Artificial intelligence | autonomous systems | digital twin | non-destructive evaluation | resilient robotics | safety compliance | sensors | symbiotic systems | system ontology",
+    "Publication venue": "IEEE Access",
+    "Publication date": "2021-01-01",
+    "Publication type": "Article",
+    "Authors": "Mitchell, Daniel;Blanche, Jamie;Zaki, Osama;Roe, Joshua;Kong, Leo;Harper, Samuel;Robu, Valentin;Lim, Theodore;Flynn, David",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85109039914",
+    "Primary study DOI": "10.1007/s10518-021-01167-0",
+    "Title": "A new method for earthquake-induced damage identification in historic masonry towers combining OMA and IDA",
+    "Abstract": " 2021, The Author(s).This paper presents a novel method for rapidly addressing the earthquake-induced damage identification task in historic masonry towers. The proposed method, termed DORI, combines operational modal analysis (OMA), FE modeling, rapid surrogate modeling (SM) and non-linear Incremental dynamic analysis (IDA). While OMA-based Structural Health Monitoring methods using statistical pattern recognition are known to allow the detection of small structural damages due to earthquakes, even far-field ones of moderate intensity, the combination of SM and IDA-based methods for damage localization and quantification is here proposed. The monumental bell tower of the Basilica of San Pietro located in Perugia, Italy, is considered for the validation of the method. While being continuously monitored since 2014, the bell tower experienced the main shocks of the 2016 Central Italy seismic sequence and the on-site vibration-based monitoring system detected changes in global dynamic behavior after the earthquakes. In the paper, experimental vibration data (continuous and seismic records), FE models and surrogate models of the structure are used for post-earthquake damage localization and quantification exploiting an ideal subdivision of the structure into meaningful macroelements. Results of linear and non-linear numerical modeling (SM and IDA, respectively) are successfully combined to this aim and the continuous exchange of information between the physical reality (monitoring data) and the virtual models (FE models and surrogate models) effectively enforces the Digital Twin paradigm. The earthquake-induced damage identified by both data-driven and model-based strategies is finally confirmed by in-situ visual inspections.",
+    "Keywords": "Cultural heritage | Digital twin | Earthquake-induced damage identification | Finite element modeling | Incremental dynamic analysis | Structural health monitoring | Surrogate modeling",
+    "Publication venue": "Bulletin of Earthquake Engineering",
+    "Publication date": "2021-09-01",
+    "Publication type": "Article",
+    "Authors": "Kita, Alban;Cavalagli, Nicola;Venanzi, Ilaria;Ubertini, Filippo",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85094973000",
+    "Primary study DOI": "10.1145/3388529.3407313",
+    "Title": "Double vision: Digital twin applications within extended reality",
+    "Abstract": " 2020 Owner/Author.The purpose of this project was to create a Digital Twin (DT) of the Expanded Perception and Interaction Centre (EPICentre), using Extended Reality to better visualise Internet of Things (IoT) sensor data such as temperature and humidity throughout the building. An immersive application was developed for multiple platforms, allowing users to interact with the DT model through Windows Mixed Reality Platforms, Oculus Platforms and a Cylindrical Screen. This project lends itself as an engaging introduction into DTs through the immersive experience of data analytics, generalised for the public using familiar sensors-driven datasets.",
+    "Keywords": "",
+    "Publication venue": "ACM SIGGRAPH 2020 Appy Hour, SIGGRAPH 2020",
+    "Publication date": "2020-08-17",
+    "Publication type": "Conference Paper",
+    "Authors": "Jiang, Jade;Tobia, Michael;Lawther, Robert;Branchaud, Dominic;Bednarz, Tomasz",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85083492519",
+    "Primary study DOI": "10.3390/jmmp4010011",
+    "Title": "Machining phenomenon twin construction for industry 4.0: A case of surface roughness",
+    "Abstract": " 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).Industry 4.0 requires phenomenon twins to functionalize the relevant systems (e.g., cyber-physical systems). A phenomenon twin means a computable virtual abstraction of a real phenomenon. In order to systematize the construction process of a phenomenon twin, this study proposes a system defined as the phenomenon twin construction system. It consists of three components, namely the input, processing, and output components. Among these components, the processing component is the most critical one that digitally models, simulates, and validates a given phenomenon extracting information from the input component. What kind of modeling, simulation, and validation approaches should be used while constructing the processing component for a given phenomenon is a research question. This study answers this question using the case of surface roughness-a complex phenomenon associated with all material removal processes. Accordingly, this study shows that for modeling the surface roughness of a machined surface, the approach called semantic modeling is more effective than the conventional approach called the Markov chain. It is also found that to validate whether or not a simulated surface roughness resembles the expected roughness, the outcomes of the possibility distribution-based computing and DNA-based computing are more effective than the outcomes of a conventional computing wherein the arithmetic mean height of surface roughness is calculated. Thus, apart from the conventional computing approaches, the leading edge computational intelligence-based approaches can digitize manufacturing processes more effectively.",
+    "Keywords": "Complex phenomenon | Cyber-physical systems | Digital twin | DNA-based computing | Industry 4.0 | Markov chain | Monte Carlo simulation | Semantic modeling | Surface roughness",
+    "Publication venue": "Journal of Manufacturing and Materials Processing",
+    "Publication date": "2020-03-01",
+    "Publication type": "Article",
+    "Authors": "Ghosh, Angkush Kumar;Sharif Ullah, A. M.M.;Kubo, Akihiko;Akamatsu, Takeshi;D'Addona, Doriana Marilena",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85117331688",
+    "Primary study DOI": "10.1145/3447526.3472045",
+    "Title": "3D Hand Pose Estimation on Conventional Capacitive Touchscreens",
+    "Abstract": " 2021 Owner/Author.Contemporary mobile devices with touchscreens capture the X/Y position of finger tips on the screen and pass these coordinates to applications as though the input were points in space. Of course, human hands are much more sophisticated, able to form rich 3D poses capable of far more complex interactions than poking at a screen. In this paper, we describe how conventional capacitive touchscreens can be used to estimate 3D hand pose, enabling richer interaction opportunities. Importantly, our software-only approach requires no special or new sensors, either internal or external. As a proof of concept, we use an off-the-shelf Samsung Tablet flashed with a custom kernel. After describing our software pipeline, we report findings from our user study, we conclude with several example applications we built to illustrate the potential of our approach.",
+    "Keywords": "capacitive image | Hand pose | pose estimation",
+    "Publication venue": "Proceedings of MobileHCI 2021 - ACM International Conference on Mobile Human-Computer Interaction: Mobile Apart, MobileTogether",
+    "Publication date": "2021-09-27",
+    "Publication type": "Conference Paper",
+    "Authors": "Choi, Frederick;Mayer, Sven;Harrison, Chris",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85102682847",
+    "Primary study DOI": "10.3390/app11052321",
+    "Title": "Mbse testbed for rapid cost-effective prototyping and evaluation of system modeling approaches",
+    "Abstract": " 2021 by the author. Licensee MDPI, Basel, Switzerland.Model-based systems engineering (MBSE) has made significant strides in the last decade and is now beginning to increase coverage of the system life cycle and in the process generating many more digital artifacts. The MBSE community today recognizes the need for a flexible frame-work to efficiently organize, access, and manage MBSE artifacts; create and use digital twins for verification and validation; facilitate comparative evaluation of system models and algorithms; and assess system performance. This paper presents progress to date in developing a MBSE experimentation testbed that addresses these requirements. The current testbed comprises several compo-nents, including a scenario builder, a smart dashboard, a repository of system models and scenarios, connectors, optimization and learning algorithms, and simulation engines, all connected to a private cloud. The testbed has been successfully employed in developing an aircraft perimeter security system and an adaptive planning and decision-making system for autonomous vehicles. The testbed supports experimentation with simulated and physical sensors and with digital twins for verifying system behavior. A simulation-driven smart dashboard is used to visualize and conduct comparative evaluation of autonomous and human-in-the-loop control concepts and architectures. Key findings and lessons learned are presented along with a discussion of future directions.",
+    "Keywords": "Digital engineering | Digital twin | MBSE | Model-based systems engineering | Ontologies | Simulation | Testbed",
+    "Publication venue": "Applied Sciences (Switzerland)",
+    "Publication date": "2021-03-01",
+    "Publication type": "Article",
+    "Authors": "Madni, Azad M.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85053511971",
+    "Primary study DOI": "10.1109/ICCPS.2018.00017",
+    "Title": "SDCWorks: A Formal Framework for Software Defined Control of Smart Manufacturing Systems",
+    "Abstract": " 2018 IEEE.Discrete manufacturing systems are complex cyber-physical systems (CPS) and their availability, performance, and quality have a big impact on the economy. Smart manufacturing promises to improve these aspects. One key approach that is being pursued in this context is the creation of centralized software-defined control (SDC) architectures and strategies that use diverse sensors and data sources to make manufacturing more adaptive, resilient, and programmable. In this paper, we present SDCWorks- A modeling and simulation framework for SDC. It consists of the semantic structures for creating models, a baseline controller, and an open source implementation of a discrete event simulator for SDCWorks models. We provide the semantics of such a manufacturing system in terms of a discrete transition system which sets up the platform for future research in a new class of problems in formal verification, synthesis, and monitoring. We illustrate the expressive power of SDCWorks by modeling the realistic SMART manufacturing testbed of University of Michigan. We show how our open source SDCWorks simulator can be used to evaluate relevant metrics (throughput, latency, and load) for example manufacturing systems.",
+    "Keywords": "cyber physical systems | manufacturing | verification",
+    "Publication venue": "Proceedings - 9th ACM/IEEE International Conference on Cyber-Physical Systems, ICCPS 2018",
+    "Publication date": "2018-08-21",
+    "Publication type": "Conference Paper",
+    "Authors": "Potok, Matthew;Chen, Chien Ying;Mitra, Sayan;Mohan, Sibin",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85056379288",
+    "Primary study DOI": "10.1145/3229607.3229613",
+    "Title": "Understanding the modeling of computer network delays using neural networks",
+    "Abstract": " 2018 Copyright held by the owner/author(s).Recent trends in networking are proposing the use of Machine Learning (ML) techniques for the control and operation of the network. In this context, ML can be used as a computer network modeling technique to build models that estimate the network performance. Indeed, network modeling is a central technique to many networking functions, for instance in the field of optimization, in which the model is used to search a configuration that satisfies the target policy. In this paper, we aim to provide an answer to the following question: Can neural networks accurately model the delay of a computer network as a function of the input traffic? For this, we assume the network as a black-box that has as input a traffic matrix and as output delays. Then we train different neural networks models and evaluate its accuracy under different fundamental network characteristics: topology, size, traffic intensity and routing. With this, we aim to have a better understanding of computer network modeling with neural nets and ultimately provide practical guidelines on how such models need to be trained.",
+    "Keywords": "KDN | ML | Modeling | Networking | SDN",
+    "Publication venue": "Big-DAMA 2018 - Proceedings of the 2018 Workshop on Big Data Analytics and Machine Learning for Data Communication Networks, Part of SIGCOMM 2018",
+    "Publication date": "2018-08-07",
+    "Publication type": "Conference Paper",
+    "Authors": "Mestres, Albert;Alarcón, Eduard;Ji, Yusheng;Cabellos-Aparicio, Albert",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85086569028",
+    "Primary study DOI": "10.1145/3378679.3394535",
+    "Title": "DeepDish: Multi-object tracking with an off-the-shelf Raspberry Pi",
+    "Abstract": " 2020 ACM.When looking at a building or urban settings, information about the number of people present and the way they move through the space is useful for helping designers to understand what they have created, fire marshals to identify potential safety hazards, planners to speculate about what is needed in the future, and the public to have real data on which to base opinions about communal choices. We propose a network of edge devices based on Raspberry Pi and TensorFlow, which will ultimately push data via LoRaWAN to a real-time data server. This network is being integrated into a Digital Twin of a local site which includes several dozen buildings spread over approximately 500,000 square metres. We share and discuss issues regarding privacy, accuracy and performance.",
+    "Keywords": "Edge computing | Object detection | Object tracking",
+    "Publication venue": "EdgeSys 2020 - Proceedings of the 3rd ACM International Workshop on Edge Systems, Analytics and Networking, Part of EuroSys 2020",
+    "Publication date": "2020-04-27",
+    "Publication type": "Conference Paper",
+    "Authors": "Danish, Matthew;Brazauskas, Justas;Bricheno, Rob;Lewis, Ian;Mortier, Richard",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 7,
+      "IC3": 7
+    }
+  }
+]

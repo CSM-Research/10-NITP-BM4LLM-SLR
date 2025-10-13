@@ -1,0 +1,275 @@
+[
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-50649122990",
+    "Primary study DOI": "10.1109/ICST.2008.23",
+    "Title": "Detecting and Repairing Inconsistencies across Heterogeneous Models",
+    "Abstract": "With the advent of Domain Specific Languages for Model Engineering, detecting inconsistencies between models is becoming increasingly challenging. Nowadays, it is not uncommon for models participating in the same development process to be captured using different modelling languages and even different modelling technologies. We present a classification of the types of relationships that can arise between models participating in a software development process and outline the types of inconsistencies each relationship can suffer from. From this classification we identify a set of requirements for a generic inconsistency detection and reconciliation mechanism and use a case study to demonstrate how those requirements are implemented in the Epsilon Validation Language (EVL), a task-specific language developed in the context of the Epsilon GMT component. © 2008 IEEE.",
+    "Keywords": "",
+    "Publication venue": "Proceedings of the 1st International Conference on Software Testing, Verification and Validation, ICST 2008",
+    "Publication date": "2008-09-05",
+    "Publication type": "Conference Paper",
+    "Authors": "Kolovos, Dimitrios S.;Paige, Richard F.;Polack, Fiona A.C.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84869087395",
+    "Primary study DOI": "10.1016/j.arcontrol.2012.09.016",
+    "Title": "A meta-modelling framework for knowledge consistency in collaborative design",
+    "Abstract": "The design of complex system requires a lot of interactions between experts and then between numerous Computer Aided X software (CAX) (where X can be Design (CAD), Engineering (CAE), Manufacturing (CAM), etc.). In order to improve the consistency of the whole system design and the related data and information, knowledge crossing the expertises must be tracked and formalized regarding a shared reference. That means that instead of defining a large reference models to which each expert refers to, a light collaborative model is defined enabling to connect data from each expert model to adhoc data from other expert models, following the least commitment principle. In this topic, a new meta-model is proposed in a Model-Driven Engineering approach to manage the integration of heterogeneous experts' knowledge models in a collaborative process. The structure of the proposed knowledge meta-model is defined taking into account the complexity of knowledge definition and the properties of its components. This meta-model is split in a meta-model of data on one hand and a Collaboration Meta-Model in the other hand, to represent the distinction between the core concepts of knowledge and additional elements serving to represent the relation between these concepts, and between concepts of heterogeneous experts' models. The proposed meta-model is illustrated on an industrial case study to highlight the way to put it in use, and its interests to enable collaboration between experts throughout the design process. © 2012 Elsevier Ltd. All rights reserved.",
+    "Keywords": "",
+    "Publication venue": "Annual Reviews in Control",
+    "Publication date": "2012-12-01",
+    "Publication type": "Article",
+    "Authors": "Belkadi, Farouk;Dremont, Nicolas;Notin, Alban;Troussier, Nadege;Messadia, Mourad",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85063760990",
+    "Primary study DOI": "10.1016/j.jss.2019.03.060",
+    "Title": "Managing inter-model inconsistencies in model-based systems engineering: Application in automated production systems engineering",
+    "Abstract": "© 2019 Elsevier Inc.To cope with the challenge of managing the complexity of automated production systems, model-based approaches are applied increasingly. However, due to the multitude of different disciplines involved in automated production systems engineering, e.g., mechanical, electrical, and software engineering, several modeling languages are used within a project to describe the system from different perspectives. To ensure that the resulting system models are not contradictory, the necessity to continuously diagnose and handle inconsistencies within and in between models arises. This article proposes a comprehensive approach that allows stakeholders to specify, diagnose, and handle inconsistencies in model-based systems engineering. In particular, to explicitly capture the dependencies and consistency rules that must hold between the disparate engineering models, a dedicated graphical modeling language is proposed. By means of this language, stakeholders can specify, diagnose, and handle inconsistencies in the accompanying inconsistency management framework. The approach is implemented based on the Eclipse Modeling Framework (EMF) and evaluated based on a demonstrator project as well as a small user experiment. First findings indicate that the approach is expressive enough to capture typical dependencies and consistency rules in the automated production system domain and that it requires less effort compared to manually developing inter-model inconsistency management solutions.",
+    "Keywords": "Automated production systems | Inconsistency management | Model-based systems engineering",
+    "Publication venue": "Journal of Systems and Software",
+    "Publication date": "2019-07-01",
+    "Publication type": "Article",
+    "Authors": "Feldmann, S.;Kernschmidt, K.;Wimmer, M.;Vogel-Heuser, B.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-77949375456",
+    "Primary study DOI": "10.1145/1595696.1595757",
+    "Title": "Supporting automatic model inconsistency fixing",
+    "Abstract": "Modern development environments often involve models with complex consistency relations. Some of the relations can be automatically established through \"fixing procedures\". When users update some parts of the model and cause inconsistency, a fixing procedure dynamically propagates the update to other parts to fix the inconsistency. Existing fixing procedures are manually implemented, which requires a lot of efforts and the correctness of a fixing procedure is not guaranteed. In this paper we propose a new language, Beanbag, to support the development of fixing procedures. A Beanbag program defines and checks a consistency relation similarly to OCL, but the program can also be executed in a fixing mode, taking user updates on the model and producing new updates to make the model satisfy the consistency relation. In this way Beanbag significantly eases the development of fixing procedures. In addition, a Beanbag program is also guaranteed to be correct with respect to the three correctness properties we define. We evaluate Beanbag over a set of MOF and UML consistency relations and the result shows that Beanbag is useful in practice. Copyright 2009 ACM.",
+    "Keywords": "Beanbag | Inconsistency fixing | Model consistency | OCL",
+    "Publication venue": "ESEC-FSE'09 - Proceedings of the Joint 12th European Software Engineering Conference and 17th ACM SIGSOFT Symposium on the Foundations of Software Engineering",
+    "Publication date": "2009-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Xiong, Yingfei;Hu, Zhenjiang;Zhao, Haiyan;Song, Hui;Takeichi, Masato;Mei, Hong",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85099374578",
+    "Primary study DOI": "10.1145/3422392.3422440",
+    "Title": "What causes merge conflicts?",
+    "Abstract": "© 2020 ACM.During the software development process, several developers commonly change artifacts in parallel. A merge process can combine parallel changes. In the case of changes that cannot be automatically combined, the developer responsible for the merge must reconcile decisions and resolve conflicts. Some studies are concerned with investigating ways to deal with merge conflicts and measuring the effort that this activity may require. However, the investigation of factors that may reduce the occurrence of conflicts needs more and deeper attention. This paper aims at identifying and analyzing attributes of past merges with and without conflicts to understand what may induce physical conflicts. We analyzed 182,273 merge scenarios from 80 projects written in eight different programming languages to find characteristics that increase the chances of a merge to have a conflict. We found that attributes such as the number of committers, the number of commits, and the number of changed files seem to have the biggest influence in the occurrence of merge conflicts. Moreover, attributes in the branch that is being integrated seem to be more influential than the same attributes in the other branch. Additionally, we discovered positive correlations between the occurrence of conflicts and both the duration of the branch and the intersection of developers.",
+    "Keywords": "Attributes | Merge | Merge Conflicts | Repository Mining",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2020-10-21",
+    "Publication type": "Conference Paper",
+    "Authors": "Menezes, Jose William;Trindade, Bruno;Pimentel, João Felipe;Moura, Tayane;Plastino, Alexandre;Murta, Leonardo;Costa, Catarina",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7,
+      "EC1": 7,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-80052681513",
+    "Primary study DOI": "10.1145/2019136.2019163",
+    "Title": "An analysis of change operations to achieve consistency in model-driven software product lines",
+    "Abstract": "Model-Driven Software Product Line (MD-SPL) is the combination of Model-Driven Software Development and Software Product Line. In this paradigm, there are complex dependency relationships between different software development artefacts. These artefacts have to be changed during development and maintenance activities. However, the quantity of elements involved and the complex dependencies may imply that not all artefacts are updated appropriately, making these artefacts inconsistent with each other and with variability rules. This article discusses the change impact on interrelated MD-SPL artefacts and what has to be done do keep consistency. Copyright © 2011 ACM.",
+    "Keywords": "Consistency | Model-driven software product line",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2011-09-16",
+    "Publication type": "Conference Paper",
+    "Authors": "Corrêa, Chessman K.F.;Oliveira, Toacy C.;Werner, Claudia M.L.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-70349305099",
+    "Primary study DOI": "10.1016/j.sysarc.2009.07.003",
+    "Title": "Maintaining constraints of UML models in distributed collaborative environments",
+    "Abstract": "Constraint maintenance plays an important role in keeping the integrity and validity of UML models in embedded software design. While constraint maintenance capabilities are reasonably adequate in existing UML modeling applications, little work has been done to address the distributed constraint maintenance issue in multi-user collaborative modeling environments. The nature of the issue is to maintain constraint consistently across distributed sites in a collaborative modeling environment in the face of concurrency. In this paper, we propose a novel solution to this issue, which can retain the effects of all concurrent modeling operations even though they may cause constraint violations. We further contribute a distributed constraint maintenance framework in which the solution is encapsulated as a generic engine that can be mounted in a variety of single-user UML modeling applications to support collaborative UML modeling and distributed constraint maintenance in embedded software design processes. This framework has been implemented in a prototype distributed collaborative UML modeling application CoRSA. © 2009 Elsevier B.V. All rights reserved.",
+    "Keywords": "Collaborative UML modeling | Constraint maintenance | Constraint violation | Embedded software design | Model consistency",
+    "Publication venue": "Journal of Systems Architecture",
+    "Publication date": "2009-07-01",
+    "Publication type": "Article",
+    "Authors": "Shen, Haifeng",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84887907901",
+    "Primary study DOI": "10.1109/TSE.2013.30",
+    "Title": "Determining the Cause of a Design Model Inconsistency",
+    "Abstract": "When a software engineer finds an inconsistency in a model, then the first question is why? What caused it? Obviously, there must be an error. But where could it be? Or is the design rule erroneous and if yes then which part? The cause of an inconsistency identifies the part of the model or design rule where the error must be. We believe that the visualization of an inconsistency ought to visualize the cause. Understanding the cause is of vital importance before a repair can even be formulated. Indeed, any automation (e.g., code generation, refactoring) has to be considered with caution if it involves model elements that cause inconsistencies. This paper analyzes the basic structure of inconsistent design rules as well as their behavior during validation and presents an algorithm for computing its cause. The approach is fully automated, tool supported, and was evaluated on 14,111 inconsistencies across 29 design models. We found that our approach computes correct causes for inconsistencies, these causes are nearly always a subset of the model elements investigated by the design rules' validation (a naive cause computation approximation), and the computation is very fast (99.8 percent of the causes are computable in < 100 ms). © 1976-2012 IEEE.",
+    "Keywords": "Design tools and techniques | Programming environments/construction tools | Validation",
+    "Publication venue": "IEEE Transactions on Software Engineering",
+    "Publication date": "2013-11-25",
+    "Publication type": "Article",
+    "Authors": "Reder, Alexander;Egyed, Alexander",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85097834993",
+    "Primary study DOI": "10.1145/3382025.3414969",
+    "Title": "Detecting inconsistencies in annotated product line models",
+    "Abstract": "© 2020 ACM.Model-based product line engineering applies the reuse practices from product line engineering with graphical modeling for the specification of software intensive systems. Variability is usually described in separate variability models, while the implementation of the variable systems is specified in system models that use modeling languages such as SysML. Most of the SysML modeling tools with variability support, implement the annotation-based modeling approach. Annotated product line models tend to be error-prone since the modeler implicitly describes every possible variant in a single system model. To identifying variability-related inconsistencies, in this paper, we firstly define restrictions on the use of SysML for annotative modeling in order to avoid situations where resulting instances of the annotated model may contain ambiguous model constructs. Secondly, inter-feature constraints are extracted from the annotated model, based on relations between elements that are annotated with features. By analyzing the constraints, we can identify if the combined variability- and system model can result in incorrect or ambiguous instances. The evaluation of our prototype implementation shows the potential of our approach by identifying inconsistencies in the product line model of our industrial partner which went undetected through several iterations of the model.",
+    "Keywords": "consistency checking | model-based systems engineering | product line engineering | SysML | variability modeling",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2020-10-19",
+    "Publication type": "Conference Paper",
+    "Authors": "Bilic, Damir;Carlson, Jan;Sundmark, Daniel;Afzal, Wasif;Wallin, Peter",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85025155511",
+    "Primary study DOI": "10.1007/978-3-319-61482-3_12",
+    "Title": "Model Consistency for Distributed Collaborative Modeling",
+    "Abstract": "© Springer International Publishing AG 2017.Current collaborative modeling tools use a centralized architecture, based on version control system, where models are updated asynchronously. These tools depend on a single server and are not completely adapted for collaborative modeling, where update reactivity is essential. In this paper, we propose a framework for building collaborative modeling tools which provides synchronous model update. The framework is based on a peer-to-peer architecture and uses a consistency algorithm for model updating.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2017-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Sunyé, Gerson",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85061428176",
+    "Primary study DOI": "10.1109/CIST.2018.8596468",
+    "Title": "An AHP-Based Method to Fix Inconsistencies in UML Collaborative Modeling",
+    "Abstract": "© 2018 IEEE.Building UML models in a collaborative way can give rise to several inconsistencies. Fixing these inconsistencies is the ultimate purpose considered in the inconsistency management process after detecting and diagnosing them. In this paper, we focus on laying the foundation for solutions aiming to help collaborative modelers choosing the right repair action that fit their modeling objectives and strategies. To this end, we use the AHP (Analytic Hierarchy Process) technique for organizing and analyzing the modelers' decisions. Ultimately, it is up to the software designers to take the appropriate action to fix the detected inconsistency.",
+    "Keywords": "AHP Technique | Collaborative Modeling | Decision Problems | Inconsistencies in UML Models",
+    "Publication venue": "Colloquium in Information Science and Technology, CIST",
+    "Publication date": "2018-12-28",
+    "Publication type": "Conference Paper",
+    "Authors": "Allaki, Driss;Dahchour, Mohamed;En-Nouaary, Abdeslam",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85073149764",
+    "Primary study DOI": "10.1109/SYSCON.2019.8836869",
+    "Title": "Model Management Tools for Models of Different Domains: A Systematic Literature Review",
+    "Abstract": "© 2019 IEEE.Objective: The goal of this study is to present an overview of industrial and academic approaches to cross-domain model management. We aim at identifying industrial and academic tools for cross-domain model management and describing the inconsistency types addressed by them as well as strategies the users of the tools employ to keep consistency between models of different domains. Method: We conducted a systematic literature review. Using the keyword-based search on Google Scholar we analyzed 515 potentially relevant studies; after applying inclusion and exclusion criteria 88 papers were selected for further analysis. Results: The main findings/contributions are: (i) a list of available tools used to support model management; (ii) approximately 31% of the tools can provide consistency model checking on models of different domains and approximately 24% on the same domain; (iii) available strategies to keep the consistency between models of different domains are not mature enough; (iv) explicit modeling dependencies between models is not common in the industry. However, it is considered as a requirement by academia if one wishes to manage inconsistency between models of different domains. Conclusion: This study presents an overview of industrial practices and academic approaches about the cross-domain model management. The results presented in this study can be used as a starting point for future research on model management topics, and also for further improvement of actual model management tools.",
+    "Keywords": "Model Management | Model-Based Systems Engineering | Systematic Literature Review | Systems Engineering",
+    "Publication venue": "SysCon 2019 - 13th Annual IEEE International Systems Conference, Proceedings",
+    "Publication date": "2019-04-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Torres, Weslley;Van Den Brand, Mark;Serebrenik, Alexander",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-70450228910",
+    "Primary study DOI": "10.1145/1509239.1509252",
+    "Title": "Aspect-oriented multi-view modeling",
+    "Abstract": "Multi-view modeling allows a developer to describe a software system from multiple points of view, e.g. structural and behavioral, using different modeling notations. Aspect-oriented modeling techniques have been proposed to address the scalability problem within individual modeling notations. This paper presents RAM, an aspect-oriented modeling approach that provides scalable multi-view modeling. RAM allows the modeler to define stand-alone reusable aspect models using 3 modeling notations. The aspect models support the modeling of structure (using UML class diagrams) and behavior (using UML state and sequence diagrams). RAM supports aspect dependency chains, which allows an aspect providing complex functionality to reuse the functionality provided by other aspects. The RAM weaver can create woven views of the composed model for debugging, simulation or code generation purpose, as well as perform consistency checks during the weaving and on the woven model to detect inconsistencies of the composition. Copyright 2009 ACM.",
+    "Keywords": "Aspect dependencies | Aspect-oriented modeling | Binding | Class diagrams | Instantiation | Sequence diagrams | State diagrams",
+    "Publication venue": "Proceedings of the 8th ACM International Conference on Aspect-Oriented Software Development, AOSD'09",
+    "Publication date": "2009-11-30",
+    "Publication type": "Conference Paper",
+    "Authors": "Kienzle, Jörg;Abed, Wisam Al;Klein, Jacques",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  }
+]

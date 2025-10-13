@@ -1,0 +1,116 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84930450192",
+    "Primary study DOI": "10.17660/ActaHortic.2015.1078.25",
+    "Title": "Colchicine treatment: A method for genetic diversity induction of doritis pulcherrima Lindl. Orchid of Thailand",
+    "Abstract": "Doritis pulcherrima Lindl. is one of the orchid species in Asia, including Thailand. Natural diploid and tetraploid Doritis pulcherrima, 17 clones, were used in this research. The diploid MVP 12 clone was selected to culture with aseptic technique for protocorm producing. Protocorms derived from this clone were used to induce tetraploid orchid plants. Polyploidization was induced via 2 month aged protocorms with various colchicine treatments. The suitable treatment was 100 mg/ L of colchicine for 10 days. The survival rate of protocorms and plantlets were 39.2 and 67.0%, respectively. The 25% of induced plantlets were observed as tetraploid by somatic chromosome counting. The five tetraploid plantlets were selected. They were 4N1, 4N'1, 4N'2, 4N2 and 4N3. Most morphological characteristics of plantlets were significant, except stem diameter, leaf number, root diameter, lateral sepal length, and lip length. The genetic relationship among Doritis pulcherrima plants were performed with Amplified Fragment Length Polymorphism (AFLP) fingerprinting, DNA bands were observed as raw data. Phylogenetic tree was constructed using NTSYSpc 2.1 software. Results showed closely genetic diversity of this orchid species and all tetraploid induction plants were very close to the diploid mother plant, except for the 4N3 tetraploid induction plant. This interesting observation was due to mutation during polyploidization, so the colchicine treatment was a technique to make wider genetic diversity for this orchid species.",
+    "Keywords": "AFLP | Colchicine treatment | Doritis pulcherrima | Genetic diversity | Orchid | Polyploidization",
+    "Publication venue": "Acta Horticulturae",
+    "Publication date": "2015-03-27",
+    "Publication type": "Conference Paper",
+    "Authors": "Rungruchkanont, K.;Apisitwanich, S.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85074312077",
+    "Primary study DOI": "10.1007/978-1-4842-4081-6",
+    "Title": "Agile office 365: Successful project delivery practices for an evolving platform",
+    "Abstract": "Plan, deploy, and run Office 365 using an agile project management approach. This soup-to-nuts guide teaches you how to apply agile techniques in order to make your Office 365 implementation a success, even as the Microsoft Office 365 platform continues to evolve and introduce new features. The author's approach to teaching time- and resource-saving concepts mirrors the process a team might typically encounter in delivering software projects. Learning begins with an overview of Office 365 and Agile. From there, you delve into topics correlating to product conception, execution, and deployment. The book wraps up with a comprehensive discussion on how Office 365, straight out of the box, can be used as a tool to manage Office 365 deployments and other types of projects. What You'll Learn: Understand what Office 365 is and why it is the world’s most popular online business app Adapt your delivery process to work with Office 365 and its regular update schedule Recognize potential risk areas and develop mitigation strategies Discover the tools that are available to make your life easier Manage the transition from deployment to operations Follow end-to-end guidance packed with useful case studies and tools to make your job easier This book is for project managers, business analysts, IT managers, and other team members involved in managing Office 365 in order to deliver solutions for their organization. While not required, a basic understanding of Agile methodologies and Office 365 is useful. Haniel Croitoru is a seasoned SharePoint and Office 365 consultant and Microsoft Office 365 MVP with more than 15 years of experience in public and private sectors, focusing on SharePoint in the roles of consultant, project manager, business analyst, and trainer. Haniel enjoys sharing his expertise and can be found presenting at many conferences and community events. He holds an MS degree in Computer Science, a Master’s Certificate in Project Management, and has been a certified Project Management Professional (PMP) since 2007 and Agile Certified Practitioner since 2013.",
+    "Keywords": "Implementation | Microsoft | Migration | PointI | Share | Tmanager",
+    "Publication venue": "Agile Office 365: Successful Project Delivery Practices for an Evolving Platform",
+    "Publication date": "2017-01-01",
+    "Publication type": "Book",
+    "Authors": "Croitoru, Haniel",
+    "Ground truth": "Exclude",
+    "Reason": "EC4",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 3,
+      "IC3": 2
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0022275921",
+    "Primary study DOI": "",
+    "Title": "SHANGHAI ECONOMETRIC MODEL (SHECMOD) AND COMPUTER APPLICATIONS.",
+    "Abstract": "The Shanghai Econometric Model (SHECMOD) in combination with the methodology of econometric model building is presented. SHECMOD is a non-linear and dynamic model. In order to compare different approaches for model building, two different forms are developed: SHECMOD-A (SHECMOD on Apple II plus microcomputer) and SHECMOD-W (SHECMOD on Wang MVP-2200 computer). A stability study of the model, multipier analysis and policy evaluation of selected economic objectives, and analysis of multivariable disturbed projected simulation and its impact on economic objectives have been carried out for the years 1984-1987. Suggestions for Shanghai municipal economic development are proposed. Software packages developed for macro econometric modeling on Apple II plus microcomputer and Wang MVP-2200 computer are briefly described.",
+    "Keywords": "",
+    "Publication venue": "Proceedings of the Annual Conference of the Association for Computing Machinery",
+    "Publication date": "1985-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Gu, Weiwen;Wu, Dinghua;Xie, Zhiliang;Gu, Qingliang",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 4,
+      "IC3": 3
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0027744135",
+    "Primary study DOI": "",
+    "Title": "Chromatin texture features in hematoxylin and eosin-stained prostate tissue",
+    "Abstract": "A pilot study was undertaken to determine the expression of certain nuclear features in prostatic lesions. Twenty cases, 5 of hyperplasia and 5 each of carcinoma, Mostofi grades I-III, were selected as a training set, and an additional 20 cases were used as a test set, including 5 cases of hyperplasia and 5 cases each in Mostofi grades I-III. Images of hematoxylin and eosin-stained, 4-μm paraffin sections were obtained with a JVC BY-110 three-color camera and digitized by an IBM personal computer with a Matrox MVP-AT/NP imaging board. Thirty nuclei for each case from the training set, for a total of 600 nuclei, and 10 nuclei for each case from the test set, for a total of 200 nuclei, were analyzed by quantitative cytometric software on a SUN 3/60 workstation. A linear discriminant model was used for statistical analysis. One hundred percent of the hyperplasia group, 98% of the low grade group, 92% of the medium grade group and 82% of the high grade group were classified correctly in the test set with an overall success rate of 93%. Statistically significant chromatin texture features included heterogeneity, condensation, margination, run length nonuniformity, long run emphasis, gray level nonuniformity and inertia. Area, roundness and staining intensity (total extinction) were also significant. The results with standard hematoxylin and eosin-stained tissue sections were similar to those previously obtained with Feulgen-stained material. These results indicate that routine hematoxylin and eosin-stained material offers consistent diagnostic clues.",
+    "Keywords": "",
+    "Publication venue": "Analytical and Quantitative Cytology and Histology",
+    "Publication date": "1993-12-01",
+    "Publication type": "Article",
+    "Authors": "Christen, R.;Xiao, J.;Minimo, C.;Gibbons, G.;Fitzpatrick, B. T.;Galera-Davidson, H.;Bartels, P. H.;Bibbo, M.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 4,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0032404008",
+    "Primary study DOI": "10.1117/12.312547",
+    "Title": "Fast convolution on a programmable mediaprocessor and application in unsharp masking",
+    "Abstract": "Convolution is a fundamental operation to many image processing algorithms and applications. One such algorithm is unsharp masking, which is widely used in medical imaging. A major component in unsharp masking is the computation of a lowpass-filtered image, e.g., via generalized convolution with a Gaussian filter or via specialized convolution with a boxcar filter. Generalized convolution is computationally expensive, e.g., convolution with a 3 × 3 kernel on a 512 × 512 image takes 1.45 sec on SUN SparcStation 20/71. In order to achieve faster computation in convolution, hardwired solutions with ASICs and/or fixed-function chips with little programmability have been traditionally used. The disadvantages associated with hardwired implementations are that they are rigid, unifunctional and not upgradable. Our approach has been programmable convolution, which is flexible, multi-functional, easily-upgradable and has a performance comparable to the hardwired implementations. This paper describes efficient software implementations of both generalized and boxcar convolution on a programmable multimedia processor, the Texas Instruments TMS320C80, also known as Multimedia Video Processor (MVP). Using the MVP's advanced digital signal processors (ADSPs), instruction-level parallelism and intelligent input/output interface, we have been able to significantly improve the performance of both generalized and boxcar convolution. For a 512 × 512 8-bit image, generalized convolution takes 19.5 ms for a 3 × 3 kernel. While the boxcar convolution has similar performance for a 3 × 3 kernel, the performance improvement by a factor of up to 13 has been achieved for large-size kernels such as 21 × 21. Our implementation of convolution algorithms on programmable mediaprocessor clearly demonstrates the feasibility of software-based approach.",
+    "Keywords": "Boxcar convoluion | Convolution | HMPV | Programmable mediaprocessor | TMS320C80 | Unsharp masking",
+    "Publication venue": "Proceedings of SPIE - The International Society for Optical Engineering",
+    "Publication date": "1998-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Managuli, Ravi A.;Basoglu, C.;Pathak, Sayan D.;Kim, Y.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 4,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-77953660026",
+    "Primary study DOI": "10.4244/EIJV5I1A15",
+    "Title": "Ex vivo analysis of human coronary bifurcation anatomy: Defining the main vessel-to-side-branch transition zone",
+    "Abstract": "Aims: Defining vessel diameters and angles that comprise coronary side-branch intersections could assist in tailoring treatments to match anatomy, improve haemodynamic flow, and minimise mechanical trauma. We sought to characterise intersections of main vessels and side-branches by measuring actual diameters, angles, and shapes at the ostia in human coronary arteries. Methods and results: Polymer casts were created using coronary trees from 23 adult cadaver hearts. Seventy-five arterial intersections between main vessels and side-branches were captured using the combination of a microscope (Smartscope MVP100) and computer program (Gage-X metrology software) specifically calibrated for video-based inspection and measurement (34-fold magnification). The intersection between main vessels and side-branches was a multifaceted, curvilinear transition rather than a bisecting angle. The shape of the ostia was typically elliptical rather than circular. Mean diameters were 2.88 mm in proximal main vessels, 2.34 mm in ostia, and 2.00 mm in side-branches (first-level branches). Obtuse proximal (150 degrees) and distal (111 degrees) angles with accentuated side-branch taper create a \"barn door\" effect with wider curvature at the bottom. Conclusions: Matching treatments to these various forms of asymmetry at the main vessel-to-side-branch intersection may minimise injury and optimise scaffolding, and haemodynamic flow. © Europa Edition. All rights reserved.",
+    "Keywords": "Angles | Coronary bifurcation | Human coronaries | Ostium | Vessel diameters",
+    "Publication venue": "EuroIntervention",
+    "Publication date": "2009-01-01",
+    "Publication type": "Article",
+    "Authors": "Russell, Mary E.;Binyamin, Gary;Konstantino, Eitan",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 4,
+      "IC3": 1
+    }
+  }
+]

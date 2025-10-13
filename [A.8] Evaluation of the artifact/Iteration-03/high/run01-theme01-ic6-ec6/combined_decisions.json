@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "95.00%",
+    "recall": "100.00%",
+    "TP": 12,
+    "TN": 7,
+    "FP": 1,
+    "FN": 0
+  },
+  "data": [
+    {
+      "Title": "Predicting Code Hotspots in Open-Source Software from Object-Oriented Metrics Using Machine Learning",
+      "Abstract": "Software engineers are able to measure the quality of their code using a variety of metrics that can be derived directly from analyzing the source code. These internal quality metrics are valuable to engineers, but the organizations funding the software development effort find external quality metrics such as defect rates and time to develop features more valuable. Unfortunately, external quality metrics can only be calculated after costly software has been developed and deployed for end-users to utilize. Here, we present a method for mining data from freely available open source codebases written in Java to train a Random Forest classifier to predict which files are likely to be external quality hotspots based on their internal quality metrics with over 75% accuracy. We also used the trained model to predict hotspots for a Java project whose data was not used to train the classifier and achieved over 75% accuracy again, demonstrating the method's general applicability to different projects. © 2018 World Scientific Publishing Company.",
+      "Keywords": "classification | data mining | hotspot prediction | java | machine learning | object-oriented metrics | open source | quality metrics | random forest | Software engineering | software quality",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Empirical analysis of object-oriented design metrics for predicting high and low severity faults",
+      "Abstract": "In the last decade, empirical studies on object-oriented design metrics have shown some of them to be useful for predicting the fault-proneness of classes in object-oriented software systems. This research did not, however, distinguish among faults according to the severity of impact. It would be valuable to know how object-oriented design metrics and class fault-proneness are related when fault severity is taken into account. In this paper, we use logistic regression and machine learning methods to empirically investigate the usefulness of object-oriented design metrics, specifically, a subset of the Chidamber and Kemerer suite, in predicting fault-proneness when taking fault severity into account. Our results, based on a public domain NASA data set, indicate that 1) most of these design metrics are statistically related to fault-proneness of classes across fault severity, and 2) the prediction capabilities of the investigated metrics greatly depend on the severity of faults. More specifically, these design metrics are able to predict low severity faults in fault-prone classes better than high severity faults in fault-prone classes. © 2006 IEEE.",
+      "Keywords": "Cross validation | Fault-proneness | Faults | Metrics | Object-oriented | Prediction",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Predictive analytics for software testing: Keynote paper",
+      "Abstract": "This keynote discusses the use of Predictive Analytics for Software Engineering, and in particular for Software Defect Prediction and Software Testing, by presenting the latest results achieved in these fields leveraging Artificial Intelligence, Search-based and Machine Learning methods, and by giving some directions for future work. © 2018 Author.",
+      "Keywords": "predictive analytics | search-based predictive modelling",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Support vector based oversampling technique for handling class imbalance in software defect prediction",
+      "Abstract": "The importance of software defect prediction has risen significantly over the past decade and is an inseparable part of software quality. Owing to the drawbacks of traditional techniques used for software quality assurance, machine learning algorithms are used to detect the defect in software modules. By the means of this study, we present a support vector based oversampling technique as a part of the software defect procedure and compare it with two other oversampling techniques namely Synthetic minority oversampling technique and Adaptive Synthetic oversampling technique. For the purpose of this study, we chose 5 datasets from the PROMISE and AEEEM repositories. After extracting a subset of attributes from the original dataset through Linear discriminant Analysis, we utilize the improved oversampled dataset to train a support vector machine classifier and a Naïve Bayesian classifier. The proposed Support Vector based oversampling technique along with Linear Discriminant Analysis performs better than the other techniques for the performance evaluation metric of F-measure score and the area under receiver operating characteristic curve and the consistency of result is maintained. © 2021 IEEE",
+      "Keywords": "Bug Reports | Continuous Query | Duplicate Detection | Incremental Learning | Information Retrieval | Instance-based Learning | Natural Language Processing | Online Query",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Can a Machine Learn through Customer Sentiment?: A Cost-Aware Approach to Predict Support Ticket Escalations",
+      "Abstract": "Given the connection between customer happiness and support ticket escalation, we describe an approach that 1) analyzes the emotions in conversations between a customer and a support analyst and 2) provides organizations with a cost-based mechanism to evaluate machine-learning algorithms trained on emotion-related features to predict support ticket escalations. © 1984-2012 IEEE.",
+      "Keywords": "Affective Computing | cost-sensitive learning | data mining | defect escalation | Machine learning | machine learning | Modeling and prediction | Natural language | Sentiment analysis | software defect escalation prediction",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Asymmetric learning based on kernel partial least squares for software defect prediction",
+      "Abstract": "An asymmetric classifier based on kernel partial least squares is proposed for software defect prediction. This method improves the prediction performance on imbalanced data sets. The experimental results validate its effectiveness. © 2012 The Institute of Electronics, Information and Communication Engineers.",
+      "Keywords": "Class imbalance | Defect prediction | Kernel partial least squares | Machine learning",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Automated defect identification via path analysis-based features with transfer learning",
+      "Abstract": "Recently, artificial intelligence techniques have been widely applied to address various specialized tasks in software engineering, such as code generation, defect identification, and bug repair. Despite the diffuse usage of static analysis tools in automatically detecting potential software defects, developers consider the large number of reported alarms and the expensive cost of manual inspection to be a key barrier to using them in practice. To automate the process of defect identification, researchers utilize machine learning algorithms with a set of hand-engineered features to build classification models for identifying alarms as actionable or unactionable. However, traditional features often fail to represent the deep syntactic structure of alarms. To bridge the gap between programs’ syntactic structure and defect identification features, this paper first extracts a set of novel fine-grained features at variable-level, called path-variable characteristic, by applying path analysis techniques in the feature extraction process. We then raise a two-stage transfer learning approach based on our proposed features, called feature ranking-matching based transfer learning, to increase the performance of cross-project defect identification. Our experimental results for eight open-source projects show that the proposed features at variable-level are promising and can yield significant improvement on both within-project and cross-project defect identification. © 2020 The Author(s)",
+      "Keywords": "Automated defect identification | Machine learning | Model evaluation | Path analysis | Transfer learning",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Search-Based Predictive Modelling for Software Engineering: How Far Have We Gone?",
+      "Abstract": "In this keynote I introduce the use of Predictive Analytics for Software Engineering (SE) and then focus on the use of search-based heuristics to tackle long-standing SE prediction problems including (but not limited to) software development effort estimation and software defect prediction. I review recent research in Search-Based Predictive Modelling for SE in order to assess the maturity of the field and point out promising research directions. I conclude my keynote by discussing best practices for a rigorous and realistic empirical evaluation of search-based predictive models, a condicio sine qua non to facilitate the adoption of prediction models in software industry practices. © Springer Nature Switzerland AG 2019.",
+      "Keywords": "Machine learning | Predictive analytics | Predictive modelling | Search-based software engineering | Software analytics",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Automatically identifying security bug reports via multitype features analysis",
+      "Abstract": "Bug-tracking systems are widely used by software developers to manage bug reports. Since it is time-consuming and costly to fix all the bugs, developers usually pay more attention to the bugs with higher impact, such as security bugs (i.e., vulnerabilities) which can be exploited by malicious users to launch attacks and cause great damages. However, manually identifying security bug reports from millions of reports in bug-tracking systems is difficult and error-prone. Furthermore, existing automated identification approaches to security bug reports often incur many false negatives, causing a hidden danger to the computer system. To address this important problem, we present an automatic security bug reports identification model via multitype features analysis, dubbed Security Bug Report Identifier (SBRer). Specifically, we make use of multiple kinds of information contained in a bug report, including meta features and textual features, to automatically identify the security bug reports via natural language processing and machine learning techniques. The experimental results show that SBRer with imbalanced data processing can successfully identify the security bug reports with a much higher precision of 99.4% and recall of 79.9% compared to existing work. © Springer International Publishing AG, part of Springer Nature 2018.",
+      "Keywords": "Bug report | Machine learning | Natural language processing | Security bug identification",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Ensemble techniques-based software fault prediction in an open-source project",
+      "Abstract": "Software engineering repositories have been attracted by researchers to mine useful information about the different quality attributes of the software. These repositories have been helpful to software professionals to efficiently allocate various resources in the life cycle of software development. Software fault prediction is a quality assurance activity. In fault prediction, software faults are predicted before actual software testing. As exhaustive software testing is impossible, the use of software fault prediction models can help the proper allocation of testing resources. Various machine learning techniques have been applied to create software fault prediction models. In this study, ensemble models are used for software fault prediction. Change metrics-based data are collected for an open-source android project from GIT repository and code-based metrics data are obtained from PROMISE data repository and datasets kc1, kc2, cm1, and pc1 are used for experimental purpose. Results showed that ensemble models performed better compared to machine learning and hybrid search-based algorithms. Bagging ensemble was found to be more effective in the prediction of faults in comparison to soft and hard voting. © 2020, IGI Global.",
+      "Keywords": "Change Metrics | GIT Repository | Hybrid Search-Based Algorithms | Machine Learning | Quality | Software Metrics | Static Code Metrics | Testing",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Identifying security bug reports based solely on report titles and noisy data",
+      "Abstract": "Identifying security bug reports (SBRs) is a vital step in the software development life-cycle. In supervised machine learning based approaches, it is usual to assume that entire bug reports are available for training and that their labels are noise free. To the best of our knowledge, this is the first study to show that accurate label prediction is possible for SBRs even when solely the title is available and in the presence of label noise. © 2019 IEEE.",
+      "Keywords": "Bug Repositories | Machine Learning | Mislabeling | Noise | Security Bug Report",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Machine Learning-Assisted Optical Performance Monitoring in Fiber-Optic Networks",
+      "Abstract": "We review machine learning (ML)-based optical performance monitoring (OPM) techniques in optical communications. Recent applications of ML-Assisted OPM in different aspects of fiber-optic networking including cognitive fault detection and management, network equipment failure prediction, and dynamic planning and optimization of software-defined networks are also discussed. © 2018 IEEE.",
+      "Keywords": "fiber-optic networks; machine learning; Optical performance monitoring; software-defined networks",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Applying Weighted Particle Swarm Optimization to Imbalanced Data in Software Defect Prediction",
+      "Abstract": "Imbalanced data typically refers to class distribution skews and underrepresented data, which affect the performance of learning algorithms. Such data are well-known in real-life situations, such as behavior analysis, cancer malignancy grading, industrial systems’ monitoring and software defect prediction. In this paper, we present a W-PSO method, which comprises weighting of instances in a dataset and the Particle Swarm Optimization algorithm. The presented method was combined with classification methods C4.5 and Naive Bayes, respectively, and tested experimentally on ten freely accessible software defect prediction datasets. Based on the results achieved, the presented W-PSO method creates better classification models than classification methods C4.5 and Naive Bayes in the majority of the cases. © 2019, Springer International Publishing AG, part of Springer Nature.",
+      "Keywords": "Bagging | Boosting | Ensemble method | Interpretability | Model transformatiomn | Naive Bayes classifier | Performance",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Software defect prediction using a high performance neural network",
+      "Abstract": "Predicting the existing defects in software products is one of the considerable issues in software engineering that contributes a lot toward saving time in software production and maintenance process. In fact, finding the desirable models for predicting software defects has nowadays turned into one of the main goals of software engineers. Since intricacies and restrictions of software development are increasing and unwilling consequences such as failure and errors decrease software quality and customer satisfaction, producing error-free software is very difficult and challenging. One of the efficient models in this field is multilayer neural network with proper learning algorithm. Many of the learning algorithms suffer from extra overfitting in the learning datasets. In this article, setting multilayer neural network method was used in order to improve and increase generalization capability of learning algorithm in predicting software defects. In order to solve the existing problems, a new method is proposed by developing new learning methods based on support vector machine principles and using evolutionary algorithms. The proposed method prevents from overfitting issue and maximizes classification margin. Efficiency of the proposed algorithm has been validated against 11 machine learning models and statistical methods within 3 NASA datasets. Results reveal that the proposed algorithm provides higher accuracy and precision compared to the other models. © 2014 SERSC.",
+      "Keywords": "Bug report management | Multi-factor analysis | Priority prediction",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Software reliability prediction using package level modularization metrics",
+      "Abstract": "Reliability ensures architectural strength and error free operations of software systems. Software design and architectural measures have been studied as key indicators of faults in software systems. However, association between quantification of reliability prediction using design-level metrics has not been explored. This paper presents a novel approach of developing reliability metrics and it's prediction using package level metrics. In particular, relevant fault severity information is empirically experimented with package level metrics in an effort-aware classification and ranking scenario. Results obtained hint significant view to predict the reliability of software systems using architectural level metrics. Therefore, the empirical analysis can guide development process to be design-focused and avoid accumulation of faults in implementation phase. © 2020 The Authors. Published by Elsevier B.V.",
+      "Keywords": "Machine Learning | Reliability | Software Assessment | Software Package Metrics",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Improved Bayesian regularisation using neural networks based on feature selection for software defect prediction",
+      "Abstract": "Demand for software-based applications has grown drastically in various real-time applications. However, software testing schemes have been developed which include manual and automatic testing. Manual testing requires human effort and chances of error may still affect the quality of software. To overcome this issue, automatic software testing techniques based on machine learning techniques have been developed. In this work, we focus on the machine learning scheme for early prediction of software defects using Levenberg-Marquardt algorithm (LM), Back Propagation (BP) and Bayesian Regularisation (BR) techniques. Bayesian regularisation achieves better performance in terms of bug prediction. However, this performance can be enhanced further. Hence, we developed a novel approach for attribute selection-based feature selection technique to improve the performance of BR classification. An extensive study is carried out with the PROMISE repository where we considered KC1 and JM1 datasets. Experimental study shows that the proposed approach achieves better performance in predicting the defects in software. © 2019 Inderscience Enterprises Ltd.",
+      "Keywords": "Fault Injection | Gate-Level Netlist | k-Nearest Neighbors | Linear Least Squares | Machine Learning | Single Event Effects | Support Vector Regression | Transient Faults",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs",
+      "Abstract": "The increasing inclusion of Machine Learning (ML) models in safety-critical systems like autonomous cars have led to the development of multiple model-based ML testing techniques. One common denominator of these testing techniques is their assumption that training programs are adequate and bug-free. These techniques only focus on assessing the performance of the constructed model using manually labeled data or automatically generated data. However, their assumptions about the training program are not always true as training programs can contain inconsistencies and bugs. In this paper, we examine training issues in ML programs and propose a catalog of verification routines that can be used to detect the identified issues, automatically. We implemented the routines in a Tensorflow-based library named TFCheck. Using TFCheck, practitioners can detect the aforementioned issues automatically. To assess the effectiveness of TFCheck, we conducted a case study with real-world, mutants, and synthetic training programs. Results show that TFCheck can successfully detect training issues in ML code implementations. © 2019 IEEE.",
+      "Keywords": "Deep Learning | TensorFlow program | Testing | Training issues",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Predicting bug severity using customized weighted majority voting algorithms",
+      "Abstract": "One of the crucial attributes of bug report is severity. Accurate prediction of bug severity can be a huge contribution towards optimized software maintenance. In this paper, a new model that combines classification techniques based on Customized Cascading Weighted Majority Voting has been proposed. The proposed technique has been evaluated using datasets from open-source projects. The results show that the proposed technique has superior performance compared to other classification techniques. © 2017 IEEE.",
+      "Keywords": "False alarm detection | Machine learning | Static analysis",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Thresholds based outlier detection approach for mining class outliers: An empirical case study on software measurement datasets",
+      "Abstract": "Predicting the fault-proneness labels of software program modules is an emerging software quality assurance activity and the quality of datasets collected from previous software version affects the performance of fault prediction models. In this paper, we propose an outlier detection approach using metrics thresholds and class labels to identify class outliers. We evaluate our approach on public NASA datasets from PROMISE repository. Experiments reveal that this novel outlier detection method improves the performance of robust software fault prediction models based on Naive Bayes and Random Forests machine learning algorithms. © 2010 Elsevier Ltd. All rights reserved.",
+      "Keywords": "Empirical software engineering | Outlier detection | Software fault prediction | Software metrics thresholds",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "An investigation of the accuracy of code and process metrics for defect prediction of mobile applications",
+      "Abstract": "Mobile applications have been around for a long time and proved to be a new excited market where everyone want to engage themselves. They have become more important than webpages nowadays. Companies are giving more preference to mobile apps as compared to websites because of their user friendliness , better visibility and ease of social networking. This paper compares static code metrics and process metrics for predicting defects in an open source mobile applications. Correlation coefficient, mean absolute error and root mean squared error with process metrics as predictors are significantly better than with code metrics as predictors. Also the combined model based on process and code metrics is better than the model based on code metrics. It is shown that process metrics based defect prediction models are better for mobile applications in all 7 machine learning techniques used for modelling. © 2015 IEEE.",
+      "Keywords": "Artificial damages | Convolutional neural network | End-to-end | Intelligent fault diagnosis | Real damages",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    }
+  ]
+}
