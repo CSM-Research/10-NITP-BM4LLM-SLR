@@ -1,0 +1,254 @@
+[
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84936070508",
+    "Primary study DOI": "10.1016/j.compeleceng.2015.06.021",
+    "Title": "Consistency maintenance of compound operations in real-time collaborative environments",
+    "Abstract": "© 2015 Elsevier LtdIn real-time collaborative environments, address space transformation strategy can be used to achieve consistency maintenance of shared documents. However, as for the execution of compound operations, they are firstly decomposed into primitive operations, the relationships between the referencing objects and referenced objects are lost during the decomposition process. Besides, the Undo operations in this environment are targeted at compound operations, but not decomposed basic ones. However, the traditional algorithms take primitive operation as the manipulation unit, thus leading to semantic inconsistencies of compound Undo operations. This paper appends two history buffers to maintain the relationships between the original operations and the decomposed ones and introduces “Retrace-Undo-VT-Redo-Retrace” strategy to realize the consistency maintenance of compound operations. Also, this paper introduces the version-decomposition strategy, describes the main algorithms of the compound Undo operations and analyses the validity of the strategy. Case analysis is given to show the effectiveness of the strategy.",
+    "Keywords": "Address space transformation | Compound operation | Consistency maintenance | Real-time collaboration | Undo/Redo",
+    "Publication venue": "Computers and Electrical Engineering",
+    "Publication date": "2016-02-01",
+    "Publication type": "Article",
+    "Authors": "Gao, Liping;Yu, Fangyu;Gao, Lily;Xiong, Naixue;Yang, Guisong",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 2,
+      "IC3": 7,
+      "EC1": 6,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-51849101223",
+    "Primary study DOI": "10.1109/INMIC.2007.4557693",
+    "Title": "An Accessible Formal Specification of the UML and OCL Meta-Model in Isabelle/HOL",
+    "Abstract": "UML is the de-facto standard for system modeling. Due to its visual syntax and expressiveness, it is widely accepted and used in the industry. However, it is a semi-formal means of system specification and thus prone to inconsistencies. We believe that UML models need to be thoroughly verified because verification of UML models helps to find errors in the early system design. Object Constraint Language (OCL) somewhat alleviates this problem but is not always enough. Past attempts at formally specifying UML for verification include those based on simplistic Z specifications and the much more complex ones based on shallow embedding of UML and OCL in Higher Order Logic (HOL). All these approaches are either too simplistic or too complex for the software industry's purposes. In this paper, we formalize UML's class diagram and OCL constraints in the highly successful automated/interactive theorem prover Isabelle using one of its built-in logics, HOL. The aim is to create a formalization, which is accessible to the average software engineer while still being powerful enough to be able to prove consistency and other useful properties. The formalization based on UML2.0 and OCL2.0, addresses all concepts related to class diagrams such as type definitions, attributes, operations, aggregation and association along with the syntax and semantics of OCL expressions in the context of UML class diagrams. © 2007 IEEE.",
+    "Keywords": "Algorithms | Automated theorem prover | Formal methods | System design | Tools & applications",
+    "Publication venue": "INMIC2007 - 11th IEEE International Multitopic Conference",
+    "Publication date": "2007-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Ali, Tamleek;Nauman, Mohammad;Alam, Masoom",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 7,
+      "EC1": 3,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-15544375548",
+    "Primary study DOI": "10.1016/j.entcs.2004.08.038",
+    "Title": "Detecting structural refactoring conflicts using critical pair analysis",
+    "Abstract": "Refactorings are program transformations that improve the software structure while preserving the external behaviour. In spite of this very useful property, refactorings can still give rise to structural conflicts when parallel evolutions to the same software are made by different developers. This paper explores this problem of structural evolution conflicts in a formal way by using graph transformation and critical pair analysis. Based on experiments carried out in the graph transformation tool AGG, we show how this formalism can be exploited to detect and resolve refactoring conflicts. © 2005 Elsevier B.V.",
+    "Keywords": "Critical pair analysis | Evolution conflicts | Graph transformation | Parallel changes | Refactoring | Restructuring",
+    "Publication venue": "Electronic Notes in Theoretical Computer Science",
+    "Publication date": "2005-04-06",
+    "Publication type": "Conference Paper",
+    "Authors": "Mens, Tom;Taentzer, Gabriele;Runge, Olga",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 5,
+      "IC3": 7,
+      "EC1": 4,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-74949117936",
+    "Primary study DOI": "10.1145/1656485.1656494",
+    "Title": "Supporting inconsistency resolution through predictive change impact analysis",
+    "Abstract": "Today, model-driven software processes rely on consistency management approaches to deal with the multitude of inconsistencies that occur in large systems. To resolve a detected inconsistency, the software designer applies one resolution out of a set of resolution options to each inconsistency. To do so, the designer needs to understand the extent of changes posed by each resolution. In this paper we propose change impact analysis to support the designer in this task. We present a simple algorithm for predicting the impact of inconsistency resolutions by checking the instantiation of different meta-model relationships. Based on one small case study, we demonstrate that our algorithm provides a reasonable estimate for the number of changes that actually will be applied. We demonstrate the usage of impact analysis for inconsistency resolution and make a first step towards a decision support tool to help a software designer resolve inconsistencies. Copyright © 2009 ACM.",
+    "Keywords": "",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2009-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Keller, Anne;Schippers, Hans;Demeyer, Serge",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 5,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85081028445",
+    "Primary study DOI": "10.1016/j.scico.2020.102438",
+    "Title": "Mediator: A component-based modeling language for concurrent and distributed systems",
+    "Abstract": "© 2020 Elsevier B.V.In this paper we propose a new language Mediator to formalize component-based concurrent and distributed system models. Mediator supports a two-step hierarchical modeling approach: Automata, which provide an interface of ports, are the basic behavior units; Systems declare components or connectors through automata, and glue them together. With the help of Mediator, components and systems can be modeled separately and precisely. The distributed Mediator and its semantics can be used to capture the inherent real-time and asynchronous behavior in distributed systems. Properties of Mediator models can be specified through CTL* formulae that support various families of properties such as safety and liveness, which can be verified using the nuXmv model checker. A leader election example is presented to show that this language is capable for modeling practical scenarios.",
+    "Keywords": "Component-based development | Coordination | Distributed systems | Mediator | Modeling language",
+    "Publication venue": "Science of Computer Programming",
+    "Publication date": "2020-06-15",
+    "Publication type": "Article",
+    "Authors": "Li, Yi;Sun, Weidi;Sun, Meng",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 2,
+      "IC3": 7,
+      "EC1": 4,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-77954628413",
+    "Primary study DOI": "10.1007/978-3-642-13595-8_18",
+    "Title": "Detecting Inconsistencies in Multi-View Models with Variability",
+    "Abstract": "Multi-View Modeling (MVM) is a common modeling practice that advocates the use of multiple, different and yet related models to represent the needs of diverse stakeholders. Of crucial importance in MVM is consistency checking - the description and verification of semantic relationships amongst the views. Variability is the capacity of software artifacts to vary, and its effective management is a core tenet of the research in Software Product Lines (SPL). MVM has proven useful for developing one-of-a-kind systems; however, to reap the potential benefits of MVM in SPL it is vital to provide consistency checking mechanisms that cope with variability. In this paper we describe how to address this need by applying Safe Composition - the guarantee that all programs of a product line are type safe. We evaluate our approach with a case study. © 2010 Springer-Verlag.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2010-07-21",
+    "Publication type": "Conference Paper",
+    "Authors": "Lopez-Herrejon, Roberto Erick;Egyed, Alexander",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 3,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-77950404074",
+    "Primary study DOI": "10.1109/ICCES.2009.5383227",
+    "Title": "Detecting inconsistencies between software architecture views",
+    "Abstract": "Software architecture is widely presented in multiple architectural views in order to address different concerns of stakeholders and to minimize complexities of presenting architecture in one model. Using multiple architecture views raised the problem of inconsistencies as views are interrelated and overlap with one another. This paper proposes a framework to help checking inconsistencies between architectural views. We firstly define the types of inconsistencies that might occur between multiple architectural views and then we propose a framework for checking inconsistencies between them. At the end a case study is provided to evaluate the framework. ©2009 IEEE.",
+    "Keywords": "Architectural views | Consistency checking | Software architecture | Viewpoints",
+    "Publication venue": "Proceedings - The 2009 International Conference on Computer Engineering and Systems, ICCES'09",
+    "Publication date": "2009-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Michel, Mirette M.;Galal-Edeen, Galal H.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 5,
+      "IC3": 7,
+      "EC1": 3,
+      "EC2": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-57049174516",
+    "Primary study DOI": "10.1007/978-3-540-88643-3_1",
+    "Title": "Design Space of Heterogeneous Synchronization",
+    "Abstract": "This tutorial explores the design space of heterogeneous synchronization, which is concerned with establishing consistency among artifacts that conform to different schemas or are expressed in different languages. Our main application scenario is synchronization of software artifacts, such as code, models, and configuration files. We classify heterogeneous synchronizers according to the cardinality of the relation that they enforce between artifacts, their directionality, their incrementality, and whether they support reconciliation of concurrent updates. We then provide a framework of artifact operators that describes different ways of building heterogeneous synchronizers, such as synchronizers based on artifact or update translation. The design decisions within the framework are described using feature models. We present 16 concrete instances of the framework, discuss tradeoffs among them, and identify sample implementations for some of them. We also explore additional design decisions such as representation of updates, establishing correspondence among model elements, and strategies for selecting a single synchronization result from a set of alternatives. Finally, we discuss related fields including data synchronization, inconsistency management in software engineering, model management, and model transformation. © 2008 Springer Berlin Heidelberg.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2008-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Antkiewicz, Michał;Czarnecki, Krzysztof",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 4,
+      "IC2": 3,
+      "IC3": 7,
+      "EC1": 3,
+      "EC2": 2
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85077996777",
+    "Primary study DOI": "10.1109/REW.2019.00016",
+    "Title": "Towards the Use of Model-Driven Technologies in an Integral Software Development Process",
+    "Abstract": "© 2019 IEEE.This work presents a model-driven engineering approach to the software development process for space applications following the standards ECSS-E-ST-40C and ECSS-Q-ST-80C. This approach is based on the use of models for the definition of the different constituent elements of the process, i.e. specification, requirements and validation procedures. The proposed approach provides development teams with a set of features that deliver an integrated solution to the software development process. These features include the use of model checking techniques to avoid inconsistencies between the different items and the ability to obtain input data from different sources, like telemetry and telecommand databases. Furthermore it enables the definition of transformations to generate different products such as component code, formatted output files, or configuration files for a ground support equipment software that allows the automatic execution of the defined functional tests. This approach has been validated through a case study in which a subset of the functionality of the software of the Instrument Control Unit of the Energy Particle Detector instrument on-board Solar Orbiter has been modelled.",
+    "Keywords": "Mission Operation | Model Driven Engineering | On Board Software | Software Verification and Validation",
+    "Publication venue": "Proceedings - 2019 IEEE 27th International Requirements Engineering Conference Workshops, REW 2019",
+    "Publication date": "2019-09-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Montalvo, Aaron;Parra, Pablo;Polo, Oscar R.;Carrasco, Alberto;Martinez, Agustin;Sanchez, Sebastian",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 2,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-84942873275",
+    "Primary study DOI": "",
+    "Title": "MetaEdit+ A Fully Configurable Multi-User and Multi-Tool CASE and CAME Environment",
+    "Abstract": "© Springer-Verlag Berlin Heidelberg 1996.Computer Aided Software Engineering (CASE) environments have spread at a lower pace than expected. One reason for this is the immaturity of existing environments in supporting development in-the-large and by-many and their inability to address the varying needs of the software developers. In this paper we report on the development of a next generation CASE environment called MetaEdit+. The environment seeks to overcome all the above deficiencies, but in particular pays attention to catering for the varying needs of the software developers. MetaEdit+ is a multi-method, multi-tool platform for both CASE and Computer Aided Method Engineering (CAME). As a CASE tool it establishes a versatile and powerful multi-tool environment which enables flexible creation, maintenance, manipulation, retrieval and representation of design information among multiple developers. As a CAME environment it offers an easy-to-use yet powerful environment for method specification, integration, management and re-use. The paper explains the motivation for developing MetaEdit+, its design goals and philosophy and discusses the functionality of the CAME tools.",
+    "Keywords": "CAME | CASE | Conceptual modeling | Metamodeling | Method | Object oriented modeling | Repository | Software engineering environments | Tool integration | Tool interoperability",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "1996-01-01",
+    "Publication type": "Book Chapter",
+    "Authors": "Kelly, Steven;Lyytinen, Kalle;Rossi, Matti",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 2,
+      "IC3": 6,
+      "EC1": 3,
+      "EC2": 2
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-79954425750",
+    "Primary study DOI": "10.1016/j.aei.2010.12.001",
+    "Title": "An approach to distributed building modeling on the basis of versions and changes",
+    "Abstract": "Actors involved in the computer-supported design process work together towards a common goal - the design of a building. Current collaboration approaches often focus on versioned and distributed building models, which describe virtual building states on the basis of the object-oriented method. State changes (for example moving a wall or modifying its material) remain unconsidered and lead to inconsistency problems when exchanging, comparing and merging versioned building models. This paper presents a new modeling approach that combines existing state-oriented descriptions of a virtual building with additional change-oriented information by means of design steps denoted as modeling operations. A new language is defined for the formal description of modeling operations. These operations establish a standardized processing interface for existing building models, can represent design intents, enhance current models with change semantics and add to the consistency of these models. Moreover, this paper presents new concepts for intra-domain collaboration and model management that overcome current limitations when exchanging, comparing and merging versioned building models. The pilot implementation and some project scenarios in industry verify that current design processes can benefit in principle from combined state-oriented and change-oriented building information. © 2010 Elsevier Ltd. All rights reserved.",
+    "Keywords": "Building information modeling | Change management | Collaboration | Diff and merge | Object-oriented modeling | Versioning",
+    "Publication venue": "Advanced Engineering Informatics",
+    "Publication date": "2011-04-01",
+    "Publication type": "Article",
+    "Authors": "Koch, Christian;Firmenich, Berthold",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 5,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    }
+  },
+  {
+    "Secondary study DOI": "10.1007/s10270-022-01050-9",
+    "Primary study Scopus EID": "2-s2.0-85050384646",
+    "Primary study DOI": "10.1007/978-3-319-94764-8_7",
+    "Title": "A Consistency-Preserving Editing Model for Dynamic Filtered Engineering of Model-Driven Product Lines",
+    "Abstract": "© Springer International Publishing AG, part of Springer Nature 2018.The high cognitive complexity of model-driven software product line engineering is due to the fact that developers have to manually create, edit, and maintain multi-variant artifacts. As a solution, the adaptation of filtered editing has been proposed recently. Filtered editing can be applied in a static or in a dynamic way; in the latter case, new co-evolution problems occur when considering the evolving relationships between the historical, the variant, and the product dimension. This paper investigates, formally defines, and demonstrates by examples nine consistency constraints connected to dynamic filtered editing. Furthermore, we suggest a consistency-preserving editing model comprising four operations that synchronize a transparent multi-version repository with a single-version workspace view being presented to the user: check-out, modify, commit, and a novel operation, migrate, which prepares the workspace for the subsequent edit session. Several advantages of dynamic over static filtered or unfiltered editing are confirmed both on a theoretical and on an experimental basis.",
+    "Keywords": "Co-evolution | Filtered editing | Model-driven software engineering | Software product line engineering | Uniform versioning | Variation control",
+    "Publication venue": "Communications in Computer and Information Science",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Schwägerl, Felix;Westfechtel, Bernhard",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 4,
+      "IC3": 7,
+      "EC1": 2,
+      "EC2": 2
+    }
+  }
+]

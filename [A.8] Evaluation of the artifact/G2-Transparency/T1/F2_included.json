@@ -1,0 +1,110 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85097869099",
+    "Primary study DOI": "",
+    "Title": "Using rule mining for automatic test oracle generation",
+    "Abstract": "Software testing is essential for checking the quality of software but it is also a costly and time-consuming activity. The mechanism to determine the correct output of the System Under Test (SUT) for a given input space is called test oracle. The test oracle problem is a known bottleneck in situations where tests are generated automatically and no model of the correct behaviour of the SUT exists. To overcome this bottleneck, we developed a method which generates test oracles by comparing information extracted from object state data created during the execution of two subsequent versions of the SUT. In our initial proof-of-concept, we derive the relevant information in the form of rules by using the Association Rule Mining (ARM) technique. As a proof-of-concept, we validate our method on the Stack class from a custom version of the Java Collection classes and discuss the lessons learned from our experiment. The test suite that we use in our experiment to execute the different SUT version is automatically generated using Randoop. Other approaches to generate object state data could be used instead. Our proof-of-concept demonstrates that our method is applicable and that we can detect the presence of failures that are missed by regression testing alone. Automatic analysis of the set of violated association rules provides valuable information for localizing faults in the SUT by directly pointing to the faulty method. This kind of information cannot be found in the execution traces of failing tests. © 2020 Copyright for this paper by its authors.",
+    "Keywords": "Association rule mining; Machine learning methods in software testing; Software testing; Test oracle; Test oracle automation",
+    "Publication venue": "CEUR Workshop Proceedings",
+    "Publication date": "2020",
+    "Publication type": "",
+    "Authors": "Duque-Torres A., Shalygina A., Pfahl D., Ramler R.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 4,
+      "EC1": 1
+    },
+    "secondModelOpinion": {
+      "IC1": 7,
+      "IC2": 1,
+      "IC3": 1,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85051142497",
+    "Primary study DOI": "10.1007/978-3-319-96562-8_1",
+    "Title": "Machine learning for software analysis: Models, methods, and applications",
+    "Abstract": "Machine Learning (ML) is the discipline that studies methods for automatically inferring models from data. Machine learning has been successfully applied in many areas of software engineering including: behaviour extraction, testing and bug fixing. Many more applications are yet to be defined. Therefore, a better fundamental understanding of ML methods, their assumptions and guarantees can help to identify and adopt appropriate ML technology for new applications. In this chapter, we present an introductory survey of ML applications in software engineering, classified in terms of the models they produce and the learning methods they use. We argue that the optimal choice of an ML method for a particular application should be guided by the type of models one seeks to infer. We describe some important principles of ML, give an overview of some key methods, and present examples of areas of software engineering benefiting from ML. We also discuss the open challenges for reaching the full potential of ML for software engineering and how ML can benefit from software engineering methods. © Springer International Publishing AG, part of Springer Nature 2018.",
+    "Keywords": "Machine learning | Software engineering",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Bennaceur, Amel;Meinke, Karl",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 2,
+      "IC3": 2,
+      "EC1": 7
+    },
+    "secondModelOpinion": {
+      "IC1": 5,
+      "IC2": 1,
+      "IC3": 1,
+      "EC1": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85070479928",
+    "Primary study DOI": "10.1504/IJCSE.2019.101343",
+    "Title": "Automated labelling and severity prediction of software bug reports",
+    "Abstract": "Our main aim is to develop an intelligent classifier that is capable of predicting the severity and label (type) of a newly submitted bug report through a bug tracking system. For this purpose, we build two datasets that are based on 350 bug reports from the open-source community (Eclipse, Mozilla, and Gnome). These datasets are characterised with various textual features. Based on this information, we train variety of discriminative models that are used for automated labelling and severity prediction of a newly submitted bug report. A boosting algorithm is also implemented for an enhanced performance. The classification performance is measured using accuracy and a set of other measures. For automated labelling, the accuracy reaches around 91% with the AdaBoost algorithm and cross validation test. On the other hand, for severity prediction, the classification accuracy reaches around 67% with the AdaBoost algorithm and cross validation test. Overall, the results are encouraging. Copyright © 2019 Inderscience Enterprises Ltd.",
+    "Keywords": "Bug labelling | Machine learning | Severity prediction | Software bugs",
+    "Publication venue": "International Journal of Computational Science and Engineering",
+    "Publication date": "2019-01-01",
+    "Publication type": "Article",
+    "Authors": "Otoom, Ahmed Fawzi;Al-Shdaifat, Doaa;Hammad, Maen;Abdallah, Emad E.;Aljammal, Ashraf",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 6,
+      "EC1": 7
+    },
+    "secondModelOpinion": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85049103501",
+    "Primary study DOI": "10.1145/3382494.3410692",
+    "Title": "An empirical study of software exceptions in the field using search logs",
+    "Abstract": "Background: Software engineers spend a substantial amount of time using Web search to accomplish software engineering tasks. Such search tasks include finding code snippets, API documentation, seeking help with debugging, etc. While debugging a bug or crash, one of the common practices of software engineers is to search for information about the associated error or exception traces on the internet. Aims: In this paper, we analyze query logs from Bing to carry out a large scale study of software exceptions. To the best of our knowledge, this is the first large scale study to analyze how Web search is used to find information about exceptions. Method: We analyzed about 1 million exception related search queries from a random sample of 5 billion web search queries. To extract exceptions from unstructured query text, we built a novel machine learning model. With the model, we extracted exceptions from raw queries and performed popularity, effort, success, query characteristic and web domain analysis.We also performed programming language-specific analysis to give a better view of the exception search behavior. Results: Using the model with an F1-score of 0.82, our study identifies most frequent, most effort-intensive, or less successful exceptions and popularity of community Q&A sites. Conclusion: These techniques can help improve existing methods, documentation and tools for exception analysis and prediction. Further, similar techniques can be applied for APIs, frameworks, etc. © 2020 IEEE Computer Society. All rights reserved.",
+    "Keywords": "machine learning | Object Oriented Coupling | Object Oriented Testing | Software fault prediction | software faults prediction",
+    "Publication venue": "Procedia Computer Science",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Singh, Ajmer;Bhatia, Rajesh;Sighrova, Anita",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 3,
+      "EC1": 7
+    },
+    "secondModelOpinion": {
+      "IC1": 7,
+      "IC2": 1,
+      "IC3": 1,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  }
+]

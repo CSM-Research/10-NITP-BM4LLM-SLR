@@ -1,0 +1,142 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85071752913",
+    "Primary study DOI": "10.3390/s19173781",
+    "Title": "An industrial digitalization platform for condition monitoring and predictive maintenance of pumping equipment",
+    "Abstract": " 2019 by the authors. Licensee MDPI, Basel, Switzerland.This paper is concerned with the implementation and field-testing of an edge device for real-time condition monitoring and fault detection for large-scale rotating equipment in the UK water industry. The edge device implements a local digital twin, processing information from low-cost transducers mounted on the equipment in real-time. Condition monitoring is achieved with sliding-mode observers employed as soft sensors to estimate critical internal pump parameters to help detect equipment weasr before damage occurs. The paper describes the implementation of the edge system on a prototype microcontroller-based embedded platform, which supports the Modbus protocol; IP/GSM communication gateways provide remote connectivity to the network core, allowing further detailed analytics for predictive maintenance to take place. The paper first describes validation testing of the edge device using Hardware-In-The-Loop techniques, followed by trials on large-scale pumping equipment in the field. The paper concludes that the proposed system potentially delivers a flexible and low-cost industrial digitalization platform for condition monitoring and predictive maintenance applications in the water industry.",
+    "Keywords": "Condition monitoring | Edge computing | Field testing | Industrial digitalization | Industry 4.0 | IoT | Predictive maintenance | Sliding mode observers | Soft sensors",
+    "Publication venue": "Sensors (Switzerland)",
+    "Publication date": "2019-09-01",
+    "Publication type": "Article",
+    "Authors": "Short, Michael;Twiddle, John",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85113916122",
+    "Primary study DOI": "10.1109/ESTS49166.2021.9512347",
+    "Title": "Reduced Order Model of a Four Zone Medium Voltage DC Electric Ship",
+    "Abstract": " 2021 IEEE.The models of multi-zone electric ship is important to the development of ship operational capability and performance. However, there is not one best model type that can fit all the needs of the engineering process. High-fidelity models are needed to act as a digital twin to the system hardware for testing and validation purposes. However, a highly detailed digital model of a MVDC does not enable insight and development of analytical control and optimization algorithms. This paper presents a reduced order model (ROM) of a notional four-zone medium voltage ship. This ROM can be written in a closed-form analytical expression that is appropriate for analysis and high-level supervisory control synthesis.",
+    "Keywords": "Control | Electric Ship | Optimization | Reduced order Models",
+    "Publication venue": "2021 IEEE Electric Ship Technologies Symposium, ESTS 2021",
+    "Publication date": "2021-08-03",
+    "Publication type": "Conference Paper",
+    "Authors": "Weaver, Wayne W.;Robinett, Rush D.;Wilson, David G.;Glover, Steven",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85072808145",
+    "Primary study DOI": "10.1145/3340764.3340780",
+    "Title": "Remote guidance for machine maintenance supported by physical LEDs and virtual reality",
+    "Abstract": " 2019 Copyright held by the owner/author(s). Publication rights licensed to ACM.Machines that are used in industry often require dedicated technicians to fix them in case of defects. This involves travel expenses and certain amount of time, both of which may be significantly reduced by installing small extensions on a machine as we describe in this paper. The goal is that an authorized local worker, guided by a remote expert, can fix the problem on the real machine himself. Our approach is to equip a machine with multiple inexpensive LEDs (light-emitting diodes) and a simple micro controller, which is connected to the internet, to remotely light up certain LEDs, that are close to machine parts of interest. The blinking of an LED can be induced on a virtual 3D model (digital twin) of the machine by a remote expert using a virtual reality application to draw the local worker’s attention to certain areas. We conducted an initial user study on this concept with 36 participants and found significantly shorter completion times and less errors for our approach compared to only voice guidance with no visual LED feedback.",
+    "Keywords": "Collaboration | Industry 4.0 | LED | Light emitting diodes | Remote machine maintenance | Virtual reality",
+    "Publication venue": "ACM International Conference Proceeding Series",
+    "Publication date": "2019-09-08",
+    "Publication type": "Conference Paper",
+    "Authors": "Ladwig, Philipp;Dewitz, Bastian;Preu, Hendrik;Säger, Mitja",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85118970796",
+    "Primary study DOI": "10.1109/ACCESS.2021.3117727",
+    "Title": "Symbiotic System of Systems Design for Safe and Resilient Autonomous Robotics in Offshore Wind Farms",
+    "Abstract": " 2013 IEEE.To reduce Operation and Maintenance (OM) expenditure on offshore wind farms, wherein 80% of the cost relates to deploying personnel, the offshore wind sector looks to advances in Robotics and Artificial Intelligence (RAI) for solutions. Barriers to residential Beyond Visual Line of Sight (BVLOS) autonomy as a service, include operational challenges in run-time safety compliance, reliability and resilience, due to the complexities of dealing with known and unknown risk in dynamic environments. In this paper we incorporate a Symbiotic System Of Systems Approach (SSOSA) that uses a Symbiotic Digital Architecture (SDA) to provide a cyber physical orchestration of enabling technologies. Implementing a SSOSA enables Cooperation, Collaboration and Corroboration (C3), as to address run-time verification of safety, reliability and resilience during autonomous missions. Our SDA provides a means to synchronize distributed digital models of the robot, environment and infrastructure. Through the coordinated bidirectional communication network of the SDA, the remote human operator has improved visibility and understanding of the mission profile. We evaluate our SSOSA in an asset inspection mission within a confined operating environment. Demonstrating the ability of our SSOSA to overcome safety, reliability and resilience challenges. The SDA supports lifecycle learning and co-evolution with knowledge sharing across the interconnected systems. Our results evaluate both sudden and gradual faults, as well as unknown events, that may jeopardize an autonomous mission. Using distributed and coordinated decision making, the SSOSA enhances the analysis of the mission status, which includes diagnostics of critical sub-systems within the resident robot. This evaluation demonstrates that the SSOSA provides enhanced run-time operational resilience and safety compliance to BVLOS autonomous missions. The SSOSA has the potential to be a highly transferable methodology to other mission scenarios and technologies, providing a pathway to implementing scalable autonomy as a service.",
+    "Keywords": "Artificial intelligence | autonomous systems | digital twin | non-destructive evaluation | resilient robotics | safety compliance | sensors | symbiotic systems | system ontology",
+    "Publication venue": "IEEE Access",
+    "Publication date": "2021-01-01",
+    "Publication type": "Article",
+    "Authors": "Mitchell, Daniel;Blanche, Jamie;Zaki, Osama;Roe, Joshua;Kong, Leo;Harper, Samuel;Robu, Valentin;Lim, Theodore;Flynn, David",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85109039914",
+    "Primary study DOI": "10.1007/s10518-021-01167-0",
+    "Title": "A new method for earthquake-induced damage identification in historic masonry towers combining OMA and IDA",
+    "Abstract": " 2021, The Author(s).This paper presents a novel method for rapidly addressing the earthquake-induced damage identification task in historic masonry towers. The proposed method, termed DORI, combines operational modal analysis (OMA), FE modeling, rapid surrogate modeling (SM) and non-linear Incremental dynamic analysis (IDA). While OMA-based Structural Health Monitoring methods using statistical pattern recognition are known to allow the detection of small structural damages due to earthquakes, even far-field ones of moderate intensity, the combination of SM and IDA-based methods for damage localization and quantification is here proposed. The monumental bell tower of the Basilica of San Pietro located in Perugia, Italy, is considered for the validation of the method. While being continuously monitored since 2014, the bell tower experienced the main shocks of the 2016 Central Italy seismic sequence and the on-site vibration-based monitoring system detected changes in global dynamic behavior after the earthquakes. In the paper, experimental vibration data (continuous and seismic records), FE models and surrogate models of the structure are used for post-earthquake damage localization and quantification exploiting an ideal subdivision of the structure into meaningful macroelements. Results of linear and non-linear numerical modeling (SM and IDA, respectively) are successfully combined to this aim and the continuous exchange of information between the physical reality (monitoring data) and the virtual models (FE models and surrogate models) effectively enforces the Digital Twin paradigm. The earthquake-induced damage identified by both data-driven and model-based strategies is finally confirmed by in-situ visual inspections.",
+    "Keywords": "Cultural heritage | Digital twin | Earthquake-induced damage identification | Finite element modeling | Incremental dynamic analysis | Structural health monitoring | Surrogate modeling",
+    "Publication venue": "Bulletin of Earthquake Engineering",
+    "Publication date": "2021-09-01",
+    "Publication type": "Article",
+    "Authors": "Kita, Alban;Cavalagli, Nicola;Venanzi, Ilaria;Ubertini, Filippo",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85083492519",
+    "Primary study DOI": "10.3390/jmmp4010011",
+    "Title": "Machining phenomenon twin construction for industry 4.0: A case of surface roughness",
+    "Abstract": " 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).Industry 4.0 requires phenomenon twins to functionalize the relevant systems (e.g., cyber-physical systems). A phenomenon twin means a computable virtual abstraction of a real phenomenon. In order to systematize the construction process of a phenomenon twin, this study proposes a system defined as the phenomenon twin construction system. It consists of three components, namely the input, processing, and output components. Among these components, the processing component is the most critical one that digitally models, simulates, and validates a given phenomenon extracting information from the input component. What kind of modeling, simulation, and validation approaches should be used while constructing the processing component for a given phenomenon is a research question. This study answers this question using the case of surface roughness-a complex phenomenon associated with all material removal processes. Accordingly, this study shows that for modeling the surface roughness of a machined surface, the approach called semantic modeling is more effective than the conventional approach called the Markov chain. It is also found that to validate whether or not a simulated surface roughness resembles the expected roughness, the outcomes of the possibility distribution-based computing and DNA-based computing are more effective than the outcomes of a conventional computing wherein the arithmetic mean height of surface roughness is calculated. Thus, apart from the conventional computing approaches, the leading edge computational intelligence-based approaches can digitize manufacturing processes more effectively.",
+    "Keywords": "Complex phenomenon | Cyber-physical systems | Digital twin | DNA-based computing | Industry 4.0 | Markov chain | Monte Carlo simulation | Semantic modeling | Surface roughness",
+    "Publication venue": "Journal of Manufacturing and Materials Processing",
+    "Publication date": "2020-03-01",
+    "Publication type": "Article",
+    "Authors": "Ghosh, Angkush Kumar;Sharif Ullah, A. M.M.;Kubo, Akihiko;Akamatsu, Takeshi;D'Addona, Doriana Marilena",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85102682847",
+    "Primary study DOI": "10.3390/app11052321",
+    "Title": "Mbse testbed for rapid cost-effective prototyping and evaluation of system modeling approaches",
+    "Abstract": " 2021 by the author. Licensee MDPI, Basel, Switzerland.Model-based systems engineering (MBSE) has made significant strides in the last decade and is now beginning to increase coverage of the system life cycle and in the process generating many more digital artifacts. The MBSE community today recognizes the need for a flexible frame-work to efficiently organize, access, and manage MBSE artifacts; create and use digital twins for verification and validation; facilitate comparative evaluation of system models and algorithms; and assess system performance. This paper presents progress to date in developing a MBSE experimentation testbed that addresses these requirements. The current testbed comprises several compo-nents, including a scenario builder, a smart dashboard, a repository of system models and scenarios, connectors, optimization and learning algorithms, and simulation engines, all connected to a private cloud. The testbed has been successfully employed in developing an aircraft perimeter security system and an adaptive planning and decision-making system for autonomous vehicles. The testbed supports experimentation with simulated and physical sensors and with digital twins for verifying system behavior. A simulation-driven smart dashboard is used to visualize and conduct comparative evaluation of autonomous and human-in-the-loop control concepts and architectures. Key findings and lessons learned are presented along with a discussion of future directions.",
+    "Keywords": "Digital engineering | Digital twin | MBSE | Model-based systems engineering | Ontologies | Simulation | Testbed",
+    "Publication venue": "Applied Sciences (Switzerland)",
+    "Publication date": "2021-03-01",
+    "Publication type": "Article",
+    "Authors": "Madni, Azad M.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  }
+]

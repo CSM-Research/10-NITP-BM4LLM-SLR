@@ -1,0 +1,149 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85091395185",
+    "Primary study DOI": "",
+    "Title": "Time-series approaches to change-prone class prediction problem",
+    "Abstract": "During the development and maintenance of a large software project, changes can occur due to bug fix, code refactoring, or new features. In this scenario, the prediction of change-prone classes can be very useful in guiding the development team since it can focus its efforts on these pieces of software to improve their quality and make them more flexible for future changes. A considerable number of related works uses machine learning techniques to predict change-prone classes based on different kinds of metrics. However, the related works use a standard data structure, in which each instance contains the metric values for a particular class in a specific release as independent variables. Thus, these works are ignoring the temporal dependencies between the instances. In this context, we propose two novel approaches, called Concatenated and Recurrent, using time-series in order to keep the temporal dependence between the instances to improve the performance of the predictive models. The Recurrent Approach works for imbalanced datasets without the need for resampling. Our results show that the Area Under the Curve (AUC) of both proposed approaches has improved in all evaluated datasets, and they can be up to 23.6% more effective than the standard approach in state-of-art. Copyright © 2020 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved",
+    "Keywords": "Change-prone Class; Deep Learning; Machine Learning; Recurrent Algorithm; Time-series",
+    "Publication venue": "ICEIS 2020 - Proceedings of the 22nd International Conference on Enterprise Information Systems",
+    "Publication date": "2020",
+    "Publication type": "",
+    "Authors": "Melo C.S., da Cruz M.M.L., Martins A.D.F., da Silva Monteiro Filho J.M., de Castro Machado J.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85123361929",
+    "Primary study DOI": "10.1109/COMPSAC51774.2021.00205",
+    "Title": "Predicting number of bugs before launch: An investigation based on machine learning",
+    "Abstract": "Identifying and minimizing the number of bugs before release is a high priority of any team working on software development. This can be achieved by Machine Learning (ML) models By using particular aspects of the code, ML Models can predict the number of bugs that are possible post launch. We use a public dataset consisting of 15 Java projects from GitHub as our training and test dataset. We use five ML models for our investigation: Multilayer Perceptron, K-Nearest Neighbors, Linear Regression, Logistic Regression, and Decision Trees We conduct a preliminary investigation to evaluate how these ML models perform in predicting bugs. The results show that Linear Regression outperforms the other four ML models in finding the number of bugs post release. © 2021 IEEE.",
+    "Keywords": "Commit | Ensemble Methods | Issue Report | Link Recovery | Machine Learning | Software Maintenance",
+    "Publication venue": "Proceedings - 2021 IEEE International Conference on Software Maintenance and Evolution, ICSME 2021",
+    "Publication date": "2021-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Mazrae, Pooya Rostami;Izadi, Maliheh;Heydarnoori, Abbas",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84893243344",
+    "Primary study DOI": "10.1109/ICRITO.2017.8342425",
+    "Title": "Assessment of machine learning algorithms for determining defective classes in an object-oriented software",
+    "Abstract": "Software defect prediction is a well renowned field of software engineering. Determination of defective classes early in the lifecycle of a software product helps software practitioners in effective allocation of resources. More resources are allocated to probable defective classes so that defects can be removed in the initial phases of the software product. Such a practice would lead to a good quality software product. Although, hundreds of defect prediction models have been developed and validated by researchers, there is still a need to develop and evaluate more models to draw generalized conclusions. Literature studies have found Machine Learning (ML) algorithms to be effective classifiers in this domain. Thus, this study evaluates four ML algorithms on data collected from seven open source software projects for developing software defect prediction models. The results indicate superior performance of the Multilayer Perceptron algorithm over all the other investigated algorithms. The results of the study are also statistically evaluated to establish their effectiveness. © 2017 IEEE.",
+    "Keywords": "predictive models; defect prediction; effort estimation; software analytics; empirical software engineering",
+    "Publication venue": "International Symposium on Empirical Software Engineering and Measurement",
+    "Publication date": "2013-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Turhan, Burak;Wagner, Stefan;Bener, Ayse;Di Penta, Massimiliano;Yang, Ye",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84928826771",
+    "Primary study DOI": "10.1145/3352411.3352412",
+    "Title": "Software Defect Prediction Based on Ensemble Learning",
+    "Abstract": "Software defect prediction is one of the important ways to guarantee the quality of software systems. Combining various algorithms in machine learning to predict software defects has become a hot topic in the current study. The paper uses the datasets of MDP as the experimental research objects and takes ensemble learning as research focus to construct software defect prediction model. With experimenting five different types of ensemble algorithms and analyzing the features and procedures, this paper discusses the best ensemble algorithm which is Random Forest through experimental comparison. Then we utilize the SMOTE over-sampling and Resample methods to improve the quality of datasets to build a complete new software defect prediction model. Therefore, the results show that the model can improve defect classification performance effectively. © 2019 Association for Computing Machinery.",
+    "Keywords": "DSL anomalies | Network management | One-class classifiers | Supervised learning | Support vector machines",
+    "Publication venue": "Computer Communications",
+    "Publication date": "2015-05-15",
+    "Publication type": "Article",
+    "Authors": "Marnerides, A. K.;Malinowski, S.;Morla, R.;Kim, H. S.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85041529359",
+    "Primary study DOI": "10.1007/s10586-018-1730-1",
+    "Title": "Software defect prediction techniques using metrics based on neural network classifier",
+    "Abstract": "Software industries strive for software quality improvement by consistent bug prediction, bug removal and prediction of fault-prone module. This area has attracted researchers due to its significant involvement in software industries. Various techniques have been presented for software defect prediction. Recent researches have recommended data-mining using machine learning as an important paradigm for software bug prediction. state-of-art software defect prediction task suffer from various issues such as classification accuracy. However, software defect datasets are imbalanced in nature and known fault prone due to its huge dimension. To address this issue, here we present a combined approach for software defect prediction and prediction of software bugs. Proposed approach delivers a concept of feature reduction and artificial intelligence where feature reduction is carried out by well-known principle component analysis (PCA) scheme which is further improved by incorporating maximum-likelihood estimation for error reduction in PCA data reconstruction. Finally, neural network based classification technique is applied which shows prediction results. A framework is formulated and implemented on NASA software dataset where four datasets i.e., KC1, PC3, PC4 and JM1 are considered for performance analysis using MATLAB simulation tool. An extensive experimental study is performed where confusion, precision, recall, classification accuracy etc. parameters are computed and compared with existing software defect prediction techniques. Experimental study shows that proposed approach can provide better performance for software defect prediction. © 2018, Springer Science+Business Media, LLC, part of Springer Nature.",
+    "Keywords": "Defect prediction models | Machine learning techniques | Software defect prediction | Software metrics",
+    "Publication venue": "Cluster Computing",
+    "Publication date": "2019-01-16",
+    "Publication type": "Article",
+    "Authors": "Jayanthi, R.;Florence, Lilly",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84955649457",
+    "Primary study DOI": "10.1109/QRS.2015.14",
+    "Title": "Deep Learning for Just-in-Time Defect Prediction",
+    "Abstract": "Defect prediction is a very meaningful topic, particularly at change-level. Change-level defect prediction, which is also referred as just-in-time defect prediction, could not only ensure software quality in the development process, but also make the developers check and fix the defects in time. Nowadays, deep learning is a hot topic in the machine learning literature. Whether deep learning can be used to improve the performance of just-in-time defect prediction is still uninvestigated. In this paper, to bridge this research gap, we propose an approach Deeper which leverages deep learning techniques to predict defect-prone changes. We first build a set of expressive features from a set of initial change features by leveraging a deep belief network algorithm. Next, a machine learning classifier is built on the selected features. To evaluate the performance of our approach, we use datasets from six large open source projects, i.e., Bugzilla, Columba, JDT, Platform, Mozilla, and PostgreSQL, containing a total of 137,417 changes. We compare our approach with the approach proposed by Kamei et al. The experimental results show that on average across the 6 projects, Deeper could discover 32.22% more bugs than Kamei et al's approach (51.04% versus 18.82% on average). In addition, Deeper can achieve F1-scores of 0.22-0.63, which are statistically significantly higher than those of Kamei et al.'s approach on 4 out of the 6 projects. © 2015 IEEE.",
+    "Keywords": "search-based software testing | test adequacy | test generation",
+    "Publication venue": "Software Testing Verification and Reliability",
+    "Publication date": "2015-12-01",
+    "Publication type": "Article",
+    "Authors": "Fraser, Gordon;Walkinshaw, Neil",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85065797929",
+    "Primary study DOI": "10.1109/ICTAS.2019.8703639",
+    "Title": "Using machine learning to prioritize automated testing in an agile environment",
+    "Abstract": "Automated software testing is an integral part of most Agile methodologies. In the case of the Scrum Agile methodology, the definition of done includes the completion of tests. As a software project matures, however, the number of tests increases to such a point that the time required to run all the tests often hinders the speed in which artifacts can be deployed. This paper describes a technique of using machine learning to help prioritize automated testing to ensure that tests which have a higher probability of failing are executed early in the test run giving the programmers an early indication of problems. In order to do this, various metrics are collected about the software under test including Cyclomatic values, Halstead-based values, and Chidamber-Kemere values. In addition, the historical commit messages from the source code control system is accessed to see if there had been defects in the various source classes previously. From these two inputs, a data file can be created which contains various metrics and whether or not there had been defects in these source files previously. This data file can then be sent to Weka to create a decision tree indicating which measurements indicate potential defects. The model created by Weka can then then be used in future to attempt to predict where defects might be in the source files and then prioritize testing appropriately. © 2019 IEEE.",
+    "Keywords": "Agile | Automated testing | Chidamber-Kemere | Cyclomatic | Halstead | Machine learning | Weka",
+    "Publication venue": "2019 Conference on Information Communications Technology and Society, ICTAS 2019",
+    "Publication date": "2019-04-30",
+    "Publication type": "Conference Paper",
+    "Authors": "Butgereit, Laurie",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    },
+    "userDecision": "Include"
+  }
+]

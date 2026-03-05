@@ -1,0 +1,59 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84949238790",
+    "Primary study DOI": "",
+    "Title": "4th European Workshop on Software Process Technology, EWSPT 1995",
+    "Abstract": "The proceedings contain 33 papers. The special focus in this conference is on Metrics and Analysis Session. The topics include: Metrics and analysis session; process viewpoints; process-based software risk assessment; the use of roles and measurement to enact project plans in MVP-S; combining process models and metrics in practice; application experiments; space shuttle onboard software (OBS) development and maintenance process automation; a tentative characterisation; a survey and comparison of some research areas relevant to software process modeling; customising software process models; process differentiation and integration; open issues in the design of pm languages; in favour of a coherent process coding language; process modelling languages: one or many?; experiments in process interface descriptions, visualizations and analyses; related domains; the software process and the modelling of complex systems; interpretable process models for software development and workflow; integrating process technology and CSCW; distributed modelling session; process management in-the-many; a generalized multi-view approach; decentralised process modelling; coordination by behavioural views and communication patterns; configuration of situational process models; mechanisms for cooperation; current issues on integration; enveloping persistent tools for a process-centered environment; coordination for process support is not enough; coordination theory and software process technology; transaction technology for process modelling; stepwise specification of interactive processes in coo; session on change and meta-process; a reflexive formal software process model; transients change processes in process centered environments.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "1995-01-01",
+    "Publication type": "Conference Review",
+    "Authors": "",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 4
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-78651583358",
+    "Primary study DOI": "10.1007/978-90-481-2311-7_45",
+    "Title": "A dynamic modeling of stock prices and optimal decision making using MVP theory",
+    "Abstract": "In this paper, first a precise mathematical model is obtained for four competing or cooperating companies' stock prices and then the optimal buy/sell signals are ascertained for five different agents which are trading in a virtual market and are trying to maximize their wealth over 1 trading year period. The model is so that gives a good prediction of the next 30th day stock prices. The companies used in this modeling are all chosen from Boston Stock Market. Genetic Programming (GP) is used to produce the predictive mathematical model. The interaction among companies and the effect imposed by each of five agents on future stock prices are also considered in our modeling. Namely, we have chosen eight companies in order that there is some kind of interrelation among them. Comparison of the GP models with Artificial Neural Networks (ANN) and Neuro-Fuzzy Networks (trained by the LoLiMoT algorithm) shows the superior potential of GP in prediction. Using these models; five players, each with a specific strategy and all with one common goal (wealth maximization), start to trade in a virtual market. We have also relaxed the short-sales constraint in our work. Each of the agents has a different objective function and all are going to maximize themselves. We have used Particle Swarm Optimization (PSO) as an evolutionary optimization method for wealth maximization. © 2009 Springer Netherlands.",
+    "Keywords": "Genetic Programming | Mean-variance portfolio selection | Particle Swarm Optimization (PSO) | Price prediction | Stock market model",
+    "Publication venue": "Lecture Notes in Electrical Engineering",
+    "Publication date": "2009-09-25",
+    "Publication type": "Conference Paper",
+    "Authors": "Rajabioun, Ramin;Rahimi-Kian, Ashkan",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85020724609",
+    "Primary study DOI": "",
+    "Title": "Proceedings - 42nd Euromicro Conference on Software Engineering and Advanced Applications, SEAA 2016",
+    "Abstract": "The proceedings contain 53 papers. The topics discussed include: supporting feature estimation with risk and effort annotations; towards guidelines for preventing critical requirements engineering problems; busting software architecture beliefs: a survey on success factors in architecture decision making; technical debt management with genetic algorithms; evidence-based timelines for user experience software process improvement retrospectives; identifying developers' expertise in social coding platforms; continuous, lean, and wasteless: minimizing lead time from development done to production use; implementing continuous customer care: first-hand experiences from an industrial setting; estimating and quantifying the benefits of refactoring to improve a component modularity: a case study; a case study on the utilization of problem and solution domain measures for software size estimation; MVP explained: a systematic mapping study on the definitions of minimal viable product; product innovation through internal startup in large software companies: a case study; systematic mapping study of dealing with error in software development effort estimation; Bayesian synthesis for knowledge translation in software engineering: method and illustration; a property model ontology; handling uncertainty in automatically generated implementation models in the automotive domain; and literature review of empirical research studies within the domain of acceptance testing.",
+    "Keywords": "",
+    "Publication venue": "Proceedings - 42nd Euromicro Conference on Software Engineering and Advanced Applications, SEAA 2016",
+    "Publication date": "2016-10-14",
+    "Publication type": "Conference Review",
+    "Authors": "",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 5,
+      "IC3": 1
+    }
+  }
+]

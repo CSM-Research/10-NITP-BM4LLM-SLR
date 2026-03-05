@@ -1,0 +1,402 @@
+[
+  {
+    "ID": "",
+    "Title": "Detecting Vulnerability in Source Code Using CNN and LSTM Network",
+    "Publication date": "2021",
+    "Venue type ": "Journal",
+    "Publication venue": "Soft Comput.",
+    "Publisher": "Springer-Verlag",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85109335336",
+    "doi": "10.1007/s00500-021-05994-w",
+    "Publication type": "ar",
+    "Abstract": "© 2021, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.Automated vulnerability detection has become a research hot spot because it is beneficial for improving software quality and security. The code metric (CM) is one class of important representations of vulnerability in source code. The implicit relationships among different metric attributes have not been sufficiently considered in traditional vulnerability detection based on CMs. In this paper, in view of the local perception capability of convolutional neural network (CNN) and the time-series prediction capability of long short-term memory (LSTM), we propose VulExplore, a compound neural network model for vulnerability detection that consists of a CNN for feature extraction and an LSTM network for deep representation. Moreover, to further indicate the vulnerability features in the source code, we reconstruct a CM dataset that includes two additional important attributes: maintainability index and average number of vulnerabilities committed per line. Our proposed numerical method can obtain both false-negative rate (FNR) and false-positive rate (FPR) under 20% and, meanwhile, achieve recall and precision over 80%, respectively.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Trend analysis on the metadata of program comprehension papers",
+    "Publication date": "2015",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2015 13th International Conference on Engineering of Modern Electric Systems (EMES)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84943311361",
+    "doi": "10.1109/EMES.2015.7158425",
+    "Publication type": "cp",
+    "Abstract": "© 2015 IEEE.As program comprehension is a vast research area, it is necessary to get an overview of its rising and falling trends. We performed an n-gram frequency analysis on titles, abstracts and keywords of 1885 articles about program comprehension from the years 2000-2014. According to this analysis, the most rising trends are feature location and open source systems, the most falling ones are program slicing and legacy systems.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Applied Artificial Optimization Algorithm in Design Flaws Detection",
+    "Publication date": "2018",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2018 International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85065084302",
+    "doi": "10.1109/iSAI-NLP.2018.8692943",
+    "Publication type": "cp",
+    "Abstract": "© 2018 IEEE.The detection of design flaws is one of the most important aspects of software quality control, and the process should therefore be an integral part of the development and also the maintenance of software. It is possible to lower costs and extend the useful like cycle of the software simply by detecting design flaws at an early stage, and therefore attempts have been made to automate the procedures involved in detecting and fixing these flaws. One of the most common ways of detecting flaws is through the use of heuristic metrics which use predetermined standards as a means of analyzing the findings. While the approach can work successfully, the problem lies in the determination of those standards, or thresholds. This research study seeks to develop an enhanced method to improve threshold determination to be applied in flaw detection using metric-based designs. Accordingly, for each metric, an algorithm was employed for optimization of the contribution metrics to determine the threshold. The model produced threshold values which could then be adjusted to fit the requirements of the software data input. The findings from the experiments revealed that this approach could generate more appropriate thresholds for application in this context. In addition, the technique was relatively simple and could be used with different software programming languages, reducing the implementation time, and eliminating the need for the specialist expert support which would have traditionally been required in metric-based detection methods.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "An Empirical Investigation on the Relationship between Design and Architecture Smells",
+    "Publication date": "2020",
+    "Venue type ": "Journal",
+    "Publication venue": "Empirical Softw. Engg.",
+    "Publisher": "Kluwer Academic Publishers",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85089908139",
+    "doi": "10.1007/s10664-020-09847-2",
+    "Publication type": "ar",
+    "Abstract": "© 2020, Springer Science+Business Media, LLC, part of Springer Nature.Context:: Architecture of a software system represents the key design decisions and therefore its quality plays an important role to keep the software maintainable. Code smells are indicators of quality issues in a software system and are classified based on their granularity, scope, and impact. Despite a plethora of existing work on smells, a detailed exploration of architecture smells, their characteristics, and their relationships with smells in other granularities is missing. Objective:: The paper aims to study architecture smells characteristics, investigate correlation, collocation, and causation relationships between architecture and design smells. Method:: We implement smell detection support for seven architecture smells. We mine 3 073 open-source repositories containing more than 118 million lines of C# code and empirically investigate the relationships between seven architecture and 19 design smells. Results:: We find that smell density does not depend on repository size. Cumulatively, architecture smells are highly correlated with design smells. Our collocation analysis finds that the majority of design and architecture smell pairs do not exhibit collocation. Finally, our causality analysis reveals that design smells cause architecture smells.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Demystifying Regular Expression Bugs: A Comprehensive Study on Regular Expression Bug Causes, Fixes, and Testing",
+    "Publication date": "2022",
+    "Venue type ": "Journal",
+    "Publication venue": "Empirical Softw. Engg.",
+    "Publisher": "Kluwer Academic Publishers",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85118722258",
+    "doi": "10.1007/s10664-021-10033-1",
+    "Publication type": "ar",
+    "Abstract": "© 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.Regular expressions cause string-related bugs and open security vulnerabilities for DOS attacks. However, beyond ReDoS (Regular expression Denial of Service), little is known about the extent to which regular expression issues affect software development and how these issues are addressed in practice. We conduct an empirical study of 356 regex-related bugs from merged pull requests in Apache, Mozilla, Facebook, and Google GitHub repositories. We identify and classify the nature of the regular expression problems, the fixes, and the related changes in the test code. The most important findings in this paper are as follows: 1) incorrect regular expression semantics is the dominant root cause of regular expression bugs (165/356, 46.3%). The remaining root causes are incorrect API usage (9.3%) and other code issues that require regular expression changes in the fix (29.5%), 2) fixing regular expression bugs is nontrivial as it takes more time and more lines of code to fix them compared to the general pull requests, 3) most (51%) of the regex-related pull requests do not contain test code changes. Certain regex bug types (e.g., compile error, performance issues, regex representation) are less likely to include test code changes than others, and 4) the dominant type of test code changes in regex-related pull requests is test case addition (75%). The results of this study contribute to a broader understanding of the practical problems faced by developers when using, fixing, and testing regular expressions.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A Verified Catalogue of OCL Optimisations",
+    "Publication date": "2020",
+    "Venue type ": "Journal",
+    "Publication venue": "Softw. Syst. Model.",
+    "Publisher": "Springer-Verlag",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85068819077",
+    "doi": "10.1007/s10270-019-00740-1",
+    "Publication type": "ar",
+    "Abstract": "© 2019, Springer-Verlag GmbH Germany, part of Springer Nature.OCL is widely used by model-driven engineering tools with different purposes like writing integrity constraints for meta-models, as a navigation language in model transformation languages or to define transformation specifications. Another scenario is the automatic generation of OCL code by a repair system. These generated expressions tend to be complex and unreadable due to the nature of the generative process. However, to be useful this code should be simple and resemble manually written code as much as possible when a developer must manually maintain it. There exists refactorings approaches for manually written OCL code, but there is no tool targeted to the optimisation of OCL expressions which have been automatically synthesised. Moreover, there is no available catalogue of OCL refactorings which can be integrated seamlessly into a tool. In this work, we contribute a set of refactorings intended to optimise OCL expressions, notably covering cases likely to arise in generated OCL code. We also contribute the implementation of these refactorings, built as a generic transformation catalogue using bentō, a transformation reuse tool for ATL. This makes it possible to specialise the catalogue for any OCL variant based on Ecore. Moreover, we propose a method to verify the correctness of the implemented catalogue based on translation validation and model finding. We describe the design and implementation of the catalogue and evaluate it by optimising a large amount of OCL expressions and proving the correctness of each optimisation execution. We also derive working implementations of the catalogue for ATL, EMF/OCL and SimpleOCL made available in a tool called BeautyOCL.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A Novel Code Stylometry-based Code Clone Detection Strategy",
+    "Publication date": "2020",
+    "Venue type ": "Conference",
+    "Publication venue": "2020 International Wireless Communications and Mobile Computing (IWCMC)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "selected",
+    "Primary study Scopus EID": "2-s2.0-85089661626",
+    "doi": "10.1109/IWCMC48107.2020.9148302",
+    "Publication type": "cp",
+    "Abstract": "© 2020 IEEE.Program similarity-based detection can be used to discover potential code cloning issues. However, just based on the similarity of the program, it is difficult to accurately identify code clones with modified syntax and program similarity does not directly reflect the possibility of code plagiarism. In this paper, we propose a program similarity detection strategy with code stylometry matcher to solve this problem. Firstly, the code stylometry model based on the random forest classifier is used to identify a list of possible authors. If the code submitter is not in this list, we analyze the similarity between the submitted code and the program submitted by the author in the list to determine whether there is code cloning. In this way, we can effectively reduce the complexity of program similarity comparison. We propose a PBCS method based on parallel Bidirectional Long Short-Term(Bi-Lstm) Memory network for code similarity detection. This model effectively improves the accuracy of detection by supervising deep features extracted from AST and token. Experimental results show that the recall of the proposed method is 84%, which is improved compared to other methods.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 1
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Building a Commit-Level Dataset of Real-World Vulnerabilities",
+    "Publication date": "2022",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85130623179",
+    "doi": "10.1145/3508398.3511495",
+    "Publication type": "cp",
+    "Abstract": "© 2022 ACM.While CVE have become a de facto standard for publishing advisories on vulnerabilities, the state of current CVE databases is lackluster. Yet, CVE advisories are insufficient to bridge the gap with the vulnerability artifacts in the impacted program. Therefore, the community is lacking a public real-world vulnerabilities dataset providing such association. In this paper, we present a method restoring this missing link by analyzing the vulnerabilities from the AOSP, an aggregate of more than 1,800 projects. It is the perfect target for building a representative dataset of vulnerabilities, as it covers the full spectrum that may be encountered in a modern system where a variety of low-level and higher-level components interact. More specifically, our main contribution is a dataset of more than 1,900 vulnerabilities, associating generic metadata (e.g. vulnerability type, impact level) with their respective patches at the commit granularity (e.g. fix commit-id, affected files, source code language). Finally, we also augment this dataset by providing precompiled binaries for a subset of the vulnerabilities. These binaries open various data usage, both for binary only analysis and at the interface between source and binary. In addition of providing a common baseline benchmark, our dataset release supports the community for data-driven software security research.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "An Empirical Study of Patterns in Agent Programs",
+    "Publication date": "2012",
+    "Venue type ": "Chapter",
+    "Publication venue": "Principles and Practice of Multi-Agent Systems",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84865300662",
+    "doi": "10.1007/978-3-642-25920-3_14",
+    "Publication type": "cp",
+    "Abstract": "Various agent programming languages and frameworks have been developed by now, but very few systematic studies have been done as to how the language constructs in these languages may and are in fact used in practice. Performing a study of these aspects contributes to the design of best practices or programming guidelines for agent programming. Following a first empirical study of agent programs written in the Goal agent programming language for the dynamic blocks world, in this paper we perform a considerably more extensive analysis of agent programs for the first-person shooter game Unreal Tournament 2004. We identify and discuss several structural code patterns based on a qualitative analysis of the code, and analyze for which purposes the constructs of Goal are typically used. This provides insight into more practical aspects of the development of agent programs, and forms the basis for development of programming guidelines and language improvements. © Springer-Verlag Berlin Heidelberg 2012.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Comparison of Open-Source Runtime Testing Tools for Microservices",
+    "Publication date": "2022",
+    "Venue type ": "Journal",
+    "Publication venue": "Software Quality Journal",
+    "Publisher": "Kluwer Academic Publishers",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85130756294",
+    "doi": "10.1007/s11219-022-09583-4",
+    "Publication type": "ar",
+    "Abstract": "© 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.In recent years, there has been an increase in the number of software applications developed using the microservices architectural pattern. This trend is due to the benefits derived from the more traditional N-tier architectural patterns that use monolithic designs for each tier. The value of using the microservices architectural pattern, particularly in the cloud, has been pioneered by companies such as Netflix and Google. These companies have created protocols and tools to support the development of cloud-based applications. However, the testing of microservices applications continues to be challenging due to the added complexity of network communication between the collaborating services. In addition, an increasing number of tools are being used to test microservices-based applications, which makes selecting the most appropriate tool(s) a challenging task. In this article, we compare several open-source tools used to support the testing of microservices based on testing levels, the scaffolding required, languages used for test cases, and the type of interface used to interact with the applications under test. We describe a prototype for a microservices-based application called Rideshare that allows users to reserve rides from available drivers. Using the Rideshare application, we performed a study using a subset of selected open-source tools to determine the overhead added by these tools. We present the results of the study and describe our experiences in configuring the tools to test the Rideshare application using different testing approaches.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A survey on software coupling relations and tools",
+    "Publication date": "2019",
+    "Venue type ": "",
+    "Publication venue": "Information and Software Technology",
+    "Publisher": "ScienceDirect",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85057992692",
+    "doi": "10.1016/j.infsof.2018.11.008",
+    "Publication type": "re",
+    "Abstract": "© 2018 Elsevier B.V.Context: Coupling relations reflect the dependencies between software entities and can be used to assess the quality of a program. For this reason, a vast amount of them has been developed, together with tools to compute their related metrics. However, this makes the coupling measures suitable for a given application challenging to find. Goals: The first objective of this work is to provide a classification of the different kinds of coupling relations, together with the metrics to measure them. The second consists in presenting an overview of the tools proposed until now by the software engineering academic community to extract these metrics. Method: This work constitutes a systematic literature review in software engineering. To retrieve the referenced publications, publicly available scientific research databases were used. These sources were queried using keywords inherent to software coupling. We included publications from the period 2002 to 2017 and highly cited earlier publications. A snowballing technique was used to retrieve further related material. Results: Four groups of coupling relations were found: structural, dynamic, semantic and logical. A fifth set of coupling relations includes approaches too recent to be considered an independent group and measures developed for specific environments. The investigation also retrieved tools that extract the metrics belonging to each coupling group. Conclusion: This study shows the directions followed by the research on software coupling: e.g., developing metrics for specific environments. Concerning the metric tools, three trends have emerged in recent years: use of visualization techniques, extensibility and scalability. Finally, some coupling metrics applications were presented (e.g., code smell detection), indicating possible future research directions. Public preprint [https://doi.org/10.5281/zenodo.2002001].",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "An Evolutionary Neural Network Approach to Intrinsic Plagiarism Detection",
+    "Publication date": "2010",
+    "Venue type ": "Chapter",
+    "Publication venue": "Artificial Intelligence and Cognitive Science",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-78650119661",
+    "doi": "10.1007/978-3-642-17080-5_6",
+    "Publication type": "cp",
+    "Abstract": "Intrinsic Plagiarism Detection attempts to identify portions of a document which have been plagiarised without the use of reference collections. This is typically achieved by developing a classifier using support vector machines or hand-crafted neural networks. This paper presents an evolutionary neural network approach to the development of an intrinsic plagiarism detection classifier which is capable of evolving both the weights and structure of a neural network. The neural network is empirically tested on a corpus of documents and is shown to perform well. © 2010 Springer-Verlag.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Impact of Agile Scrum Methodology on Time to Market and Code Quality – A Case Study",
+    "Publication date": "2021",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2021 3rd International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85127003780",
+    "doi": "10.1109/ICAC3N53548.2021.9725375",
+    "Publication type": "cp",
+    "Abstract": "© 2021 IEEE.The software industry's Development Lifecycle is changing dramatically, with traditional, heavy-weight processes giving way to simple, light-weight Agile software development (ASD) methods. ASD develops outstanding, high-quality software in short, rapid iterations that is responsive to changing business conditions. Adaptive planning, gradual design and deployment, and a time-bound strategy are all encouraged. Agile promotes a quick and flexible response to change. Agile systems have the ability to improve customer satisfaction, lower bug rates, shorten cycle times, and enable faster adaption to quickly changing company needs. Agile helps to deliver early but might compromise on the quality of software delivered. This research paper presents the performance analysis of Agile Scrum methodology towards Time to Market and Code Quality based on various project parameters like time to deliver the product, number of bugs and code smells and amount of duplicate code.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Teamscale: Software Quality Control in Real-Time",
+    "Publication date": "2014",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84903587514",
+    "doi": "10.1145/2591062.2591068",
+    "Publication type": "cp",
+    "Abstract": "When large software systems evolve, the quality of source code is essential for successful maintenance. Controlling code quality continuously requires adequate tool support. Current quality analysis tools operate in batch-mode and run up to several hours for large systems, which hampers the integration of quality control into daily development. In this paper, we present the incremental quality analysis tool Teamscale, providing feedback to developers within seconds after a commit and thus enabling real-time software quality control. We evaluated the tool within a development team of a German insurance company. A video demonstrates our tool: http://www.youtube.com/watch?v= nnuqplu75Cg. Copyright © 2014 ACM.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Using Reduced Execution Flow Graph to Identify Library Functions in Binary Code",
+    "Publication date": "2016",
+    "Venue type ": "IEEE Journals",
+    "Publication venue": "IEEE Transactions on Software Engineering",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84962815090",
+    "doi": "10.1109/TSE.2015.2470241",
+    "Publication type": "ar",
+    "Abstract": "© 2015 IEEE.Discontinuity and polymorphism of a library function create two challenges for library function identification, which is a key technique in reverse engineering. A new hybrid representation of dependence graph and control flow graph called Execution Flow Graph (EFG) is introduced to describe the semantics of binary code. Library function identification turns to be a subgraph isomorphism testing problem since the EFG of a library function instance is isomorphic to the sub-EFG of this library function. Subgraph isomorphism detection is time-consuming. Thus, we introduce a new representation called Reduced Execution Flow Graph (REFG) based on EFG to speed up the isomorphism testing. We have proved that EFGs are subgraph isomorphic as long as their corresponding REFGs are subgraph isomorphic. The high efficiency of the REFG approach in subgraph isomorphism detection comes from fewer nodes and edges in REFGs and new lossless filters for excluding the unmatched subgraphs before detection. Experimental results show that precisions of both the EFG and REFG approaches are higher than the state-of-the-art tool and the REFG approach sharply decreases the processing time of the EFG approach with consistent precision and recall.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "ViSP for visual servoing: a generic software platform with a wide class of robot control skills",
+    "Publication date": "2005",
+    "Venue type ": "IEEE Magazines",
+    "Publication venue": "IEEE Robotics & Automation Magazine",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-31344436717",
+    "doi": "10.1109/MRA.2005.1577023",
+    "Publication type": "ar",
+    "Abstract": "The Visual Servoing Platform (ViSP) is a fully functional modular architecture that allows fast development of visual servoing applications. This architecture takes the form of a library which can be divided in three main modules: two are dedicated to control issues and one to real-time tracking. It is implemented in C++ under Linux.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Towards Automating Source-Consistent UML Refactorings",
+    "Publication date": "2003",
+    "Venue type ": "Chapter",
+    "Publication venue": "Â«UMLÂ» 2003 - The Unified Modeling Language. Modeling Languages and Applications",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-0242370959",
+    "doi": "10.1007/978-3-540-45221-8_15",
+    "Publication type": "ar",
+    "Abstract": "With the increased interest in refactoring, UML tool vendors seek ways to support software developers in applying a (sequence of) refactoring(s). The problem with such tools is that the UML metamodel - on which their repository is based - is inadequate to maintain the consistency between the model and the code while one of them gets refactored. Therefore, we propose a set of minimal extensions to the UML metamodel, which is sufficient to reason about refactoring for all common OO languages. For instance, by specifying pre- and postconditions in OCL, we are able to compose primitive refactorings, verify preservation of program behavior, and trigger refactorings based on code smells. This way, we provide future MDA tools with the ability to improve existing UML designs, yet keeping them in synch with the underlying code base. © Springer-Verlag Berlin Heidelberg 2003.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Engineering applications of the self-organizing map",
+    "Publication date": "1996",
+    "Venue type ": "IEEE Journals",
+    "Publication venue": "Proceedings of the IEEE",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-0030270228",
+    "doi": "10.1109/5.537105",
+    "Publication type": "ar",
+    "Abstract": "The self-organizing map (SOM) method is a new, powerful software tool for the visualization of high-dimensional data. It converts complex, nonlinear statistical relationships between high-dimensional data into simple geometric relationships on a low-dimensional display. As it thereby compresses information while preserving the most important topological and metric relationships of the primary data elements on the display, it may also be thought to produce some kind of abstractions. These two aspects, visualization and abstraction, occur in a number of complex engineering tasks such as process analysis, machine perception, control, and communication. The term self-organizing map signifies a class of mappings defined by error-theoretic considerations. In practice they result in certain unsupervised, competitive learning processes, computed by simple-looking SOM algorithms. The first SOM algorithms were conceived around 1981-1982, and the popularity of the more advanced SOM methods is growing at a steady pace. Many industries have found the SOM-based software tools useful. The most important property of the SOM, orderliness of the input-output mapping, can be utilized for many tasks: reduction of the amount of training data, speeding up learning, nonlinear interpolation and extrapolation, generalization, and effective compression of information for its transmission. © 1996 IEEE.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Software Bug Ontology Supporting Semantic Bug Search on Peer-to-Peer Networks",
+    "Publication date": "2014",
+    "Venue type ": "Article",
+    "Publication venue": "New Generation Computing",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84903604502",
+    "doi": "10.1007/s00354-014-0203-1",
+    "Publication type": "ar",
+    "Abstract": "This article presents a semantic bug search system that assists users in sharing and searching solutions for similar bug reports on peerto- peer networks. This system features the capability of exploring bug knowledge resources at various sites in distributed environment and exploiting the classification and relationship information of bug reports. The system uses a unified bug schema that not only integrates bug reports from various bug knowledge resources into a single database but also contains several selective properties including package dependencies, bug relationships, bug symptoms and categories to foster a semantic search mechanism. We have implemented several components of the system including bug updater to maintain bug database, query handler to share and search bug reports, and peer controller to manage communication on an appropriate peer-to-peer network. We have experimented the system on a distributed computing testbed and measured its feasibility, scalability and efficiency.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Supporting the Running and Analysis of Trials of Web-Based Behavioural Interventions: The LifeGuide",
+    "Publication date": "2009",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2009 Fifth IEEE International Conference on e-Science",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-77949786176",
+    "doi": "10.1109/e-Science.2009.16",
+    "Publication type": "cp",
+    "Abstract": "Behavioural interventions - packages of advice and support for behaviour change - are one of the most important methodologies and technologies employed by social scientists for understanding and changing behaviour. A typical web-based behavioural intervention study includes the designing, deploying, piloting and trialling of the intervention as well as data analysis. We have developed a research environment named LifeGuide, which covers the full scope of this process, enabling social scientists to carry out intervention studies with minimal technical expertise. In this paper, we present how the LifeGuide can assist and accelerate intervention research, particularly focusing on supporting the running and analysis of trials of web-based behavioural interventions along with the case study of an intervention that has been developed within the LifeGuide. © 2009 Crown Copyright.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  }
+]

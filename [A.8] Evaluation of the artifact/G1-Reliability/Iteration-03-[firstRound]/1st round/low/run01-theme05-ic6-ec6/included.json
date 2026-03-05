@@ -1,0 +1,128 @@
+[
+  {
+    "ID": "",
+    "Title": "An empirical study on inconsistent changes to code clones at the release level",
+    "Publication date": "2012",
+    "Venue type ": "",
+    "Publication venue": "Science of Computer Programming",
+    "Publisher": "ScienceDirect",
+    "Applied exclusion criteria": "ec5",
+    "Primary study Scopus EID": "2-s2.0-84858996164",
+    "doi": "10.1016/j.scico.2010.11.010",
+    "Publication type": "cp",
+    "Abstract": "To study the impact of code clones on software quality, researchers typically carry out their studies based on fine-grained analysis of inconsistent changes at the revision level. As a result, they capture much of the chaotic and experimental nature inherent in any on-going software development process. Analyzing highly fluctuating and short-lived clones is likely to exaggerate the ill effects of inconsistent changes on the quality of the released software product, as perceived by the end user. To gain a broader perspective, we perform an empirical study on the effect of inconsistent changes on software quality at the release level. Based on a case study on three open source software systems, we observe that only 1.02%4.00% of all clone genealogies introduce software defects at the release level, as opposed to the substantially higher percentages reported by previous studies at the revision level. Our findings suggest that clones do not have a significant impact on the post-release quality of the studied systems, and that the developers are able to effectively manage the evolution of cloned code. © 2010 Elsevier B.V. All rights reserved.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "EC1": 2,
+      "EC2": 5
+    },
+    "userDecision": "Include"
+  },
+  {
+    "ID": "",
+    "Title": "An Interactive Tool to Support Student Assessment in Programming Assignments",
+    "Publication date": "2016",
+    "Venue type ": "Chapter",
+    "Publication venue": "Advances in Artificial Intelligence - IBERAMIA 2016",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84994171914",
+    "doi": "10.1007/978-3-319-47955-2_33",
+    "Publication type": "cp",
+    "Abstract": "© Springer International Publishing AG 2016.The paper presents an interactive tool for analysis of a set of source code submissions made by students when solving a programming assignment. The goal of the tool is to give a concise but informative overview of the different solutions submitted by the students, identifying groups of similar solutions and visualizing their relationships in a graph. Different strategies for calculating the solution groups as well as for visualizing the solution graphs were evaluated over a set of real codes submitted by students of an algorithms class.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "ID": "",
+    "Title": "Through an Agnostic Programming Languages Methodology for Plagiarism Detection in Engineering Coding Courses",
+    "Publication date": "2019",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2019 IEEE World Conference on Engineering Education (EDUNINE)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85074786341",
+    "doi": "10.1109/EDUNINE.2019.8875802",
+    "Publication type": "cp",
+    "Abstract": "© 2019 IEEE.Nowadays all engineering students must possess coding skills in several programming languages. Regrettably, students do not perceive the importance of such skills often. Instead, they look for risky shortcuts to accomplish projects or homework in programming courses by copying the code from their colleagues or internet sources. Therefore, in programming languages courses it is necessary to identify this kind of activity well known as plagiarism. The idea behind plagiarism detection is to correct this attitude, raise the morale of the course and show the importance of programming for the training of the future engineer. In the present effort, we develop an automatic, fast and efficient methodology to detect code plagiarism without the professor intervention or code comparison. The results seem promising since the applied mythology detected plagiarism that was confirmed by students afterwards.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "EC1": 2,
+      "EC2": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "ID": "",
+    "Title": "Improving pattern tracking with a language-aware tree differencing algorithm",
+    "Publication date": "2015",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84928689087",
+    "doi": "10.1109/SANER.2015.7081814",
+    "Publication type": "cp",
+    "Abstract": "© 2015 IEEE.Tracking code fragments of interest is important in monitoring a software project over multiple versions. Various approaches, including our previous work on Herodotos, exploit the notion of Longest Common Subsequence, as computed by readily available tools such as GNU Diff, to map corresponding code fragments. Nevertheless, the efficient code differencing algorithms are typically line-based or word-based, and thus do not report changes at the level of language constructs. Furthermore, they identify only additions and removals, but not the moving of a block of code from one part of a file to another. Code fragments of interest that fall within the added and removed regions of code have to be manually correlated across versions, which is tedious and error-prone. When studying a very large code base over a long time, the number of manual correlations can become an obstacle to the success of a study. In this paper, we investigate the effect of replacing the current line-based algorithm used by Herodotos by tree-matching, as provided by the algorithm of the differencing tool GumTree. In contrast to the line-based approach, the tree-based approach does not generate any manual correlations, but it incurs a high execution time. To address the problem, we propose a hybrid strategy that gives the best of both approaches.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "ID": "",
+    "Title": "Code cloning in smart contracts: a case study on verified contracts from the Ethereum blockchain platform",
+    "Publication date": "2020",
+    "Venue type ": "Article",
+    "Publication venue": "Empirical Software Engineering",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85090455143",
+    "doi": "10.1007/s10664-020-09852-5",
+    "Publication type": "ar",
+    "Abstract": "© 2020, Springer Science+Business Media, LLC, part of Springer Nature.Ethereum is a blockchain platform that hosts and executes smart contracts. Smart contracts have been used to implement cryptocurrencies and crowdfunding initiatives (ICOs). A major concern in Ethereum is the security of smart contracts. Different from traditional software development, smart contracts are immutable once deployed. Hence, vulnerabilities and bugs in smart contracts can lead to catastrophic financial loses. In order to avoid taking the risk of writing buggy code, smart contract developers are encouraged to reuse pieces of code from reputable sources (e.g., OpenZeppelin). In this paper, we study code cloning in Ethereum. Our goal is to quantify the amount of clones in Ethereum (RQ1), understand key characteristics of clone clusters (RQ2), and determine whether smart contracts contain pieces of code that are identical to those published by OpenZeppelin (RQ3). We applied Deckard, a tree-based clone detector, to all Ethereum contracts for which the source code was available. We observe that developers frequently clone contracts. In particular, 79.2% of the studied contracts are clones and we note an upward trend in the number of cloned contracts per quarter. With regards to the characteristics of clone clusters, we observe that: (i) 9 out of the top-10 largest clone clusters are token managers, (ii) most of the activity of a cluster tends to be concentrated on a few contracts, and (iii) contracts in a cluster to be created by several authors. Finally, we note that the studied contracts have different ratios of code blocks that are identical to those provided by the OpenZeppelin project. Due to the immutability of smart contracts, as well as the impossibility of reverting transactions once they are deemed final, we conclude that the aforementioned findings yield implications to the security, development, and usage of smart contracts.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "ID": "",
+    "Title": "Detecting plagiarisms in elementary programming courses",
+    "Publication date": "2012",
+    "Venue type ": "Conference",
+    "Publication venue": "2012 9th International Conference on Fuzzy Systems and Knowledge Discovery",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "selected",
+    "Primary study Scopus EID": "2-s2.0-84872953684",
+    "doi": "10.1109/FSKD.2012.6234186",
+    "Publication type": "cp",
+    "Abstract": "This paper proposes a method to automatically detect plagiarisms, i.e. illegal copies, among a set of programs submitted by students in elementary programming courses. In such courses, programming assignments are so simple that submitted programs are very short and similar to each other. Existing plagiarism detection methods, therefore, may yield many false positive results. The proposed method solves the problem by using three types of similarity: code, comment, and inconsistence. The inconsistence similarity, a unique feature of the method, improves the precision and recall ratios, and helps to find evidences of plagiarisms. Evaluation results using real student program assignments show the effectiveness of the proposed method. © 2012 IEEE.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  }
+]

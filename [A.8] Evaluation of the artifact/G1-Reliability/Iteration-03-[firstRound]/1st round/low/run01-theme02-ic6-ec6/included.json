@@ -1,0 +1,342 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-47949109335",
+    "Primary study DOI": "10.1108/03321640810878199",
+    "Title": "Characteristics investigation of a new type AFPM machine according to the geometric structure of rotor using 3D FEM",
+    "Abstract": "Purpose - The purpose of this paper is to present the performance characteristics analysis of a new type axial flux permanent magnet (AFPM) machine according to the geometric structure of rotor such as permanent magnet dimension, the air-gap length and so on. Design/methodology/approach - The 3D finite element method (FEM) is used to analyse electromagnetic fields with the aid of an ANSYS software package. The FEM is based on the magnetic vector potential and the governing equation can be obtained from the Maxwell equation. Using the dynamometer system, the characteristics of the AFPM machine were estimated according to load torque. Findings - The AFPM machine characteristics with static torque, cogging torque and flux density according to rotor geometric dimensions are analyzed using a 3D FEM software package. And then, the prototype of an AFPM machine and several rotors with different PM structure are manufactured and tested. Resulting from the experiment, the characteristics such as EMF waveform, speed and efficiency curves according to load torque, and efficiency curves according to PM thickness, are obtained. The measured performance results verified the overhang effects and improved the efficiency of the motor. Originality/value - The paper proposes a new type AFPM machine structure with T-shape teeth and laminated back yoke and two types of rotor with fan-shaped permanent magnets. It presents the results of characteristics of the proposed AFPM machine throughout the simulation and experiment. © Emerald Group Publishing Limited.",
+    "Keywords": "Electric machines | Finite element analysis | Magnetic devices",
+    "Publication venue": "COMPEL - The International Journal for Computation and Mathematics in Electrical and Electronic Engineering",
+    "Publication date": "2008-07-30",
+    "Publication type": "Article",
+    "Authors": "Lee, Byung Jun;Kim, Byoung Kuk;Cho, Yun Hyun;Chun, Yon Do;Koo, Dae Hyun",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 6
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85027715972",
+    "Primary study DOI": "10.1109/EMES.2017.7980399",
+    "Title": "Automated testing framework development based on social interaction and communication principles",
+    "Abstract": "The speed of development of the IT industry as well as the computational power which are increasing exponentially, create great competitiveness in the process of development but also in the launching of software products on the market. Automated testing comes to help with these challenges by trying to increase the speed of development by offering fast feedback and trustworthy quality by means of repeated runs of the implemented tests. This isn't a problem just on a technical level, but also on a social level, especially in the area of communication and understanding the requirements of the client. This work presents the implementation of an automated testing framework which also addresses the social problems. BDD or 'Behavior Driven Development' includes an approach which would like to line up the area of client requests to the technical area, offering a uniform platform of collaboration and development. The implementation of this principle is applied in an MVP (Minimum Viable Product) type project which is meant to demonstrate the technical solution which may draw together, both socially and communication wise, the business teams and the technical implementation teams.",
+    "Keywords": "automated testing | BDD | Gherkin language | testing process",
+    "Publication venue": "2017 14th International Conference on Engineering of Modern Electric Systems, EMES 2017",
+    "Publication date": "2017-07-13",
+    "Publication type": "Conference Paper",
+    "Authors": "Contan, Andrei;Miclea, Liviu;Dehelean, Catalin",
+    "Ground truth": "Exclude",
+    "Reason": "EC1",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85096623676",
+    "Primary study DOI": "10.1109/SEAA51224.2020.00060",
+    "Title": "MVP and experimentation in software startups: A qualitative survey",
+    "Abstract": "The Lean Startup methodology disseminated the concept of MVP. Since then, the term has been used in several contexts aside startups with a blur definition. Practitioners name several artifacts as MVPs, such as prototypes or initial versions of a new product, rather than an instrument for experimentation. Given the importance of experimentation to the success rate of software startups, it is essential to understand if the experimentation element is still present in practitioners' understanding of the term and how they applied MVPs. To achieve this objective, we performed a survey with practitioners and coded their answers according to aspects found in a systematic mapping study on MVP. Our results indicate that MVP is mostly associated with the ideas of a product version and customer value rather than hypothesis testing and learning processes. Additionally, those respondents that focused on the first related group of terms did not give experiments as examples of MVP. In contrast, the opposite happened to those that used the second group.",
+    "Keywords": "experiment-driven software development | experimentation | minimum viable product | software startups",
+    "Publication venue": "Proceedings - 46th Euromicro Conference on Software Engineering and Advanced Applications, SEAA 2020",
+    "Publication date": "2020-08-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Melegati, Jorge;Chanin, Rafael;Sales, Afonso;Prikladnicki, Rafael;Wang, Xiaofeng",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 2,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0033992890",
+    "Primary study DOI": "",
+    "Title": "The surgical experiences and risk factors of combined valvular procedure and myocardial revascularization",
+    "Abstract": "OBJECTIVE: To introduce the experience of combined valve procedure and CABG. METHODS: 61 men and 15 women, with a mean age of 56 years, underwent combined valve procedure and CABG. CABG was performed with AVR (1 - 3 grafts) in 25 patients, with MVR (1 - 4 grafts) in 31 (MVR + AVP in 2, MVR + TVP in 3), with aortic and mitral valve replacement (1 - 3 grafts) in 18 (BVR + TVP in 2), with MVP (1 graft) in 1 and with MVP + TVP (1 graft) in 1 patient. Rheumatic disease was present in 67 and degenerative aortic and mitral valve disease was present in 9. SPSS statistical software was used to analyse the risk factors of the operation. RESULTS: 6 operative deaths (7.89%) occurred. 63 patients (63/70) who survived the operation were followed up for a mean period of 26.8 months. The function of heart in 62 patients was significantly improved. One patient died of SBE 9 months after operation. CONCLUSION: The combination of valve replacement or repair with coronary revascularization generally increases operative mortality. The hospital mortality is related to preoperative myocardial infarction, NYHA class IV, lower EF and the longer time of CPB and clamping aorta. Grafting in all significant coronary lesions, restoration of valvular function and good myocardial protection are the key factors for the success of CABG with valvular procedure.",
+    "Keywords": "",
+    "Publication venue": "Zhonghua yi xue za zhi",
+    "Publication date": "2000-01-01",
+    "Publication type": "Article",
+    "Authors": "Wu, Q.;Meng, Q.;Hu, S.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84871595566",
+    "Primary study DOI": "10.1109/MoDRE.2012.6360084",
+    "Title": "From use cases and their relationships to code",
+    "Abstract": "Use cases are used in many methodologies to drive the software engineering process. Though, their transition to code was usually a mostly manual process. In the context of MDD, use cases gain attention as first-class artifacts with representation notations allowing for automatic transformations to analysis and design models. The paper concentrates on an important problem of constructing transformations that cater for use case relationships. It presents a notation that unifies the ambiguous \"include\" and \"extend\", and allows for representing them within textual use case scenarios. This notation, equipped with runtime semantics, is used to construct a direct transformation into working code. The code is placed within method bodies of the Controller/Presenter and View layers within the MVC/MVP framework. Based on this transformation, an agile use-case-driven development process is possible. © 2012 IEEE.",
+    "Keywords": "",
+    "Publication venue": "2012 2nd IEEE International Workshop on Model-Driven Requirements Engineering, MoDRE 2012 - Proceedings",
+    "Publication date": "2012-12-31",
+    "Publication type": "Conference Paper",
+    "Authors": "Śmiałek, Michał;Nowakowski, Wiktor;Jarzȩbowski, Norbert;Ambroziewicz, Albert",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 6
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85042378018",
+    "Primary study DOI": "10.1109/ESEM.2017.20",
+    "Title": "Predicting the Vector Impact of Change-An Industrial Case Study at Brightsquid",
+    "Abstract": "Background: Understanding and controlling the impact of change decides about the success or failure of evolving products. The problem magnifies for start-ups operating with limited resources. Their usual focus is on Minimum Viable Product (MVP's) providing specialized functionality, thus have little expense available for handling changes. Aims: Change Impact Analysis (CIA) refers to the identification of source code files impacted when implementing a change request. We extend this question to predict not only affected files, but also the effort needed for implementing the change, and the duration necessary for that. Method: This study evaluates the performance of three textual similarity techniques for CIA based on Bag of words in combination with either topic modeling or file coupling. Results: The approaches are applied on data from two industrial projects. The data comes as part of an industrial collaboration project with Brightsquid, a Canadian start-up company specializing in secure communication solutions. Performance analysis shows that combining textual similarity with file coupling improves impact prediction, resulting in Recall of 67%. Effort and duration can be predicted with 84% and 72% accuracy using textual similarity only. Conclusions: The relative effort invested into CIA for predicting impacted files can be reduced by extending its applicability to multiple dimensions which include impacted files, effort, and duration.",
+    "Keywords": "Bag of Words | Case Study | Change Impact Analysis | Effort estimation | Software Repository | Topic Modeling",
+    "Publication venue": "International Symposium on Empirical Software Engineering and Measurement",
+    "Publication date": "2017-12-07",
+    "Publication type": "Conference Paper",
+    "Authors": "Kabeer, Shaikh Jeeshan;Nayebi, Maleknaz;Ruhe, Guenther;Carlson, Chris;Chew, Francis",
+    "Ground truth": "Include",
+    "Reason": "Yes",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85030237703",
+    "Primary study DOI": "10.1109/ICME.2017.8019451",
+    "Title": "A block level adaptive MV resolution for video coding",
+    "Abstract": "The latest video coding standard, HEVC, uses quarter pixel motion vector (MV) resolution for motion compensation. The adaptation of MV resolution supported by PMVR (progressive MV resolution) brings further improvement of the performance, by progressively adjusting the resolution according to the distance between the MV and the MV predictor (MVP). In this work, we propose to improve PMVR by adapting MV resolution at the prediction unit (PU) level relying on its size and its average absolute gradient. We additionally perform a smarter motion estimation around multiple MV predictors to fully take advantage of the proposed scheme. Compared to HEVC reference software (HM-16.6), the proposed method provides 1.2%, 3.2% and 1.2% average BD rate savings respectively for random access (RA), low-delay P (LP) and low-delay (LD) configurations.",
+    "Keywords": "HEVC | Motion compensation | Motion vector resolution | PMVR",
+    "Publication venue": "Proceedings - IEEE International Conference on Multimedia and Expo",
+    "Publication date": "2017-08-28",
+    "Publication type": "Conference Paper",
+    "Authors": "Ray, Bappaditya;Jung, Joel;Larabi, Mohamed Chaker",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0012255418",
+    "Primary study DOI": "10.1016/0164-1212(94)00107-X",
+    "Title": "Analyzing knowledge-based systems with multiviewpoint clustering analysis",
+    "Abstract": "Knowledge-based systems have wide commercial applicability. However, a credible validation methodology for knowledge-based systems is currently lacking. Better knowledge acquisition techniques as well as better management, understanding, and enhancement of the knowledge base is critical to the success of any verification or validation activities. Our research addresses the feasibility of partitioning rule-based systems into a number of meaningful units to enhance the comprehensibility, maintainability, and reliability of expert systems software. Preliminary results have shown that no single structuring principle or abstraction hierarchy is sufficient to understand complex knowledge bases. We therefore propose the multiviewpoint clustering analysis (MVP-CA) 'methodology to provide multiple views of the same expert system. MVP-CA provides an ability to discover significant structures within the rule base by providing a mechanism to structure both hierarchically (from detail to abstract) and orthogonally (from different perspectives). Here we describe our approach to understanding large knowledge bases via MVP-CA. We demonstrate the need for MVP-CA by use of a couple of small classic rule bases, as well as a deployed knowledge-based system that navigates the space shuttle's reentry. We also discuss the impact of this approach on verification and validation of knowledge-based systems. MVP-CA provides an essential first step toward building an integrated environment for verification and validation of knowledge-based applications. It allows one to build reliable knowledge-based systems by suitably abstracting, structuring, and otherwise clustering the knowledge in a manner that facilitates its understanding, manipulation, testing, and utilization. © 1995.",
+    "Keywords": "",
+    "Publication venue": "The Journal of Systems and Software",
+    "Publication date": "1995-01-01",
+    "Publication type": "Article",
+    "Authors": "Mehrotra, Mala;Wild, Chris",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84988884558",
+    "Primary study DOI": "10.1007/978-981-10-2669-0_55",
+    "Title": "Development and credibility of multi-disciplinary virtual prototype",
+    "Abstract": "The development of multi-disciplinary virtual prototype (MVP) is a system engineering which involves analysis, development, integration, testing and other activities. The credibility of MVP is important which decides whether or not the MVP could be applicable. The authors’ team has developed a software development kit for MVP named collaborative simulation (COSIM). Based on the research work, firstly, the development and execution process of MVP engineering is illustrated. Secondly, verification, validation and accreditation (VV&A) across the whole MVP development process is introduced, and the indicator system of credibility evaluation is proposed. Finally, an application of VV&A for landing gear virtual prototype is given as an example.",
+    "Keywords": "Credibility | Multi-disciplinary virtual prototype | VV&A",
+    "Publication venue": "Communications in Computer and Information Science",
+    "Publication date": "2016-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Qu, Huiyang;Shi, Guoqiang;Pu, Ruiying",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 6
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84937510941",
+    "Primary study DOI": "10.1007/978-3-319-19593-3_2",
+    "Title": "The relationship between business model experimentation and technical debt",
+    "Abstract": "The use of lean software development methodology and business model experimentation has become popular in software companies in recent years. Business model experimentation is used to validate assumptions made on a product from real customers before the actual product is created. A minimum viable product is used to test the business model by gathering and measuring customer feedback. However, in many cases creating a minimum viable product requires the development team to take shortcuts and workarounds in the product. This phenomenon in software development is called ‘technical debt’, where companies trade long-term software quality to short-term gain in time-tomarket. We investigated four software companies and conducted nine interviews to understand the relationship between business model experimentation and technical debt. The goal was to study how business model experimentation is affecting to technical debt. The results showed that business model experimentation has a clear relationship to technical debt.",
+    "Keywords": "Business model experimentation | Case study | Large company | Minimum viable product | Software development lifecycle | Startup company | Technical debt",
+    "Publication venue": "Lecture Notes in Business Information Processing",
+    "Publication date": "2015-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Yli-Huumo, Jesse;Rissanen, Tommi;Maglyas, Andrey;Smolander, Kari;Sainio, Liisa Maija",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-56149101286",
+    "Primary study DOI": "",
+    "Title": "An XML standard for virtual patients: exchanging case-based simulations in medical education.",
+    "Abstract": "Virtual Patients are computer-based simulations of a clinical encounter where the user plays the role of a healthcare provider while receiving in-context instruction. This unique pedagogical approach enables active case-based learning for learners. Academic institutions around the world have developed high-quality virtual patients using many different authoring and playback technologies. However, sustainability and scalability have proved challenging due to the number of cases needed and production costs. In an effort to promote sharing of Virtual Patients and broader adoption into medical education at all levels, MedBiquitous organized an international working group to create an XML-based \"MedBiquitous Virtual Patient Standard\" (MVP) describing a common structure for virtual patient content and activities. The MVP enables virtual patient exchange across systems, modification, and display within conformant player software.",
+    "Keywords": "",
+    "Publication venue": "AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium",
+    "Publication date": "2007-01-01",
+    "Publication type": "Article",
+    "Authors": "Triola, Marc M.;Campion, Ned;McGee, James B.;Albright, Susan;Greene, Peter;Smothers, Valerie;Ellaway, Rachel",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85088755631",
+    "Primary study DOI": "10.3997/2214-4609.201600475",
+    "Title": "Results of experimental electromagnetic studies of the Crimean region",
+    "Abstract": "Spatial-temporal pattern of distribution of geomagnetic variations and electric field on the Earth's surface was obtained as a result of modern experimental observations conducted in 2007-2013 along 9 profiles (48 points) by the methods of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP). These profiles cross various geological structures of the Crimean region. It is possible to estimate the value of electrical conductivity and vertical and horizontal geo-electric structure. The processing of these data is done using modern software system PRC-MTMV (author Varentsov Iv. M.) that provides the common noise-protected evaluation of the impedance, tipper and horizontal magneto-variation response according to synchronous MT/MV records. The main result of qualitative interpretation of geo-electric research is the detection of high conductivity regions in the Earth's crust and upper mantle of the Crimea, that are characterized by the variations of conductivity, depth and configuration. They characterize the various geological structures differently. The sub-vertical conductive zones often coincide with the fault structures, most of these objects are confined to the suture zones between tectonic elements such as the East European platform and the Scythian plate, the Scythian plate and the Crimean mountain, North and South Kerch zone. This fact may reflect high permeability of the suture zones for deep fluids in the process of their formation. Although the qualitative interpretation of the experimental data of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP) provides inconsistent understanding of the depth distribution of the Crimean region electrical conductivity, the combination of these methods allows constructing the model of resistivity distribution within a three-dimensional environment much more accurately and adequately to the observed experimental data.",
+    "Keywords": "",
+    "Publication venue": "Geoinformatics 2016 - XVth International Conference on Geoinformatics - Theoretical and Applied Aspects",
+    "Publication date": "2016-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Burahovich, T.;Kushnir, A.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0032255525",
+    "Primary study DOI": "10.1006/rtim.1998.7010",
+    "Title": "Efficient implementation of image warping on a multimedia processor",
+    "Abstract": "The spatial transformation of images, commonly known as image warping, is fundamental to many applications, e.g. remote sensing, medical imaging, computer vision, and computer graphics. Computational demands in image warping are high, requiring a geometric transformation, address and coefficient generation, and some form of interpolation. However, unlike most image processing algorithms, the data flow for image warping can be highly irregular, which makes any efficient implementation challenging. This paper describes an efficient algorithm which addresses these challenges by making use of the capabilities of a single-chip multiprocessing microprocessor, the Texas Instruments TMS320C80 MVP (multimedia video processor). The M VP s advanced digital signal processors (ADSPs) off er tremendous computational power through instruction-level parallelism and several key features designed for image processing. The MVP's intelligent input/output interface via the transfer controller (TC) permits efficient irregular memory axesses. Affine and perspective warps have been implemented for 8-bit, 16-bit and RGB color data using bilinear interpolation. The affine warp can generate 512 × 512 warped output images faster than real-time video rates require. For 8-bit images, the performance is 14.1 ms. Although the amount of computation necessary is the same for 16-bit images, the execution time increases to 15.2 ms since twice as many bytes need to be transferred. For RGB color images, it takes 28.0 ms. The perspective warp requires 46.3 ms for 8-bit and 16-bit images, and 60.4 ms for RGB color images. This unprecedented performance for software-based image warping exceeds many hardwired approaches reported in the literature. © 1998 Academic Press.",
+    "Keywords": "",
+    "Publication venue": "Real-Time Imaging",
+    "Publication date": "1998-01-01",
+    "Publication type": "Article",
+    "Authors": "Evans, O. D.;Kim, Y.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-38449093354",
+    "Primary study DOI": "10.1007/s11307-007-0112-5",
+    "Title": "Magnetic resonance imaging based bone marrow segmentation for quantitative calculation of pure red marrow metabolism using 2-deoxy-2-[F-18]fluoro-d- glucose- positron emission tomography: A novel application with significant implications for combined structure-function approach",
+    "Abstract": "Aims: The aim of this study was to introduce a new concept for accurate measurement of the global metabolic activity of the red marrow by combining segmented volumetric data from structural imaging techniques such as magnetic resonance imaging (MRI) and quantitative metabolic information provided by functional modalities such as positron emission tomography (PET). Materials and Methods: Imaging studies from five subjects who had undergone both MRI and 2-deoxy-2-[F-18]fluoro-d-glucose(FDG)-PET were selected for this analysis to test the feasibility of this approach. In none of the subjects, there were any marrow abnormalities as determined either by the MRI or by FDG-PET studies. The mean blood glucose level was 96∈±∈25 mg/dl. The first step was to calculate vertebral volume at L1, L3, and L5 from the available MRI studies. The red and yellow marrows were then segmented within the lumbar vertebrae using the 3DVIEWNIX software system from which the respective volumes were also calculated for each. This also allowed calculating the bone volume in each of the vertebral bodies examined. By employing the standard techniques, the mean of the maximum standardized uptake values (mean SUVmax) for the bone marrow were calculated in L1, L3 and L5 of the lumbar spine, and then global red marrow activity was calculated using the following approach: (1) Whole vertebral metabolic activity (WVMA)∈=∈vertebral volume∈×∈mean SUVmax of the entire marrow, (2) whole vertebral metabolic activity for yellow marrow (WVMAYM)∈=∈yellow marrow volume∈×∈mean SUVmax of fat (obtained from measurements of subcutaneous fat), (3) whole vertebral metabolic activity for red marrow (WVMARM)∈=∈WVMA - WVMAYM; and finally, (4) SUVmax for pure red marrow∈=∈whole vertebral metabolic activity for red marrow (WVMARM)/red marrow volume (obtained from the segmentation data). Results: The mean volume of the lumbar vertebral body was 15.6∈±∈1.4 cm3, the bone marrow mean SUVmax was 1.5∈±∈0.3, and the MVP for the lumbar vertebral body was 23.4∈±∈5.9. The mean volume of the yellow marrow in the lumbar vertebral body was 7.7∈±∈1.1 cm3, the yellow marrow mean SUVmax was estimated to be 0.38∈±∈0.1 and the MVP for the yellow marrow in the lumbar vertebral body was 2.9∈±∈0.9. The mean volume of the red marrow in lumbar vertebral body was 7. 9∈±∈1.1 cm3, the red marrow mean SUVmax was estimated to be 2.6∈±∈0.6, and the MVP for the red marrow in the lumbar vertebral body was 20.5∈±∈5.9. Conclusion: Estimation of the individual component of the bone marrow is plausible using medical image segmentation with combined structure-function approach. This can have potential research and clinical applications concerning the study of global metabolic activity of the individual component and diagnosis of benign and malignant bone marrow disorders. © 2007 Academy of Molecular Imaging.",
+    "Keywords": "Bone marrow | FDG-PET | Image segmentation | MRI | Red marrow",
+    "Publication venue": "Molecular Imaging and Biology",
+    "Publication date": "2007-11-01",
+    "Publication type": "Article",
+    "Authors": "Basu, Sandip;Houseni, M.;Bural, G.;Chamroonat, W.;Udupa, J.;Mishra, S.;Alavi, Abass",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85018679705",
+    "Primary study DOI": "10.1007/978-3-319-57633-6_2",
+    "Title": "What influences the speed of prototyping? An empirical investigation of twenty software startups",
+    "Abstract": "It is essential for startups to quickly experiment business ideas by building tangible prototypes and collecting user feedback on them. As prototyping is an inevitable part of learning for early stage software startups, how fast startups can learn depends on how fast they can prototype. Despite of the importance, there is a lack of research about prototyping in software startups. In this study, we aimed at understanding what are factors influencing different types of prototyping activities. We conducted a multiple case study on twenty European software startups. The results are two folds; firstly we propose a prototype-centric learning model in early stage software startups. Secondly, we identify factors occur as barriers but also facilitators for prototyping in early stage software startups. The factors are grouped into (1) artifacts, (2) team competence, (3) collaboration, (4) customer and (5) process dimensions. To speed up a startup’s progress at the early stage, it is important to incorporate the learning objective into a well-defined collaborative approach of prototyping.",
+    "Keywords": "MVP | Prototype | Prototyping-learning loop | Software startups | Speed | Validated learning",
+    "Publication venue": "Lecture Notes in Business Information Processing",
+    "Publication date": "2017-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Nguyen-Duc, Anh;Wang, Xiaofeng;Abrahamsson, Pekka",
+    "Ground truth": "Include",
+    "Reason": "Yes",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84960495291",
+    "Primary study DOI": "10.1109/TCSVT.2015.2406199",
+    "Title": "HEVC Encoding Optimization Using Multicore CPUs and GPUs",
+    "Abstract": "Although the High Efficiency Video Coding (HEVC) standard significantly improves the coding efficiency of video compression, it is unacceptable even in offline applications to spend several hours compressing 10 s of high-definition video. In this paper, we propose using a multicore central processing unit (CPU) and an off-the-shelf graphics processing unit (GPU) with 3072 streaming processors (SPs) for HEVC fast encoding, so that the speed optimization does not result in loss of coding efficiency. There are two key technical contributions in this paper. First, we propose an algorithm that is both parallel and fast for the GPU, which can utilize 3072 SPs in parallel to estimate the motion vector (MV) of every prediction unit (PU) in every combination of the coding unit (CU) and PU partitions. Furthermore, the proposed GPU algorithm can avoid coding efficiency loss caused by the lack of a MV predictor (MVP). Second, we propose a fast algorithm for the CPU, which can fully utilize the results from the GPU to significantly reduce the number of possible CU and PU partitions without any coding efficiency loss. Our experimental results show that compared with the reference software, we can encode high-resolution video that consumes 1.9% of the CPU time and 1.0% of the GPU time, with only a 1.4% rate increase.",
+    "Keywords": "Encoding optimization | graphics processing unit (GPU) | H.264 | High Efficiency Video Coding (HEVC) | multicore central processing unit (CPU)",
+    "Publication venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "Publication date": "2015-11-01",
+    "Publication type": "Article",
+    "Authors": "Xiao, Wei;Li, Bin;Xu, Jizheng;Shi, Guangming;Wu, Feng",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85082131270",
+    "Primary study DOI": "",
+    "Title": "Left ventricle study via 3d full-volume and heart-model software in mitral valve prolapse with severe mitral regurgitation",
+    "Abstract": "Background: Most patients with mitral valve prolapse (MVP) are asymptomatic with a normal life expectancy; however, between 5% and 10% of them have progression to severe mitral regurgitation (MR). Because of this silent progression, the size and ejection fraction of the left ventricle are very important in decision-making for surgery in asymptomatic patients with MR. A 3D assessment of LV volumes and ejection fraction is preferred to 2D echocardiography because of its accuracy and reproducibility. Methods: Between April 3, 2018, and February 20, 2019, the present study enrolled 50 patients suffering from MVP with relatively severe MR undergoing transesophageal echocardiography at Rajaie Cardiovascular, Medical, and Research Center, affiliated with Iran University of Medical Sciences. The ejection fraction was analyzed via the visual 2D method, in addition to 3 other methods: the Simpson biplane, 3D full volume, and 3D heart model. Results: Of the 4 measurement methods, the 3D heart model had the highest agreement with the Simpson biplane method (ICC: 0.859, 95% CI: 0.745 to 0.922). The agreement rate between the 3D heart model and the 3D full volume was 72% and between the 3D heart model and the visual 2D method was 64%. In the measurement of the end-diastolic volume, there was a remarkable agreement between the 3D heart model and both the Simpson biplane and 3D full-volume methods (98% and 95%, respectively). Similarly, in the measurement of the end-systolic volume, the rate of agreement between the 3D heart model and both the Simpson biplane and 3D full-volume methods was 91% and 92%, correspondingly. Conclusions: This study showed that the use of the 3D heart model and the Simpson biplane method was more accurate in the study of the left ventricular ejection fraction than that of the visual 2D and 3D full-volume methods. It appears that the use of all 3 methods (ie, the Simpson biplane, 3D full volume, and 3D heart model) in the measurement of the end-systolic and end-diastolic volumes is reliable.",
+    "Keywords": "3D echocardiography | Ejection fraction | Full volume | Heart model | Mitral regurgitation | Simpson",
+    "Publication venue": "Iranian Heart Journal",
+    "Publication date": "2020-01-01",
+    "Publication type": "Article",
+    "Authors": "Fesharaki, Mehrdad Jafari;Alizadehasl, Azin;Mohammadi, Kamran;Ghadrdoost, Behshid",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 1,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  }
+]

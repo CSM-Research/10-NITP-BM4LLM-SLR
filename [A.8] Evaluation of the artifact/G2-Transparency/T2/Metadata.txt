@@ -1,0 +1,87 @@
+### 1 - Title: "A systematic mapping study and practitioner insights on the use of software engineering practices to develop MVPs",
+
+### 2 Authors: "Silvio Alonso, Marcos Kalinowski, Bruna Ferreira, Simone D.J. Barbosa, Hélio Lopes",
+
+
+#### 3 - Original Criteria:
+ 
+
+- IC1: Describe practices related to the development of software MVPs
+- IC2: Just mention MVPs but do not satisfactory describe the used practices
+- IC3: Do not mainly comprise software development-related MVPs (e.g., mainly hardware or IoT related MVPs)
+4 - Exclusion criteria:
+
+- EC1: The paper was not a peer-reviewed article, conference proceeding, or book
+chapter.
+- EC2: The publication’s language was other than English.
+- EC3: The paper was made available in Scopus after the 23rd of February 2022.
+- EC4: The same or limited results were already published and included in another
+study","The paper is included, if all inclusion criteria match. If the paper matches any exclusion criteria, it is excluded."
+
+
+
+#### 4- LLM-adapted elibibility criteria
+
+
+Inclusion / Exclusion criteria: 
+    Inclusion criteria:
+    - IC1: Describe practices related to the development of software Minimum Viable Products
+    - IC2: Just mention Minimum Viable Products but do not satisfactory describe the used practices
+    - IC3: Do not mainly comprise software development-related Minimum Viable Products (e.g., mainly hardware or IoT related Minimum Viable Products)
+
+    Exclusion criteria:
+
+
+#### 4.1 - Pilot testing
+    In the pilot study the all exclusions criteria were eliminated to improve clarity for LLMs
+
+
+#### 5 - number of reviewers
+
+- One human reviewer
+
+#### 6 - Disagreements handling
+
+- Machine driven
+
+
+#### 7 - Agreement metrics
+
+- Vote counting
+
+
+#### 8 - LLM configurations
+
+ChatGPT 4.0/Gemini flash/ Claude 4/ Deepseek 
+    - no memories
+    - conversational history ignored (no new chats created on each iteration)
+    - single shot interation (no requests for reavaluating)
+    - no deep thinking or internet checking
+
+#### 9 - prompt template 
+
+Felizardo et al (2024)
+
+Assume you are a software engineering
+  researcher conducting a systematic literature review
+  (SLR). Consider the title, abstract, keywords, publication, and date of a
+  primary study.
+
+  Title: ${title}
+  Abstract: ${abstract}
+  Keywords: ${keywords}
+  Publication venue: ${publication}
+  Publication date: ${date}
+
+  Using a 1-7 Likert scale (1 - Strongly disagree, 2 - Disagree, 3 - Somewhat disagree, 4 - Neutral, 5 - Somewhat agree, 6 - Agree, 7 - Strongly agree,), rate your agreement with the following criteria (only number). 
+  If you rate near 7 to a inclusion criteria, the study meet with this criteria and should be included. If you rate near 7 to a exclusion criteria, the study also meet with this criteria and should be excluded. 
+
+  IMPORTANT: Don't be lenient, is better to exclude a paper in this phase. But, remember if it is not possible to evaluate based on the provided information give the score -1.
+
+  ${criteria}
+
+  give me the result in CSV with the following columns: Criteria, Rate
+
+  do not make a file, just a text formatted in csv
+
+

@@ -1,0 +1,24 @@
+[
+  {
+    "ID": "",
+    "Title": "ID-correspondence: a measure for detecting evolutionary coupling",
+    "Publication date": "2021",
+    "Venue type ": "Article",
+    "Publication venue": "Empirical Software Engineering",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85099397627",
+    "doi": "10.1007/s10664-020-09921-9",
+    "Publication type": "ar",
+    "Abstract": "© 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC part of Springer Nature.Evolutionary coupling is a well investigated phenomenon in software maintenance research and practice. Association rules and two related measures, support and confidence, have been used to identify evolutionary coupling among program entities. However, these measures only emphasize the co-change (i.e., changing together) frequency of entities and cannot determine whether the entities co-evolved by experiencing related changes. Consequently, the approach reports false positives and fails to detect evolutionary coupling among infrequently co-changed entities. We propose a new measure, identifier correspondence (id-correspondence), that quantifies the extent to which changes that occurred to the co-changed entities are related based on identifier similarity. Identifiers are the names given to different program entities such as variables, methods, classes, packages, interfaces, structures, unions etc. We use Dice-Sørensen co-efficient for measuring lexical similarity between the identifiers involved in the changed lines of the co-changed entities. Our investigation on thousands of revisions from nine subject systems covering three programming languages shows that id-correspondence can considerably improve the detection accuracy of evolutionary coupling. It outperforms the existing state-of-the-art evolutionary coupling based techniques with significantly higher recall and F-score in predicting future co-change candidates.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "EC1": 2,
+      "EC2": 6,
+      "EC3": 1
+    },
+    "userDecision": "Include"
+  }
+]

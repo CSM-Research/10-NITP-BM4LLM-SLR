@@ -1,0 +1,282 @@
+[
+  {
+    "ID": "",
+    "Title": "The academic integrity violations detection system for data science course on the MOOC-platform",
+    "Publication date": "2018",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2018 19th IEEE Mediterranean Electrotechnical Conference (MELECON)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85050130655",
+    "doi": "10.1109/MELCON.2018.8379067",
+    "Publication type": "cp",
+    "Abstract": "© 2018 IEEE.Academic integrity violations (as plagiarism, answers sharing, etc) are major challenges for many high education institutions around the world. These challenges had become more urgent after wide adoption of e-learning approach by education community in form of MOOCs or SPOCs. Therefore, the usage of automatic academic integrity violation detection systems is highly advisable in case of courses with large enrollment and large amounts of machine- A nd peer-graded assignments. In this work, we share our experience how to overcome these challenges in such course-Introduction to Data Science. The brief description of the course and assignments structure will be given, after that we will highlight some features of the assignments for Data Science course that requires a bit more complex approach to plagiarism detection and we will discuss architecture of proposed system for academic integrity violations detection.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Understanding the Relationship between Quality and Security: A Large-Scale Analysis of Android Applications",
+    "Publication date": "2018",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85055454669",
+    "doi": "10.23919/SEAD.2018.8472849",
+    "Publication type": "cp",
+    "Abstract": "© 2018 IEEE/ACM.Android applications (apps) are not immune to the problems which also plague conventional software including security vulnerabilities, quality defects, permission misuse, and numerous other issues. Many developers even intentionally create vulnerable or malicious apps (malware) for often highly lucrative purposes. We need to better understand current trends in app quality and security to create higher quality software, and more effectively battle malware. To gather this critical information, we collected and reverse engineered 70,785 Android apps from the Google Play store, along with 1,420 malicious apps from other sources. Each app was analyzed using several static analysis tools to record a variety of information about each of them including requested permissions, size (LOC), possible defects and permission misuse. Our findings conclude that: 1) app categories substantially differ in terms of permissions misuse; 2) at an aggregate level, there is no significant correlation between an app's quality and security; 3) that malware typically requests more permissions and suffers from several quality-related metrics in comparison to benign apps; 4) that malware and benign apps are growing annually both in terms of LOC and requested permissions. We also present an easy to use, robust dataset for the community to replicate or extend this study.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Automatic Recognition of Students' Sorting Algorithm Implementations in a Data Structures and Algorithms Course",
+    "Publication date": "2012",
+    "Venue type ": "",
+    "Publication venue": "ACM",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-84871574989",
+    "doi": "10.1145/2401796.2401806",
+    "Publication type": "cp",
+    "Abstract": "Computing educators often rely on black-box analysis to assess students' work automatically and give feedback. This approach does not allow analyzing the quality of programs and checking if they implement the required algorithm. We introduce an instrument for recognizing and classifying algorithms (Aari) in terms of white-box testing to identify authentic students' sorting algorithm implementations in a data structures and algorithms course. Aari uses machine learning techniques to classify new instances. The students were asked to submit a program to sort an array of integers in two rounds: at the beginning of the course before sorting algorithms were introduced, and after taking a lecture on sorting algorithms. We evaluated the performance of Aari with the implementations of each round separately. The results show that the sorting algorithms, which Aari has been trained to recognize, are recognized with an average accuracy of about 90%. When considering all the submitted sorting algorithm implementations (including the variations of the standard algorithms), Aari achieved an overall accuracy of 71% and 81% for the first and second round, respectively. In addition, we analyzed the students' implementations manually to gain a better understanding of the reasons of failure in the recognition process. This analysis revealed that students have many misconceptions related to sorting algorithms, which results in problematic implementations that are more inefficient compared with those of standard algorithms. We discuss these variations along with the application of the tool in an educational context, its limitations and some directions for future work. Copyright 2012 ACM.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 4,
+      "EC1": 5,
+      "EC2": 3
+    }
+  },
+  {
+    "ID": "",
+    "Title": "An Approach to Recommendation of Verbosity Log Levels Based on Logging Intention",
+    "Publication date": "2019",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85077183129",
+    "doi": "10.1109/ICSME.2019.00022",
+    "Publication type": "cp",
+    "Abstract": "© 2019 IEEE.Verbosity levels of logs are designed to discriminate highly diverse runtime events, which facilitates system failure identification through simple keyword search (e.g., fatal, error). Verbosity levels should be properly assigned to logging statements, as inappropriate verbosity levels would confuse users and cause a lot of redundant maintenance effort. However, to achieve such a goal is not an easy task due to the lack of practical specifications and guidelines towards verbosity log level usages. The existing research has built a classification model on log related quantitative metrics such as log density to improve logging level practice. Though such quantitative metrics can reveal logging characteristics, their contributions on logging level decision are limited, since valuable logging intention information buried in logging code context can not be captured. In this paper, we propose an automatic approach to help developers determine the appropriate verbosity log levels. More specially, our approach discriminates different verbosity log level usages based on code context features that contain underlying logging intention. To validate our approach, we implement a prototype tool, VerbosityLevelDirector, and perform a case study to measure its effectiveness on four well-known open source software projects. Evaluation results show that VerbosityLevelDirector achieves high performance on verbosity level discrimination and outperforms the baseline approaches on all those projects. Furthermore, through applying noise handling technique, our approach can detect previously unknown inappropriate verbosity level configurations in the code repository. We have reported 21 representative logging level errors with modification advice to issue tracking platforms of the examined software projects and received positive feedback from their developers. The above results confirm that our work can help developers make a better logging level decision in real-world engineering.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Design of Efficiently Encodable Rate-Compatible LDPC Codes Using Vandermonde Extension Matrices",
+    "Publication date": "2011",
+    "Venue type ": "Article",
+    "Publication venue": "Wireless Personal Communications",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-83255186560",
+    "doi": "10.1007/s11277-010-9969-8",
+    "Publication type": "ar",
+    "Abstract": "Alow-complexity algorithm for the design of efficiently-encodable rate-compatible (RC) low-density parity-check (LDPC) codes by deterministically extending an irregular repeat-accumulate (IRA) is introduced. The extending structure is based on circulants shifted according a truncated Vandermonde matrix (VM) and therefore termed as \"extended VM\" (eVM). The novel extending algorithm is significantly less computationally complex than other known similar methods since it does not require any optimization of the extending profile or any post-construction girth conditioning. To improve the codes' properties and correcting capabilities in low code rate applications, the optimal proportions of degree-1 and degree-2 parity bits for the extended nodes are investigated and, in contrast to existing deterministic extending approaches for RC-IRA codes, an extending increment step equal to half the information block length is chosen. Various bit error rate (BER) and frame error rate (FER) have been obtained for different code rates, R, and information block length k0 = 512 and 1024 bits considering an additive white Gaussian noise (AWGN) channel. The results have demonstrated that the proposed eVM RC-LDPC codes, despite their very simple structure and very low computational complexity, exhibit excellent performance only slightly inferior to both dedicated IRA and previously known RC-IRA codes for different data block sizes. © Springer Science+Business Media, LLC. 2010.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Sustaining safety across organizational boundaries: a qualitative study exploring how interorganizational complexity is managed on a petroleum-producing installation",
+    "Publication date": "2018",
+    "Venue type ": "Article",
+    "Publication venue": "Cognition, Technology & Work",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85040764961",
+    "doi": "10.1007/s10111-018-0460-8",
+    "Publication type": "ar",
+    "Abstract": "© 2018, The Author(s).A qualitative study was undertaken to explore how interorganizational complexity is managed on a petroleum-producing installation. Fourteen semi-structured interviews were conducted. Data were analysed by means of thematic analysis. Long-term organizational relations, management’s role in the field and worker involvement appear to facilitate high-quality work relations which, along with similar safety practices and philosophies across companies, appear to foster commitment to mutual operational goals and contribute to an open environment in which employees were inclined to report errors and problems. Still, due to the vast number of companies involved and the vast amount of information, coordinating work processes among companies was regarded as a constant challenge. Moreover, variations in experience among sharp-end workers from sub-contractor companies in periods of high activity and marked fluctuations were identified as a challenge. The quality of interorganizational work relations appears to have important implications for safety performance in this context, indicating that high-quality work relations across collaborating companies constitute an important component for achieving and sustaining safety. As research addressing relational factors in safety research to date has been sparse, more research is needed to further explore the safety functions of high-quality work relations. Theoretically, the current study contributes to extend the high-reliability organizations framework by highlighting the role of high-quality work relations as an element for achieving mindfulness.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Defending Multiple Attack Via Multiple Algorithms With Fault Tolerance",
+    "Publication date": "2021",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2021 IEEE International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85125717585",
+    "doi": "10.1109/ICMNWC52512.2021.9688377",
+    "Publication type": "cp",
+    "Abstract": "© 2021 IEEE.Smart devices are prone to numerous attacks these days. Many number of malwares attacks with many ways. Increasing attacks with many attacking ways evades standard prediction methods. The most dangerous attacks among them is colluding attacks. This collusion method make prediction more complex. Data privacy and system integrity will be fragile. Information leakage will be high through this collusion attacks. The android malware detection methods use static, dynamic and hybrid method. From Code control flow graphs patterns will be extracted through this method. both the direct and indirect communication channels will be tracked by these methods.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Automatically recommending components for issue reports using deep learning",
+    "Publication date": "2021",
+    "Venue type ": "Article",
+    "Publication venue": "Empirical Software Engineering",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85100348635",
+    "doi": "10.1007/s10664-020-09898-5",
+    "Publication type": "ar",
+    "Abstract": "© 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC part of Springer Nature.Today’s software development is typically driven by incremental changes made to software to implement a new functionality, fix a bug, or improve its performance and security. Each change request is often described as an issue. Recent studies suggest that a set of components (e.g., software modules) relevant to the resolution of an issue is one of the most important information provided with the issue that software engineers often rely on. However, assigning an issue to the correct component(s) is challenging, especially for large-scale projects which have up to hundreds of components. In this paper, we propose a predictive model which learns from historical issue reports and recommends the most relevant components for new issues. Our model uses Long Short-Term Memory, a deep learning technique, to automatically learn semantic features representing an issue report, and combines them with the traditional textual similarity features. An extensive evaluation on 142,025 issues from 11 large projects shows that our approach outperforms one common baseline, two state-of-the-art techniques, and six alternative techniques with an improvement of 16.70%–66.31% on average across all projects in predictive performance.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Aspect Mining Using Link Analysis",
+    "Publication date": "2010",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2010 Fifth International Conference on Frontier of Computer Science and Technology",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-77957901436",
+    "doi": "10.1109/FCST.2010.20",
+    "Publication type": "cp",
+    "Abstract": "Aspect mining is a technique that decouples the crosscutting concerns from existing software systems. The goal of aspect mining is to refactor the existing software systems with Aspect Oriented Programming technology. Inspired by the link analysis of Information retrieval technology, this paper describes a two-state model to approximate how crosscutting concerns can be discovered in the concern graphs extracted from programs. Our mining algorithm generates \"scatter\" and \"centralization\" of each program element for the final ranking. The convergency of the algorithm proves fast. The Ranking technique, considering both \"scatter\" and \"centralization\", produces a final ranking for identifying crosscutting concerns. Our aspect mining approach is evaluated on numerous Java programs that are of the typical selections for aspect mining. Compared with existing aspect mining approaches, our mining approach captures more information that helps domain experts refactor software systems and prove effective in identifying crosscutting concerns. © 2010 IEEE.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Experimental evaluation and comparison of anti-pattern detection tools by the gold standard",
+    "Publication date": "2022",
+    "Venue type ": "IEEE Conferences",
+    "Publication venue": "2022 12th International Conference on Computer and Knowledge Engineering (ICCKE)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85143783889",
+    "doi": "10.1109/ICCKE57176.2022.9960137",
+    "Publication type": "cp",
+    "Abstract": "© 2022 IEEE.Every symptom in the source code or design of software that violates object-oriented principles such as maintainability, reusability, and integrity is called an anti-pattern. Poor design or programming in the software development process can lead to anti-patterns that may cause further problems in software maintenance, so they should be removed by refactoring. The first and most crucial step in software refactoring is anti-pattern detection. Different approaches and tools have been proposed to do this, which provide different results in the same program due to the informal definition of anti-patterns. In this paper, four antipattern detection tools have been compared, namely Checkstyle, PMD, iPlasma, and Jspirit. These tools are implemented on opensource software systems that have been presented as a gold standard in previous studies in this field. The detection results of three anti-patterns are compared: Large Class, Long Method, and Feature Envy. By comparing tools output and the gold standard, we are sure our calculated precision and recall values are correct.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "A survey on automation approaches of smart contract generation",
+    "Publication date": "2023",
+    "Venue type ": "Article",
+    "Publication venue": "The Journal of Supercomputing",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec6",
+    "Primary study Scopus EID": "2-s2.0-85153378608",
+    "doi": "10.1007/s11227-023-05262-8",
+    "Publication type": "ar",
+    "Abstract": "© 2023, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.In the blockchain environment, smart contracts are computer programs that run on the blockchain platform. However, the development of smart contracts is a major challenge for developers, since blockchain platforms are still evolving. Owing to the inherited nature of blockchain, developing smart contracts without introducing vulnerabilities is not an easy task, as the deployed code is immutable and can be invoked by anyone with access to the network. Smart contracts have proved to be error-prone in practice due to the complexity of programming. Additionally, non-functional requirements, such as service cost, security, performance, authorization, and authentication, should be well implemented and defined in computer systems. In this paper, we aim to present a systematic literature review to outline in detail different approaches of smart contracts generation. Furthermore, we present a comparison of the existing approaches based on a classification according to automation paradigm and a set of defined criteria. Finally, we discuss the gaps in the literature, as well as identify a set of potential challenges which can significantly strengthen the existing work. The study shows that the examined works focused only on a limited number of specific features, such as authorization, asset control, and security. Additionally, formal verification of smart contracts and data privacy are poorly addressed.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "EC1": 6,
+      "EC2": 6
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Effects of different teaching approaches on programming skills",
+    "Publication date": "2020",
+    "Venue type ": "Article",
+    "Publication venue": "Education and Information Technologies",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85073928539",
+    "doi": "10.1007/s10639-019-10010-8",
+    "Publication type": "ar",
+    "Abstract": "© 2019, Springer Science+Business Media, LLC, part of Springer Nature.Purpose of this study is determined effects of different teaching approaches on programming skills. Therefore, the effect of three different types of activities prepared with Scratch on 423 sixth grade students’ attitudes towards computer technologies, algorithmic thinking skills and reflective thinking skills on problem solving were investigated. Three IT teachers at the three schools, were asked to prepare and teach one of the three activities in their computer classes so that a different type of activity was provided at each school. The practical phase was carried out twice a week for seven weeks. A mixed method design was used with quantitative and qualitative components. Results showed that although the same programming tool and similar code blocks were used in the three applications, selected activities resulted in different effects on students. It was found that animation activities of the three types of activities had a positive effect on students’ attitudes towards computer technologies. The mathematical and game preparation activities had positive effects on algorithmic thinking and reflective thinking skills for problem solving. The present study reveals the importance of “activity type,” which is often neglected as a variable in studies investigating the different effects of block-based visual programming tools.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Transport of particles in an atmospheric turbulent boundary layer",
+    "Publication date": "2005",
+    "Venue type ": "Article",
+    "Publication venue": "Acta Mechanica Sinica",
+    "Publisher": "Springer",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-23444443070",
+    "doi": "10.1007/s10409-005-0036-8",
+    "Publication type": "ar",
+    "Abstract": "A program incorporating the parallel code of large eddy simulation (LES) and particle transportation model is developed to simulate the motion of particles in an atmospheric turbulent boundary layer (ATBL). A model of particles of 100-micrometer order coupling with large scale ATBL is proposed. Two typical cases are studied, one focuses on the evolution of particle profile in the ATBL and the landing displacement of particles, whereas the other on the motion of particle stream.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  },
+  {
+    "ID": "",
+    "Title": "Towards Understanding the Runtime Performance of Rust",
+    "Publication date": "2023",
+    "Venue type ": "Conference",
+    "Publication venue": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+    "Publisher": "ACM",
+    "Applied exclusion criteria": "ec4",
+    "Primary study Scopus EID": "2-s2.0-85146920398",
+    "doi": "10.1145/3551349.3559494",
+    "Publication type": "cp",
+    "Abstract": "© 2022 Owner/Author.Rust is a young systems programming language, but it has gained tremendous popularity thanks to its assurance of memory safety. However, the performance of Rust has been less systematically understood, although many people are claiming that Rust is comparable to C/C++ regarding efficiency. In this paper, we aim to understand the performance of Rust, using C as the baseline. First, we collect a set of micro benchmarks where each program is implemented with both Rust and C. To ensure fairness, we manually validate that the Rust version and the C version implement the identical functionality using the same algorithm. Our measurement based on the micro benchmarks shows that Rust is in general slower than C, but the extent of the slowdown varies across different programs. On average, Rust brings a 1.77x \"performance overhead\"compared to C. Second, we dissect the root causes of the overhead and unveil that it is primarily incurred by run-time checks inserted by the compiler and restrictions enforced by the language design. With the run-time checks disabled and the restrictions loosened, Rust presents a performance indistinguishable from C.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 1,
+      "EC1": 7,
+      "EC2": 7
+    }
+  }
+]

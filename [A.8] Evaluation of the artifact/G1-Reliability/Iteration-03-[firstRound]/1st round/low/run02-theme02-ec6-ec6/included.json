@@ -1,0 +1,282 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85018679705",
+    "Primary study DOI": "10.1007/978-3-319-57633-6_2",
+    "Title": "What influences the speed of prototyping? An empirical investigation of twenty software startups",
+    "Abstract": "It is essential for startups to quickly experiment business ideas by building tangible prototypes and collecting user feedback on them. As prototyping is an inevitable part of learning for early stage software startups, how fast startups can learn depends on how fast they can prototype. Despite of the importance, there is a lack of research about prototyping in software startups. In this study, we aimed at understanding what are factors influencing different types of prototyping activities. We conducted a multiple case study on twenty European software startups. The results are two folds; firstly we propose a prototype-centric learning model in early stage software startups. Secondly, we identify factors occur as barriers but also facilitators for prototyping in early stage software startups. The factors are grouped into (1) artifacts, (2) team competence, (3) collaboration, (4) customer and (5) process dimensions. To speed up a startup’s progress at the early stage, it is important to incorporate the learning objective into a well-defined collaborative approach of prototyping.",
+    "Keywords": "MVP | Prototype | Prototyping-learning loop | Software startups | Speed | Validated learning",
+    "Publication venue": "Lecture Notes in Business Information Processing",
+    "Publication date": "2017-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Nguyen-Duc, Anh;Wang, Xiaofeng;Abrahamsson, Pekka",
+    "Ground truth": "Include",
+    "Reason": "Yes",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0041521307",
+    "Primary study DOI": "10.1109/CMPASS.1992.235756",
+    "Title": "A case study in process representation using MVP-L",
+    "Abstract": "Explicit, formal representations of software processes are needed to help understand software development and maintenance processes, to analyze these processes prior to execution, to guide the execution of these processes, and finally to improve software processes in an evolutionary fashion. The creation of formal process representations includes activities such as requirements analysis, specification, design, coding, integration, and testing. We conducted a case study within TRW which involved the creation of formal process specifications and designs using MVP-L, an existing process notation. This paper describes the study, the lessons learned about process representation in general, and the lessons learned about the language MVP-L in detail.",
+    "Keywords": "Case study | Language assessment | Process design | Process representation | Process specification | Software process modeling",
+    "Publication venue": "COMPASS 1992 - Proceedings of the 7th Annual Conference on Computer Assurance",
+    "Publication date": "1992-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Klingler, Carol Diane;Neviaser, Melissa;Marmor-Squires, Ann;Lott, Christopher M.;Rombach, H. Dieter",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84949210074",
+    "Primary study DOI": "10.1007/3-540-59205-9_37",
+    "Title": "The use of roles and measurement to enact project plans in MVP-S",
+    "Abstract": "Software development organizations are beginning to recognize that measurement is a prerequisite for systematic process improvement, and have started to measure their products and processes in order to understand, analyze, plan, and guide their projects. Successful measurement requires a solid understanding of the products, processes, and resources to be measured, an understanding which can only be gained via explicit models. In the MVP Project we are integrating the G/Q/M measurement paradigm with the MVP-L process modeling language in order to guide teams of software developers. This integrated approach is supported by a prototype system, MVP-S, a process-sensitive software engineering environment which offers advanced project guidance using role definitions and measurement data. We motivate the need for measurement, sketch an integration of the measurement and modeling approaches, and demonstrate how MVP-S improves the quality of guidance using measurement.",
+    "Keywords": "",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "1995-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Lott, Christopher;Hoisl, Barbara;Rombach, H. Dieter",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-56149101286",
+    "Primary study DOI": "",
+    "Title": "An XML standard for virtual patients: exchanging case-based simulations in medical education.",
+    "Abstract": "Virtual Patients are computer-based simulations of a clinical encounter where the user plays the role of a healthcare provider while receiving in-context instruction. This unique pedagogical approach enables active case-based learning for learners. Academic institutions around the world have developed high-quality virtual patients using many different authoring and playback technologies. However, sustainability and scalability have proved challenging due to the number of cases needed and production costs. In an effort to promote sharing of Virtual Patients and broader adoption into medical education at all levels, MedBiquitous organized an international working group to create an XML-based \"MedBiquitous Virtual Patient Standard\" (MVP) describing a common structure for virtual patient content and activities. The MVP enables virtual patient exchange across systems, modification, and display within conformant player software.",
+    "Keywords": "",
+    "Publication venue": "AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium",
+    "Publication date": "2007-01-01",
+    "Publication type": "Article",
+    "Authors": "Triola, Marc M.;Campion, Ned;McGee, James B.;Albright, Susan;Greene, Peter;Smothers, Valerie;Ellaway, Rachel",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85034589913",
+    "Primary study DOI": "10.1007/978-3-319-69926-4_43",
+    "Title": "Rapid lean UX development through user feedback revelation",
+    "Abstract": "The development of software within short timeframes calls for concepts like minimum viable products with lean development. An agile development setting allows software products to be put on the market in time. Nevertheless, quality, especially in terms of user requirements, suffers when the focus is on the speed of the development. Therefore, we have developed the approach Opti4Apps, which considers user feedback automatically. This automation enables rapid user feedback to be revealed, which is needed for lean development in order to achieve high software quality in accordance with the users’ needs. This paper shows how the approach can be applied smoothly in agile development settings by analyzing common agile practices with regard to our user-centric feedback approach Opti4Apps. It turned out that with most practices, the additional effort is low, and the positive influence can be highly beneficial.",
+    "Keywords": "Agile practices | Feedback | Lean development | Quality assurance | User experience | User-centered",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2017-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Elberzhager, Frank;Holl, Konstantin;Karn, Britta;Immich, Thomas",
+    "Ground truth": "Include",
+    "Reason": "Yes",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85063457137",
+    "Primary study DOI": "10.1016/j.physb.2019.02.041",
+    "Title": "A modern approach to QENS data analysis in Mantid",
+    "Abstract": "Data analysis of Quasi-elastic Neutron Scattering (QENS) experiments often requires multiple steps involving fitting the elastic and quasi-elastic parts of spectra with several empirical functions and analytical models. Parameters of those models can be interdependent and also dependent on the momentum transfer vector Q. Here we present a modern data analysis interface dedicated for QENS data analysis implemented within the open source software Mantid. The interface has been implemented using the state-of-the-art design pattern Model-View-Presenter (MVP). The MVP, an architectural software design pattern, facilitates automated unit tests as well as decoupling of the business logic, presentation logic and the graphical interface. Several models are implemented for analysing both elastic and quasi-elastic parts of the dynamical scattering function S(Q, ω) and intermediate scattering function I(Q, t). To understand the nature of dynamics in a QENS experiments, several models are also implemented for elastic incoherent structure factor (EISF) and jump diffusions. The interface has been validated by analysing a sample of liquid water at room temperature. The nature of hydrogen bond dynamics of the hydrogen bonded organic ferroelectric 2, 4, 5 − Br 3 imidazole, for the first time has been analysed using this newly implemented software. It is found that protons exhibit localised random motion in this material.",
+    "Keywords": "Mantid interface | Model-View-Presenter design pattern | Organic ferroelectrics | QENS data analysis | Quasi-elastic Neutron Scattering | Scientific software",
+    "Publication venue": "Physica B: Condensed Matter",
+    "Publication date": "2019-06-15",
+    "Publication type": "Article",
+    "Authors": "Mukhopadhyay, Sanghamitra;Hewer, Brandon;Howells, Spencer;Markvardsen, Anders",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84958092807",
+    "Primary study DOI": "10.15439/2015F142",
+    "Title": "Approach to building a web-based expert system interface and its application for software provisioning in clouds",
+    "Abstract": "This paper focuses on a generalized approach to providing user interface to a web-based expert system (WBES). We examine MVC and MVP design patterns used traditionally to construct a web application user interface. In order to leverage the strength of the MVC/MVP design patterns we propose a special ontology representing a user communication domain. We describe a self-service networked infrastructure for automatic deployment of command line interface (CLI) applications. We demonstrate how to apply the proposed ontology for the design of a WBES aimed at supporting client software re-execution in clouds. In particular, we address the problems existing in the area of software development for music information retrieval algorithms implementation.",
+    "Keywords": "",
+    "Publication venue": "Proceedings of the 2015 Federated Conference on Computer Science and Information Systems, FedCSIS 2015",
+    "Publication date": "2015-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Pyshkin, Evgeny;Kuznetsov, Andrey",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85036462505",
+    "Primary study DOI": "",
+    "Title": "Benchmark study on realized random packing model for coated fuel particles of HTTR using MCNP6",
+    "Abstract": "The Coated Fuel Particle plays an important role in the excellent safety feature of the High Temperature Gascooled Reactor. However, the random distribution of CFPs also makes the simulation of HTGR fuel become more complicated. The Monte Carlo N-particle (MCNP) code is one of the most well-known codes for validation of nuclear systems; unfortunately, it does not provide an appropriate function to model a statistical geometry explicitly. In order to deal with the stochastic media, a utility program for the random model, namely Realized Random Packing (RRP), has been developed particularly for High Temperature engineering Test Reactor (HTTR). This utility program creates a number of random points in an annular geometry. Then, these random points will be used as the center coordinate of CFPs in the MCNP6 input file and therefore the actual random arrangement of CFPs can be simulated explicitly. First, a pin-cell calculation was carried out to validate the RRP by comparing with Statistical Geometry (STG) model of MVP code. After that, the comparison between the RRP model (MCNP) and STG model (MVP) was shown in whole core criticality calculation, not only for the annular core but also for the fully-loaded core. The comparison of numerical results showed that the RRP model and STG model differed insignificantly in the multiplication factor as expected, regardless of the pin-cell or whole core calculations. In addition, the RRP model did not make the calculation time increase a lot in comparison with the conventional regular model (uniform arrangement).",
+    "Keywords": "Coated Fuel Particle | HTTR | MCNP6 | MVP | Realized Random Packing | Stochastic arrangement",
+    "Publication venue": "2017 International Congress on Advances in Nuclear Power Plants, ICAPP 2017 - A New Paradigm in Nuclear Power Safety, Proceedings",
+    "Publication date": "2017-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Quan, H. H.;Morita, K.;Honda, Y.;Fujimoto, N.;Takada, S.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-0345890017",
+    "Primary study DOI": "10.1142/S0218194097000102",
+    "Title": "Enriching software process support by knowledge-based techniques",
+    "Abstract": "Representations of activities dealing with the development or maintenance of software are called software process models. Process models allow for communication, reasoning, guidance, improvement, and automation. Two approaches for modeling processes and instantiating and managing the process models, namely CoMo-Kit and MVP-E, are combined to build a more powerful one. CoMo-Kit is based on AI/KE technology; it is a support tool system for general complex design processes, and was not been developed specifically with software development processes in mind. MVP-E is a process-sensitive software engineering environment for modeling and analyzing software development processes, and guides software developers. Additionally, it provides services to establish and run measurement programmes in software organizations. Because both approaches were developed independently from one another, major integration efforts had to be made to combine both their advantages. This article concentrates on the resulting language concepts, and their operationalization necessary for building automated process support.",
+    "Keywords": "",
+    "Publication venue": "International Journal of Software Engineering and Knowledge Engineering",
+    "Publication date": "1997-01-01",
+    "Publication type": "Article",
+    "Authors": "Dellen, Barbara;Maurer, Frank;Münch, Jürgen;Verlage, Martin",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85088755631",
+    "Primary study DOI": "10.3997/2214-4609.201600475",
+    "Title": "Results of experimental electromagnetic studies of the Crimean region",
+    "Abstract": "Spatial-temporal pattern of distribution of geomagnetic variations and electric field on the Earth's surface was obtained as a result of modern experimental observations conducted in 2007-2013 along 9 profiles (48 points) by the methods of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP). These profiles cross various geological structures of the Crimean region. It is possible to estimate the value of electrical conductivity and vertical and horizontal geo-electric structure. The processing of these data is done using modern software system PRC-MTMV (author Varentsov Iv. M.) that provides the common noise-protected evaluation of the impedance, tipper and horizontal magneto-variation response according to synchronous MT/MV records. The main result of qualitative interpretation of geo-electric research is the detection of high conductivity regions in the Earth's crust and upper mantle of the Crimea, that are characterized by the variations of conductivity, depth and configuration. They characterize the various geological structures differently. The sub-vertical conductive zones often coincide with the fault structures, most of these objects are confined to the suture zones between tectonic elements such as the East European platform and the Scythian plate, the Scythian plate and the Crimean mountain, North and South Kerch zone. This fact may reflect high permeability of the suture zones for deep fluids in the process of their formation. Although the qualitative interpretation of the experimental data of magnetotelluric sounding (MTS) and magnetovariation profiling (MVP) provides inconsistent understanding of the depth distribution of the Crimean region electrical conductivity, the combination of these methods allows constructing the model of resistivity distribution within a three-dimensional environment much more accurately and adequately to the observed experimental data.",
+    "Keywords": "",
+    "Publication venue": "Geoinformatics 2016 - XVth International Conference on Geoinformatics - Theoretical and Applied Aspects",
+    "Publication date": "2016-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Burahovich, T.;Kushnir, A.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-84971572004",
+    "Primary study DOI": "10.1007/978-3-319-33515-5_10",
+    "Title": "Minimum viable product or multiple facet product? The role of MVP in software startups",
+    "Abstract": "Minimum viable product (MVP) is the main focus of both business and product development activities in software startups. We empirically explored five early stage software startups to understand how MVP are used in early stages. Data was collected from interviews, observation and documents. We looked at the MVP usage from two angles, software prototyping and boundary spanning theory. We found that roles of MVPs in startups were not fully aware by entrepreneurs. Besides supporting validated learning, MVPs are used to facilitate product design, to bridge communication gaps and to facilitate cost-effective product development activities. Entrepreneurs should consider a systematic approach to fully explore the value of MVP, as a multiple facet product (MFP). The work also implies several research directions about prototyping practices and patterns in software startups.",
+    "Keywords": "Empirical study | Exploratory case study | MFP | MVP | Prototype | Software development | Software startups",
+    "Publication venue": "Lecture Notes in Business Information Processing",
+    "Publication date": "2016-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Duc, Anh Nguyen;Abrahamsson, Pekka",
+    "Ground truth": "Include",
+    "Reason": "Yes",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 1,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85063634594",
+    "Primary study DOI": "10.1109/ICSESS.2018.8663776",
+    "Title": "Design and Implementation of the Lost-and-Found System Based on Amap API",
+    "Abstract": "The lost-and-found information management system, as an important part of the social public service system, has its special significance. With the change of traditional lost-and-found pattern, the process of lost-and-found has fallen into the dilemma of 'people looking for things, things for people' and the proportion of lost property retrieve is less than 10%. The rapid development of location service, 4G communication technology and intelligent terminal has provided a new way to establish a lost-and-found information service system with GIS functions, which effectively solved the problem of 'where' in the process of lost-and-found. By the integration of Android system and interface technology, focusing on the actual needs, technical architecture, functional architecture and database structure of the system have been designed. Using the C/S architecture and MVP development model, the lost-and-found system based on Amap API have been implemented subsequently. Whereafter, the functional test and performance test were carried out. Through testing and using, each module of the system achieves the desired design effect. The client takes only 12.75ms<16ms to load a frame image and the system is fluent and stable. By means of location service and spatial analysis methods, users enable to release, browse, search and share lost-and-found information conveniently. The organic integration of location service and lost-and-found models has made the process of lost property retrieve more efficient and faster.",
+    "Keywords": "Amap | lost-and-found | mobile GIS | spatial search | The back-end cloud platform",
+    "Publication venue": "Proceedings of the IEEE International Conference on Software Engineering and Service Sciences, ICSESS",
+    "Publication date": "2018-07-02",
+    "Publication type": "Conference Paper",
+    "Authors": "Zhao, Hang;Peng, Shuangyun",
+    "Ground truth": "Exclude",
+    "Reason": "EC1",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-85076980914",
+    "Primary study DOI": "10.1007/978-3-030-33695-0_49",
+    "Title": "The mobile application development based on online music library for socializing in the world of bard songs and scouts’ bonfires",
+    "Abstract": "The aim of the current work is to create a mobile application that helps bard singers and guitar players sing the same songs and play the same chords. The development of this software product was conducted under the operating system Android using Java programming languages and Kotlin. SQLite database management system was selected for storing data. XML is the main markup language for the development of the graphical interface. Pure architecture as the basic architecture in conjunction with the MVP pattern has been chosen. The developed mobile application is simple and easy to use and provides the following basic functions: display a list of songs with chords to them, search for songs by name, detailed song display, ability to show-hide chords, add our own songs to the songwriter, automatically detect and mark chords in song lyrics, dynamically show chords when we click on it in a song, create a list of our favorite songs, change the tone of the song, show chords for the musical instrument chosen by user.",
+    "Keywords": "Android | Database management system | Java | Kotlin | Mobile application | Software | SQLite",
+    "Publication venue": "Advances in Intelligent Systems and Computing",
+    "Publication date": "2020-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Rusyn, Bohdan;Pohreliuk, Liubomyr;Rzheuskyi, Antonii;Kubik, Roman;Ryshkovets, Yuriy;Chyrun, Lyubomyr;Chyrun, Sofiia;Vysotskyi, Anatolii;Fernandes, Vitor Basto",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 6,
+      "IC3": 2
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107144",
+    "Primary study Scopus EID": "2-s2.0-4944223373",
+    "Primary study DOI": "",
+    "Title": "An integrated video sensor design for traffic management and control",
+    "Abstract": "A new integrated video sensor design for applications in traffic management and control to solve problems associated with affordability and reliability was discussed. This integrated video sensor has many features such as integration of the transducers and the MVP into one compact unit improving detection reliability and lowering susceptibility to EMI. The sensor also lowered installation costs, reduced installation time and enabled rapid deployment making the system more readily portable. The new communication architecture offered optimal routing of the machine vision detection results, full motion video as well as digital imagery and supervisory control.",
+    "Keywords": "Automated incident detection | Automated speed enforcement | Machine vision sensor | Network communication architecture | Queue measurement | Software architecture | Traffic data collection | Vehicle tracking | Video vehicle detection",
+    "Publication venue": "Recent Advances in Signal Processing and Communications",
+    "Publication date": "1999-12-01",
+    "Publication type": "Article",
+    "Authors": "Panda, Durga P.",
+    "Ground truth": "Include",
+    "Reason": "IC1",
+    "firstModelDecision": {
+      "IC1": 1,
+      "IC2": 6,
+      "IC3": 1
+    },
+    "userDecision": "Include"
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "95.00%",
+    "recall": "100.00%",
+    "TP": 12,
+    "TN": 7,
+    "FP": 1,
+    "FN": 0
+  },
+  "data": [
+    {
+      "Title": "Delivering Machine Learning Applications via Cloud Platforms: An Experience Report",
+      "Abstract": "Cloud technologies enable developers and organizations to focus on their product, without having to consider issues such as local server capacity, infrastructure modifications, data security, licensing or human capital. This paper attempts to explain a case in which a Machine Learning application is deployed via Amazon Web Services (AWS) tools. In doing so, it demonstrates the reasoning behind choosing a cloud-based environment instead of on-premise sources, by putting forward the advantages of the former. On the other hand, it should be noted that the application in this experience is generated with a hybrid approach: It is developed using on-premise infrastructure and then moved to the Cloud environment for the deployment phase only. In this regard, it can be read as a PaaS experience. This study is considered to be a beneficial guide for entrepreneurs and start-ups on a budget who aim at launching their products in a swift and scalable manner.",
+      "Keywords": "agility | cloud computing | entrepreneurship | machine learning | MVP (Minimum Viable Product) | PaaS | productization",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "A Lean Start-up approach for developing minimum viable products in an established company",
+      "Abstract": "The minimum viable product (MVP) is a fundamental concept of the Lean Start-up approach as it enables a company to quickly start the learning process by integrating feedback from early adopters. Although the MVP concept has evolved over the years, its application is most often reported in a start-up context, even though established companies struggle to develop MVPs. This study reports on the experience and lessons learned at Texuna, an established company, where the software product innovation team created a process map for developing MVPs. This is the first study that allows the original MVP approach to be extended and applied to established organisations.",
+      "Keywords": "Lean start-up | minimum viable product | product market fit",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Comparative analysis of WebForms MVC and MVP architecture",
+      "Abstract": "Introduced WebForms, MVC and MVP architecture works under the NET platform,,the characteristics of the three structures were analyzed and compared, especially described WebForms's ViewState, the performance and client ID pollution problems and give solutions; combing their respective advantages, noted suitable scenarios of three kinds framework, aiming to supply reference for developing Web system. ©2010 IEEE.",
+      "Keywords": "ASP.NET | MVC | MVP | Software architecture | Web system",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Start me up: Lean screenwriting for American entrepreneurial cinema",
+      "Abstract": "This article proposes a new approach to script development modelled after lean software development practices and entrepreneurial startup principles. First, it argues that the Hollywood mode of production and its methods of project development, when applied to microbudget film-making, are inherently wasteful and fail in the face of extreme uncertainty and unpredictability. Second, it argues that entrepreneurial screenwriters and writer/film-makers can adopt lean thinking in order to eliminate waste from their creative labour and enhance learning at every stage of development and production, adding value for their audience. Finally, it argues that inexperienced writer/film-makers are particularly susceptible to the false security of the ‘blueprint’ metaphor, often clinging to an original plan even as it fails them. The flexibility inherent to lean thinking, on the other hand, not only reduces waste but also enhances creativity and collaboration, increasing a project’s chances of success.",
+      "Keywords": "Entrepreneurship | Lean screenwriting | Lean startup | Minimum viable product | MVP | Script development | Validated learning",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Spatial correlation-based motion-vector prediction for video-coding efficiency improvement",
+      "Abstract": "H.265/HEVC achieves an average bitrate reduction of 50% for fixed video quality compared with the H.264/AVC standard, while computation complexity is significantly increased. The purpose of this work is to improve coding efficiency for the next-generation video-coding standards. Therefore, by developing a novel spatial neighborhood subset, efficient spatial correlation-based motion vector prediction (MVP) with the coding-unit (CU) depth-prediction algorithm is proposed to improve coding efficiency. Firstly, by exploiting the reliability of neighboring candidate motion vectors (MVs), the spatial-candidate MVs are used to determine the optimized MVP for motion-data coding. Secondly, the spatial correlation-based coding-unit depth-prediction is presented to achieve a better trade-off between coding efficiency and computation complexity for interprediction. This approach can satisfy an extreme requirement of high coding efficiency with not-high requirements for real-time processing. The simulation results demonstrate that overall bitrates can be reduced, on average, by 5.35%, up to 9.89% compared with H.265/HEVC reference software in terms of the Bjontegaard Metric.",
+      "Keywords": "CU depth | H.265/HEVC | Motion-vector prediction | Video-coding efficiency",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Repository data-based algorithm for selection of product teams of it specialists",
+      "Abstract": "Due to the lack of qualified personnel in the IT sector, companies provide their employees with the opportunity to work remotely. That helps even a small company to stand as a global player on the market and recruit new professionals from all over the world. The companies involved in the development of product solutions are interested in hiring cohesive teams of developers who were working together for a long time. However, the HR processes of the company should be restructured and added by additional tools that will help to analyze the entire team's activity and created artifacts. The article contains a detailed description of the MVP that implements searching, selection of project teams based on data from open-source code repositories, and related artifacts. The report describes the algorithm for selecting the main team from the entire set of developers who took part in the development of the project.",
+      "Keywords": "Filtering | Metrics | Remote team | Repository | Search",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Conducting anomalies localization with local and regional real induction vectors",
+      "Abstract": "Real induction vectors are a powerful tool for determining the location in plan and in the depth of single conducting objects, including the determination of the basic parameters of anomalous objects. However, the picture in the vectors behavior becomes not so unambiguous, if several such objects are marked on the exploration area. The authors have created a software tool that makes it possible to divide the field of induction vectors into local and regional parts. The work of the program has been verified on numerous model data, as well as on data of practical MT and MVP surveys of various scales. Thus, the interpreter has another effective tool for extracting information from the obtained during the field survey MVP data.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Software Product Quality in DevOps Contexts: A Systematic Literature Review",
+      "Abstract": "DevOps is a change in the organizational culture that aims to reduce the gap between development and operation teams, accelerating the software release process. However, little is known about the impact of this approach on software product quality. This study aims to analyze the influence of the application of DevOps on software product quality; therefore, a systematic literature review was conducted. Thirty-one articles related to DevOps and its influence on product quality were identified. The studies indicate a strong influence of some product quality characteristics, specifically: Reliability and Maintainability. Additionally, practices associated with DevOps, such as the minimum viable product, deployment automation, test automation, cloud computing and team cooperation, show a relationship with the improvement in software product quality, however, its adoption also brings new challenges to preserve security.",
+      "Keywords": "DevOps | ISO/IEC 25000 | Product quality | Systematic literature review",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Agile office 365: Successful project delivery practices for an evolving platform",
+      "Abstract": "Plan, deploy, and run Office 365 using an agile project management approach. This soup-to-nuts guide teaches you how to apply agile techniques in order to make your Office 365 implementation a success, even as the Microsoft Office 365 platform continues to evolve and introduce new features. The author's approach to teaching time- and resource-saving concepts mirrors the process a team might typically encounter in delivering software projects. Learning begins with an overview of Office 365 and Agile. From there, you delve into topics correlating to product conception, execution, and deployment. The book wraps up with a comprehensive discussion on how Office 365, straight out of the box, can be used as a tool to manage Office 365 deployments and other types of projects. What You'll Learn: Understand what Office 365 is and why it is the world’s most popular online business app Adapt your delivery process to work with Office 365 and its regular update schedule Recognize potential risk areas and develop mitigation strategies Discover the tools that are available to make your life easier Manage the transition from deployment to operations Follow end-to-end guidance packed with useful case studies and tools to make your job easier This book is for project managers, business analysts, IT managers, and other team members involved in managing Office 365 in order to deliver solutions for their organization. While not required, a basic understanding of Agile methodologies and Office 365 is useful. Haniel Croitoru is a seasoned SharePoint and Office 365 consultant and Microsoft Office 365 MVP with more than 15 years of experience in public and private sectors, focusing on SharePoint in the roles of consultant, project manager, business analyst, and trainer. Haniel enjoys sharing his expertise and can be found presenting at many conferences and community events. He holds an MS degree in Computer Science, a Master’s Certificate in Project Management, and has been a certified Project Management Professional (PMP) since 2007 and Agile Certified Practitioner since 2013.",
+      "Keywords": "Implementation | Microsoft | Migration | PointI | Share | Tmanager",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Collaborative-Startup (Co-Startup): The Role of Communities of Practices",
+      "Abstract": "Today, technology is enabling change in most of our lives. Also, crucial for most of these changes, are software startups whose contributions have led to the creation of a global market, jobs, and some help in fighting the 'brain drain' pertaining in most developing countries. However, there is not enough academic literature to guide practitioners on how to leverage the collaborative potentials of startups to arrival at a faster and sustainable Minimum Viable Product (MVP). By reviewing literature, and using Communities of Practice theory (COP), we propose a conceptual model known as Co-Startup, as part of this position paper to guide practitioners to achieve a sustainable MVP faster, to stimulate innovation in the private sector, and arouse further academic research in this budding phenomenon.",
+      "Keywords": "Co-Startup | Collaborative MVP | Collaborative startup | Communities of practice | MVP | Software startup",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Towards Automated Capturing and Processing of User Feedback for Optimizing Mobile Apps",
+      "Abstract": "Mobile devices are nowadays ubiquitous and are heavily used for business and private purposes. Millions of apps exist that support users in multiple ways, e.g., for car navigation, fitness purposes, or messaging in our private lives, but also for business planning purposes and even for controlling whole business processes. Failures in mobile business apps can lead to dramatic consequences in terms of lost revenue, but also in terms of lost trust or even threats for human beings, and thus quality plays a crucial role. On the other hand, as software is nowadays one of the main drivers for innovation, fast delivery of new apps, respectively new functionality, is necessary, i.e., the time to market must often be short. However, in order to understand whether the quality is sufficient, and whether the functionality of the app serves the needs of the users, lean development approaches are emerging and propose the deployment of apps as a minimal viable product (MVP). Here, the app is provided with acceptable quality, but not with every feature, just with the main functionality. Based on such an MVP, early feedback from users is to be collected, which may be related to the quality of the app, but also include wishes and requests for new functionality. In order to analyze and draw conclusions from user feedback, we first have to understand what kind of feedback exists and how it can be interpreted, respectively how valid such feedback is. In this publication, we provide a classification of user feedback for mobile apps, derive feedback channels, and sketch how this can be used in a continuous process to improve mobile apps.",
+      "Keywords": "mobile | mobile apps | Opti4Apps | user feedback",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Research on MVP design pattern modeling based on MDA",
+      "Abstract": "In recent years, mobile devices (such as various brands of mobile phones, tablet computers, smart watches, etc.) have gained popularity among users, which has also promoted the rapid development of mobile software application market. In order to meet the needs of mobile device users for better user interaction experience, the demand of mobile software application market for user interface is becoming more and more complex, and software developers are constantly exploring and developing more popular user interface. Due to the shortage of production technology, the development of mobile user interface has some problems such as low efficiency and high cost. In order to solve these problems, this paper proposes a method of modeling PIM using IFML and UML by introducing MVP design pattern in a model-driven framework. By combining the advantages of model-driven and MVP design pattern, this method improves the granularity of PIM modeling in user interface development under model-driven framework, reduces the difficulty of model design, and promotes software reuse.",
+      "Keywords": "IFML | MDA | Modeling | MVP design pattern | PIM | UML | User interface development",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Application of MVP architecture in reengineering of legacy financial system",
+      "Abstract": "As the progress of information technology, some financial systems used for long time can no longer meet the requirement of customers in both user interface and business process, and need reengineering imminently. In order to save the human resource and financial effort, this article raises a reengineering approach by encapsulating the back-end data access code of legacy system and only refactoring the front-end user interface and business logic. In the reengineering work, this article uses MVP (Model-View-Presenter) Architecture. By extracting screen logic into Presenters, the display code in View is independent from logic code in Presenter. Also, the introduction of MVP Architecture greatly enhances the reusability and the testability of business logic code, and finally improves the efficiency of development and test work significantly. ©2009 IEEE.",
+      "Keywords": "Code reuse | MVP architecture | Reengineering on legacy system | Windows presentation foundation",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Continuous delivery with visual studio ALM 2015",
+      "Abstract": "This book is the authoritative source on implementing Continuous Delivery practices using Microsoft's Visual Studio and TFS 2015. Microsoft MVP authors Mathias Olausson and Jakob Ehn translate the theory behind thismethodology and show step by step how to implement Continuous Delivery in a real world environment. Building good software is challenging. Building high-quality software on a tight schedule can be close to impossible. Continuous Delivery is an agile and iterative technique that enables developers to deliver solid, working software in every iteration. Continuous delivery practices help IT organizations reduce risk and potentially become as nimble, agile, and innovative as startups. In this book, you'll learn: • What Continuous Delivery is and how to use it to create better software more efficiently using Visual Studio 2015 • How to use Team Foundation Server 2015 and Visual Studio Online to plan, design, and implement powerful and reliable deployment pipelines • Detailed step-by-step instructions for implementing Continuous Delivery on a real project",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "What influences the speed of prototyping? An empirical investigation of twenty software startups",
+      "Abstract": "It is essential for startups to quickly experiment business ideas by building tangible prototypes and collecting user feedback on them. As prototyping is an inevitable part of learning for early stage software startups, how fast startups can learn depends on how fast they can prototype. Despite of the importance, there is a lack of research about prototyping in software startups. In this study, we aimed at understanding what are factors influencing different types of prototyping activities. We conducted a multiple case study on twenty European software startups. The results are two folds; firstly we propose a prototype-centric learning model in early stage software startups. Secondly, we identify factors occur as barriers but also facilitators for prototyping in early stage software startups. The factors are grouped into (1) artifacts, (2) team competence, (3) collaboration, (4) customer and (5) process dimensions. To speed up a startup’s progress at the early stage, it is important to incorporate the learning objective into a well-defined collaborative approach of prototyping.",
+      "Keywords": "MVP | Prototype | Prototyping-learning loop | Software startups | Speed | Validated learning",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Quantitative assessment of the effects of annuloplasty on mitral annulus dynamic geometry using real-time 3D echocardiography",
+      "Abstract": "Mitral valve (MV) repair is the preferred treatment for mitral regurgitation associated with organic MV prolapse (MVP). Our goal was to describe the dynamic changes in mitral annulus (MA) geometry after annuloplasty, using custom software for MA tracking from transthoracic realtime 3D echocardiography (RT3DE). Forty-four MVP patients, divided into 2 subgroups (RIG and FLEX), were studied by RT3DE the day before, at 3 and 6 months after surgery. RT3DE was also obtained in 20 normal (NL) subjects. MA was tracked frame-by-frame and several parameters were computed. As expected, MVP had an enlarged MA and a reduced planarity compared to NL. Annuloplasty resulted in reduced area both in RIG and FLEX and in a more planar MA shape. Interestingly, at 3 and 6 months, FLEX height was greater than RIG, due to different ring design. This analysis gives new insights in the in-vivo performance of the implanted rings, offering a new tool in the clinical decision process and follow-up.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Mutation-independent Proteomic Signatures of Pathological Progression in Murine Models of Duchenne Muscular Dystrophy",
+      "Abstract": "The absence of the dystrophin protein in Duchenne muscular dystrophy (DMD) results in myofiber fragility and a plethora of downstream secondary pathologies. Although a variety of experimental therapies are in development, achieving effective treatments for DMD remains exceptionally challenging, not least because the pathological consequences of dystrophin loss are incompletely understood. Here we have performed proteome profiling in tibialis anterior muscles from two murine DMD models (mdx and mdx52) at three ages (8, 16, and 80 weeks of age), all n = 3. High-resolution isoelectric focusing liquid chromatography-tandem MS (HiRIEF-LC–MS/MS) was used to quantify the expression of 4974 proteins across all 27 samples. The two dystrophic models were found to be highly similar, whereas multiple proteins were differentially expressed relative to WT (C57BL/6) controls at each age. Furthermore, 1795 proteins were differentially expressed when samples were pooled across ages and dystrophic strains. These included numerous proteins associated with the extracellular matrix and muscle function that have not been reported previously. Pathway analysis revealed multiple perturbed pathways and predicted upstream regulators, which together are indicative of cross-talk between inflammatory, metabolic, and muscle growth pathways (e.g. TNF, INFg, NF-kB, SIRT1, AMPK, PGC-1a, PPARs, ILK, and AKT/PI3K). Upregulation of CAV3, MVP and PAK1 protein expression was validated in dystrophic muscle by Western blot. Furthermore, MVP was upregulated during, but not required for, the differentiation of C2C12 myoblasts suggesting that this protein may affect muscle regeneration. This study provides novel insights into mutation-independent proteomic signatures characteristic of the dystrophic phenotype and its progression with aging.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Enabling focused software quality assurance in agile software development processes for mobile applications using text and usage mining methods",
+      "Abstract": "The acceptance of mobile applications that support services, such as navigation guidance or travel management, is highly dependent on the set of features implemented and the application quality. Information about the acceptance can be gained quickly by collecting user feedback like explicit textual reviews given by the application users or their implicitly given usage data. Considering an approach that bases on developing a minimal set of functions in order to realize a minimal viable product (MVP), it is possible to place a product with a short time to market. In this paper the Opti4Apps approach is presented. It aims at a focused quality assurance as part of the MVP development, which enables and expands the benefits of MVP by providing a semi-automated feedback elicitation, analysis and processing framework. The Opti4Apps process adjusts to mobile development habits including an additional automated feedback and usage data processing infrastructure.",
+      "Keywords": "Agile Software Development | Data Analytics | Data Mining | Mobile Computing | Software Maintenance Tools",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Video Game Development in a Rush: A Survey of the Global Game Jam Participants",
+      "Abstract": "Video game development is a complex endeavor, often involving complex software, large organizations, and aggressive release deadlines. Several studies have reported that periods of 'crunch time' are prevalent in the video game industry, but there are few studies on the effects of time pressure. We conducted a survey with participants of the Global Game Jam (GGJ), a 48-h hackathon. Based on 198 responses, the results suggest the following: iterative brainstorming is the most popular method for conceptualizing initial requirements; continuous integration, minimum viable product, scope management, version control, and stand-up meetings are frequently applied development practices; regular communication, internal playtesting, and dynamic and proactive planning are the most common quality assurance activities; and familiarity with agile development has a weak correlation with perception of success in the GGJ. We conclude that GGJ teams rely on ad hoc approaches to the development and face-To-face communication, and recommend some complementary practices with limited overhead. Furthermore, as our findings are similar to recommendations for software startups, we posit that game jams and the startup scene share contextual similarities. Finally, we discuss the drawbacks of systemic 'crunch time' and argue that game jam organizers are in a good position to problematize the phenomenon.",
+      "Keywords": "Game development | game jam | opinion survey | software engineering | time pressure",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Design of high-speed magnetic pump based on the numerical simulation",
+      "Abstract": "The high-speed magnetic pump has the characteristic of zero leakage, small volume and high efficiency. In order to enhance the performance of high-speed magnetic pump and shorten the design period, the hydraulic components and magnetic coupling are designed on the basis of numerical simulation. The hydraulic components designed initially are applied by the design method of high-speed partial emission pump. The internal flow field of the pump is simulated with the FLUENT CFD software. The distributions of absolute velocity, relative velocity and total pressure of pump are gained. The inlet structure and geometry of the magnetic pump are modified based on the simulation results. The magnetic coupling is designed by using empirical factors. The magnetic field of the magnetic coupling is simulated with 2-D Magnetic Vector Potential (MVP) formula using the ANSYS software. The distributions of magnetic force line at origin, working situation and maximum magnetic rotating angle are obtained. The magnetic torque simulated value approaches the result calculated with the empirical formula. The test results of the improved magnetic pump show that the hydraulic performance and outline dimensions meet requirements. The method of design-simulation-improvement-test is successful. Copyright © 2009 by ASME.",
+      "Keywords": "High-speed magnetic pump | Magnetic coupling | Maximum magnetic torque | Simulation | Test",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    }
+  ]
+}

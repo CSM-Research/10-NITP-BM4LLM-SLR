@@ -1,0 +1,23 @@
+[
+  {
+    "ID": "",
+    "Title": "A Novel Code Stylometry-based Code Clone Detection Strategy",
+    "Publication date": "2020",
+    "Venue type ": "Conference",
+    "Publication venue": "2020 International Wireless Communications and Mobile Computing (IWCMC)",
+    "Publisher": "IEEE",
+    "Applied exclusion criteria": "selected",
+    "Primary study Scopus EID": "2-s2.0-85089661626",
+    "doi": "10.1109/IWCMC48107.2020.9148302",
+    "Publication type": "cp",
+    "Abstract": "© 2020 IEEE.Program similarity-based detection can be used to discover potential code cloning issues. However, just based on the similarity of the program, it is difficult to accurately identify code clones with modified syntax and program similarity does not directly reflect the possibility of code plagiarism. In this paper, we propose a program similarity detection strategy with code stylometry matcher to solve this problem. Firstly, the code stylometry model based on the random forest classifier is used to identify a list of possible authors. If the code submitter is not in this list, we analyze the similarity between the submitted code and the program submitted by the author in the list to determine whether there is code cloning. In this way, we can effectively reduce the complexity of program similarity comparison. We propose a PBCS method based on parallel Bidirectional Long Short-Term(Bi-Lstm) Memory network for code similarity detection. This model effectively improves the accuracy of detection by supervising deep features extracted from AST and token. Experimental results show that the recall of the proposed method is 84%, which is improved compared to other methods.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "EC1": 1,
+      "EC2": 1
+    },
+    "userDecision": "Include"
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "accuracy": "90.00%",
+    "recall": "87.50%",
+    "TP": 7,
+    "TN": 11,
+    "FP": 1,
+    "FN": 1
+  },
+  "data": [
+    {
+      "Title": "Advance Estimate-based Traffic State Synchronization for Parallel Testing",
+      "Abstract": " 2020 IEEE.Digital twins and parallel system have already been regarded as one of the most effective approaches that give a great impetus to the development of transportation system, especially for the testing of vehicle intelligence. State synchronization, as the main influencer of real-time interaction in a parallel system, determines the testing accuracy and computational efficiency. Despite the fact that the synchronization control is already a well-explored field, the traffic state synchronization in the application of the vehicle testing via virtual-real interaction is still a topic for further research. In this paper, to achieve better synchronization, a path generation method based on the Frenet frame is firstly designed to decompose the object's motion into the longitudinal and lateral directions, and achieves the trajectory tracking based on the near real-time data sent from the physical space. Then to eliminate the stochastic latency, the advance estimate-based path modification method is proposed to generate a stretch of path in advance. Finally, the integrated approach is implemented in a testing platform and the experimental results prove that the proposed method improves the synchronous rate by an average of 78.4% and 63.7% in the scenario of straight driving and lane changing.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Period adaptation of real-time control tasks with fixed-priority scheduling in cyber-physical systems",
+      "Abstract": " 2019 Elsevier B.V.Long-lived, non-stop cyber-physical systems (CPS) are subject to evolutionary changes that can undermine the guarantees of schedulability that were verified at the time of deployment. At the same time, knowledge gleamed from extended periods of execution can be exploited to reduce the uncertainties that were inevitably presented in the system models that are used to define the temporal behaviours of the control tasks. In this paper we utilise this knowledge and present an adaptation method that actively extends the period of control tasks at run-time based on historical measurements. This can lead to lower power consumption or to the accommodation of increased computation resource demands from other components of the CPS. The method relies on online monitoring and model-based prediction to degrade control performance while having a minimal and acceptable impact on ongoing operations. Cloud-based computing is used to facilitate decision making and offload the local computation. We evaluate the effectiveness of the proposed method through control-scheduling co-simulation.",
+      "Keywords": "Ada | Adaptive scheduling | Control-scheduling co-design | Cyber-physical systems | Digital twin | Model-based engineering | Period adaptation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "A holonic approach of manufacturing systems modeling and simulation",
+      "Abstract": " 2021 IEEE.The paper presents a solution for holonic control of smart manufacturing systems, using a mix of digitization procedures that capitalize on the possibilities offered by a Digital Twin simulation environment in modeling and simulating both the physical entities of the industrial plant and of the execution phases of the production process. The main novelty is the creation of software assets by encapsulating FBs in holon-type containers, which can be used both in the design phase and in the production control phase. The validation of the solution was performed on a mechatronic laboratory line, specialized for assembly and disassembly operations.",
+      "Keywords": "Cloud Computing | Digital Twin | Function Blocks | Holonic Control | Smart Manufacturing",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Ensuring a Robust Multimodal Conversational User Interface during Maintenance Work",
+      "Abstract": " 2021 ACM.It has been shown that the provision of a conversational user interface proves beneficial in many domains. But, there are still many challenges when applied in production areas, e.g. as part of a virtual assistant to support workers in knowledge-intensive maintenance work. Regarding input modalities, touchscreens are failure-prone in wet environments and the quality of voice recognition is negatively affected by ambient noise. Augmenting a symmetric text- and voice-based user interface with gestural input poses a good solution to provide both efficiency and a robust communication. This paper contributes to this research area by providing results on the application of appropriate head and one-hand gestures during maintenance work. We conducted an elicitation study with 20 participants and present a gesture set as its outcome. To facilitate the gesture development and integration for application designers, a classification model for head gestures and one for one-hand gestures were developed. Additionally, a proof-of-concept for operators' acceptance regarding a multimodal conversational user interface with support of gestural input during maintenance work was demonstrated. It encompasses two usability testings with 18 participants in different realistic, but controlled settings: notebook repair (SUS: 82.1) and cutter head maintenance (SUS: 82.7).",
+      "Keywords": "Assistance systems | conversational agent | elicitation study | industry 4.0 | multimodal interface | task guidance | user-defined gestures",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Digital twin-the simulation aspect",
+      "Abstract": " Springer International Publishing Switzerland 2016.The vision of the Digital Twin itself refers to a comprehensive physical and functional description of a component, product or system, which includes more or less all information which could be useful in all-the current and subsequent-lifecycle phases. In this chapter we focus on the simulation aspects of the Digital Twin. Today, modelling and simulation is a standard process in system development, e.g. to support design tasks or to validate system properties. During operation and for service first simulation-based solutions are realized for optimized operations and failure prediction. In this sense, simulation merges the physical and virtual world in all life cycle phases. Current practice already enables the users (designer, SW/HW developers, test engineers, operators, maintenance personnel, etc) to master the complexity of mechatronic systems.",
+      "Keywords": "—",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Development of an edge computing-based cyber-physical machine tool",
+      "Abstract": " Digital twin is a virtual model that represents physical entities in a digital manner. By leveraging means of data to simulate the behavior of physical entities in the real environment, the functions of physical entities can be optimized and expanded, through virtual and real interaction feedback, data fusion, decision making, and optimization. Despite numerous researches on digital twin concept and its applications, scarcely any discusses about the computation efficiency of the twin established. In order to shorten the latency of mapping and reduce the high computation workload in the cloud, this paper develops a cyber-physical machine tool based on edge computing techniques, to realize remote sensing, real-time monitoring and scalable high-performance digital twin application. Furthermore, a novel edge computing algorithm is proposed to detect the abnormality of the edge data from two aspects: the unary outliers of the edge data itself and the multivariate parameter correlation among edge devices. The effectiveness of the application platform of the cyber-physical machine tool developed is verified by the prototype system and edge algorithm experiment.",
+      "Keywords": "Digital twin | Edge computing | Machine tool | Mapping",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Neural network modeling as a method for creating digital twins: From Industry 4.0 to Industry 4.1",
+      "Abstract": " 2020 ACM.Digital twins are one of the key technologies behind the Fourth Industrial Revolution. In the coming years they will be introduced on a large scale in the industry and in other spheres. A wide range of digital twins will be in demand: from separate components to complex technical facilities, such as automobiles, airplanes, manufacturing lines, factories, corporations, etc. To provide their successful interaction, it is important to create digital twins on the uniform principles. Currently, creating a digital twin is a complex scientific issue. It presents difficulties because it is necessary not only to describe physical (or chemical, biological, etc.) processes going on in the object, but also to envisage significant changes of its properties in the course of its operation. In this case the digital twin is supposed to adapt to the changes in the original object in accordance with the data received from the sensors. The aim of the research was to define the strategies of solving the current problems in such areas as digital twins, the internet of things and cyberphysical systems. In order to achieve this aim, the following problems were supposed to be solved: - Consider the definitions of the digital twin suggested in the world scientific literature - Find a unified data-driven real-time approach to creating digital twins - Suggest using the neural network approach in creating digital twins. During the use of the modelled object, specifics of the physical processes going on in it and object properties can change. The model is supposed to adapt in accordance with these changes, which is rather difficult if a model is generated by applying computer-aided engineering software packages (CAE) based on classical numerical methods. We consider the multistage technique as more promising. It involves building an adaptive model at the second stage. Such a model can be specified and redesigned based on real-time data. Since neural networks have proved to be efficient in solving complicated problems related to data processing, we recommend using them as the basic class of mathematical models for creating digital twins.",
+      "Keywords": "data set | digital twins | Industry 4.0 | mathematical model | neural network modelling",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Condition Monitoring of Power Electronic Systems through Data Analysis of Measurement Signals and Control Output Variables",
+      "Abstract": " 2013 IEEE.A major disadvantage of existing condition monitoring methods is the need for additional sensors and measuring equipment. In this work, this disadvantage is eliminated by completely avoiding additional hardware. Instead, software-based methods from the field of machine learning are used. Therefore, measurement signals and control output variables are utilized, which are acquired and processed in any power electronic system for the purpose of converter control. The publication focuses on two main converter components: power semiconductors and dc-link capacitor. For each component, the aging mechanisms that have been studied in the literature are explained. Based on the aging mechanisms, the degradation indicators are identified. Then, a converter model is built that allows the variation of degradation indicators in order to analyze their effects on the available dataset. These findings form the basis for mathematical models, which detects future failure mechanisms of this type during converter operation. The test setup must offer the possibility of generating reproducible failure cases in various components with the aid of additional failure equipment. Finally, failure mechanisms are intentionally introduced at the test bench in order to validate the methodology of the developed approach.",
+      "Keywords": "Condition monitoring | dc-link capacitor | machine learning | power semiconductors | reliability",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "A digital twin strategy for major failure detection in fused deposition modeling processes",
+      "Abstract": " 2021 The Authors. Published by Elsevier B.V.Part distortion during additive manufacturing (AM) may lead to catastrophic failure and significant waste of resources. Existing work often focuses on identification and detection of individual root causes such as melt pool geometries or extruder clogging to prevent part failures. Since the end-effect of major print failures can be the result of multiple error sources (including unknowns), relying on detection of individual root causes may misclassify some failed prints as successful. Instead, detecting end-effects or part distortion could provide early warning of major failures regardless of potential error sources. Distortion detection, however, currently involves computationally expensive simulation and analysis of sensing data. One promising solution is to adopt digital twin strategy to quickly compare model prediction to features extracted from in situ sensing data. This study extends the digital twin strategy to major distortion detection by developing (1) a multi-view optical sensing system for movable print beds and (2) failure detection methods by analyzing multi-view of part images layer by layer. Since the digital twin of actual prints at specific layers are generated offline, delay can be reduced to determine if a significant enough quality departure has occurred to justify termination of the print. In the experimental evaluation of this approach for a FDM machine with a moving print bed, failure was rapidly detected in two of the three test prints, while in the remaining print, failure was successfully detected after a short delay.",
+      "Keywords": "Cyber-physical system | Failure detection | In situ optical sensing | Multi-view | Shape deformation",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "The Application of the Hybrid Digital Twin for Time Characteristic Assessment of the Control System",
+      "Abstract": " 2021 The Authors. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0)The development and further validation of industrial control systems (ICS) for big enterprises, in general, is a complicated and time and resource-consuming process. The article discusses how the digital twin of a cyber-physical industrial system can be used to evaluate the time characteristics of the real ICS system. The Network Calculus is used to derive the performance boundaries on the virtual environment used in the digital twin. The typical scenarios for the assessment of the characteristics of the CPS using the digital twin are considered.",
+      "Keywords": "Availability | CPS | Cyber-physical system | Digital twin model | Network calculus",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Parallel self optimizing control framework for digital twin enabled smart control engineering",
+      "Abstract": " 2021 IEEE.This paper presents a parallel Self Optimizing Control (SOC) framework that combines parallel intelligence, Digital Twin, and derivative-free optimization to enable smart capabilities in classic process control. The parallel SOC framework supports the interaction between the physical system and its Digital Twin via Simultaneous Perturbation Stochastic Approximation (SPSA) derivative-free optimization algorithm. The framework is tested using the Digital Twin of a thermoelectric heating system. Obtained results show that using parallel intelligence with Digital Twin and SPSA optimization method, the SOC can improve the system performance by introducing a developmental behavior on the classic process control system.",
+      "Keywords": "Digital Twin | Parallel Control | Process Control | Self Optimizing Control | Simultaneous Perturbation Stochastic Approximation | SPSA",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Business models for industrial smart services - the example of a digital twin for a product-service-system for potato harvesting",
+      "Abstract": " 2019 The Authors. Published by Elsevier B.V.Modern agricultural machinery manufacturers develop an increasing number of smart services to combine their already excellent physical products with an ever-growing number of physical and digital services to product-service-systems. However, this causes problems for the manufacturers, as these combinations of physical goods, services and digital services are still relatively new, and suitable business models are lacking. This paper presents a morphological framework based on a literature review and expert interviews to develop business models for product service systems. Based on the morphological framework, six different types of general business models for smart services were identified and will be described. The types were validated within the German-based research project Smart-Farming-World along with experts from agriculture and farmers. This paper discusses the first results of the validation with farmers and shows the potential of a business model for a digital twin in the context of potato harvesting.",
+      "Keywords": "Business models | Digital twin | Industrial smart services | Product-service-systems | Smart farming",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Full-Wave Three-Dimensional em Simulation of a Spherical Range to Examine and Optimise the Effectiveness of Mode Filtering Based Post Processing Techniques",
+      "Abstract": " 2021 EurAAP.This paper extends the authors' prior studies into the use of a very general digital twin of a spherical near-field antenna test system for the careful validation and further optimization of mode filtering-based post processing techniques for scattering suppression. This paper compares and contrasts various measurement configurations and several mode filtering strategies using the results thereof to make recommendations regarding the optimum acquisition strategy and preferred processing methodology. Results are presented and discussed with this paper being the first time that such an extensive and rigorous full-wave three-dimensional computational electromagnetic simulation campaign has been harnessed in this way. This has enabled cylindrical and spherical mode filtering-based scattering suppression techniques to be quantitatively compared, contrasted, and examined.",
+      "Keywords": "CEM | cylindrical modes | digital twin | equatorial measurement | mode filtering | polar measurement | spherical modes",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "On the effectiveness of recurrent neural networks for live modeling of cyber-physical systems",
+      "Abstract": " 2019 IEEE.Attention to cyber security of cyber-physical systems (CPS) has led to the development of innovative cyber-resilient methodologies to ensure early detection and mitigation of cyber anomalies and threats. The concept of Digital Twin (DT) has recently emerged as one of the approaches to achieve the objective of resilience. In the approach using DT, a software-based live model of a target CPS is used to continuously monitor, surveil and verify the correctness of the target CPS operation. In this paper, we empirically study the effectiveness of Recurrent Neural Network (RNN)-based models as the basis of DT-based resilience. We uncover the important characteristics of an RNN-based solution with experimentation on a lab-scale Canal Lock CPS emulator with live validations and attack scenarios. For the first time, we demonstrate actual, real-time use of a RNN-based model as a DT for performing live analysis on an operational CPS. Based on the observed results, we highlight the importance of a DT model's training interval, prediction interval and CPS polling interval in the process of anomaly detection. We uncover the limitations in anomaly detection due to real-time synchronization needs of the RNN-based DT. We highlight this uncovered tug of war between synchronization and anomaly detection is inherent in any complex CPS that is monitored and synchronized by relying on the same sensor streams of ground truth for both synchronization as well as anomaly detection.",
+      "Keywords": "CPS cyber security | CPS live modeling | RNN based Digital Twin",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "QUILT: Quality inference from living digital twins in IoT-enabled manufacturing systems",
+      "Abstract": " 2019 ACM.A Digital twin is the virtual replica of a physical system. Digital twins are useful because they provide models and data for design, production, operation, diagnostics, and prognostics of machines and products. Traditionally, building a digital twin requires many built-in sensors to monitor various physical phenomena associated with cyber-physical systems such as vibration, energy consumption, etc. However, many legacy manufacturing systems do not have multi-physics sensors built-in by default. Moreover, it might not be feasible to intrusively place sensors in these systems after they are manufactured. To bring the advantages of digitalization to legacy manufacturing systems, this paper contributes with an Internet-of-Things (IoT) based methodology to build digital twins using an indirect medium such as side-channels, which can localize anomalous faults and infer the quality of the products being manufactured while keeping itself up-to-date. We achieve this by exploring and utilizing the side-channels (emissions such as acoustics, power, magnetic, etc.) of the system that unintentionally reveal the cyber and physical state of the system. To validate our methodology, in this paper, we focus on building a digital twin model of a Fused-Deposition Modeling (FDM) based Cartesian additive manufacturing system. The proposed methodology achieves 83.09% accuracy in anomaly localization. To the best of our knowledge, this is the first work demonstrating the possibility of modeling and maintaining a living digital twin of a manufacturing system by extracting information from the side-channels using low-end IoT sensors.",
+      "Keywords": "digital twin | internet-of-things | machine learning | smart manufacturing",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "A Benchmarking Platform for Human-Machine Cooperation in Cyber-Physical Manufacturing Systems",
+      "Abstract": " 2021, The Author(s), under exclusive license to Springer Nature Switzerland AG.The research community is producing a tremendous amount of works with the sole purpose to prepare for the next industrial revolution. In the context of the development of cyber-physical systems to production systems, a variety of technologies and architectures integrating humans and machines are studied. Results are evaluated using platforms to identify the best solutions. However, most platforms are designed to test one approach in a specific domain and the human integration remains difficult to evaluate. As the cooperation aspect between Humans and machines becomes of an increasing concern, a global benchmarking platform becomes necessary. Such a platform is specified in this paper. An illustration is detailed, based on the concept of digital twin.",
+      "Keywords": "Benchmarking | Cyber-physical system | Human-Machine cooperation | Intelligent manufacturing systems | Manufacturing",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Include"
+    },
+    {
+      "Title": "Design Modeling and Experimental Verification of a Hall-Effect-Based Linear Instrumentation System for Through-Shaft Angle Sensing",
+      "Abstract": " 1963-2012 IEEE.This article presents a simple instrumentation system for sensing the angular position of a through shaft. The system, broadly, consists of two parts: 1) a Hall-effect-based sensor module (SM) consisting of a twin eccentric-disc rotating arrangement and 2) a linearizing digital converter (LDC), which acts as an efficient interface for the transducer part. The SM provides cubic-natured push-pull outputs with respect to the angle. The linearizer further accepts these signals, performs a voltage-to-frequency transformation, and then applies novel linearization function to render a linear direct-digital indication of the angle. The article discusses the design and theoretical modeling of the SM, and its characteristics are derived. The sensor characteristics observed from simulation are in agreement with theoretical studies. Simulations are also extended to study the effect of important mechanical/magnetic parameters of the SM. Optimal parameter values are also inferred from these studies. The LDC and associated methodologies are also studied and presented in the article. The performance of the instrumentation system is validated using a hardware model of the SM and a prototype of the LDC. The experimental results show that the sensor and linearizer work as expected. Interfacing tests show that the overall instrumentation system gives an accuracy of less than 0.4% and a resolution of 0.2° over a wide range.",
+      "Keywords": "Angle sensor | direct-digital converter | eccentricity | finite-element (FE) analysis (FEA) | Hall effect | linearization | through-shaft positioning | voltage-to-frequency converter (VFC)",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "Corsican Twin: Authoring in Situ Augmented Reality Visualisations in Virtual Reality",
+      "Abstract": " 2020 ACM.We introduce Corsican Twin, a tool for authoring augmented reality data visualisations in virtual reality using digital twins. The system provides users with the contextual information necessary to design embedded and situated data visualisations in a safe and convenient remote setting. We created system via a co-design process which involved people with little or no programming experience. Using the system, we illustrate three potential use cases for situated visualizations in the context of building maintenance, including: (1) on-site equipment debugging and diagnosis; (2) remote incident playback; and (3) operations simulations for future buildings. From feedback gathered during formative evaluations of our prototype tool with domain experts, we discuss implications, opportunities, and challenges for future in situ visualisation design tools.",
+      "Keywords": "Authoring Tool | Immersive Analytics | In situ Visualisation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "A mixed reality application for linked data in engineering and production",
+      "Abstract": " 2019 Copyright held by the owner/author(s). Publication rights licensed to ACM.During the engineering and production process, numerous data and models are generated. As Digital Twin they form a virtual representation of the physical objects with their different views and characteristics. The contents spread over various disciplines, stakeholders and life cycle phases; they form a huge space of linked data and resources. Visualizing this information space is challenging, especially as it is closely related to the physical process and the manufacturing environment. Interaction technologies such as Mixed Reality (MR) offer an alternative to the traditional screen-based systems, that are still common in automation technology. The presented demo shows a spatial interface for the MR glasses HoloLens to explore various data resources in the context of a manufacturing cell. The user can view and interact with the content (such as media, documents, live data, functionalities) as a spatial graph. He can see the real and the digital resources at the same time, interact with those objects and control the machine as well.",
+      "Keywords": "Digital Twin | Linked Data | Mixed Reality | Smart Automation",
+      "GroundTruth": "Exclude",
+      "ExperimentDecision": "Exclude"
+    },
+    {
+      "Title": "2019 Winter Simulation Conference (WSC).",
+      "Abstract": "The proceedings contain 309 papers. The topics discussed include: a digital tv-based distributed image processing platform for natural disasters; using simulation to evaluate provider scheduling heuristics in specialty outpatient clinics; a new high-volume/low-mix simulation testbed for semiconductor manufacturing; a simheuristic for the unmanned aerial vehicle surveillance-routing problem with stochastic travel times and reliability considerations; digital twin modeling, co-simulation and cyber use-case inclusion methodology for IoT systems; towards adaptive enterprises using digital twins; a management flight simulator of an intensive care unit; and enterprise operating system (EOS) in action: distributed simulation of enterprise activities and operations.",
+      "Keywords": "—",
+      "GroundTruth": "Include",
+      "ExperimentDecision": "Exclude"
+    }
+  ]
+}

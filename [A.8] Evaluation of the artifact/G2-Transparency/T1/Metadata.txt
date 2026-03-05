@@ -1,0 +1,91 @@
+### 1 - Title: "Machine learning in software defect prediction: A business-driven systematic mapping study",
+
+### 2 Authors: "Szymon Stradowski, Lech Madeyski",
+
+
+#### 3 - Original Criteria:
+ 
+- IC1: The paper is an empirical study in software engineering (field of computer science).
+- IC2: The paper is a primary study.
+- IC3: The paper is focused on predicting defects in a software system using machine learning
+techniques.
+- IC4: The paper evaluates, analyses, or compares prediction methods and provides evidence for
+efficiency.
+
+4 - Exclusion criteria:
+
+- EC1: The paper was not a peer-reviewed article, conference proceeding, or book
+chapter.
+- EC2: The publication’s language was other than English.
+- EC3: The paper was made available in Scopus after the 23rd of February 2022.
+- EC4: The same or limited results were already published and included in another
+study","The paper is included, if all inclusion criteria match. If the paper matches any exclusion criteria, it is excluded."
+
+
+
+#### 4- LLM-adapted elibibility criteria
+
+
+Inclusion / Exclusion criteria: 
+    "Inclusion criteria:\n\n
+        - IC1: The paper is an empirical study in software engineering (field of computer science).\n
+        - IC2: The paper is focused on predicting defects in a software system using machine learning\ntechniques.\n
+        - IC3: The paper evaluates, analyses, or compares prediction methods and provides evidence for\nefficiency.\n\nExclusion criteria:\n\n
+        - EC1: The paper is not a primary study (e.g., Systematic Reviews or Mappings).",
+    
+    "Prompt instruction": "The paper is included, if all inclusion criteria match. If the paper matches any exclusion criteria, it is excluded."
+
+
+#### 4.1 - Pilot testing
+    In the pilot study the EC2, EC3, EC4 were excluded and the EC1 was rewritten to improve clarity for LLMs
+
+
+#### 5 - number of reviewers
+
+- One human reviewer
+
+#### 6 - Disagreements handling
+
+- Machine driven
+
+
+#### 7 - Agreement metrics
+
+- Vote counting
+
+
+#### 8 - LLM configurations
+
+ChatGPT 4.0/Gemini flash/ Claude 4/ Deepseek 
+    - no memories
+    - conversational history ignored (no new chats created on each iteration)
+    - single shot interation (no requests for reavaluating)
+    - no deep thinking or internet checking
+
+#### 9 - prompt template 
+
+Felizardo et al (2024)
+
+Assume you are a software engineering
+  researcher conducting a systematic literature review
+  (SLR). Consider the title, abstract, keywords, publication, and date of a
+  primary study.
+
+  Title: ${title}
+  Abstract: ${abstract}
+  Keywords: ${keywords}
+  Publication venue: ${publication}
+  Publication date: ${date}
+
+  Using a 1-7 Likert scale (1 - Strongly disagree, 2 - Disagree, 3 - Somewhat disagree, 4 - Neutral, 5 - Somewhat agree, 6 - Agree, 7 - Strongly agree,), rate your agreement with the following criteria (only number). 
+  If you rate near 7 to a inclusion criteria, the study meet with this criteria and should be included. If you rate near 7 to a exclusion criteria, the study also meet with this criteria and should be excluded. 
+
+  IMPORTANT: Don't be lenient, is better to exclude a paper in this phase. But, remember if it is not possible to evaluate based on the provided information give the score -1.
+
+  ${criteria}
+
+  give me the result in CSV with the following columns: Criteria, Rate
+
+  do not make a file, just a text formatted in csv
+
+

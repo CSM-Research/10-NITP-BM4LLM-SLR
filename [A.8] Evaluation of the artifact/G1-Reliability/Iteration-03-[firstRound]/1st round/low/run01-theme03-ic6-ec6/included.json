@@ -1,0 +1,82 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85099640987",
+    "Primary study DOI": "10.1109/ITSC45102.2020.9294748",
+    "Title": "Advance Estimate-based Traffic State Synchronization for Parallel Testing",
+    "Abstract": " 2020 IEEE.Digital twins and parallel system have already been regarded as one of the most effective approaches that give a great impetus to the development of transportation system, especially for the testing of vehicle intelligence. State synchronization, as the main influencer of real-time interaction in a parallel system, determines the testing accuracy and computational efficiency. Despite the fact that the synchronization control is already a well-explored field, the traffic state synchronization in the application of the vehicle testing via virtual-real interaction is still a topic for further research. In this paper, to achieve better synchronization, a path generation method based on the Frenet frame is firstly designed to decompose the object's motion into the longitudinal and lateral directions, and achieves the trajectory tracking based on the near real-time data sent from the physical space. Then to eliminate the stochastic latency, the advance estimate-based path modification method is proposed to generate a stretch of path in advance. Finally, the integrated approach is implemented in a testing platform and the experimental results prove that the proposed method improves the synchronous rate by an average of 78.4% and 63.7% in the scenario of straight driving and lane changing.",
+    "Keywords": "",
+    "Publication venue": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems, ITSC 2020",
+    "Publication date": "2020-09-20",
+    "Publication type": "Conference Paper",
+    "Authors": "Qiu, Weizhi;Shangguan, Wei;Cai, Baigen;Chai, Linguo;Chen, Junjie",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85116169573",
+    "Primary study DOI": "10.1109/DTPI52967.2021.9540078",
+    "Title": "Parallel self optimizing control framework for digital twin enabled smart control engineering",
+    "Abstract": " 2021 IEEE.This paper presents a parallel Self Optimizing Control (SOC) framework that combines parallel intelligence, Digital Twin, and derivative-free optimization to enable smart capabilities in classic process control. The parallel SOC framework supports the interaction between the physical system and its Digital Twin via Simultaneous Perturbation Stochastic Approximation (SPSA) derivative-free optimization algorithm. The framework is tested using the Digital Twin of a thermoelectric heating system. Obtained results show that using parallel intelligence with Digital Twin and SPSA optimization method, the SOC can improve the system performance by introducing a developmental behavior on the classic process control system.",
+    "Keywords": "Digital Twin | Parallel Control | Process Control | Self Optimizing Control | Simultaneous Perturbation Stochastic Approximation | SPSA",
+    "Publication venue": "Proceedings 2021 IEEE 1st International Conference on Digital Twins and Parallel Intelligence, DTPI 2021",
+    "Publication date": "2021-07-15",
+    "Publication type": "Conference Paper",
+    "Authors": "Viola, Jairo;Chen, Yangquan",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 6,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85085943263",
+    "Primary study DOI": "10.1109/ICII.2019.00062",
+    "Title": "On the effectiveness of recurrent neural networks for live modeling of cyber-physical systems",
+    "Abstract": " 2019 IEEE.Attention to cyber security of cyber-physical systems (CPS) has led to the development of innovative cyber-resilient methodologies to ensure early detection and mitigation of cyber anomalies and threats. The concept of Digital Twin (DT) has recently emerged as one of the approaches to achieve the objective of resilience. In the approach using DT, a software-based live model of a target CPS is used to continuously monitor, surveil and verify the correctness of the target CPS operation. In this paper, we empirically study the effectiveness of Recurrent Neural Network (RNN)-based models as the basis of DT-based resilience. We uncover the important characteristics of an RNN-based solution with experimentation on a lab-scale Canal Lock CPS emulator with live validations and attack scenarios. For the first time, we demonstrate actual, real-time use of a RNN-based model as a DT for performing live analysis on an operational CPS. Based on the observed results, we highlight the importance of a DT model's training interval, prediction interval and CPS polling interval in the process of anomaly detection. We uncover the limitations in anomaly detection due to real-time synchronization needs of the RNN-based DT. We highlight this uncovered tug of war between synchronization and anomaly detection is inherent in any complex CPS that is monitored and synchronized by relying on the same sensor streams of ground truth for both synchronization as well as anomaly detection.",
+    "Keywords": "CPS cyber security | CPS live modeling | RNN based Digital Twin",
+    "Publication venue": "Proceedings - IEEE International Conference on Industrial Internet Cloud, ICII 2019",
+    "Publication date": "2019-11-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Yoginath, Srikanth;Tansakul, Varisara;Chinthavali, Supriya;Taylor, Curtis;Hambrick, Joshua;Irminger, Philip;Perumalla, Kalyan",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7
+    },
+    "userDecision": "Include"
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107145",
+    "Primary study Scopus EID": "2-s2.0-85066035816",
+    "Primary study DOI": "10.1145/3302505.3310085",
+    "Title": "QUILT: Quality inference from living digital twins in IoT-enabled manufacturing systems",
+    "Abstract": " 2019 ACM.A Digital twin is the virtual replica of a physical system. Digital twins are useful because they provide models and data for design, production, operation, diagnostics, and prognostics of machines and products. Traditionally, building a digital twin requires many built-in sensors to monitor various physical phenomena associated with cyber-physical systems such as vibration, energy consumption, etc. However, many legacy manufacturing systems do not have multi-physics sensors built-in by default. Moreover, it might not be feasible to intrusively place sensors in these systems after they are manufactured. To bring the advantages of digitalization to legacy manufacturing systems, this paper contributes with an Internet-of-Things (IoT) based methodology to build digital twins using an indirect medium such as side-channels, which can localize anomalous faults and infer the quality of the products being manufactured while keeping itself up-to-date. We achieve this by exploring and utilizing the side-channels (emissions such as acoustics, power, magnetic, etc.) of the system that unintentionally reveal the cyber and physical state of the system. To validate our methodology, in this paper, we focus on building a digital twin model of a Fused-Deposition Modeling (FDM) based Cartesian additive manufacturing system. The proposed methodology achieves 83.09% accuracy in anomaly localization. To the best of our knowledge, this is the first work demonstrating the possibility of modeling and maintaining a living digital twin of a manufacturing system by extracting information from the side-channels using low-end IoT sensors.",
+    "Keywords": "digital twin | internet-of-things | machine learning | smart manufacturing",
+    "Publication venue": "IoTDI 2019 - Proceedings of the 2019 Internet of Things Design and Implementation",
+    "Publication date": "2019-04-15",
+    "Publication type": "Conference Paper",
+    "Authors": "Chhetri, Sujit Rokka;Faezi, Sina;Canedo, Arquimedes;Faruque, Mohammad Abdullah Al",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 6
+    },
+    "userDecision": "Include"
+  }
+]

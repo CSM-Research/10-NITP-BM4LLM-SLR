@@ -1,0 +1,402 @@
+[
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85101503804",
+    "Primary study DOI": "10.1504/IJCSE.2020.113176",
+    "Title": "ELBA-NoC: Ensemble learning-based accelerator for 2D and 3D network-on-chip architectures",
+    "Abstract": "Network-on-chips (NoCs) have emerged as a scalable alternative to traditional bus and point-to-point architectures, it has become highly sensitive as the number of cores increases. Simulation is one of the main tools used in NoC for analysing and testing new architectures. To achieve the best performance vs. cost trade-off, simulators have become an essential tool. Software simulators are too slow for evaluating large scale NoCs. This paper presents a framework which can be used to analyse overall performance of 2D and 3D NoC architectures which is fast and accurate. This framework is named as ensemble learning-based accelerator (ELBA-NoC) which is built using random forest regression algorithm to predict parameters of NoCs. On 2D, 3D NoC architectures, ELBA-NoC was tested and the results obtained were compared with extensively used Booksim NoC simulator. The framework showed an error rate of less than 5% and an overall speedup of up to 16 K×. Copyright © 2020 Inderscience Enterprises Ltd.",
+    "Keywords": "2D NoC | 3D NoC | Area | Booksim | Ensemble learning | Machine learning | Network-on-chip | NoC | Performance | Performance modelling | Power | Prediction | Random forest | Regression | Router | Simulation | Traffic pattern",
+    "Publication venue": "International Journal of Computational Science and Engineering",
+    "Publication date": "2020-01-01",
+    "Publication type": "Article",
+    "Authors": "Kumar, Anil;Talawar, Basavaraj",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 1,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85073795911",
+    "Primary study DOI": "10.1109/QRS.2019.00059",
+    "Title": "TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs",
+    "Abstract": "The increasing inclusion of Machine Learning (ML) models in safety-critical systems like autonomous cars have led to the development of multiple model-based ML testing techniques. One common denominator of these testing techniques is their assumption that training programs are adequate and bug-free. These techniques only focus on assessing the performance of the constructed model using manually labeled data or automatically generated data. However, their assumptions about the training program are not always true as training programs can contain inconsistencies and bugs. In this paper, we examine training issues in ML programs and propose a catalog of verification routines that can be used to detect the identified issues, automatically. We implemented the routines in a Tensorflow-based library named TFCheck. Using TFCheck, practitioners can detect the aforementioned issues automatically. To assess the effectiveness of TFCheck, we conducted a case study with real-world, mutants, and synthetic training programs. Results show that TFCheck can successfully detect training issues in ML code implementations. © 2019 IEEE.",
+    "Keywords": "Deep Learning | TensorFlow program | Testing | Training issues",
+    "Publication venue": "Proceedings - 19th IEEE International Conference on Software Quality, Reliability and Security, QRS 2019",
+    "Publication date": "2019-07-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Braiek, Houssem Ben;Khomh, Foutse",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85091395185",
+    "Primary study DOI": "",
+    "Title": "Time-series approaches to change-prone class prediction problem",
+    "Abstract": "During the development and maintenance of a large software project, changes can occur due to bug fix, code refactoring, or new features. In this scenario, the prediction of change-prone classes can be very useful in guiding the development team since it can focus its efforts on these pieces of software to improve their quality and make them more flexible for future changes. A considerable number of related works uses machine learning techniques to predict change-prone classes based on different kinds of metrics. However, the related works use a standard data structure, in which each instance contains the metric values for a particular class in a specific release as independent variables. Thus, these works are ignoring the temporal dependencies between the instances. In this context, we propose two novel approaches, called Concatenated and Recurrent, using time-series in order to keep the temporal dependence between the instances to improve the performance of the predictive models. The Recurrent Approach works for imbalanced datasets without the need for resampling. Our results show that the Area Under the Curve (AUC) of both proposed approaches has improved in all evaluated datasets, and they can be up to 23.6% more effective than the standard approach in state-of-art. Copyright © 2020 by SCITEPRESS – Science and Technology Publications, Lda. All rights reserved",
+    "Keywords": "Change-prone Class; Deep Learning; Machine Learning; Recurrent Algorithm; Time-series",
+    "Publication venue": "ICEIS 2020 - Proceedings of the 22nd International Conference on Enterprise Information Systems",
+    "Publication date": "2020",
+    "Publication type": "",
+    "Authors": "Melo C.S., da Cruz M.M.L., Martins A.D.F., da Silva Monteiro Filho J.M., de Castro Machado J.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 7,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85063908968",
+    "Primary study DOI": "10.1016/j.infsof.2019.03.014",
+    "Title": "Ranking of software developers based on expertise score for bug triaging",
+    "Abstract": "Context: Existing bug triage approaches for developer recommendation systems are mainly based on machine learning (ML) techniques. These approaches have shown low prediction accuracy and high bug tossing length (BTL). Objective: The objective of this paper is to develop a robust algorithm for reducing BTL based on the concept of developer expertise score (DES). Method: None of the existing approaches to the best of our knowledge have utilized metrics to build developer expertise score. The novel strategy of DES is consisted of two stages: Stage-I consisted of an offline process for detecting the developers based on DES which computes the score using priority, versatility and average fix-time for his individual contributions. The online system process consisted of finding the capable developers using three kinds of similarity measures (feature-based, cosine-similarity and Jaccard). Stage-II of the online process consisted of simply ranking the developers. Hit-ratio and reassignment accuracy were used for performance evaluation. We compared our system against the ML-based bug triaging approaches using three types of classifiers: Navies Bayes, Support Vector Machine and C4.5 paradigms. Results: By adapting the five open source databases, namely: Mozilla, Eclipse, Netbeans, Firefox, and Freedesktop, covering 41,622 bug reports, our novel DES system yielded a mean accuracy, precision, recall rate and F-score of 89.49%, 89.53%, 89.42% and 89.49%, respectively, reduced BTLs of up to 88.55%. This demonstrates an improvement of up to 20% over existing strategies. Conclusion: This work presented a novel developer recommendation algorithm to rank the developers based on a metric-based integrated score for bug triaging. This integrated score was based on the developer's expertise with an objective to improve (i) bug assignment and (ii) reduce the bug tossing length. Such architecture has an application in software bug triaging frameworks. © 2019",
+    "Keywords": "Bug assignment | Bug reports | Bug repository | Bug tossing | Bug triaging | Developer contribution assessment | Developer expertise | Open source software (OSS) | Software metrics | Software process",
+    "Publication venue": "Information and Software Technology",
+    "Publication date": "2019-08-01",
+    "Publication type": "Article",
+    "Authors": "Yadav, Asmita;Singh, Sandeep Kumar;Suri, Jasjit S.",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 5,
+      "IC3": 7,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85123361929",
+    "Primary study DOI": "10.1109/COMPSAC51774.2021.00205",
+    "Title": "Predicting number of bugs before launch: An investigation based on machine learning",
+    "Abstract": "Identifying and minimizing the number of bugs before release is a high priority of any team working on software development. This can be achieved by Machine Learning (ML) models By using particular aspects of the code, ML Models can predict the number of bugs that are possible post launch. We use a public dataset consisting of 15 Java projects from GitHub as our training and test dataset. We use five ML models for our investigation: Multilayer Perceptron, K-Nearest Neighbors, Linear Regression, Logistic Regression, and Decision Trees We conduct a preliminary investigation to evaluate how these ML models perform in predicting bugs. The results show that Linear Regression outperforms the other four ML models in finding the number of bugs post release. © 2021 IEEE.",
+    "Keywords": "Commit | Ensemble Methods | Issue Report | Link Recovery | Machine Learning | Software Maintenance",
+    "Publication venue": "Proceedings - 2021 IEEE International Conference on Software Maintenance and Evolution, ICSME 2021",
+    "Publication date": "2021-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Mazrae, Pooya Rostami;Izadi, Maliheh;Heydarnoori, Abbas",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85092396833",
+    "Primary study DOI": "10.1109/AECT47998.2020.9194187",
+    "Title": "Attribute rule performance in data mining for software deformity prophecy datasets models",
+    "Abstract": "In recently, all the developers, programmer and software engineers, they are working specially on software component and software testing to compete the software technology in the world. For this competition, they are using different kind of sources to analysis the software reliability and importance. Nowadays Data mining is one of source, which is used in software for overcome the problem of software fault which occur during the software test and its analysis. This kind of problem leads software deformity prophecy in software. In this research paper, we are also trying to overcome the software deformity prophecy problem with the help of our proposed solution called ONER rule attribute. We have used REPOSITORY datasets models, these datasets models are defected and non-defected datasets models. Our analysis class of interest is defected models. In our research, we have analyzed the efficiency of our proposed solution methods. The experiments results showed that using of ONER with discretize, have improved the efficiency of correctly classified instances in all. Using percentage split and training datasets with ONER discretize rule attribute have improved correctly classified in all datasets models. The analysis of positive accuracy f-measure is also increased in percentage split during the use of ONER with discretize but in some datasets models, the training data and cross validation is better with use of ONER rule attribute. The area under curve (ROC) in both scenarios using ONER rule attribute and discretize with ONER rule attribute is almost same or equal with each other. © 2020 IEEE.",
+    "Keywords": "Attribute Rule | Data Mining | Datasets Model | Machine Learning | ONER | Software Deformity Prophecy",
+    "Publication venue": "2019 International Conference on Advances in the Emerging Computing Technologies, AECT 2019",
+    "Publication date": "2020-02-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Shaikh, Salahuddin;Changan, Liu;Malik, Maaz Rasheed",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 5,
+      "IC2": 6,
+      "IC3": 5,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85097869099",
+    "Primary study DOI": "",
+    "Title": "Using rule mining for automatic test oracle generation",
+    "Abstract": "Software testing is essential for checking the quality of software but it is also a costly and time-consuming activity. The mechanism to determine the correct output of the System Under Test (SUT) for a given input space is called test oracle. The test oracle problem is a known bottleneck in situations where tests are generated automatically and no model of the correct behaviour of the SUT exists. To overcome this bottleneck, we developed a method which generates test oracles by comparing information extracted from object state data created during the execution of two subsequent versions of the SUT. In our initial proof-of-concept, we derive the relevant information in the form of rules by using the Association Rule Mining (ARM) technique. As a proof-of-concept, we validate our method on the Stack class from a custom version of the Java Collection classes and discuss the lessons learned from our experiment. The test suite that we use in our experiment to execute the different SUT version is automatically generated using Randoop. Other approaches to generate object state data could be used instead. Our proof-of-concept demonstrates that our method is applicable and that we can detect the presence of failures that are missed by regression testing alone. Automatic analysis of the set of violated association rules provides valuable information for localizing faults in the SUT by directly pointing to the faulty method. This kind of information cannot be found in the execution traces of failing tests. © 2020 Copyright for this paper by its authors.",
+    "Keywords": "Association rule mining; Machine learning methods in software testing; Software testing; Test oracle; Test oracle automation",
+    "Publication venue": "CEUR Workshop Proceedings",
+    "Publication date": "2020",
+    "Publication type": "",
+    "Authors": "Duque-Torres A., Shalygina A., Pfahl D., Ramler R.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 4,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84893243344",
+    "Primary study DOI": "10.1109/ICRITO.2017.8342425",
+    "Title": "Assessment of machine learning algorithms for determining defective classes in an object-oriented software",
+    "Abstract": "Software defect prediction is a well renowned field of software engineering. Determination of defective classes early in the lifecycle of a software product helps software practitioners in effective allocation of resources. More resources are allocated to probable defective classes so that defects can be removed in the initial phases of the software product. Such a practice would lead to a good quality software product. Although, hundreds of defect prediction models have been developed and validated by researchers, there is still a need to develop and evaluate more models to draw generalized conclusions. Literature studies have found Machine Learning (ML) algorithms to be effective classifiers in this domain. Thus, this study evaluates four ML algorithms on data collected from seven open source software projects for developing software defect prediction models. The results indicate superior performance of the Multilayer Perceptron algorithm over all the other investigated algorithms. The results of the study are also statistically evaluated to establish their effectiveness. © 2017 IEEE.",
+    "Keywords": "predictive models; defect prediction; effort estimation; software analytics; empirical software engineering",
+    "Publication venue": "International Symposium on Empirical Software Engineering and Measurement",
+    "Publication date": "2013-12-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Turhan, Burak;Wagner, Stefan;Bener, Ayse;Di Penta, Massimiliano;Yang, Ye",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85122869706",
+    "Primary study DOI": "10.1109/TSE.2022.3141758",
+    "Title": "ASTRAEA: Grammar-based Fairness Testing",
+    "Abstract": "Software often produces biased outputs. In particular, machine learning (ML) based software is known to produce erroneous predictions when processing discriminatory inputs. Such unfair program behavior can be caused by societal bias. In the last few years, Amazon, Microsoft and Google have provided software services that produce unfair outputs, mostly due to societal bias (e.g. gender or race). In such events, developers are saddled with the task of conducting fairness testing. Fairness testing is challenging; developers are tasked with generating discriminatory inputs that reveal and explain biases. We propose a grammar-based fairness testing approach (called ASTRAEA) which leverages context-free grammars to generate discriminatory inputs that reveal fairness violations in software systems. Using probabilistic grammars, ASTRAEA also provides fault diagnosis by isolating the cause of observed software bias. ASTRAEAs diagnoses facilitate the improvement of ML fairness. ASTRAEA was evaluated on 18 software systems that provide three major natural language processing (NLP) services. In our evaluation, ASTRAEA generated fairness violations at a rate of about 18%. ASTRAEA generated over 573K discriminatory test cases and found over 102K fairness violations. Furthermore, ASTRAEA improves software fairness by about 76% via model-retraining, on average. IEEE",
+    "Keywords": "machine learning | natural language processing | program debugging | software fairness | software testing",
+    "Publication venue": "IEEE Transactions on Software Engineering",
+    "Publication date": "2022-12-01",
+    "Publication type": "Article",
+    "Authors": "Soremekun, Ezekiel;Udeshi, Sakshi;Chattopadhyay, Sudipta",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 2,
+      "IC3": 5,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85039910899",
+    "Primary study DOI": "10.15439/2017F536",
+    "Title": "A case study on machine learning model for code review expert system in software engineering",
+    "Abstract": "Code review is a key tool for quality assurance in software development. It is intended to find coding mistakes overlooked during development phase and lower risk of bugs in final product. In large and complex projects accurate code review is a challenging task. As code review depends on individual reviewer predisposition there is certain margin of source code changes that is not checked as it should. In this paper we propose machine learning approach for pointing project artifacts that are significantly at risk of failure. Planning and adjusting quality assurance (QA) activities could strongly benefit from accurate estimation of software areas endangered by defects. Extended code review could be directed there. The proposed approach has been evaluated for feasibility on large medical software project. Significant work was done to extract features from heterogeneous production data, leading to good predictive model. Our preliminary research results were considered worthy of implementation in the company where the research has been conducted, thus opening the opportunities for the continuation of the studies. © 2017 PTI.",
+    "Keywords": "",
+    "Publication venue": "Proceedings of the 2017 Federated Conference on Computer Science and Information Systems, FedCSIS 2017",
+    "Publication date": "2017-11-10",
+    "Publication type": "Conference Paper",
+    "Authors": "Madera, Michal;Tomon, Rafal",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 6,
+      "IC3": 5,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84928826771",
+    "Primary study DOI": "10.1145/3352411.3352412",
+    "Title": "Software Defect Prediction Based on Ensemble Learning",
+    "Abstract": "Software defect prediction is one of the important ways to guarantee the quality of software systems. Combining various algorithms in machine learning to predict software defects has become a hot topic in the current study. The paper uses the datasets of MDP as the experimental research objects and takes ensemble learning as research focus to construct software defect prediction model. With experimenting five different types of ensemble algorithms and analyzing the features and procedures, this paper discusses the best ensemble algorithm which is Random Forest through experimental comparison. Then we utilize the SMOTE over-sampling and Resample methods to improve the quality of datasets to build a complete new software defect prediction model. Therefore, the results show that the model can improve defect classification performance effectively. © 2019 Association for Computing Machinery.",
+    "Keywords": "DSL anomalies | Network management | One-class classifiers | Supervised learning | Support vector machines",
+    "Publication venue": "Computer Communications",
+    "Publication date": "2015-05-15",
+    "Publication type": "Article",
+    "Authors": "Marnerides, A. K.;Malinowski, S.;Morla, R.;Kim, H. S.",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 6,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85051142497",
+    "Primary study DOI": "10.1007/978-3-319-96562-8_1",
+    "Title": "Machine learning for software analysis: Models, methods, and applications",
+    "Abstract": "Machine Learning (ML) is the discipline that studies methods for automatically inferring models from data. Machine learning has been successfully applied in many areas of software engineering including: behaviour extraction, testing and bug fixing. Many more applications are yet to be defined. Therefore, a better fundamental understanding of ML methods, their assumptions and guarantees can help to identify and adopt appropriate ML technology for new applications. In this chapter, we present an introductory survey of ML applications in software engineering, classified in terms of the models they produce and the learning methods they use. We argue that the optimal choice of an ML method for a particular application should be guided by the type of models one seeks to infer. We describe some important principles of ML, give an overview of some key methods, and present examples of areas of software engineering benefiting from ML. We also discuss the open challenges for reaching the full potential of ML for software engineering and how ML can benefit from software engineering methods. © Springer International Publishing AG, part of Springer Nature 2018.",
+    "Keywords": "Machine learning | Software engineering",
+    "Publication venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Bennaceur, Amel;Meinke, Karl",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 2,
+      "IC3": 2,
+      "EC1": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85070479928",
+    "Primary study DOI": "10.1504/IJCSE.2019.101343",
+    "Title": "Automated labelling and severity prediction of software bug reports",
+    "Abstract": "Our main aim is to develop an intelligent classifier that is capable of predicting the severity and label (type) of a newly submitted bug report through a bug tracking system. For this purpose, we build two datasets that are based on 350 bug reports from the open-source community (Eclipse, Mozilla, and Gnome). These datasets are characterised with various textual features. Based on this information, we train variety of discriminative models that are used for automated labelling and severity prediction of a newly submitted bug report. A boosting algorithm is also implemented for an enhanced performance. The classification performance is measured using accuracy and a set of other measures. For automated labelling, the accuracy reaches around 91% with the AdaBoost algorithm and cross validation test. On the other hand, for severity prediction, the classification accuracy reaches around 67% with the AdaBoost algorithm and cross validation test. Overall, the results are encouraging. Copyright © 2019 Inderscience Enterprises Ltd.",
+    "Keywords": "Bug labelling | Machine learning | Severity prediction | Software bugs",
+    "Publication venue": "International Journal of Computational Science and Engineering",
+    "Publication date": "2019-01-01",
+    "Publication type": "Article",
+    "Authors": "Otoom, Ahmed Fawzi;Al-Shdaifat, Doaa;Hammad, Maen;Abdallah, Emad E.;Aljammal, Ashraf",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 6,
+      "IC3": 6,
+      "EC1": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85049103501",
+    "Primary study DOI": "10.1145/3382494.3410692",
+    "Title": "An empirical study of software exceptions in the field using search logs",
+    "Abstract": "Background: Software engineers spend a substantial amount of time using Web search to accomplish software engineering tasks. Such search tasks include finding code snippets, API documentation, seeking help with debugging, etc. While debugging a bug or crash, one of the common practices of software engineers is to search for information about the associated error or exception traces on the internet. Aims: In this paper, we analyze query logs from Bing to carry out a large scale study of software exceptions. To the best of our knowledge, this is the first large scale study to analyze how Web search is used to find information about exceptions. Method: We analyzed about 1 million exception related search queries from a random sample of 5 billion web search queries. To extract exceptions from unstructured query text, we built a novel machine learning model. With the model, we extracted exceptions from raw queries and performed popularity, effort, success, query characteristic and web domain analysis.We also performed programming language-specific analysis to give a better view of the exception search behavior. Results: Using the model with an F1-score of 0.82, our study identifies most frequent, most effort-intensive, or less successful exceptions and popularity of community Q&A sites. Conclusion: These techniques can help improve existing methods, documentation and tools for exception analysis and prediction. Further, similar techniques can be applied for APIs, frameworks, etc. © 2020 IEEE Computer Society. All rights reserved.",
+    "Keywords": "machine learning | Object Oriented Coupling | Object Oriented Testing | Software fault prediction | software faults prediction",
+    "Publication venue": "Procedia Computer Science",
+    "Publication date": "2018-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Singh, Ajmer;Bhatia, Rajesh;Sighrova, Anita",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 3,
+      "IC3": 3,
+      "EC1": 7
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85107510460",
+    "Primary study DOI": "10.1117/12.2584369",
+    "Title": "Modeling of guided waves for aerospace applications",
+    "Abstract": "Advancements in computer hardware has led to new possibilities for rapid modeling and simulation capabilities across many scientific fields. Nondestructive evaluation (NDE) can benefit from increased use of simulation tools to guide optimization of inspection and health monitoring methods, enhance understanding of data, aid in development of defect characterization methods, and generate data sets for use with machine learning and model-assisted probability of detection. Recent work at NASA has entailed development and benchmarking of both custom simulation codes and commercial simulation tools for ultrasonic wave propagation. This paper describes recent work at NASA in modeling of guided waves in composites and other aerospace materials. Results and computational speeds for a composite benchmark case are reported for a custom finite difference Rotated Staggered Grid code and for the commercial finite element software package, Pogo. Recent progress in linking NDE models to parametric analysis tools is also discussed. © 2021 SPIE",
+    "Keywords": "Guided wave | Modeling | Simulation | Ultrasound",
+    "Publication venue": "Proceedings of SPIE - The International Society for Optical Engineering",
+    "Publication date": "2021-01-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Leckey, Cara;Frankforter, Erik;Horne, Michael;Schneck, William",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 1,
+      "IC3": 1,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85041529359",
+    "Primary study DOI": "10.1007/s10586-018-1730-1",
+    "Title": "Software defect prediction techniques using metrics based on neural network classifier",
+    "Abstract": "Software industries strive for software quality improvement by consistent bug prediction, bug removal and prediction of fault-prone module. This area has attracted researchers due to its significant involvement in software industries. Various techniques have been presented for software defect prediction. Recent researches have recommended data-mining using machine learning as an important paradigm for software bug prediction. state-of-art software defect prediction task suffer from various issues such as classification accuracy. However, software defect datasets are imbalanced in nature and known fault prone due to its huge dimension. To address this issue, here we present a combined approach for software defect prediction and prediction of software bugs. Proposed approach delivers a concept of feature reduction and artificial intelligence where feature reduction is carried out by well-known principle component analysis (PCA) scheme which is further improved by incorporating maximum-likelihood estimation for error reduction in PCA data reconstruction. Finally, neural network based classification technique is applied which shows prediction results. A framework is formulated and implemented on NASA software dataset where four datasets i.e., KC1, PC3, PC4 and JM1 are considered for performance analysis using MATLAB simulation tool. An extensive experimental study is performed where confusion, precision, recall, classification accuracy etc. parameters are computed and compared with existing software defect prediction techniques. Experimental study shows that proposed approach can provide better performance for software defect prediction. © 2018, Springer Science+Business Media, LLC, part of Springer Nature.",
+    "Keywords": "Defect prediction models | Machine learning techniques | Software defect prediction | Software metrics",
+    "Publication venue": "Cluster Computing",
+    "Publication date": "2019-01-16",
+    "Publication type": "Article",
+    "Authors": "Jayanthi, R.;Florence, Lilly",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-84955649457",
+    "Primary study DOI": "10.1109/QRS.2015.14",
+    "Title": "Deep Learning for Just-in-Time Defect Prediction",
+    "Abstract": "Defect prediction is a very meaningful topic, particularly at change-level. Change-level defect prediction, which is also referred as just-in-time defect prediction, could not only ensure software quality in the development process, but also make the developers check and fix the defects in time. Nowadays, deep learning is a hot topic in the machine learning literature. Whether deep learning can be used to improve the performance of just-in-time defect prediction is still uninvestigated. In this paper, to bridge this research gap, we propose an approach Deeper which leverages deep learning techniques to predict defect-prone changes. We first build a set of expressive features from a set of initial change features by leveraging a deep belief network algorithm. Next, a machine learning classifier is built on the selected features. To evaluate the performance of our approach, we use datasets from six large open source projects, i.e., Bugzilla, Columba, JDT, Platform, Mozilla, and PostgreSQL, containing a total of 137,417 changes. We compare our approach with the approach proposed by Kamei et al. The experimental results show that on average across the 6 projects, Deeper could discover 32.22% more bugs than Kamei et al's approach (51.04% versus 18.82% on average). In addition, Deeper can achieve F1-scores of 0.22-0.63, which are statistically significantly higher than those of Kamei et al.'s approach on 4 out of the 6 projects. © 2015 IEEE.",
+    "Keywords": "search-based software testing | test adequacy | test generation",
+    "Publication venue": "Software Testing Verification and Reliability",
+    "Publication date": "2015-12-01",
+    "Publication type": "Article",
+    "Authors": "Fraser, Gordon;Walkinshaw, Neil",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 7,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85065797929",
+    "Primary study DOI": "10.1109/ICTAS.2019.8703639",
+    "Title": "Using machine learning to prioritize automated testing in an agile environment",
+    "Abstract": "Automated software testing is an integral part of most Agile methodologies. In the case of the Scrum Agile methodology, the definition of done includes the completion of tests. As a software project matures, however, the number of tests increases to such a point that the time required to run all the tests often hinders the speed in which artifacts can be deployed. This paper describes a technique of using machine learning to help prioritize automated testing to ensure that tests which have a higher probability of failing are executed early in the test run giving the programmers an early indication of problems. In order to do this, various metrics are collected about the software under test including Cyclomatic values, Halstead-based values, and Chidamber-Kemere values. In addition, the historical commit messages from the source code control system is accessed to see if there had been defects in the various source classes previously. From these two inputs, a data file can be created which contains various metrics and whether or not there had been defects in these source files previously. This data file can then be sent to Weka to create a decision tree indicating which measurements indicate potential defects. The model created by Weka can then then be used in future to attempt to predict where defects might be in the source files and then prioritize testing appropriately. © 2019 IEEE.",
+    "Keywords": "Agile | Automated testing | Chidamber-Kemere | Cyclomatic | Halstead | Machine learning | Weka",
+    "Publication venue": "2019 Conference on Information Communications Technology and Society, ICTAS 2019",
+    "Publication date": "2019-04-30",
+    "Publication type": "Conference Paper",
+    "Authors": "Butgereit, Laurie",
+    "Ground truth": "Include",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 7,
+      "IC2": 7,
+      "IC3": 6,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-79952760269",
+    "Primary study DOI": "10.1007/s11047-010-9219-8",
+    "Title": "Priming: Making the reaction to intrusion or fault predictable",
+    "Abstract": "We propose and evaluate an immuno-inspired approach for misbehavior detection in ad hoc wireless networks. Misbehavior is the result of an intrusion, or a software or hardware failure. Our misbehavior detection approach is inspired by the role of co-stimulation and priming in the biological immune system (BIS). We translate priming into a computational paradigm that can increase robustness as well as stimulate energy efficiency of misbehavior detection. We provide a detailed energy consumption analysis with respect to the IEEE 802.11 and IEEE 802.15.4 protocols. We analyze the efficiency of misbehavior detection with co-stimulation and priming. This analysis is complemented with experimental results. We show that co-stimulation and priming introduce new options such as the ability to choose a trade-off between detection performance and energy efficiency. We provide a summary of the challenges related to the design of co-stimulation and priming based architectures. We argue that co-stimulation and priming are rather general paradigms with possible applications in other areas than misbehavior detection. © 2010 Springer Science+Business Media B.V.",
+    "Keywords": "Ad hoc wireless network | Artificial immune system | Co-stimulation | Energy efficient design | Misbehavior detection | Sensor network",
+    "Publication venue": "Natural Computing",
+    "Publication date": "2011-03-01",
+    "Publication type": "Conference Paper",
+    "Authors": "Drozda, Martin;Schaust, Sven;Schildt, Sebastian;Szczerbicka, Helena",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 2,
+      "IC2": 1,
+      "IC3": 1,
+      "EC1": 1
+    }
+  },
+  {
+    "Secondary study DOI": "10.1016/j.infsof.2022.107128",
+    "Primary study Scopus EID": "2-s2.0-85085297137",
+    "Primary study DOI": "10.1016/j.jmsy.2020.05.010",
+    "Title": "Digital Twin-enabled Collaborative Data Management for Metal Additive Manufacturing Systems",
+    "Abstract": "Metal Additive Manufacturing (AM) has been attracting a continuously increasing attention due to its great advantages compared to traditional subtractive manufacturing in terms of higher design flexibility, shorter development time, lower tooling cost, and fewer production wastes. However, the lack of process robustness, stability and repeatability caused by the unsolved complex relationships between material properties, product design, process parameters, process signatures, post AM processes and product quality has significantly impeded its broad acceptance in the industry. To facilitate efficient implementation of advanced data analytics in metal AM, which would support the development of intelligent process monitoring, control and optimisation, this paper proposes a novel Digital Twin (DT)-enabled collaborative data management framework for metal AM systems, where a Cloud DT communicates with distributed Edge DTs in different product lifecycle stages. A metal AM product data model that contains a comprehensive list of specific product lifecycle data is developed to support the collaborative data management. The feasibility and advantages of the proposed framework are validated through the practical implementation in a distributed metal AM system developed in the project MANUELA. A representative application scenario of cloud-based and deep learning-enabled metal AM layer defect analysis is also presented. The proposed DT-enabled collaborative data management has shown great potential in enhancing fundamental understanding of metal AM processes, developing simulation and prediction models, reducing development times and costs, and improving product quality and production efficiency. © 2020 The Society of Manufacturing Engineers",
+    "Keywords": "data management | data model | Digital Twin | machine learning | Metal Additive Manufacturing | product lifecycle management",
+    "Publication venue": "Journal of Manufacturing Systems",
+    "Publication date": "2022-01-01",
+    "Publication type": "Article",
+    "Authors": "Liu, Chao;Le Roux, Léopold;Körner, Carolin;Tabaste, Olivier;Lacan, Franck;Bigot, Samuel",
+    "Ground truth": "Exclude",
+    "Reason": "",
+    "firstModelDecision": {
+      "IC1": 3,
+      "IC2": 2,
+      "IC3": 2,
+      "EC1": 1
+    }
+  }
+]
